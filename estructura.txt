@@ -1,0 +1,48 @@
+Listado de rutas de carpetas
+El número de serie del volumen es C603-BB39
+C:\USERS\VIVI\ONEDRIVE\COSMOS\ENDCOSMOS V1
+    app.js
+    ChatGPT Image 12 mar 2026, 02_16_54.png
+    ChatGPT Image Mar 12, 2026, 02_10_53 AM.png
+    ChatGPT Image Mar 12, 2026, 02_10_58 AM.png
+    ChatGPT Image Mar 12, 2026, 02_11_03 AM.png
+    ChatGPT Image Mar 12, 2026, 02_11_05 AM.png
+    ChatGPT Image Mar 12, 2026, 02_11_08 AM.png
+    ChatGPT Image Mar 12, 2026, 02_11_10 AM.png
+    ChatGPT Image Mar 12, 2026, 02_11_14 AM.png
+    ChatGPT Image Mar 12, 2026, 02_11_17 AM.png
+    ChatGPT Image Mar 12, 2026, 02_11_19 AM.png
+    ChatGPT Image Mar 12, 2026, 02_11_21 AM.png
+    ChatGPT Image Mar 12, 2026, 02_11_24 AM.png
+    ChatGPT Image Mar 12, 2026, 02_11_26 AM.png
+    ChatGPT Image Mar 12, 2026, 02_13_08 AM.png
+    ChatGPT Image Mar 12, 2026, 02_13_10 AM.png
+    ChatGPT Image Mar 12, 2026, 02_13_12 AM.png
+    ChatGPT Image Mar 12, 2026, 02_13_13 AM.png
+    ChatGPT Image Mar 12, 2026, 02_13_22 AM.png
+    ChatGPT Image Mar 12, 2026, 02_13_25 AM.png
+    ChatGPT Image Mar 12, 2026, 02_13_27 AM.png
+    ChatGPT Image Mar 12, 2026, 02_13_28 AM.png
+    ChatGPT Image Mar 12, 2026, 02_13_29 AM.png
+    ChatGPT Image Mar 12, 2026, 02_13_31 AM.png
+    ChatGPT Image Mar 12, 2026, 02_13_32 AM.png
+    ChatGPT Image Mar 12, 2026, 02_13_33 AM.png
+    ChatGPT Image Mar 12, 2026, 02_13_35 AM.png
+    ChatGPT Image Mar 12, 2026, 02_13_36 AM.png
+    ChatGPT Image Mar 12, 2026, 02_13_38 AM.png
+    ChatGPT Image Mar 12, 2026, 02_13_39 AM.png
+    ChatGPT Image Mar 12, 2026, 02_13_40 AM.png
+    ChatGPT Image Mar 12, 2026, 02_13_41 AM.png
+    ChatGPT Image Mar 12, 2026, 02_13_43 AM.png
+    ChatGPT Image Mar 12, 2026, 02_13_44 AM.png
+    ChatGPT Image Mar 12, 2026, 02_13_46 AM.png
+    ChatGPT Image Mar 12, 2026, 02_13_47 AM.png
+    ChatGPT Image Mar 12, 2026, 02_13_48 AM.png
+    ChatGPT Image Mar 12, 2026, 02_13_51 AM.png
+    endcosmos_100_monturas_individuales.zip
+    endcosmos_100_monturas_preview.jpg
+    index.html
+    styles.css
+    
+No existe ninguna subcarpeta 
+
