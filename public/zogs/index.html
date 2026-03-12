@@ -1,0 +1,141 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Photo Portal | EndCosmos ZOGS</title>
+    <meta
+      name="description"
+      content="Portal de fotos oficial de EndCosmos para explorar, filtrar y reutilizar imagenes en todo el sitio."
+    />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://endcosmos.com/zogs" />
+    <link rel="icon" href="/assets/favicon.ico" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/zogs.css" />
+    <script src="/js/cosmos-dynamic-clock.js" defer></script>
+  </head>
+  <body>
+    <canvas class="starfield" aria-hidden="true"></canvas>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="/" aria-label="ENDCOSMOS home">
+          <span class="brand-mark">&#10022;</span>
+          <span class="brand-name">ENDCOSMOS</span>
+        </a>
+        <div class="nav-links">
+          <a href="/news" class="nav-link">News</a>
+          <a href="/lore" class="nav-link">Lore</a>
+          <a href="/mapas" class="nav-link">Maps</a>
+          <a href="/infinite-worlds" class="nav-link">Infinite Worlds</a>
+          <a href="/download" class="nav-link">Download</a>
+          <a href="/zogs" class="nav-link is-active">Gallery</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main" class="zogs-main">
+      <section class="zogs-hero">
+        <div class="wrap">
+          <p class="kicker">EndCosmos Visual Archive</p>
+          <h1>EndCosmos Photo Portal</h1>
+          <p class="muted">
+            Biblioteca visual central para usar imagenes en Home, Lore, Maps,
+            Worlds y demas secciones de endcosmos.com.
+          </p>
+          <div class="zogs-quick-links" role="group" aria-label="Portal links">
+            <a href="/" class="ec-cat-pill">Home</a>
+            <a href="/lore" class="ec-cat-pill">Lore</a>
+            <a href="/mapas" class="ec-cat-pill">Maps</a>
+            <a href="/infinite-worlds" class="ec-cat-pill">Infinite Worlds</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section zogs-section">
+        <div class="wrap">
+          <h2>Hero base</h2>
+          <p class="muted">
+            Imagen principal activa para inspiracion visual y composicion de
+            secciones en EndCosmos.
+          </p>
+          <div data-zogs-base>
+            <figure class="zogs-base-figure">
+              <img
+                loading="eager"
+                src="/assets/images/endcosmos-hero-cinematic.webp"
+                alt="EndCosmos hero cinematic"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <div data-zogs-sections>
+        <section class="section zogs-section">
+          <div class="wrap">
+            <p class="muted">Cargando galeria...</p>
+          </div>
+        </section>
+      </div>
+
+      <section class="section zogs-section">
+        <div class="wrap">
+          <h2>Portal Packages</h2>
+          <p class="muted">
+            Filtra por paquete y copia rutas de imagen para reutilizarlas
+            directamente dentro de EndCosmos.
+          </p>
+          <div class="zogs-portal-controls" data-zogs-portal-controls>
+            <div class="zogs-portal-filters" data-zogs-portal-filters></div>
+            <div class="zogs-portal-view-toggle">
+              <button
+                type="button"
+                class="ec-cat-pill"
+                data-zogs-view-toggle
+                aria-pressed="false"
+              >
+                Mosaic Ultra
+              </button>
+            </div>
+            <label class="zogs-portal-search">
+              <span class="muted">Buscar</span>
+              <input
+                type="search"
+                placeholder="nombre o categoria"
+                data-zogs-portal-search
+              />
+            </label>
+            <p class="muted" data-zogs-portal-count>0 imagenes</p>
+          </div>
+          <div class="zogs-portal-grid" data-zogs-portal-grid>
+            <p class="muted">Cargando paquetes visuales...</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-grid">
+        <div>
+          <strong>EndCosmos</strong><br />
+          <span class="muted">endcosmos.com</span>
+        </div>
+        <div class="footer-links">
+          <a href="/privacy">Privacy</a>
+          <a href="/terms">Terms</a>
+          <a href="/contact">Contact</a>
+        </div>
+        <div class="muted">
+          &copy; <span id="y"></span> ENDCOSMOS. All rights reserved.
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/app.js"></script>
+    <script src="/js/zogs-gallery.js"></script>
+    <script src="/js/senior-mode.js" defer></script>
+  </body>
+</html>

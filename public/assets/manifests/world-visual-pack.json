@@ -1,0 +1,637 @@
+{
+  "generated_at": "2026-03-12T11:29:35.194745+00:00",
+  "total_categories": 8,
+  "total_images_assigned": 82,
+  "categories": [
+    {
+      "id": "hero",
+      "title": "Hero principal EndCosmos",
+      "count": 9,
+      "items": [
+        {
+          "src": "/assets/images/endcosmos-hero-cinematic.avif",
+          "alt": "Endcosmos hero cinematic",
+          "display_name": "Endcosmos Hero Cinematic",
+          "filename": "endcosmos-hero-cinematic.avif",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/motion-main-map.avif",
+          "alt": "Motion main map",
+          "display_name": "Motion Main Map",
+          "filename": "motion-main-map.avif",
+          "caption": "Universe Maps"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/motion-hero-secondary.avif",
+          "alt": "Motion hero secondary",
+          "display_name": "Motion Hero Secondary",
+          "filename": "motion-hero-secondary.avif",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/inside-science-pudgy-dragon-orion-nebula-01-ht-jc-190214-hpmain-16x9-992.jpg",
+          "alt": "Inside science pudgy dragon orion nebula 01 ht jc 190214 hpmain 16x9 992",
+          "display_name": "Inside Science Pudgy Dragon Orion Nebula 01 Ht Jc 190214 Hpmain 16x9 992",
+          "filename": "inside-science-pudgy-dragon-orion-nebula-01-ht-jc-190214-hpmain-16x9-992.jpg",
+          "caption": "Nebula Sectors"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/hero2.png",
+          "alt": "Hero2",
+          "display_name": "Hero2",
+          "filename": "hero2.png",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/images/endcosmos-maps-main.png",
+          "alt": "Endcosmos maps main",
+          "display_name": "Endcosmos Maps Main",
+          "filename": "endcosmos-maps-main.png",
+          "caption": "Universe Maps"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/portada1.png",
+          "alt": "Portada1",
+          "display_name": "Portada1",
+          "filename": "portada1.png",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/catalog/portada1.png",
+          "alt": "Portada1",
+          "display_name": "Portada1",
+          "filename": "portada1.png",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/catalog/portada1-2.png",
+          "alt": "Portada1 2",
+          "display_name": "Portada1 2",
+          "filename": "portada1-2.png",
+          "caption": "Cosmic Assets"
+        }
+      ]
+    },
+    {
+      "id": "capital-aurelia-prime",
+      "title": "Capital Aurelia Prime",
+      "count": 3,
+      "items": [
+        {
+          "src": "/assets/images/purple-and-blue-sci-fi-city-background-qrtlhfz3pjiw11ry.jpg",
+          "alt": "Purple and blue sci fi city background qrtlhfz3pjiw11ry",
+          "display_name": "Purple And Blue Sci Fi City Background Qrtlhfz3pjiw11ry",
+          "filename": "purple-and-blue-sci-fi-city-background-qrtlhfz3pjiw11ry.jpg",
+          "caption": "Neo Cities"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/osmadth-bancur-city-by-flaviobolla-d4zpa5a-fullview.jpg",
+          "alt": "Osmadth bancur city by flaviobolla d4zpa5a fullview",
+          "display_name": "Osmadth Bancur City By Flaviobolla D4zpa5a Fullview",
+          "filename": "osmadth-bancur-city-by-flaviobolla-d4zpa5a-fullview.jpg",
+          "caption": "Neo Cities"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/city-fantasy-landscape-process-video-by-jstiller30-dfqpmat-fullview.jpg",
+          "alt": "City fantasy landscape process video by jstiller30 dfqpmat fullview",
+          "display_name": "City Fantasy Landscape Process Video By Jstiller30 Dfqpmat Fullview",
+          "filename": "city-fantasy-landscape-process-video-by-jstiller30-dfqpmat-fullview.jpg",
+          "caption": "Neo Cities"
+        }
+      ]
+    },
+    {
+      "id": "maps-cities",
+      "title": "Mapas y ciudades",
+      "count": 10,
+      "items": [
+        {
+          "src": "/assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos.png",
+          "alt": "999personajes principales y mapas donde viven endcosmos",
+          "display_name": "999personajes Principales Y Mapas Donde Viven Endcosmos",
+          "filename": "999personajes-principales-y-mapas-donde-viven-endcosmos.png",
+          "caption": "Universe Maps"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos-4.png",
+          "alt": "999personajes principales y mapas donde viven endcosmos 4",
+          "display_name": "999personajes Principales Y Mapas Donde Viven Endcosmos 4",
+          "filename": "999personajes-principales-y-mapas-donde-viven-endcosmos-4.png",
+          "caption": "Universe Maps"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos-3.png",
+          "alt": "999personajes principales y mapas donde viven endcosmos 3",
+          "display_name": "999personajes Principales Y Mapas Donde Viven Endcosmos 3",
+          "filename": "999personajes-principales-y-mapas-donde-viven-endcosmos-3.png",
+          "caption": "Universe Maps"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos-2.png",
+          "alt": "999personajes principales y mapas donde viven endcosmos 2",
+          "display_name": "999personajes Principales Y Mapas Donde Viven Endcosmos 2",
+          "filename": "999personajes-principales-y-mapas-donde-viven-endcosmos-2.png",
+          "caption": "Universe Maps"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/world.png",
+          "alt": "World",
+          "display_name": "World",
+          "filename": "world.png",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/images/pngtree-futuristic-sci-fi-dream-worlds-enriched-with-vivid-neon-accents-merging-picture-image_16250523.jpg",
+          "alt": "Pngtree futuristic sci fi dream worlds enriched with vivid neon accents merging picture image 16250523",
+          "display_name": "Pngtree Futuristic Sci Fi Dream Worlds Enriched With Vivid Neon Accents Merging Picture Image 16250523",
+          "filename": "pngtree-futuristic-sci-fi-dream-worlds-enriched-with-vivid-neon-accents-merging-picture-image_16250523.jpg",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/mass-effect-galaxy-map-by-exoartmakes-dihk77g-fullview.jpg",
+          "alt": "Mass effect galaxy map by exoartmakes dihk77g fullview",
+          "display_name": "Mass Effect Galaxy Map By Exoartmakes Dihk77g Fullview",
+          "filename": "mass-effect-galaxy-map-by-exoartmakes-dihk77g-fullview.jpg",
+          "caption": "Universe Maps"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos.png",
+          "alt": "9999999 languajes jobs exploration worlds landscapes planetas endcosmos",
+          "display_name": "9999999 Languajes Jobs Exploration Worlds Landscapes Planetas Endcosmos",
+          "filename": "9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos.png",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+          "alt": "9999999 languajes jobs exploration worlds landscapes planetas endcosmos 3",
+          "display_name": "9999999 Languajes Jobs Exploration Worlds Landscapes Planetas Endcosmos 3",
+          "filename": "9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+          "alt": "9999999 languajes jobs exploration worlds landscapes planetas endcosmos 2",
+          "display_name": "9999999 Languajes Jobs Exploration Worlds Landscapes Planetas Endcosmos 2",
+          "filename": "9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+          "caption": "Cosmic Assets"
+        }
+      ]
+    },
+    {
+      "id": "npcs-bosses",
+      "title": "NPCs y bosses",
+      "count": 6,
+      "items": [
+        {
+          "src": "/assets/images/pngtree-epic-clash-of-ancient-warriors-in-traditional-armor-fighting-fiercely-within-image_20719811.webp",
+          "alt": "Pngtree epic clash of ancient warriors in traditional armor fighting fiercely within image 20719811",
+          "display_name": "Pngtree Epic Clash Of Ancient Warriors In Traditional Armor Fighting Fiercely Within Image 20719811",
+          "filename": "pngtree-epic-clash-of-ancient-warriors-in-traditional-armor-fighting-fiercely-within-image_20719811.webp",
+          "caption": "Cosmic Battles"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/the-eternal-cosmic-warrior-by-brucalord-dilxa37-fullview.jpg",
+          "alt": "The eternal cosmic warrior by brucalord dilxa37 fullview",
+          "display_name": "The Eternal Cosmic Warrior By Brucalord Dilxa37 Fullview",
+          "filename": "the-eternal-cosmic-warrior-by-brucalord-dilxa37-fullview.jpg",
+          "caption": "Cosmic Universe"
+        },
+        {
+          "src": "/assets/images/NPC_UNIVERSE.jpg",
+          "alt": "NPC UNIVERSE",
+          "display_name": "NPC UNIVERSE",
+          "filename": "NPC_UNIVERSE.jpg",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/images/NPC.jpg",
+          "alt": "NPC",
+          "display_name": "NPC",
+          "filename": "NPC.jpg",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/nebula-guardian-wall-art-943965.jpg",
+          "alt": "Nebula guardian wall art 943965",
+          "display_name": "Nebula Guardian Wall Art 943965",
+          "filename": "nebula-guardian-wall-art-943965.jpg",
+          "caption": "Nebula Sectors"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/425139-riendas-del-dragon-nimbo-astral.jpg",
+          "alt": "425139 riendas del dragon nimbo astral",
+          "display_name": "425139 Riendas Del Dragon Nimbo Astral",
+          "filename": "425139-riendas-del-dragon-nimbo-astral.jpg",
+          "caption": "Mythic Threats"
+        }
+      ]
+    },
+    {
+      "id": "cosmic-backgrounds",
+      "title": "Fondos cósmicos",
+      "count": 11,
+      "items": [
+        {
+          "src": "/assets/zogs/imported-assets/motion-realm-void.avif",
+          "alt": "Motion realm void",
+          "display_name": "Motion Realm Void",
+          "filename": "motion-realm-void.avif",
+          "caption": "Void Frontiers"
+        },
+        {
+          "src": "/assets/images/pngtree-futuristic-cosmic-portal-to-another-dimension-image_20878348.webp",
+          "alt": "Pngtree futuristic cosmic portal to another dimension image 20878348",
+          "display_name": "Pngtree Futuristic Cosmic Portal To Another Dimension Image 20878348",
+          "filename": "pngtree-futuristic-cosmic-portal-to-another-dimension-image_20878348.webp",
+          "caption": "Portal Realms"
+        },
+        {
+          "src": "/assets/images/pngtree-cosmic-portal-to-another-dimension-opens-freely-always-image_20919279.webp",
+          "alt": "Pngtree cosmic portal to another dimension opens freely always image 20919279",
+          "display_name": "Pngtree Cosmic Portal To Another Dimension Opens Freely Always Image 20919279",
+          "filename": "pngtree-cosmic-portal-to-another-dimension-opens-freely-always-image_20919279.webp",
+          "caption": "Portal Realms"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/motion-realm-ice.avif",
+          "alt": "Motion realm ice",
+          "display_name": "Motion Realm Ice",
+          "filename": "motion-realm-ice.avif",
+          "caption": "Realm Expeditions"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/cosmic-serpent-galaxy-art.webp",
+          "alt": "Cosmic serpent galaxy art",
+          "display_name": "Cosmic Serpent Galaxy Art",
+          "filename": "cosmic-serpent-galaxy-art.webp",
+          "caption": "Cosmic Universe"
+        },
+        {
+          "src": "/assets/images/ueu-dark-universe-logo-portal-rendering-cf-a.jpg",
+          "alt": "Ueu dark universe logo portal rendering cf a",
+          "display_name": "Ueu Dark Universe Logo Portal Rendering Cf A",
+          "filename": "ueu-dark-universe-logo-portal-rendering-cf-a.jpg",
+          "caption": "Portal Realms"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/pngtree-sculpted-head-silhouette-against-vibrant-cosmic-background-of-swirling-galaxies-and-picture-image-16624136.jpg",
+          "alt": "Pngtree sculpted head silhouette against vibrant cosmic background of swirling galaxies and picture image 16624136",
+          "display_name": "Pngtree Sculpted Head Silhouette Against Vibrant Cosmic Background Of Swirling Galaxies And Picture Image 16624136",
+          "filename": "pngtree-sculpted-head-silhouette-against-vibrant-cosmic-background-of-swirling-galaxies-and-picture-image-16624136.jpg",
+          "caption": "Cosmic Universe"
+        },
+        {
+          "src": "/assets/images/GUIDE_UNIVERSE.jpg",
+          "alt": "GUIDE UNIVERSE",
+          "display_name": "GUIDE UNIVERSE",
+          "filename": "GUIDE_UNIVERSE.jpg",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+          "alt": "03 space eagle nebula",
+          "display_name": "03 Space Eagle Nebula",
+          "filename": "03-space-eagle-nebula.jpg",
+          "caption": "Nebula Sectors"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/hd-wallpaper-yeti-in-the-space-nebula-creature-fantasy-thumbnail.jpg",
+          "alt": "Hd wallpaper yeti in the space nebula creature fantasy thumbnail",
+          "display_name": "Hd Wallpaper Yeti In The Space Nebula Creature Fantasy Thumbnail",
+          "filename": "hd-wallpaper-yeti-in-the-space-nebula-creature-fantasy-thumbnail.jpg",
+          "caption": "Nebula Sectors"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/orbiting-planet-space-themed-motion-background-clip-hd.webp",
+          "alt": "Orbiting planet space themed motion background clip hd",
+          "display_name": "Orbiting Planet Space Themed Motion Background Clip Hd",
+          "filename": "orbiting-planet-space-themed-motion-background-clip-hd.webp",
+          "caption": "Cosmic Assets"
+        }
+      ]
+    },
+    {
+      "id": "mounts-pets-creatures",
+      "title": "Monturas, pets y criaturas",
+      "count": 3,
+      "items": [
+        {
+          "src": "/assets/zogs/imported-assets/endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras.png",
+          "alt": "Endcosmos assets outfits skins monturas pets pets de monturas voladoras",
+          "display_name": "Endcosmos Assets Outfits Skins Monturas Pets Pets De Monturas Voladoras",
+          "filename": "endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras.png",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras-3.png",
+          "alt": "Endcosmos assets outfits skins monturas pets pets de monturas voladoras 3",
+          "display_name": "Endcosmos Assets Outfits Skins Monturas Pets Pets De Monturas Voladoras 3",
+          "filename": "endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras-3.png",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras-2.png",
+          "alt": "Endcosmos assets outfits skins monturas pets pets de monturas voladoras 2",
+          "display_name": "Endcosmos Assets Outfits Skins Monturas Pets Pets De Monturas Voladoras 2",
+          "filename": "endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras-2.png",
+          "caption": "Cosmic Assets"
+        }
+      ]
+    },
+    {
+      "id": "portals-libraries",
+      "title": "Portales y bibliotecas",
+      "count": 4,
+      "items": [
+        {
+          "src": "/assets/images/Purple%20Energy%20Portal%20Overlay%20for%20Sci-Fi%20Logo%20Animation-HD.webp",
+          "alt": "Purple Energy Portal Overlay for Sci Fi Logo Animation HD",
+          "display_name": "Purple Energy Portal Overlay For Sci Fi Logo Animation HD",
+          "filename": "Purple Energy Portal Overlay for Sci-Fi Logo Animation-HD.webp",
+          "caption": "Portal Realms"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/pngtree-celestial-being-emerges-from-energy-portal-in-post-apocalyptic-wasteland-image-19868561.webp",
+          "alt": "Pngtree celestial being emerges from energy portal in post apocalyptic wasteland image 19868561",
+          "display_name": "Pngtree Celestial Being Emerges From Energy Portal In Post Apocalyptic Wasteland Image 19868561",
+          "filename": "pngtree-celestial-being-emerges-from-energy-portal-in-post-apocalyptic-wasteland-image-19868561.webp",
+          "caption": "Portal Realms"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/portal-1.png",
+          "alt": "Portal 1",
+          "display_name": "Portal 1",
+          "filename": "portal-1.png",
+          "caption": "Portal Realms"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/portal-1-2.png",
+          "alt": "Portal 1 2",
+          "display_name": "Portal 1 2",
+          "filename": "portal-1-2.png",
+          "caption": "Portal Realms"
+        }
+      ]
+    },
+    {
+      "id": "world-of-endcosmos",
+      "title": "World of EndCosmos",
+      "count": 36,
+      "items": [
+        {
+          "src": "/assets/zogs/imported-assets/ways-to-get-peace-in-endcosmos.png",
+          "alt": "Ways to get peace in endcosmos",
+          "display_name": "Ways To Get Peace In Endcosmos",
+          "filename": "ways-to-get-peace-in-endcosmos.png",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/ways-to-get-peace-in-endcosmos-2.png",
+          "alt": "Ways to get peace in endcosmos 2",
+          "display_name": "Ways To Get Peace In Endcosmos 2",
+          "filename": "ways-to-get-peace-in-endcosmos-2.png",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/estructura-y-muebles-endcosmos.png",
+          "alt": "Estructura y muebles endcosmos",
+          "display_name": "Estructura Y Muebles Endcosmos",
+          "filename": "estructura-y-muebles-endcosmos.png",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/estructura-y-muebles-endcosmos-3.png",
+          "alt": "Estructura y muebles endcosmos 3",
+          "display_name": "Estructura Y Muebles Endcosmos 3",
+          "filename": "estructura-y-muebles-endcosmos-3.png",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/estructura-y-muebles-endcosmos-2.png",
+          "alt": "Estructura y muebles endcosmos 2",
+          "display_name": "Estructura Y Muebles Endcosmos 2",
+          "filename": "estructura-y-muebles-endcosmos-2.png",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/pngtree-futuristic-sci-fi-energy-core-with-blue-glow-png-image-18097773.webp",
+          "alt": "Pngtree futuristic sci fi energy core with blue glow png image 18097773",
+          "display_name": "Pngtree Futuristic Sci Fi Energy Core With Blue Glow Png Image 18097773",
+          "filename": "pngtree-futuristic-sci-fi-energy-core-with-blue-glow-png-image-18097773.webp",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/motion-battle.avif",
+          "alt": "Motion battle",
+          "display_name": "Motion Battle",
+          "filename": "motion-battle.avif",
+          "caption": "Cosmic Battles"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/infinity-symbol-particle-element-for-high-end-branding.webp",
+          "alt": "Infinity symbol particle element for high end branding",
+          "display_name": "Infinity Symbol Particle Element For High End Branding",
+          "filename": "infinity-symbol-particle-element-for-high-end-branding.webp",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/il-fullxfull-4364653685-lm0k.avif",
+          "alt": "Il fullxfull 4364653685 lm0k",
+          "display_name": "Il Fullxfull 4364653685 Lm0k",
+          "filename": "il-fullxfull-4364653685-lm0k.avif",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/fspas-06-00023-g0001.webp",
+          "alt": "Fspas 06 00023 g0001",
+          "display_name": "Fspas 06 00023 G0001",
+          "filename": "fspas-06-00023-g0001.webp",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/e6b6411c-b719-43ff-96c0-92cf47c8044f-medium.webp",
+          "alt": "E6b6411c b719 43ff 96c0 92cf47c8044f medium",
+          "display_name": "E6b6411c B719 43ff 96c0 92cf47c8044f Medium",
+          "filename": "e6b6411c-b719-43ff-96c0-92cf47c8044f-medium.webp",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/images/Bosque2.webp",
+          "alt": "Bosque2",
+          "display_name": "Bosque2",
+          "filename": "Bosque2.webp",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/images/b94f1411a6ddcd2b912060223f767036.webp",
+          "alt": "B94f1411a6ddcd2b912060223f767036",
+          "display_name": "B94f1411a6ddcd2b912060223f767036",
+          "filename": "b94f1411a6ddcd2b912060223f767036.webp",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/ae14fc54-1152-49eb-bc33-ba8a56fe83f0-medium.webp",
+          "alt": "Ae14fc54 1152 49eb bc33 ba8a56fe83f0 medium",
+          "display_name": "Ae14fc54 1152 49eb Bc33 Ba8a56fe83f0 Medium",
+          "filename": "ae14fc54-1152-49eb-bc33-ba8a56fe83f0-medium.webp",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/images/a710e3f4b8f559ac406d4797390b5cc2.webp",
+          "alt": "A710e3f4b8f559ac406d4797390b5cc2",
+          "display_name": "A710e3f4b8f559ac406d4797390b5cc2",
+          "filename": "a710e3f4b8f559ac406d4797390b5cc2.webp",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/2024-09-22t18-29-07-375z-medium.webp",
+          "alt": "2024 09 22t18 29 07 375z medium",
+          "display_name": "2024 09 22t18 29 07 375z Medium",
+          "filename": "2024-09-22t18-29-07-375z-medium.webp",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/65c1250a-3442-4e2c-a974-a9b6599873fc.webp",
+          "alt": "65c1250a 3442 4e2c a974 a9b6599873fc",
+          "display_name": "65c1250a 3442 4e2c A974 A9b6599873fc",
+          "filename": "65c1250a-3442-4e2c-a974-a9b6599873fc.webp",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/063b3970-b498-47a2-b28a-c536c93acefc-medium.webp",
+          "alt": "063b3970 b498 47a2 b28a c536c93acefc medium",
+          "display_name": "063b3970 B498 47a2 B28a C536c93acefc Medium",
+          "filename": "063b3970-b498-47a2-b28a-c536c93acefc-medium.webp",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/14df6d39-249a-4bf6-93de-7bcf4457690e-medium.webp",
+          "alt": "14df6d39 249a 4bf6 93de 7bcf4457690e medium",
+          "display_name": "14df6d39 249a 4bf6 93de 7bcf4457690e Medium",
+          "filename": "14df6d39-249a-4bf6-93de-7bcf4457690e-medium.webp",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/images/wOFg_7AQTQ_BJ8WIy5afClPGzUSZkBjQOe0Zzux8e8pj9PWGV8LSojAjQmaBe5asX6_zDVxW2aBD5vLb29IGWgok8Vx1wygAceQX5KAZSWM.jpg",
+          "alt": "WOFg 7AQTQ BJ8WIy5afClPGzUSZkBjQOe0Zzux8e8pj9PWGV8LSojAjQmaBe5asX6 zDVxW2aBD5vLb29IGWgok8Vx1wygAceQX5KAZSWM",
+          "display_name": "Wofg 7AQTQ Bj8wiy5afclpgzuszkbjqoe0zzux8e8pj9pwgv8lsojajqmabe5asx6 Zdvxw2abd5vlb29igwgok8vx1wygaceqx5kazswm",
+          "filename": "wOFg_7AQTQ_BJ8WIy5afClPGzUSZkBjQOe0Zzux8e8pj9PWGV8LSojAjQmaBe5asX6_zDVxW2aBD5vLb29IGWgok8Vx1wygAceQX5KAZSWM.jpg",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/visitar-endcomos.png",
+          "alt": "Visitar endcomos",
+          "display_name": "Visitar Endcomos",
+          "filename": "visitar-endcomos.png",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/visitar-endcomos-3.png",
+          "alt": "Visitar endcomos 3",
+          "display_name": "Visitar Endcomos 3",
+          "filename": "visitar-endcomos-3.png",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/visitar-endcomos-2.png",
+          "alt": "Visitar endcomos 2",
+          "display_name": "Visitar Endcomos 2",
+          "filename": "visitar-endcomos-2.png",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/tumblr-m1mag9rcjz1qb9ckeo1-500.png",
+          "alt": "Tumblr m1mag9rcjz1qb9ckeo1 500",
+          "display_name": "Tumblr M1mag9rcjz1qb9ckeo1 500",
+          "filename": "tumblr-m1mag9rcjz1qb9ckeo1-500.png",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/images/STScI-01JZNDGSHWXK3NGZ0Y1WKPKGP9.png",
+          "alt": "STScI 01JZNDGSHWXK3NGZ0Y1WKPKGP9",
+          "display_name": "Stsci 01JZNDGSHWXK3NGZ0Y1WKPKGP9",
+          "filename": "STScI-01JZNDGSHWXK3NGZ0Y1WKPKGP9.png",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/skvrs-uliurjnwgpv-3fpy0qz5chwckf9emeq2pg9vaidouggbvk-clvo45zey584xfk2cmetsm8cd7blbnxbdkjjivljaoiirgt87dkvlq.jpg",
+          "alt": "Skvrs uliurjnwgpv 3fpy0qz5chwckf9emeq2pg9vaidouggbvk clvo45zey584xfk2cmetsm8cd7blbnxbdkjjivljaoiirgt87dkvlq",
+          "display_name": "Skvrs Uliurjnwgpv 3fpy0qz5chwckf9emeq2pg9vaidouggbvk Clvo45zey584xfk2cmetsm8cd7blbnxbdkjjivljaoiirgt87dkvlq",
+          "filename": "skvrs-uliurjnwgpv-3fpy0qz5chwckf9emeq2pg9vaidouggbvk-clvo45zey584xfk2cmetsm8cd7blbnxbdkjjivljaoiirgt87dkvlq.jpg",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/skeletor-vs-zedd-tn-by-hollow.jpg",
+          "alt": "Skeletor vs zedd tn by hollow",
+          "display_name": "Skeletor Vs Zedd Tn By Hollow",
+          "filename": "skeletor-vs-zedd-tn-by-hollow.jpg",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/rxhvyt0psg01uhak6isx4vy6jw95smwai4dys3r7azs1lbadzeylj-un0d8lvfik-o-sk4w6wsfkr3htwwhgytp056nty-v-iyx09u7sbae.jpg",
+          "alt": "Rxhvyt0psg01uhak6isx4vy6jw95smwai4dys3r7azs1lbadzeylj un0d8lvfik o sk4w6wsfkr3htwwhgytp056nty v iyx09u7sbae",
+          "display_name": "Rxhvyt0psg01uhak6isx4vy6jw95smwai4dys3r7azs1lbadzeylj Un0d8lvfik O Sk4w6wsfkr3htwwhgytp056nty V Iyx09u7sbae",
+          "filename": "rxhvyt0psg01uhak6isx4vy6jw95smwai4dys3r7azs1lbadzeylj-un0d8lvfik-o-sk4w6wsfkr3htwwhgytp056nty-v-iyx09u7sbae.jpg",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/remotesensing-16-03023-g011-550.jpg",
+          "alt": "Remotesensing 16 03023 g011 550",
+          "display_name": "Remotesensing 16 03023 G011 550",
+          "filename": "remotesensing-16-03023-g011-550.jpg",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/images/QQLZeMBCdeUdaggZnpyPWA.jpg",
+          "alt": "QQLZeMBCdeUdaggZnpyPWA",
+          "display_name": "Qqlzembcdeudaggznpypwa",
+          "filename": "QQLZeMBCdeUdaggZnpyPWA.jpg",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/pqosoeiggkt04h0isu6zg-by-1v1jjddpb-6h67l4z-zmbbno7i5kscijhsmvydvnxmua1ziwytlhk4vocqzxsmpby0gta-vpgkkhdobdwa.jpg",
+          "alt": "Pqosoeiggkt04h0isu6zg by 1v1jjddpb 6h67l4z zmbbno7i5kscijhsmvydvnxmua1ziwytlhk4vocqzxsmpby0gta vpgkkhdobdwa",
+          "display_name": "Pqosoeiggkt04h0isu6zg By 1v1jjddpb 6h67l4z Zmbbno7i5kscijhsmvydvnxmua1ziwytlhk4vocqzxsmpby0gta Vpgkkhdobdwa",
+          "filename": "pqosoeiggkt04h0isu6zg-by-1v1jjddpb-6h67l4z-zmbbno7i5kscijhsmvydvnxmua1ziwytlhk4vocqzxsmpby0gta-vpgkkhdobdwa.jpg",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/potw2319a.jpg",
+          "alt": "Potw2319a",
+          "display_name": "Potw2319a",
+          "filename": "potw2319a.jpg",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/images/original-16b1cb1b8f32cecff4c0166422b86444.jpg",
+          "alt": "Original 16b1cb1b8f32cecff4c0166422b86444",
+          "display_name": "Original 16b1cb1b8f32cecff4c0166422b86444",
+          "filename": "original-16b1cb1b8f32cecff4c0166422b86444.jpg",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/mythic-gravity-central-coherence-vortex.jpg",
+          "alt": "Mythic gravity central coherence vortex",
+          "display_name": "Mythic Gravity Central Coherence Vortex",
+          "filename": "mythic-gravity-central-coherence-vortex.jpg",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/modularmedievalassetpack-featured-894x488-b4e2ef12d3a64abc877fd05754008dc9.png",
+          "alt": "Modularmedievalassetpack featured 894x488 b4e2ef12d3a64abc877fd05754008dc9",
+          "display_name": "Modularmedievalassetpack Featured 894x488 B4e2ef12d3a64abc877fd05754008dc9",
+          "filename": "modularmedievalassetpack-featured-894x488-b4e2ef12d3a64abc877fd05754008dc9.png",
+          "caption": "Cosmic Assets"
+        },
+        {
+          "src": "/assets/zogs/v1/md_ytal77_3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0.jpg",
+          "alt": "Md ytal77 3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0",
+          "display_name": "Md Ytal77 3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0",
+          "filename": "md_ytal77_3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0.jpg",
+          "caption": "Cosmic Assets"
+        }
+      ]
+    }
+  ]
+}

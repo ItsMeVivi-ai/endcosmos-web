@@ -1,0 +1,78 @@
+{
+  "title": "Code Changes",
+  "updated_at": "2026-03-12T11:11:00Z",
+  "entries": [
+    {
+      "id": "CC-2026-0312-01",
+      "timestamp": "2026-03-12T06:05:00Z",
+      "area": "Frontend",
+      "category": "ui",
+      "summary": "Reloj dinámico global añadido para todas las páginas web.",
+      "details": "Se integró visualización de hora, fecha y fase cósmica con actualización por segundo y render consistente entre secciones."
+    },
+    {
+      "id": "CC-2026-0312-02",
+      "timestamp": "2026-03-12T06:22:00Z",
+      "area": "Frontend",
+      "category": "system",
+      "summary": "Auto-refresh configurable por query y persistencia local.",
+      "details": "Soporta ?refresh=X para ajustar frecuencia y ?refresh=0 para desactivar; se mantiene preferencia en localStorage."
+    },
+    {
+      "id": "CC-2026-0312-03",
+      "timestamp": "2026-03-12T06:34:00Z",
+      "area": "Backend",
+      "category": "system",
+      "summary": "Módulo admin de imágenes preparado para almacenamiento persistente.",
+      "details": "Se añadieron rutas admin para upload/listado/lectura de imágenes y compatibilidad con volumen Docker para persistencia."
+    },
+    {
+      "id": "CC-2026-0312-04",
+      "timestamp": "2026-03-12T07:10:00Z",
+      "area": "Frontend",
+      "category": "ui",
+      "summary": "Sistema de categorías con pills y grid visual implementado.",
+      "details": "Se añadieron componentes .ec-cats, .ec-cat-pill y .ec-category-grid con 8 categorías navegables desde la portada."
+    },
+    {
+      "id": "CC-2026-0312-05",
+      "timestamp": "2026-03-12T07:32:00Z",
+      "area": "SEO",
+      "category": "branding",
+      "summary": "Eliminadas referencias genéricas y placeholders de Discord.",
+      "details": "9 páginas actualizadas con branding limpio de EndCosmos: títulos, footers, meta OG y enlaces Discord normalizados."
+    },
+    {
+      "id": "CC-2026-0312-06",
+      "timestamp": "2026-03-12T08:15:00Z",
+      "area": "Security",
+      "category": "patch",
+      "summary": "Hardening de permisos en directorio de imágenes del servidor.",
+      "details": "Directorio /assets/images fijado a 755 www-data:www-data. Archivos en 644. Conformidad verificada automáticamente en cada deploy."
+    },
+    {
+      "id": "CC-2026-0312-07",
+      "timestamp": "2026-03-12T08:40:00Z",
+      "area": "DevOps",
+      "category": "system",
+      "summary": "Pipeline de deploy mejorado con fallback SCP y check condicional de sudo.",
+      "details": "sync-all-ssh.ps1 ahora usa SCP recursivo cuando falla tar. El check de sudo solo se activa para operaciones con privilegios."
+    },
+    {
+      "id": "CC-2026-0312-08",
+      "timestamp": "2026-03-12T09:00:00Z",
+      "area": "Frontend",
+      "category": "lore",
+      "summary": "Navegación por categorías añadida a páginas Lore y News.",
+      "details": "Pills de categorías funcionales en /lore (Worlds, Factions, Characters, Eras, Races, Systems) y filtros en /news."
+    },
+    {
+      "id": "CC-2026-0312-09",
+      "timestamp": "2026-03-12T11:11:00Z",
+      "area": "DevOps",
+      "category": "deployment",
+      "summary": "Marca 11:11: control-plane publicado y validado en producción.",
+      "details": "Se desplegó endcosmos-admin-mvp con servicio systemd activo, proxy Nginx en /control-plane y backend API bajo /api hacia 127.0.0.1:18080. Validaciones finales OK: /control-plane/ 200, /control-plane/health 200 (status ok), /api/health 200 en endcosmos.com."
+    }
+  ]
+}

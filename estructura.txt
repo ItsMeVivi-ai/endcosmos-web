@@ -1,48 +1,34 @@
-Listado de rutas de carpetas
-El n�mero de serie del volumen es C603-BB39
-C:\USERS\VIVI\ONEDRIVE\COSMOS\ENDCOSMOS V1
-    app.js
-    ChatGPT Image 12 mar 2026, 02_16_54.png
-    ChatGPT Image Mar 12, 2026, 02_10_53 AM.png
-    ChatGPT Image Mar 12, 2026, 02_10_58 AM.png
-    ChatGPT Image Mar 12, 2026, 02_11_03 AM.png
-    ChatGPT Image Mar 12, 2026, 02_11_05 AM.png
-    ChatGPT Image Mar 12, 2026, 02_11_08 AM.png
-    ChatGPT Image Mar 12, 2026, 02_11_10 AM.png
-    ChatGPT Image Mar 12, 2026, 02_11_14 AM.png
-    ChatGPT Image Mar 12, 2026, 02_11_17 AM.png
-    ChatGPT Image Mar 12, 2026, 02_11_19 AM.png
-    ChatGPT Image Mar 12, 2026, 02_11_21 AM.png
-    ChatGPT Image Mar 12, 2026, 02_11_24 AM.png
-    ChatGPT Image Mar 12, 2026, 02_11_26 AM.png
-    ChatGPT Image Mar 12, 2026, 02_13_08 AM.png
-    ChatGPT Image Mar 12, 2026, 02_13_10 AM.png
-    ChatGPT Image Mar 12, 2026, 02_13_12 AM.png
-    ChatGPT Image Mar 12, 2026, 02_13_13 AM.png
-    ChatGPT Image Mar 12, 2026, 02_13_22 AM.png
-    ChatGPT Image Mar 12, 2026, 02_13_25 AM.png
-    ChatGPT Image Mar 12, 2026, 02_13_27 AM.png
-    ChatGPT Image Mar 12, 2026, 02_13_28 AM.png
-    ChatGPT Image Mar 12, 2026, 02_13_29 AM.png
-    ChatGPT Image Mar 12, 2026, 02_13_31 AM.png
-    ChatGPT Image Mar 12, 2026, 02_13_32 AM.png
-    ChatGPT Image Mar 12, 2026, 02_13_33 AM.png
-    ChatGPT Image Mar 12, 2026, 02_13_35 AM.png
-    ChatGPT Image Mar 12, 2026, 02_13_36 AM.png
-    ChatGPT Image Mar 12, 2026, 02_13_38 AM.png
-    ChatGPT Image Mar 12, 2026, 02_13_39 AM.png
-    ChatGPT Image Mar 12, 2026, 02_13_40 AM.png
-    ChatGPT Image Mar 12, 2026, 02_13_41 AM.png
-    ChatGPT Image Mar 12, 2026, 02_13_43 AM.png
-    ChatGPT Image Mar 12, 2026, 02_13_44 AM.png
-    ChatGPT Image Mar 12, 2026, 02_13_46 AM.png
-    ChatGPT Image Mar 12, 2026, 02_13_47 AM.png
-    ChatGPT Image Mar 12, 2026, 02_13_48 AM.png
-    ChatGPT Image Mar 12, 2026, 02_13_51 AM.png
-    endcosmos_100_monturas_individuales.zip
-    endcosmos_100_monturas_preview.jpg
-    index.html
-    styles.css
-    
-No existe ninguna subcarpeta 
+ENDCOSMOS WEB - ESTRUCTURA DE PÁGINAS
+=====================================
+
+Estructura objetivo actual de páginas bajo /public:
+
+/
+├─ index.html                 -> Inicio
+├─ /news/index.html           -> Noticias
+├─ /lore/index.html           -> Lore
+├─ /mapas/index.html          -> Mapas
+├─ /alquimia/index.html       -> Alquimia
+├─ /ranking/index.html        -> Ranking
+├─ /download/index.html       -> Descargas
+├─ /zogs/index.html           -> Galería / Universo Zogs
+├─ /classes/index.html        -> Clases y casas
+├─ /code-changes/index.html   -> Logs de cambios de código
+├─ /game-internal-changes/index.html -> Logs de cambios internos del juego
+├─ /register/index.html       -> Registro
+├─ /privacy/index.html        -> Política de privacidad
+├─ /terms/index.html          -> Términos y condiciones
+├─ /contact/index.html        -> Contacto
+├─ /admin/index.html          -> Panel de administración (interno)
+└─ /site-map/index.html       -> Mapa del sitio interactivo
+
+Páginas utilitarias del sitio:
+- /robots.txt
+- /sitemap.xml
+
+Resumen:
+- Total páginas HTML actuales: 17
+- Públicas de navegación principal: 14 (incluidas en sitemap)
+- Internas/operativas: register, admin
+- Herramienta de navegación: site-map (interactivo)
 

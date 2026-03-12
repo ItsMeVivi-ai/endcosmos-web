@@ -1,0 +1,514 @@
+{
+  "universe": "EndCosmos",
+  "version": "1.0.0",
+  "language": "es",
+  "pillars": [
+    {
+      "name": "Aurelia Prime",
+      "role": "capital del mundo"
+    },
+    {
+      "name": "Draco",
+      "role": "guerra y conquista"
+    },
+    {
+      "name": "Llunaris",
+      "role": "conocimiento y magia"
+    },
+    {
+      "name": "Uruk Reborn",
+      "role": "origen de civilización"
+    }
+  ],
+  "mvp_core_6": [
+    "Sistema de mapa global conectado",
+    "Sistema de clima dinámico",
+    "Sistema de bosses globales",
+    "Sistema de eventos globales persistentes",
+    "Sistema de exploración secreta",
+    "Sistema de control territorial"
+  ],
+  "categories": [
+    {
+      "id": "fundamentales",
+      "title": "Sistemas Fundamentales del Mundo",
+      "range": "1-10",
+      "systems": [
+        {
+          "id": 1,
+          "name": "Sistema de mapa global conectado"
+        },
+        {
+          "id": 2,
+          "name": "Sistema de regiones del mundo"
+        },
+        {
+          "id": 3,
+          "name": "Sistema de capas dimensionales"
+        },
+        {
+          "id": 4,
+          "name": "Sistema de biomas dinámicos"
+        },
+        {
+          "id": 5,
+          "name": "Sistema de fronteras entre regiones"
+        },
+        {
+          "id": 6,
+          "name": "Sistema de expansión del universo"
+        },
+        {
+          "id": 7,
+          "name": "Sistema de instancias paralelas"
+        },
+        {
+          "id": 8,
+          "name": "Sistema de eventos globales persistentes"
+        },
+        {
+          "id": 9,
+          "name": "Sistema de cronología del mundo"
+        },
+        {
+          "id": 10,
+          "name": "Sistema de resonancia cósmica"
+        }
+      ]
+    },
+    {
+      "id": "territorio",
+      "title": "Sistemas de Territorio",
+      "range": "11-20",
+      "systems": [
+        {
+          "id": 11,
+          "name": "Sistema de control territorial"
+        },
+        {
+          "id": 12,
+          "name": "Sistema de conquista de fortalezas"
+        },
+        {
+          "id": 13,
+          "name": "Sistema de capitales regionales"
+        },
+        {
+          "id": 14,
+          "name": "Sistema de zonas neutrales"
+        },
+        {
+          "id": 15,
+          "name": "Sistema de zonas PvP abiertas"
+        },
+        {
+          "id": 16,
+          "name": "Sistema de dominios de facciones"
+        },
+        {
+          "id": 17,
+          "name": "Sistema de defensa de ciudades"
+        },
+        {
+          "id": 18,
+          "name": "Sistema de rutas comerciales"
+        },
+        {
+          "id": 19,
+          "name": "Sistema de influencia territorial"
+        },
+        {
+          "id": 20,
+          "name": "Sistema de guerras regionales"
+        }
+      ]
+    },
+    {
+      "id": "exploracion",
+      "title": "Sistemas de Exploración",
+      "range": "21-30",
+      "systems": [
+        {
+          "id": 21,
+          "name": "Sistema de descubrimiento de zonas"
+        },
+        {
+          "id": 22,
+          "name": "Sistema de mapas ocultos"
+        },
+        {
+          "id": 23,
+          "name": "Sistema de exploración vertical"
+        },
+        {
+          "id": 24,
+          "name": "Sistema de ruinas antiguas"
+        },
+        {
+          "id": 25,
+          "name": "Sistema de zonas secretas"
+        },
+        {
+          "id": 26,
+          "name": "Sistema de rutas ocultas"
+        },
+        {
+          "id": 27,
+          "name": "Sistema de reliquias del mundo"
+        },
+        {
+          "id": 28,
+          "name": "Sistema de portales ocultos"
+        },
+        {
+          "id": 29,
+          "name": "Sistema de anomalías dimensionales"
+        },
+        {
+          "id": 30,
+          "name": "Sistema de expediciones"
+        }
+      ]
+    },
+    {
+      "id": "biomas",
+      "title": "Sistemas de Biomas",
+      "range": "31-40",
+      "systems": [
+        {
+          "id": 31,
+          "name": "Sistema de desiertos astrales"
+        },
+        {
+          "id": 32,
+          "name": "Sistema de bosques vivos"
+        },
+        {
+          "id": 33,
+          "name": "Sistema de océanos negros"
+        },
+        {
+          "id": 34,
+          "name": "Sistema de tundras lunares"
+        },
+        {
+          "id": 35,
+          "name": "Sistema de volcanes celestes"
+        },
+        {
+          "id": 36,
+          "name": "Sistema de ciudades mecánicas"
+        },
+        {
+          "id": 37,
+          "name": "Sistema de ruinas imperiales"
+        },
+        {
+          "id": 38,
+          "name": "Sistema de jardines prohibidos"
+        },
+        {
+          "id": 39,
+          "name": "Sistema de islas flotantes"
+        },
+        {
+          "id": 40,
+          "name": "Sistema de mundos corruptos"
+        }
+      ]
+    },
+    {
+      "id": "clima_entorno",
+      "title": "Sistemas de Clima y Entorno",
+      "range": "41-50",
+      "systems": [
+        {
+          "id": 41,
+          "name": "Sistema de clima dinámico"
+        },
+        {
+          "id": 42,
+          "name": "Sistema de tormentas elementales"
+        },
+        {
+          "id": 43,
+          "name": "Sistema de eclipses cósmicos"
+        },
+        {
+          "id": 44,
+          "name": "Sistema de lluvia de meteoritos"
+        },
+        {
+          "id": 45,
+          "name": "Sistema de auroras energéticas"
+        },
+        {
+          "id": 46,
+          "name": "Sistema de niebla del vacío"
+        },
+        {
+          "id": 47,
+          "name": "Sistema de estaciones universales"
+        },
+        {
+          "id": 48,
+          "name": "Sistema de catástrofes naturales"
+        },
+        {
+          "id": 49,
+          "name": "Sistema de eventos climáticos raros"
+        },
+        {
+          "id": 50,
+          "name": "Sistema de energía ambiental"
+        }
+      ]
+    },
+    {
+      "id": "npcs",
+      "title": "Sistemas de NPCs del Mundo",
+      "range": "51-60",
+      "systems": [
+        {
+          "id": 51,
+          "name": "Sistema de NPCs con memoria"
+        },
+        {
+          "id": 52,
+          "name": "Sistema de NPCs viajeros"
+        },
+        {
+          "id": 53,
+          "name": "Sistema de NPCs comerciantes"
+        },
+        {
+          "id": 54,
+          "name": "Sistema de NPCs de facción"
+        },
+        {
+          "id": 55,
+          "name": "Sistema de NPCs narradores"
+        },
+        {
+          "id": 56,
+          "name": "Sistema de NPCs de eventos"
+        },
+        {
+          "id": 57,
+          "name": "Sistema de NPCs guardianes"
+        },
+        {
+          "id": 58,
+          "name": "Sistema de NPCs secretos"
+        },
+        {
+          "id": 59,
+          "name": "Sistema de NPCs corruptos"
+        },
+        {
+          "id": 60,
+          "name": "Sistema de NPCs legendarios"
+        }
+      ]
+    },
+    {
+      "id": "bosses",
+      "title": "Sistemas de Bosses del Mundo",
+      "range": "61-70",
+      "systems": [
+        {
+          "id": 61,
+          "name": "Sistema de bosses globales"
+        },
+        {
+          "id": 62,
+          "name": "Sistema de bosses regionales"
+        },
+        {
+          "id": 63,
+          "name": "Sistema de bosses errantes"
+        },
+        {
+          "id": 64,
+          "name": "Sistema de bosses de evento"
+        },
+        {
+          "id": 65,
+          "name": "Sistema de bosses climáticos"
+        },
+        {
+          "id": 66,
+          "name": "Sistema de bosses dimensionales"
+        },
+        {
+          "id": 67,
+          "name": "Sistema de bosses invocados"
+        },
+        {
+          "id": 68,
+          "name": "Sistema de bosses colosales"
+        },
+        {
+          "id": 69,
+          "name": "Sistema de bosses de reino"
+        },
+        {
+          "id": 70,
+          "name": "Sistema de bosses ocultos"
+        }
+      ]
+    },
+    {
+      "id": "recursos",
+      "title": "Sistemas de Recursos",
+      "range": "71-80",
+      "systems": [
+        {
+          "id": 71,
+          "name": "Sistema de minerales raros"
+        },
+        {
+          "id": 72,
+          "name": "Sistema de cristales cósmicos"
+        },
+        {
+          "id": 73,
+          "name": "Sistema de flora alquímica"
+        },
+        {
+          "id": 74,
+          "name": "Sistema de energía astral"
+        },
+        {
+          "id": 75,
+          "name": "Sistema de reliquias antiguas"
+        },
+        {
+          "id": 76,
+          "name": "Sistema de fragmentos dimensionales"
+        },
+        {
+          "id": 77,
+          "name": "Sistema de recursos de boss"
+        },
+        {
+          "id": 78,
+          "name": "Sistema de artefactos perdidos"
+        },
+        {
+          "id": 79,
+          "name": "Sistema de energía de planeta"
+        },
+        {
+          "id": 80,
+          "name": "Sistema de materiales legendarios"
+        }
+      ]
+    },
+    {
+      "id": "movimiento",
+      "title": "Sistemas de Movimiento",
+      "range": "81-90",
+      "systems": [
+        {
+          "id": 81,
+          "name": "Sistema de monturas salvajes"
+        },
+        {
+          "id": 82,
+          "name": "Sistema de bestias cósmicas"
+        },
+        {
+          "id": 83,
+          "name": "Sistema de barcos intercontinentales"
+        },
+        {
+          "id": 84,
+          "name": "Sistema de portales de viaje"
+        },
+        {
+          "id": 85,
+          "name": "Sistema de tren arcano"
+        },
+        {
+          "id": 86,
+          "name": "Sistema de alas temporales"
+        },
+        {
+          "id": 87,
+          "name": "Sistema de ascensores antiguos"
+        },
+        {
+          "id": 88,
+          "name": "Sistema de teleportación ritual"
+        },
+        {
+          "id": 89,
+          "name": "Sistema de rutas aéreas"
+        },
+        {
+          "id": 90,
+          "name": "Sistema de transporte interdimensional"
+        }
+      ]
+    },
+    {
+      "id": "evolutivos",
+      "title": "Sistemas Evolutivos del Mundo",
+      "range": "91-100",
+      "systems": [
+        {
+          "id": 91,
+          "name": "Sistema de corrupción del mundo"
+        },
+        {
+          "id": 92,
+          "name": "Sistema de restauración de zonas"
+        },
+        {
+          "id": 93,
+          "name": "Sistema de evolución de ciudades"
+        },
+        {
+          "id": 94,
+          "name": "Sistema de guerras globales"
+        },
+        {
+          "id": 95,
+          "name": "Sistema de invasiones demoníacas"
+        },
+        {
+          "id": 96,
+          "name": "Sistema de despertar de Leviathan"
+        },
+        {
+          "id": 97,
+          "name": "Sistema de fractura dimensional"
+        },
+        {
+          "id": 98,
+          "name": "Sistema de colapso planetario"
+        },
+        {
+          "id": 99,
+          "name": "Sistema de reinicio cósmico"
+        },
+        {
+          "id": 100,
+          "name": "Sistema de expansión infinita"
+        }
+      ]
+    }
+  ],
+  "implementation_guidance": {
+    "note": "No implementar 100 sistemas al mismo tiempo.",
+    "recommended_start": [
+      "Sistema de mapa global conectado",
+      "Sistema de clima dinámico",
+      "Sistema de bosses globales",
+      "Sistema de eventos globales persistentes",
+      "Sistema de exploración secreta",
+      "Sistema de control territorial"
+    ]
+  }
+}

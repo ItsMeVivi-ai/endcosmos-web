@@ -1,8 +1,9 @@
 from datetime import datetime, timedelta, timezone
+import os
 import secrets
 
 from fastapi import APIRouter, Depends, HTTPException, Request, status
-from sqlalchemy import or_, select
+from sqlalchemy import func, or_, select
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
@@ -15,11 +16,56 @@ from app.schemas import AuthResponse, LoginRequest, RegisterRequest, UserDataRes
 router = APIRouter(tags=["Auth"])
 
 
+FAILED_LOGIN_WINDOW_MINUTES = max(1, int(os.getenv("FAILED_LOGIN_WINDOW_MINUTES", "15")))
+MAX_FAILED_LOGIN_PER_IP = max(1, int(os.getenv("MAX_FAILED_LOGIN_PER_IP", "20")))
+MAX_FAILED_LOGIN_PER_IDENTITY = max(1, int(os.getenv("MAX_FAILED_LOGIN_PER_IDENTITY", "8")))
+REGISTER_WINDOW_MINUTES = max(1, int(os.getenv("REGISTER_WINDOW_MINUTES", "60")))
+MAX_REGISTRATIONS_PER_IP = max(1, int(os.getenv("MAX_REGISTRATIONS_PER_IP", "6")))
+MIN_REGISTER_AGE = max(13, int(os.getenv("MIN_REGISTER_AGE", "16")))
+
+
+def _count_recent_failed_logins(
+    db: Session,
+    *,
+    window_start: datetime,
+    attempted_identity: str | None = None,
+    ip_address: str | None = None,
+) -> int:
+    filters = [LoginLog.success.is_(False), LoginLog.created_at >= window_start]
+    if attempted_identity:
+        filters.append(LoginLog.attempted_identity == attempted_identity)
+    if ip_address:
+        filters.append(LoginLog.ip_address == ip_address)
+
+    stmt = select(func.count()).select_from(LoginLog).where(*filters)
+    return int(db.execute(stmt).scalar_one() or 0)
+
+
+def _count_recent_registrations_by_ip(db: Session, *, window_start: datetime, ip_address: str) -> int:
+    stmt = select(func.count()).select_from(User).where(
+        User.ip_register == ip_address,
+        User.created_at >= window_start,
+    )
+    return int(db.execute(stmt).scalar_one() or 0)
+
+
 @router.post("/register", response_model=AuthResponse, status_code=status.HTTP_201_CREATED)
 def register_user(payload: RegisterRequest, request: Request, db: Session = Depends(get_db)):
     """Register a new EndCosmos account."""
     if payload.password != payload.confirm_password:
         raise HTTPException(status_code=400, detail="Password and confirm password do not match")
+
+    today = datetime.now(timezone.utc).date()
+    age = (
+        today.year
+        - payload.birth_date.year
+        - ((today.month, today.day) < (payload.birth_date.month, payload.birth_date.day))
+    )
+    if age < MIN_REGISTER_AGE:
+        raise HTTPException(
+            status_code=403,
+            detail=f"Minimum age to register is {MIN_REGISTER_AGE}",
+        )
 
     username = payload.username.strip()
     email = payload.email.lower().strip()
@@ -35,6 +81,18 @@ def register_user(payload: RegisterRequest, request: Request, db: Session = Depe
         forwarded_for=request.headers.get("x-forwarded-for"),
         remote_host=request.client.host if request.client else None,
     )
+    if ip_address:
+        register_window_start = datetime.now(timezone.utc) - timedelta(minutes=REGISTER_WINDOW_MINUTES)
+        recent_registrations = _count_recent_registrations_by_ip(
+            db,
+            window_start=register_window_start,
+            ip_address=ip_address,
+        )
+        if recent_registrations >= MAX_REGISTRATIONS_PER_IP:
+            raise HTTPException(
+                status_code=429,
+                detail="Too many registration attempts from this IP. Please try again later.",
+            )
 
     new_user = User(
         username=username,
@@ -80,21 +138,55 @@ def login_user(payload: LoginRequest, request: Request, db: Session = Depends(ge
     """Login with username or email and return JWT token."""
     identity = payload.username_or_email.strip()
     normalized_email = identity.lower()
-
-    user_stmt = select(User).where(or_(User.username == identity, User.email == normalized_email))
-    user = db.execute(user_stmt).scalar_one_or_none()
+    identity_key = normalized_email if "@" in identity else identity.lower()
 
     ip_address = get_client_ip(
         forwarded_for=request.headers.get("x-forwarded-for"),
         remote_host=request.client.host if request.client else None,
     )
     user_agent = request.headers.get("user-agent")
+    login_window_start = datetime.now(timezone.utc) - timedelta(minutes=FAILED_LOGIN_WINDOW_MINUTES)
+
+    failed_by_identity = _count_recent_failed_logins(
+        db,
+        window_start=login_window_start,
+        attempted_identity=identity_key,
+    )
+    failed_by_ip = (
+        _count_recent_failed_logins(
+            db,
+            window_start=login_window_start,
+            ip_address=ip_address,
+        )
+        if ip_address
+        else 0
+    )
+
+    if failed_by_identity >= MAX_FAILED_LOGIN_PER_IDENTITY or failed_by_ip >= MAX_FAILED_LOGIN_PER_IP:
+        db.add(
+            LoginLog(
+                user_id=None,
+                attempted_identity=identity_key,
+                ip_address=ip_address,
+                user_agent=user_agent,
+                source=payload.source,
+                success=False,
+            )
+        )
+        db.commit()
+        raise HTTPException(
+            status_code=429,
+            detail="Too many login attempts. Please wait and try again.",
+        )
+
+    user_stmt = select(User).where(or_(User.username == identity, User.email == normalized_email))
+    user = db.execute(user_stmt).scalar_one_or_none()
 
     if not user or not verify_password(payload.password, user.password_hash):
         db.add(
             LoginLog(
                 user_id=user.id if user else None,
-                attempted_identity=identity,
+                attempted_identity=identity_key,
                 ip_address=ip_address,
                 user_agent=user_agent,
                 source=payload.source,
@@ -111,7 +203,7 @@ def login_user(payload: LoginRequest, request: Request, db: Session = Depends(ge
     db.add(
         LoginLog(
             user_id=user.id,
-            attempted_identity=identity,
+            attempted_identity=identity_key,
             ip_address=ip_address,
             user_agent=user_agent,
             source=payload.source,

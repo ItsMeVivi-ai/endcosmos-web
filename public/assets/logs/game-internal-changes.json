@@ -1,0 +1,86 @@
+{
+  "title": "Internal Game Changes",
+  "updated_at": "2026-03-12T11:11:00Z",
+  "entries": [
+    {
+      "id": "IG-2026-0312-01",
+      "timestamp": "2026-03-12T05:55:00Z",
+      "area": "Cosmos Core",
+      "category": "system",
+      "summary": "Revisión de sincronización de manifiestos de galería.",
+      "details": "Se regeneraron manifiestos para asegurar consistencia entre contenido visual y rutas disponibles en producción."
+    },
+    {
+      "id": "IG-2026-0312-02",
+      "timestamp": "2026-03-12T06:18:00Z",
+      "area": "Mapas",
+      "category": "maps",
+      "summary": "Validación de disponibilidad del apartado /mapas.",
+      "details": "Se confirmó que la sección de mapas permanece activa y enlazada desde navegación principal y mapa interactivo."
+    },
+    {
+      "id": "IG-2026-0312-03",
+      "timestamp": "2026-03-12T06:47:00Z",
+      "area": "Operaciones",
+      "category": "system",
+      "summary": "Monitoreo de endpoint de salud en vivo.",
+      "details": "Verificación periódica del estado HTTP de home, mapas, galerías y healthz para asegurar continuidad operativa."
+    },
+    {
+      "id": "IG-2026-0312-04",
+      "timestamp": "2026-03-12T07:05:00Z",
+      "area": "Combat",
+      "category": "patch",
+      "summary": "Rebalanceo de daño base para clases de tipo Arcane.",
+      "details": "Reducción del 8% en daño por segundo de habilidades de área. Incremento del 12% en regeneración de mana en combate prolongado."
+    },
+    {
+      "id": "IG-2026-0312-05",
+      "timestamp": "2026-03-12T07:22:00Z",
+      "area": "Alquimia",
+      "category": "patch",
+      "summary": "Nuevas recetas de fusión cósmica desbloqueadas en VYRAKTH.",
+      "details": "Se añadieron 14 fórmulas de Nivel VI vinculadas al Umbral de Los Colores Eternos. Requieren Cristal Cromático x3."
+    },
+    {
+      "id": "IG-2026-0312-06",
+      "timestamp": "2026-03-12T07:48:00Z",
+      "area": "Events",
+      "category": "events",
+      "summary": "Evento estacional 'Ciclo de la Nebulosa' activado.",
+      "details": "Dungeons de evento disponibles durante 14 días. Recompensas únicas: Armadura Nebular, Fragmento del Vacío, acceso a zona restringida Z-07."
+    },
+    {
+      "id": "IG-2026-0312-07",
+      "timestamp": "2026-03-12T08:10:00Z",
+      "area": "PvP",
+      "category": "patch",
+      "summary": "Temporada de ranking PvP reiniciada. Nueva tabla de clasificación activa.",
+      "details": "Puntos anteriores archivados. Recompensas por temporada distribuidas. Liga Vacío abierta para tier Maestro y superior."
+    },
+    {
+      "id": "IG-2026-0312-08",
+      "timestamp": "2026-03-12T08:35:00Z",
+      "area": "Lore",
+      "category": "lore",
+      "summary": "Nueva entrada wiki: Los Cromáticos — Raza primordial de VYRAKTH.",
+      "details": "Documentación oficial de la raza Los Cromáticos añadida a /lore. Incluye historia, habilidades pasivas y alineamientos facciosos."
+    },
+    {
+      "id": "IG-2026-0312-09",
+      "timestamp": "2026-03-12T09:00:00Z",
+      "area": "Economy",
+      "category": "patch",
+      "summary": "Ajuste de tasa de drop en zonas de Void Realm.",
+      "details": "Incremento del 6% en tasa de drop de materiales raros en Void Realm. Reducción del 3% en materiales comunes para equilibrar economía del servidor."
+    },
+    {
+      "id": "IG-2026-0312-10",
+      "timestamp": "2026-03-12T11:11:00Z",
+      "area": "Operaciones",
+      "category": "deployment",
+      "summary": "Marca 11:11 registrada en producción para control-plane y health.",
+      "details": "Se consolidó el despliegue operativo del panel admin (endcosmos-admin-mvp) y se verificaron endpoints productivos en dominio canónico: /control-plane/ y /control-plane/health con estado OK, además de /api/health en backend activo."
+    }
+  ]
+}

@@ -1,0 +1,2511 @@
+{
+  "generated_at": "2026-03-12T11:25:23.722176+00:00",
+  "source_image_count": 417,
+  "normalized_image_count": 417,
+  "used_asset_references_detected": 431,
+  "unreferenced_normalized_images": 417,
+  "entries": [
+    {
+      "source": "/assets/battle.webp",
+      "target": "/assets/images/bosses/battle.webp",
+      "category": "bosses",
+      "size_bytes": 42546
+    },
+    {
+      "source": "/assets/brand-art.jpg",
+      "target": "/assets/images/lore/brand-art.jpg",
+      "category": "lore",
+      "size_bytes": 184857
+    },
+    {
+      "source": "/assets/cover-endcosmos-portal.png",
+      "target": "/assets/images/hero/cover-endcosmos-portal.png",
+      "category": "hero",
+      "size_bytes": 3055954
+    },
+    {
+      "source": "/assets/event.webp",
+      "target": "/assets/images/lore/event.webp",
+      "category": "lore",
+      "size_bytes": 147129
+    },
+    {
+      "source": "/assets/favicon.ico",
+      "target": "/assets/images/ui/favicon.ico",
+      "category": "ui",
+      "size_bytes": 0
+    },
+    {
+      "source": "/assets/favicon.png",
+      "target": "/assets/images/ui/favicon-02.png",
+      "category": "ui",
+      "size_bytes": 3124431
+    },
+    {
+      "source": "/assets/hero-main.jpg",
+      "target": "/assets/images/hero/hero-main.jpg",
+      "category": "hero",
+      "size_bytes": 2158339
+    },
+    {
+      "source": "/assets/hero-secondary.jpg",
+      "target": "/assets/images/hero/hero-secondary.jpg",
+      "category": "hero",
+      "size_bytes": 301907
+    },
+    {
+      "source": "/assets/hero.jpg",
+      "target": "/assets/images/hero/hero.jpg",
+      "category": "hero",
+      "size_bytes": 0
+    },
+    {
+      "source": "/assets/images/1170873.jpg",
+      "target": "/assets/images/lore/1170873.jpg",
+      "category": "lore",
+      "size_bytes": 1995088
+    },
+    {
+      "source": "/assets/images/1_BXHLXNp6LJNnbDvEcTCMkg.png",
+      "target": "/assets/images/lore/1-bxhlxnp6ljnnbdvectcmkg.png",
+      "category": "lore",
+      "size_bytes": 4254929
+    },
+    {
+      "source": "/assets/images/78b35709-93da-4a94-97aa-592b9123a1ee.png",
+      "target": "/assets/images/lore/78b35709-93da-4a94-97aa-592b9123a1ee.png",
+      "category": "lore",
+      "size_bytes": 3124431
+    },
+    {
+      "source": "/assets/images/a710e3f4b8f559ac406d4797390b5cc2.webp",
+      "target": "/assets/images/lore/a710e3f4b8f559ac406d4797390b5cc2.webp",
+      "category": "lore",
+      "size_bytes": 147129
+    },
+    {
+      "source": "/assets/images/b94f1411a6ddcd2b912060223f767036.webp",
+      "target": "/assets/images/lore/b94f1411a6ddcd2b912060223f767036.webp",
+      "category": "lore",
+      "size_bytes": 9722
+    },
+    {
+      "source": "/assets/images/bosque 4.jpg",
+      "target": "/assets/images/backgrounds/bosque-4.jpg",
+      "category": "backgrounds",
+      "size_bytes": 408392
+    },
+    {
+      "source": "/assets/images/bosque1.jpg",
+      "target": "/assets/images/backgrounds/bosque1.jpg",
+      "category": "backgrounds",
+      "size_bytes": 191873
+    },
+    {
+      "source": "/assets/images/Bosque2.webp",
+      "target": "/assets/images/backgrounds/bosque2.webp",
+      "category": "backgrounds",
+      "size_bytes": 46862
+    },
+    {
+      "source": "/assets/images/bosque3.jpg",
+      "target": "/assets/images/backgrounds/bosque3.jpg",
+      "category": "backgrounds",
+      "size_bytes": 127519
+    },
+    {
+      "source": "/assets/images/endcosmos-hero-cinematic.avif",
+      "target": "/assets/images/hero/endcosmos-hero-cinematic.avif",
+      "category": "hero",
+      "size_bytes": 228170
+    },
+    {
+      "source": "/assets/images/endcosmos-hero-cinematic.webp",
+      "target": "/assets/images/hero/endcosmos-hero-cinematic-02.webp",
+      "category": "hero",
+      "size_bytes": 443404
+    },
+    {
+      "source": "/assets/images/endcosmos-maps-main.png",
+      "target": "/assets/images/maps/endcosmos-maps-main.png",
+      "category": "maps",
+      "size_bytes": 3289393
+    },
+    {
+      "source": "/assets/images/eTyhSp9g4fbSwbFtcG9mHo.jpg",
+      "target": "/assets/images/lore/etyhsp9g4fbswbftcg9mho.jpg",
+      "category": "lore",
+      "size_bytes": 506375
+    },
+    {
+      "source": "/assets/images/GUIDE_UNIVERSE.jpg",
+      "target": "/assets/images/npcs/guide-universe.jpg",
+      "category": "npcs",
+      "size_bytes": 276119
+    },
+    {
+      "source": "/assets/images/HighresScreenshot00005-1920x1080-89b9232274748bd5313f20f9b2d513fe.jpg",
+      "target": "/assets/images/lore/highresscreenshot00005-1920x1080-89b9232274748bd5313f20f9b2d513fe.jpg",
+      "category": "lore",
+      "size_bytes": 556568
+    },
+    {
+      "source": "/assets/images/NPC.jpg",
+      "target": "/assets/images/npcs/npc.jpg",
+      "category": "npcs",
+      "size_bytes": 41057
+    },
+    {
+      "source": "/assets/images/NPC_UNIVERSE.jpg",
+      "target": "/assets/images/npcs/npc-universe.jpg",
+      "category": "npcs",
+      "size_bytes": 102957
+    },
+    {
+      "source": "/assets/images/original-16b1cb1b8f32cecff4c0166422b86444.jpg",
+      "target": "/assets/images/lore/original-16b1cb1b8f32cecff4c0166422b86444.jpg",
+      "category": "lore",
+      "size_bytes": 48494
+    },
+    {
+      "source": "/assets/images/pngtree-cosmic-portal-to-another-dimension-opens-freely-always-image_20919279.webp",
+      "target": "/assets/images/backgrounds/pngtree-cosmic-portal-to-another-dimension-opens-freely-always-image-20919279.webp",
+      "category": "backgrounds",
+      "size_bytes": 52592
+    },
+    {
+      "source": "/assets/images/pngtree-epic-clash-of-ancient-warriors-in-traditional-armor-fighting-fiercely-within-image_20719811.webp",
+      "target": "/assets/images/bosses/pngtree-epic-clash-of-ancient-warriors-in-traditional-armor-fighting-fiercely-within-image-20719811.webp",
+      "category": "bosses",
+      "size_bytes": 42546
+    },
+    {
+      "source": "/assets/images/pngtree-futuristic-cosmic-portal-to-another-dimension-image_20878348.webp",
+      "target": "/assets/images/backgrounds/pngtree-futuristic-cosmic-portal-to-another-dimension-image-20878348.webp",
+      "category": "backgrounds",
+      "size_bytes": 118336
+    },
+    {
+      "source": "/assets/images/pngtree-futuristic-sci-fi-dream-worlds-enriched-with-vivid-neon-accents-merging-picture-image_16250523.jpg",
+      "target": "/assets/images/maps/pngtree-futuristic-sci-fi-dream-worlds-enriched-with-vivid-neon-accents-merging-picture-image-16250523.jpg",
+      "category": "maps",
+      "size_bytes": 1513170
+    },
+    {
+      "source": "/assets/images/Purple Energy Portal Overlay for Sci-Fi Logo Animation-HD.webp",
+      "target": "/assets/images/portals/purple-energy-portal-overlay-for-sci-fi-logo-animation-hd.webp",
+      "category": "portals",
+      "size_bytes": 81424
+    },
+    {
+      "source": "/assets/images/purple-and-blue-sci-fi-city-background-qrtlhfz3pjiw11ry.jpg",
+      "target": "/assets/images/cities/purple-and-blue-sci-fi-city-background-qrtlhfz3pjiw11ry.jpg",
+      "category": "cities",
+      "size_bytes": 301907
+    },
+    {
+      "source": "/assets/images/QQLZeMBCdeUdaggZnpyPWA.jpg",
+      "target": "/assets/images/lore/qqlzembcdeudaggznpypwa.jpg",
+      "category": "lore",
+      "size_bytes": 441135
+    },
+    {
+      "source": "/assets/images/STScI-01JZNDGSHWXK3NGZ0Y1WKPKGP9.png",
+      "target": "/assets/images/lore/stsci-01jzndgshwxk3ngz0y1wkpkgp9.png",
+      "category": "lore",
+      "size_bytes": 334168
+    },
+    {
+      "source": "/assets/images/thumb-1920-1141535.jpg",
+      "target": "/assets/images/lore/thumb-1920-1141535.jpg",
+      "category": "lore",
+      "size_bytes": 177930
+    },
+    {
+      "source": "/assets/images/thumb-1920-904050.jpg",
+      "target": "/assets/images/lore/thumb-1920-904050.jpg",
+      "category": "lore",
+      "size_bytes": 264142
+    },
+    {
+      "source": "/assets/images/ueu-dark-universe-logo-portal-rendering-cf-a.jpg",
+      "target": "/assets/images/portals/ueu-dark-universe-logo-portal-rendering-cf-a.jpg",
+      "category": "portals",
+      "size_bytes": 184857
+    },
+    {
+      "source": "/assets/images/wOFg_7AQTQ_BJ8WIy5afClPGzUSZkBjQOe0Zzux8e8pj9PWGV8LSojAjQmaBe5asX6_zDVxW2aBD5vLb29IGWgok8Vx1wygAceQX5KAZSWM.jpg",
+      "target": "/assets/images/lore/wofg-7aqtq-bj8wiy5afclpgzuszkbjqoe0zzux8e8pj9pwgv8lsojajqmabe5asx6-zdvxw2abd5vlb29igwgok8vx1wygaceqx5kazswm.jpg",
+      "category": "lore",
+      "size_bytes": 292422
+    },
+    {
+      "source": "/assets/logo.png",
+      "target": "/assets/images/ui/logo.png",
+      "category": "ui",
+      "size_bytes": 334168
+    },
+    {
+      "source": "/assets/og.jpg",
+      "target": "/assets/images/lore/og.jpg",
+      "category": "lore",
+      "size_bytes": 556568
+    },
+    {
+      "source": "/assets/portal.webp",
+      "target": "/assets/images/portals/portal.webp",
+      "category": "portals",
+      "size_bytes": 118336
+    },
+    {
+      "source": "/assets/realm-ice.jpg",
+      "target": "/assets/images/maps/realm-ice.jpg",
+      "category": "maps",
+      "size_bytes": 506375
+    },
+    {
+      "source": "/assets/realm-void.jpg",
+      "target": "/assets/images/maps/realm-void.jpg",
+      "category": "maps",
+      "size_bytes": 441135
+    },
+    {
+      "source": "/assets/zogs/03-space-eagle-nebula.jpg",
+      "target": "/assets/images/backgrounds/03-space-eagle-nebula.jpg",
+      "category": "backgrounds",
+      "size_bytes": 1249623
+    },
+    {
+      "source": "/assets/zogs/1175534.jpg",
+      "target": "/assets/images/lore/1175534.jpg",
+      "category": "lore",
+      "size_bytes": 1051039
+    },
+    {
+      "source": "/assets/zogs/416030b5298d3fe495ed409820bfec69a1a62781.jpeg",
+      "target": "/assets/images/lore/416030b5298d3fe495ed409820bfec69a1a62781.jpeg",
+      "category": "lore",
+      "size_bytes": 2070937
+    },
+    {
+      "source": "/assets/zogs/425139-riendas-del-dragon-nimbo-astral.jpg",
+      "target": "/assets/images/bosses/425139-riendas-del-dragon-nimbo-astral.jpg",
+      "category": "bosses",
+      "size_bytes": 147134
+    },
+    {
+      "source": "/assets/zogs/catalog/78b35709-93da-4a94-97aa-592b9123a1ee.png",
+      "target": "/assets/images/lore/78b35709-93da-4a94-97aa-592b9123a1ee-02.png",
+      "category": "lore",
+      "size_bytes": 3124431
+    },
+    {
+      "source": "/assets/zogs/catalog/8c569664-1712-49aa-8512-36407ee88106.png",
+      "target": "/assets/images/lore/8c569664-1712-49aa-8512-36407ee88106.png",
+      "category": "lore",
+      "size_bytes": 2169345
+    },
+    {
+      "source": "/assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_50_58-2.png",
+      "target": "/assets/images/lore/chatgpt-image-11-mar-2026-16-50-58-2.png",
+      "category": "lore",
+      "size_bytes": 3495455
+    },
+    {
+      "source": "/assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_50_58.png",
+      "target": "/assets/images/lore/chatgpt-image-11-mar-2026-16-50-58.png",
+      "category": "lore",
+      "size_bytes": 3495455
+    },
+    {
+      "source": "/assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_51_05-2.png",
+      "target": "/assets/images/lore/chatgpt-image-11-mar-2026-16-51-05-2.png",
+      "category": "lore",
+      "size_bytes": 3273807
+    },
+    {
+      "source": "/assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_51_05.png",
+      "target": "/assets/images/lore/chatgpt-image-11-mar-2026-16-51-05.png",
+      "category": "lore",
+      "size_bytes": 3273807
+    },
+    {
+      "source": "/assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_51_09-2.png",
+      "target": "/assets/images/lore/chatgpt-image-11-mar-2026-16-51-09-2.png",
+      "category": "lore",
+      "size_bytes": 2169345
+    },
+    {
+      "source": "/assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_51_09.png",
+      "target": "/assets/images/lore/chatgpt-image-11-mar-2026-16-51-09.png",
+      "category": "lore",
+      "size_bytes": 2169345
+    },
+    {
+      "source": "/assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_51_14-2.png",
+      "target": "/assets/images/lore/chatgpt-image-11-mar-2026-16-51-14-2.png",
+      "category": "lore",
+      "size_bytes": 3338634
+    },
+    {
+      "source": "/assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_51_14.png",
+      "target": "/assets/images/lore/chatgpt-image-11-mar-2026-16-51-14.png",
+      "category": "lore",
+      "size_bytes": 3338634
+    },
+    {
+      "source": "/assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_51_21-2.png",
+      "target": "/assets/images/lore/chatgpt-image-11-mar-2026-16-51-21-2.png",
+      "category": "lore",
+      "size_bytes": 3350505
+    },
+    {
+      "source": "/assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_51_21.png",
+      "target": "/assets/images/lore/chatgpt-image-11-mar-2026-16-51-21.png",
+      "category": "lore",
+      "size_bytes": 3350505
+    },
+    {
+      "source": "/assets/zogs/catalog/f724590e-0a33-41c4-bcdd-d4d1f9327724.png",
+      "target": "/assets/images/lore/f724590e-0a33-41c4-bcdd-d4d1f9327724.png",
+      "category": "lore",
+      "size_bytes": 3273807
+    },
+    {
+      "source": "/assets/zogs/catalog/portada1-2.png",
+      "target": "/assets/images/hero/portada1-2.png",
+      "category": "hero",
+      "size_bytes": 3273807
+    },
+    {
+      "source": "/assets/zogs/catalog/portada1.png",
+      "target": "/assets/images/hero/portada1.png",
+      "category": "hero",
+      "size_bytes": 3273807
+    },
+    {
+      "source": "/assets/zogs/df36had-01f8f342-f79a-46e6-a381-f346676837a9.jpg",
+      "target": "/assets/images/lore/df36had-01f8f342-f79a-46e6-a381-f346676837a9.jpg",
+      "category": "lore",
+      "size_bytes": 7685075
+    },
+    {
+      "source": "/assets/zogs/fornax_virgo2011.jpg",
+      "target": "/assets/images/lore/fornax-virgo2011.jpg",
+      "category": "lore",
+      "size_bytes": 1567167
+    },
+    {
+      "source": "/assets/zogs/imported-assets/0-k-q8xid3qorj8v-t.jpg",
+      "target": "/assets/images/lore/0-k-q8xid3qorj8v-t.jpg",
+      "category": "lore",
+      "size_bytes": 46464
+    },
+    {
+      "source": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+      "target": "/assets/images/backgrounds/03-space-eagle-nebula-02.jpg",
+      "category": "backgrounds",
+      "size_bytes": 1249623
+    },
+    {
+      "source": "/assets/zogs/imported-assets/03773bf7-2ecb-470f-a390-2b02c8de1477.png",
+      "target": "/assets/images/lore/03773bf7-2ecb-470f-a390-2b02c8de1477.png",
+      "category": "lore",
+      "size_bytes": 3202768
+    },
+    {
+      "source": "/assets/zogs/imported-assets/063b3970-b498-47a2-b28a-c536c93acefc-medium.webp",
+      "target": "/assets/images/lore/063b3970-b498-47a2-b28a-c536c93acefc-medium.webp",
+      "category": "lore",
+      "size_bytes": 158658
+    },
+    {
+      "source": "/assets/zogs/imported-assets/0d6aeb92-86e0-4f77-a56f-aad63aa5fd0d-2.png",
+      "target": "/assets/images/lore/0d6aeb92-86e0-4f77-a56f-aad63aa5fd0d-2.png",
+      "category": "lore",
+      "size_bytes": 2474058
+    },
+    {
+      "source": "/assets/zogs/imported-assets/0d6aeb92-86e0-4f77-a56f-aad63aa5fd0d.png",
+      "target": "/assets/images/lore/0d6aeb92-86e0-4f77-a56f-aad63aa5fd0d.png",
+      "category": "lore",
+      "size_bytes": 2474058
+    },
+    {
+      "source": "/assets/zogs/imported-assets/1-10724-2.png",
+      "target": "/assets/images/lore/1-10724-2.png",
+      "category": "lore",
+      "size_bytes": 37236
+    },
+    {
+      "source": "/assets/zogs/imported-assets/1-10724.png",
+      "target": "/assets/images/lore/1-10724.png",
+      "category": "lore",
+      "size_bytes": 37236
+    },
+    {
+      "source": "/assets/zogs/imported-assets/1-2.png",
+      "target": "/assets/images/lore/1-2.png",
+      "category": "lore",
+      "size_bytes": 2483084
+    },
+    {
+      "source": "/assets/zogs/imported-assets/1-8ma4ocfq3xw1uaz7q-mayg.jpg",
+      "target": "/assets/images/lore/1-8ma4ocfq3xw1uaz7q-mayg.jpg",
+      "category": "lore",
+      "size_bytes": 58680
+    },
+    {
+      "source": "/assets/zogs/imported-assets/1-b1byswn3cpepfjwavyjvtq.jpg",
+      "target": "/assets/images/lore/1-b1byswn3cpepfjwavyjvtq.jpg",
+      "category": "lore",
+      "size_bytes": 183916
+    },
+    {
+      "source": "/assets/zogs/imported-assets/1-bgih56ofcuegowtqoxobq-copia.jpg",
+      "target": "/assets/images/backgrounds/1-bgih56ofcuegowtqoxobq-copia.jpg",
+      "category": "backgrounds",
+      "size_bytes": 117909
+    },
+    {
+      "source": "/assets/zogs/imported-assets/1-bgih56ofcuegowtqoxobq.jpg",
+      "target": "/assets/images/backgrounds/1-bgih56ofcuegowtqoxobq.jpg",
+      "category": "backgrounds",
+      "size_bytes": 117909
+    },
+    {
+      "source": "/assets/zogs/imported-assets/1-vvvdyu4yy7mdsykr2od-fq.jpg",
+      "target": "/assets/images/lore/1-vvvdyu4yy7mdsykr2od-fq.jpg",
+      "category": "lore",
+      "size_bytes": 275876
+    },
+    {
+      "source": "/assets/zogs/imported-assets/1.png",
+      "target": "/assets/images/lore/1.png",
+      "category": "lore",
+      "size_bytes": 2483084
+    },
+    {
+      "source": "/assets/zogs/imported-assets/10-2.png",
+      "target": "/assets/images/lore/10-2.png",
+      "category": "lore",
+      "size_bytes": 2405931
+    },
+    {
+      "source": "/assets/zogs/imported-assets/10.png",
+      "target": "/assets/images/lore/10.png",
+      "category": "lore",
+      "size_bytes": 2405931
+    },
+    {
+      "source": "/assets/zogs/imported-assets/1003670-1.png",
+      "target": "/assets/images/lore/1003670-1.png",
+      "category": "lore",
+      "size_bytes": 3056232
+    },
+    {
+      "source": "/assets/zogs/imported-assets/11-2.png",
+      "target": "/assets/images/lore/11-2.png",
+      "category": "lore",
+      "size_bytes": 2385026
+    },
+    {
+      "source": "/assets/zogs/imported-assets/11.png",
+      "target": "/assets/images/lore/11.png",
+      "category": "lore",
+      "size_bytes": 2385026
+    },
+    {
+      "source": "/assets/zogs/imported-assets/11212408550228480745-2048.jpg",
+      "target": "/assets/images/lore/11212408550228480745-2048.jpg",
+      "category": "lore",
+      "size_bytes": 509747
+    },
+    {
+      "source": "/assets/zogs/imported-assets/1175534.jpg",
+      "target": "/assets/images/lore/1175534-02.jpg",
+      "category": "lore",
+      "size_bytes": 1051039
+    },
+    {
+      "source": "/assets/zogs/imported-assets/12-2.png",
+      "target": "/assets/images/lore/12-2.png",
+      "category": "lore",
+      "size_bytes": 2444381
+    },
+    {
+      "source": "/assets/zogs/imported-assets/12.png",
+      "target": "/assets/images/lore/12.png",
+      "category": "lore",
+      "size_bytes": 2444381
+    },
+    {
+      "source": "/assets/zogs/imported-assets/1200x866.jpg",
+      "target": "/assets/images/lore/1200x866.jpg",
+      "category": "lore",
+      "size_bytes": 251897
+    },
+    {
+      "source": "/assets/zogs/imported-assets/13-2.png",
+      "target": "/assets/images/lore/13-2.png",
+      "category": "lore",
+      "size_bytes": 2250568
+    },
+    {
+      "source": "/assets/zogs/imported-assets/13.png",
+      "target": "/assets/images/lore/13.png",
+      "category": "lore",
+      "size_bytes": 2250568
+    },
+    {
+      "source": "/assets/zogs/imported-assets/14-2.png",
+      "target": "/assets/images/lore/14-2.png",
+      "category": "lore",
+      "size_bytes": 2463632
+    },
+    {
+      "source": "/assets/zogs/imported-assets/14-3.png",
+      "target": "/assets/images/lore/14-3.png",
+      "category": "lore",
+      "size_bytes": 2463632
+    },
+    {
+      "source": "/assets/zogs/imported-assets/14.png",
+      "target": "/assets/images/lore/14.png",
+      "category": "lore",
+      "size_bytes": 1391426
+    },
+    {
+      "source": "/assets/zogs/imported-assets/14df6d39-249a-4bf6-93de-7bcf4457690e-medium.webp",
+      "target": "/assets/images/lore/14df6d39-249a-4bf6-93de-7bcf4457690e-medium.webp",
+      "category": "lore",
+      "size_bytes": 123712
+    },
+    {
+      "source": "/assets/zogs/imported-assets/15-2.png",
+      "target": "/assets/images/lore/15-2.png",
+      "category": "lore",
+      "size_bytes": 3504407
+    },
+    {
+      "source": "/assets/zogs/imported-assets/15.png",
+      "target": "/assets/images/lore/15.png",
+      "category": "lore",
+      "size_bytes": 3504407
+    },
+    {
+      "source": "/assets/zogs/imported-assets/15c7f06a-d254-4014-8312-6c9d39d507b3.png",
+      "target": "/assets/images/lore/15c7f06a-d254-4014-8312-6c9d39d507b3.png",
+      "category": "lore",
+      "size_bytes": 2934746
+    },
+    {
+      "source": "/assets/zogs/imported-assets/16-2.png",
+      "target": "/assets/images/lore/16-2.png",
+      "category": "lore",
+      "size_bytes": 3701062
+    },
+    {
+      "source": "/assets/zogs/imported-assets/16.png",
+      "target": "/assets/images/lore/16.png",
+      "category": "lore",
+      "size_bytes": 3701062
+    },
+    {
+      "source": "/assets/zogs/imported-assets/16b6820b-a3a6-4f12-bd91-bdcf5c97acc4-2.png",
+      "target": "/assets/images/lore/16b6820b-a3a6-4f12-bd91-bdcf5c97acc4-2.png",
+      "category": "lore",
+      "size_bytes": 2398610
+    },
+    {
+      "source": "/assets/zogs/imported-assets/16b6820b-a3a6-4f12-bd91-bdcf5c97acc4.png",
+      "target": "/assets/images/lore/16b6820b-a3a6-4f12-bd91-bdcf5c97acc4.png",
+      "category": "lore",
+      "size_bytes": 2398610
+    },
+    {
+      "source": "/assets/zogs/imported-assets/16ce668b-cc24-44c5-b785-003eacfc1a66-2.png",
+      "target": "/assets/images/lore/16ce668b-cc24-44c5-b785-003eacfc1a66-2.png",
+      "category": "lore",
+      "size_bytes": 2130416
+    },
+    {
+      "source": "/assets/zogs/imported-assets/16ce668b-cc24-44c5-b785-003eacfc1a66.png",
+      "target": "/assets/images/lore/16ce668b-cc24-44c5-b785-003eacfc1a66.png",
+      "category": "lore",
+      "size_bytes": 2130416
+    },
+    {
+      "source": "/assets/zogs/imported-assets/17-2.png",
+      "target": "/assets/images/lore/17-2.png",
+      "category": "lore",
+      "size_bytes": 3013414
+    },
+    {
+      "source": "/assets/zogs/imported-assets/17.png",
+      "target": "/assets/images/lore/17.png",
+      "category": "lore",
+      "size_bytes": 3013414
+    },
+    {
+      "source": "/assets/zogs/imported-assets/18-2.png",
+      "target": "/assets/images/lore/18-2.png",
+      "category": "lore",
+      "size_bytes": 2221877
+    },
+    {
+      "source": "/assets/zogs/imported-assets/18.png",
+      "target": "/assets/images/lore/18.png",
+      "category": "lore",
+      "size_bytes": 2221877
+    },
+    {
+      "source": "/assets/zogs/imported-assets/1856dcec-c3f1-4031-8b9c-811155a8bcfc.png",
+      "target": "/assets/images/lore/1856dcec-c3f1-4031-8b9c-811155a8bcfc.png",
+      "category": "lore",
+      "size_bytes": 3254144
+    },
+    {
+      "source": "/assets/zogs/imported-assets/19-2.png",
+      "target": "/assets/images/lore/19-2.png",
+      "category": "lore",
+      "size_bytes": 2130416
+    },
+    {
+      "source": "/assets/zogs/imported-assets/19.png",
+      "target": "/assets/images/lore/19.png",
+      "category": "lore",
+      "size_bytes": 2130416
+    },
+    {
+      "source": "/assets/zogs/imported-assets/1a7c4613c8f558ac8e41cf06af40498d.jpg",
+      "target": "/assets/images/lore/1a7c4613c8f558ac8e41cf06af40498d.jpg",
+      "category": "lore",
+      "size_bytes": 142196
+    },
+    {
+      "source": "/assets/zogs/imported-assets/2-2.png",
+      "target": "/assets/images/lore/2-2.png",
+      "category": "lore",
+      "size_bytes": 2486979
+    },
+    {
+      "source": "/assets/zogs/imported-assets/2.png",
+      "target": "/assets/images/lore/2.png",
+      "category": "lore",
+      "size_bytes": 2486979
+    },
+    {
+      "source": "/assets/zogs/imported-assets/20-2.png",
+      "target": "/assets/images/lore/20-2.png",
+      "category": "lore",
+      "size_bytes": 2441997
+    },
+    {
+      "source": "/assets/zogs/imported-assets/20.png",
+      "target": "/assets/images/lore/20.png",
+      "category": "lore",
+      "size_bytes": 2441997
+    },
+    {
+      "source": "/assets/zogs/imported-assets/2024-09-22t18-29-07-375z-medium.webp",
+      "target": "/assets/images/lore/2024-09-22t18-29-07-375z-medium.webp",
+      "category": "lore",
+      "size_bytes": 115728
+    },
+    {
+      "source": "/assets/zogs/imported-assets/21-2.png",
+      "target": "/assets/images/lore/21-2.png",
+      "category": "lore",
+      "size_bytes": 2563246
+    },
+    {
+      "source": "/assets/zogs/imported-assets/21.png",
+      "target": "/assets/images/lore/21.png",
+      "category": "lore",
+      "size_bytes": 2563246
+    },
+    {
+      "source": "/assets/zogs/imported-assets/2862206.jpg",
+      "target": "/assets/images/lore/2862206.jpg",
+      "category": "lore",
+      "size_bytes": 14000
+    },
+    {
+      "source": "/assets/zogs/imported-assets/2fe9563b-d22f-4f45-b54e-a54b258da6dd-2.png",
+      "target": "/assets/images/lore/2fe9563b-d22f-4f45-b54e-a54b258da6dd-2.png",
+      "category": "lore",
+      "size_bytes": 2370738
+    },
+    {
+      "source": "/assets/zogs/imported-assets/2fe9563b-d22f-4f45-b54e-a54b258da6dd.png",
+      "target": "/assets/images/lore/2fe9563b-d22f-4f45-b54e-a54b258da6dd.png",
+      "category": "lore",
+      "size_bytes": 2370738
+    },
+    {
+      "source": "/assets/zogs/imported-assets/3-2.png",
+      "target": "/assets/images/lore/3-2.png",
+      "category": "lore",
+      "size_bytes": 2339848
+    },
+    {
+      "source": "/assets/zogs/imported-assets/3.png",
+      "target": "/assets/images/lore/3.png",
+      "category": "lore",
+      "size_bytes": 2339848
+    },
+    {
+      "source": "/assets/zogs/imported-assets/3618c7ef-caee-46a1-9cc6-bc1d0e518ce5-2.png",
+      "target": "/assets/images/lore/3618c7ef-caee-46a1-9cc6-bc1d0e518ce5-2.png",
+      "category": "lore",
+      "size_bytes": 2221877
+    },
+    {
+      "source": "/assets/zogs/imported-assets/3618c7ef-caee-46a1-9cc6-bc1d0e518ce5.png",
+      "target": "/assets/images/lore/3618c7ef-caee-46a1-9cc6-bc1d0e518ce5.png",
+      "category": "lore",
+      "size_bytes": 2221877
+    },
+    {
+      "source": "/assets/zogs/imported-assets/3dfd977c-55ee-41de-9e5b-bc1890cf5441-2.png",
+      "target": "/assets/images/lore/3dfd977c-55ee-41de-9e5b-bc1890cf5441-2.png",
+      "category": "lore",
+      "size_bytes": 2410483
+    },
+    {
+      "source": "/assets/zogs/imported-assets/3dfd977c-55ee-41de-9e5b-bc1890cf5441.png",
+      "target": "/assets/images/lore/3dfd977c-55ee-41de-9e5b-bc1890cf5441.png",
+      "category": "lore",
+      "size_bytes": 2410483
+    },
+    {
+      "source": "/assets/zogs/imported-assets/4-2.png",
+      "target": "/assets/images/lore/4-2.png",
+      "category": "lore",
+      "size_bytes": 2227689
+    },
+    {
+      "source": "/assets/zogs/imported-assets/4.png",
+      "target": "/assets/images/lore/4.png",
+      "category": "lore",
+      "size_bytes": 2227689
+    },
+    {
+      "source": "/assets/zogs/imported-assets/416030b5298d3fe495ed409820bfec69a1a62781.jpeg",
+      "target": "/assets/images/lore/416030b5298d3fe495ed409820bfec69a1a62781-02.jpeg",
+      "category": "lore",
+      "size_bytes": 2070937
+    },
+    {
+      "source": "/assets/zogs/imported-assets/425139-riendas-del-dragon-nimbo-astral.jpg",
+      "target": "/assets/images/bosses/425139-riendas-del-dragon-nimbo-astral-02.jpg",
+      "category": "bosses",
+      "size_bytes": 147134
+    },
+    {
+      "source": "/assets/zogs/imported-assets/44fef06ec8bdbb784ba2ae2b4ab1983ade52b7dc.jpeg",
+      "target": "/assets/images/lore/44fef06ec8bdbb784ba2ae2b4ab1983ade52b7dc.jpeg",
+      "category": "lore",
+      "size_bytes": 60005
+    },
+    {
+      "source": "/assets/zogs/imported-assets/45588853-d137-429c-9ef4-2cad2caeacea-2.png",
+      "target": "/assets/images/lore/45588853-d137-429c-9ef4-2cad2caeacea-2.png",
+      "category": "lore",
+      "size_bytes": 2431306
+    },
+    {
+      "source": "/assets/zogs/imported-assets/45588853-d137-429c-9ef4-2cad2caeacea.png",
+      "target": "/assets/images/lore/45588853-d137-429c-9ef4-2cad2caeacea.png",
+      "category": "lore",
+      "size_bytes": 2431306
+    },
+    {
+      "source": "/assets/zogs/imported-assets/48b9aeb7c93c1707315444bdc150b43e.jpg",
+      "target": "/assets/images/lore/48b9aeb7c93c1707315444bdc150b43e.jpg",
+      "category": "lore",
+      "size_bytes": 39741
+    },
+    {
+      "source": "/assets/zogs/imported-assets/4ab2e091-da1b-48c5-a6c1-1fb3d0cc6289.png",
+      "target": "/assets/images/lore/4ab2e091-da1b-48c5-a6c1-1fb3d0cc6289.png",
+      "category": "lore",
+      "size_bytes": 3226931
+    },
+    {
+      "source": "/assets/zogs/imported-assets/5-2.png",
+      "target": "/assets/images/lore/5-2.png",
+      "category": "lore",
+      "size_bytes": 2149927
+    },
+    {
+      "source": "/assets/zogs/imported-assets/5.png",
+      "target": "/assets/images/lore/5.png",
+      "category": "lore",
+      "size_bytes": 2149927
+    },
+    {
+      "source": "/assets/zogs/imported-assets/52a55a68-a27e-42d0-86f1-cb8466346eeb-2.png",
+      "target": "/assets/images/lore/52a55a68-a27e-42d0-86f1-cb8466346eeb-2.png",
+      "category": "lore",
+      "size_bytes": 2849866
+    },
+    {
+      "source": "/assets/zogs/imported-assets/52a55a68-a27e-42d0-86f1-cb8466346eeb-3.png",
+      "target": "/assets/images/lore/52a55a68-a27e-42d0-86f1-cb8466346eeb-3.png",
+      "category": "lore",
+      "size_bytes": 2849866
+    },
+    {
+      "source": "/assets/zogs/imported-assets/52a55a68-a27e-42d0-86f1-cb8466346eeb.png",
+      "target": "/assets/images/lore/52a55a68-a27e-42d0-86f1-cb8466346eeb.png",
+      "category": "lore",
+      "size_bytes": 2849866
+    },
+    {
+      "source": "/assets/zogs/imported-assets/549cc996-b0e6-48c3-bb4e-02ac064d8c88-2.png",
+      "target": "/assets/images/lore/549cc996-b0e6-48c3-bb4e-02ac064d8c88-2.png",
+      "category": "lore",
+      "size_bytes": 2250568
+    },
+    {
+      "source": "/assets/zogs/imported-assets/549cc996-b0e6-48c3-bb4e-02ac064d8c88.png",
+      "target": "/assets/images/lore/549cc996-b0e6-48c3-bb4e-02ac064d8c88.png",
+      "category": "lore",
+      "size_bytes": 2250568
+    },
+    {
+      "source": "/assets/zogs/imported-assets/5d8457df-af04-49c4-b28f-d25b4c09cfb9-2.png",
+      "target": "/assets/images/lore/5d8457df-af04-49c4-b28f-d25b4c09cfb9-2.png",
+      "category": "lore",
+      "size_bytes": 2385026
+    },
+    {
+      "source": "/assets/zogs/imported-assets/5d8457df-af04-49c4-b28f-d25b4c09cfb9.png",
+      "target": "/assets/images/lore/5d8457df-af04-49c4-b28f-d25b4c09cfb9.png",
+      "category": "lore",
+      "size_bytes": 2385026
+    },
+    {
+      "source": "/assets/zogs/imported-assets/5e7hhx9srml3rszjwgoxyz1hxzfsuahls-ta4julzhrm15r8r5ct-nbfnrppz4g-hqcpomwqopu8p7mk72hqk2m1vkljnop4ccnsx4cgxb0.jpg",
+      "target": "/assets/images/lore/5e7hhx9srml3rszjwgoxyz1hxzfsuahls-ta4julzhrm15r8r5ct-nbfnrppz4g-hqcpomwqopu8p7mk72hqk2m1vkljnop4ccnsx4cgxb0.jpg",
+      "category": "lore",
+      "size_bytes": 100868
+    },
+    {
+      "source": "/assets/zogs/imported-assets/6-2.png",
+      "target": "/assets/images/lore/6-2.png",
+      "category": "lore",
+      "size_bytes": 2386292
+    },
+    {
+      "source": "/assets/zogs/imported-assets/6.png",
+      "target": "/assets/images/lore/6.png",
+      "category": "lore",
+      "size_bytes": 2386292
+    },
+    {
+      "source": "/assets/zogs/imported-assets/61-fd-qumkl-ac-uf1000-1000-ql80.jpg",
+      "target": "/assets/images/lore/61-fd-qumkl-ac-uf1000-1000-ql80.jpg",
+      "category": "lore",
+      "size_bytes": 72378
+    },
+    {
+      "source": "/assets/zogs/imported-assets/65c1250a-3442-4e2c-a974-a9b6599873fc.webp",
+      "target": "/assets/images/lore/65c1250a-3442-4e2c-a974-a9b6599873fc.webp",
+      "category": "lore",
+      "size_bytes": 443404
+    },
+    {
+      "source": "/assets/zogs/imported-assets/684ec1eb-6801-4f15-a244-fa8f13d33ab8-2.png",
+      "target": "/assets/images/lore/684ec1eb-6801-4f15-a244-fa8f13d33ab8-2.png",
+      "category": "lore",
+      "size_bytes": 2330337
+    },
+    {
+      "source": "/assets/zogs/imported-assets/684ec1eb-6801-4f15-a244-fa8f13d33ab8.png",
+      "target": "/assets/images/lore/684ec1eb-6801-4f15-a244-fa8f13d33ab8.png",
+      "category": "lore",
+      "size_bytes": 2330337
+    },
+    {
+      "source": "/assets/zogs/imported-assets/6assets1-2.png",
+      "target": "/assets/images/lore/6assets1-2.png",
+      "category": "lore",
+      "size_bytes": 3154217
+    },
+    {
+      "source": "/assets/zogs/imported-assets/6assets1-3.png",
+      "target": "/assets/images/lore/6assets1-3.png",
+      "category": "lore",
+      "size_bytes": 3154217
+    },
+    {
+      "source": "/assets/zogs/imported-assets/6assets1-4.png",
+      "target": "/assets/images/lore/6assets1-4.png",
+      "category": "lore",
+      "size_bytes": 3154217
+    },
+    {
+      "source": "/assets/zogs/imported-assets/6assets1.png",
+      "target": "/assets/images/lore/6assets1.png",
+      "category": "lore",
+      "size_bytes": 3154217
+    },
+    {
+      "source": "/assets/zogs/imported-assets/6cbcac41-3cee-48d5-953c-ea7ad1a04098-2.png",
+      "target": "/assets/images/lore/6cbcac41-3cee-48d5-953c-ea7ad1a04098-2.png",
+      "category": "lore",
+      "size_bytes": 2467611
+    },
+    {
+      "source": "/assets/zogs/imported-assets/6cbcac41-3cee-48d5-953c-ea7ad1a04098.png",
+      "target": "/assets/images/lore/6cbcac41-3cee-48d5-953c-ea7ad1a04098.png",
+      "category": "lore",
+      "size_bytes": 2467611
+    },
+    {
+      "source": "/assets/zogs/imported-assets/6jfy7ecahuosjccauylb3o.jpg",
+      "target": "/assets/images/lore/6jfy7ecahuosjccauylb3o.jpg",
+      "category": "lore",
+      "size_bytes": 266083
+    },
+    {
+      "source": "/assets/zogs/imported-assets/7-2.png",
+      "target": "/assets/images/lore/7-2.png",
+      "category": "lore",
+      "size_bytes": 2647945
+    },
+    {
+      "source": "/assets/zogs/imported-assets/7.png",
+      "target": "/assets/images/lore/7.png",
+      "category": "lore",
+      "size_bytes": 2647945
+    },
+    {
+      "source": "/assets/zogs/imported-assets/71qsfmevfdl-ac-uf1000-1000-ql80.jpg",
+      "target": "/assets/images/lore/71qsfmevfdl-ac-uf1000-1000-ql80.jpg",
+      "category": "lore",
+      "size_bytes": 81435
+    },
+    {
+      "source": "/assets/zogs/imported-assets/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0-2.png",
+      "target": "/assets/images/lore/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0-2.png",
+      "category": "lore",
+      "size_bytes": 3701062
+    },
+    {
+      "source": "/assets/zogs/imported-assets/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0.png",
+      "target": "/assets/images/lore/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0.png",
+      "category": "lore",
+      "size_bytes": 3701062
+    },
+    {
+      "source": "/assets/zogs/imported-assets/78565d2d-57ec-41fb-ac8b-0013a2c9236c-2.png",
+      "target": "/assets/images/lore/78565d2d-57ec-41fb-ac8b-0013a2c9236c-2.png",
+      "category": "lore",
+      "size_bytes": 3504407
+    },
+    {
+      "source": "/assets/zogs/imported-assets/78565d2d-57ec-41fb-ac8b-0013a2c9236c.png",
+      "target": "/assets/images/lore/78565d2d-57ec-41fb-ac8b-0013a2c9236c.png",
+      "category": "lore",
+      "size_bytes": 3504407
+    },
+    {
+      "source": "/assets/zogs/imported-assets/78b35709-93da-4a94-97aa-592b9123a1ee.png",
+      "target": "/assets/images/lore/78b35709-93da-4a94-97aa-592b9123a1ee-03.png",
+      "category": "lore",
+      "size_bytes": 3124431
+    },
+    {
+      "source": "/assets/zogs/imported-assets/8-2.png",
+      "target": "/assets/images/lore/8-2.png",
+      "category": "lore",
+      "size_bytes": 2431306
+    },
+    {
+      "source": "/assets/zogs/imported-assets/8.png",
+      "target": "/assets/images/lore/8.png",
+      "category": "lore",
+      "size_bytes": 2431306
+    },
+    {
+      "source": "/assets/zogs/imported-assets/8b16e5a2-ae02-4eb2-a405-67d740e71669-2.png",
+      "target": "/assets/images/lore/8b16e5a2-ae02-4eb2-a405-67d740e71669-2.png",
+      "category": "lore",
+      "size_bytes": 2172241
+    },
+    {
+      "source": "/assets/zogs/imported-assets/8b16e5a2-ae02-4eb2-a405-67d740e71669.png",
+      "target": "/assets/images/lore/8b16e5a2-ae02-4eb2-a405-67d740e71669.png",
+      "category": "lore",
+      "size_bytes": 2172241
+    },
+    {
+      "source": "/assets/zogs/imported-assets/8b33a2cfdba72ecfe415cba79d9f8ea9.jpg",
+      "target": "/assets/images/lore/8b33a2cfdba72ecfe415cba79d9f8ea9.jpg",
+      "category": "lore",
+      "size_bytes": 61138
+    },
+    {
+      "source": "/assets/zogs/imported-assets/8bb89adf-d6f5-41f4-b314-90d09fa25c60-2.png",
+      "target": "/assets/images/lore/8bb89adf-d6f5-41f4-b314-90d09fa25c60-2.png",
+      "category": "lore",
+      "size_bytes": 2373497
+    },
+    {
+      "source": "/assets/zogs/imported-assets/8bb89adf-d6f5-41f4-b314-90d09fa25c60.png",
+      "target": "/assets/images/lore/8bb89adf-d6f5-41f4-b314-90d09fa25c60.png",
+      "category": "lore",
+      "size_bytes": 2373497
+    },
+    {
+      "source": "/assets/zogs/imported-assets/8c569664-1712-49aa-8512-36407ee88106.png",
+      "target": "/assets/images/lore/8c569664-1712-49aa-8512-36407ee88106-02.png",
+      "category": "lore",
+      "size_bytes": 2169345
+    },
+    {
+      "source": "/assets/zogs/imported-assets/8f245e3f-8a88-47cb-bdf9-e00067f38896-2.png",
+      "target": "/assets/images/lore/8f245e3f-8a88-47cb-bdf9-e00067f38896-2.png",
+      "category": "lore",
+      "size_bytes": 2417971
+    },
+    {
+      "source": "/assets/zogs/imported-assets/8f245e3f-8a88-47cb-bdf9-e00067f38896.png",
+      "target": "/assets/images/lore/8f245e3f-8a88-47cb-bdf9-e00067f38896.png",
+      "category": "lore",
+      "size_bytes": 2417971
+    },
+    {
+      "source": "/assets/zogs/imported-assets/8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f-2.png",
+      "target": "/assets/images/lore/8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f-2.png",
+      "category": "lore",
+      "size_bytes": 2463632
+    },
+    {
+      "source": "/assets/zogs/imported-assets/8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f.png",
+      "target": "/assets/images/lore/8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f.png",
+      "category": "lore",
+      "size_bytes": 2463632
+    },
+    {
+      "source": "/assets/zogs/imported-assets/9-2.png",
+      "target": "/assets/images/lore/9-2.png",
+      "category": "lore",
+      "size_bytes": 2467611
+    },
+    {
+      "source": "/assets/zogs/imported-assets/9.png",
+      "target": "/assets/images/lore/9.png",
+      "category": "lore",
+      "size_bytes": 2467611
+    },
+    {
+      "source": "/assets/zogs/imported-assets/975686f3-6e46-4ba6-a244-01c331fc70cd.png",
+      "target": "/assets/images/lore/975686f3-6e46-4ba6-a244-01c331fc70cd.png",
+      "category": "lore",
+      "size_bytes": 1886648
+    },
+    {
+      "source": "/assets/zogs/imported-assets/999-asets-in-one-2.png",
+      "target": "/assets/images/lore/999-asets-in-one-2.png",
+      "category": "lore",
+      "size_bytes": 3265306
+    },
+    {
+      "source": "/assets/zogs/imported-assets/999-asets-in-one-3.png",
+      "target": "/assets/images/lore/999-asets-in-one-3.png",
+      "category": "lore",
+      "size_bytes": 3265306
+    },
+    {
+      "source": "/assets/zogs/imported-assets/999-asets-in-one-4.png",
+      "target": "/assets/images/lore/999-asets-in-one-4.png",
+      "category": "lore",
+      "size_bytes": 3265306
+    },
+    {
+      "source": "/assets/zogs/imported-assets/999-asets-in-one.png",
+      "target": "/assets/images/lore/999-asets-in-one.png",
+      "category": "lore",
+      "size_bytes": 3265306
+    },
+    {
+      "source": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+      "target": "/assets/images/maps/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+      "category": "maps",
+      "size_bytes": 3309203
+    },
+    {
+      "source": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+      "target": "/assets/images/maps/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+      "category": "maps",
+      "size_bytes": 3309203
+    },
+    {
+      "source": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos.png",
+      "target": "/assets/images/maps/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos.png",
+      "category": "maps",
+      "size_bytes": 3309203
+    },
+    {
+      "source": "/assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos-2.png",
+      "target": "/assets/images/maps/999personajes-principales-y-mapas-donde-viven-endcosmos-2.png",
+      "category": "maps",
+      "size_bytes": 3289393
+    },
+    {
+      "source": "/assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos-3.png",
+      "target": "/assets/images/maps/999personajes-principales-y-mapas-donde-viven-endcosmos-3.png",
+      "category": "maps",
+      "size_bytes": 3289393
+    },
+    {
+      "source": "/assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos-4.png",
+      "target": "/assets/images/maps/999personajes-principales-y-mapas-donde-viven-endcosmos-4.png",
+      "category": "maps",
+      "size_bytes": 3289393
+    },
+    {
+      "source": "/assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos.png",
+      "target": "/assets/images/maps/999personajes-principales-y-mapas-donde-viven-endcosmos.png",
+      "category": "maps",
+      "size_bytes": 3289393
+    },
+    {
+      "source": "/assets/zogs/imported-assets/9d9d5754ae8016c18a7fd4029ab11df8.jpg",
+      "target": "/assets/images/lore/9d9d5754ae8016c18a7fd4029ab11df8.jpg",
+      "category": "lore",
+      "size_bytes": 21637
+    },
+    {
+      "source": "/assets/zogs/imported-assets/a3c855c4002ab5455ab6abc70e0304a6.jpeg",
+      "target": "/assets/images/lore/a3c855c4002ab5455ab6abc70e0304a6.jpeg",
+      "category": "lore",
+      "size_bytes": 71743
+    },
+    {
+      "source": "/assets/zogs/imported-assets/a49f8d18-49f0-4682-be93-c53515e75621-2.png",
+      "target": "/assets/images/lore/a49f8d18-49f0-4682-be93-c53515e75621-2.png",
+      "category": "lore",
+      "size_bytes": 2405931
+    },
+    {
+      "source": "/assets/zogs/imported-assets/a49f8d18-49f0-4682-be93-c53515e75621.png",
+      "target": "/assets/images/lore/a49f8d18-49f0-4682-be93-c53515e75621.png",
+      "category": "lore",
+      "size_bytes": 2405931
+    },
+    {
+      "source": "/assets/zogs/imported-assets/aa1fba69-49b4-41d4-a931-92ae9955fbc2-2.png",
+      "target": "/assets/images/lore/aa1fba69-49b4-41d4-a931-92ae9955fbc2-2.png",
+      "category": "lore",
+      "size_bytes": 3013414
+    },
+    {
+      "source": "/assets/zogs/imported-assets/aa1fba69-49b4-41d4-a931-92ae9955fbc2.png",
+      "target": "/assets/images/lore/aa1fba69-49b4-41d4-a931-92ae9955fbc2.png",
+      "category": "lore",
+      "size_bytes": 3013414
+    },
+    {
+      "source": "/assets/zogs/imported-assets/aa9082e8-4ee2-43e9-9af8-38ca8071a04c-2.png",
+      "target": "/assets/images/lore/aa9082e8-4ee2-43e9-9af8-38ca8071a04c-2.png",
+      "category": "lore",
+      "size_bytes": 2563246
+    },
+    {
+      "source": "/assets/zogs/imported-assets/aa9082e8-4ee2-43e9-9af8-38ca8071a04c.png",
+      "target": "/assets/images/lore/aa9082e8-4ee2-43e9-9af8-38ca8071a04c.png",
+      "category": "lore",
+      "size_bytes": 2563246
+    },
+    {
+      "source": "/assets/zogs/imported-assets/ae14fc54-1152-49eb-bc33-ba8a56fe83f0-medium.webp",
+      "target": "/assets/images/lore/ae14fc54-1152-49eb-bc33-ba8a56fe83f0-medium.webp",
+      "category": "lore",
+      "size_bytes": 111950
+    },
+    {
+      "source": "/assets/zogs/imported-assets/aguejero-nogro-2.png",
+      "target": "/assets/images/lore/aguejero-nogro-2.png",
+      "category": "lore",
+      "size_bytes": 2277828
+    },
+    {
+      "source": "/assets/zogs/imported-assets/aguejero-nogro-3.png",
+      "target": "/assets/images/lore/aguejero-nogro-3.png",
+      "category": "lore",
+      "size_bytes": 2277828
+    },
+    {
+      "source": "/assets/zogs/imported-assets/aguejero-nogro.png",
+      "target": "/assets/images/lore/aguejero-nogro.png",
+      "category": "lore",
+      "size_bytes": 2277828
+    },
+    {
+      "source": "/assets/zogs/imported-assets/album-alb2268411.jpg",
+      "target": "/assets/images/lore/album-alb2268411.jpg",
+      "category": "lore",
+      "size_bytes": 310057
+    },
+    {
+      "source": "/assets/zogs/imported-assets/alien1.png",
+      "target": "/assets/images/lore/alien1.png",
+      "category": "lore",
+      "size_bytes": 1499756
+    },
+    {
+      "source": "/assets/zogs/imported-assets/b35989dc-d0df-4d58-9261-75ac7dec3c55-2.png",
+      "target": "/assets/images/lore/b35989dc-d0df-4d58-9261-75ac7dec3c55-2.png",
+      "category": "lore",
+      "size_bytes": 2130511
+    },
+    {
+      "source": "/assets/zogs/imported-assets/b35989dc-d0df-4d58-9261-75ac7dec3c55.png",
+      "target": "/assets/images/lore/b35989dc-d0df-4d58-9261-75ac7dec3c55.png",
+      "category": "lore",
+      "size_bytes": 2130511
+    },
+    {
+      "source": "/assets/zogs/imported-assets/b661a293-e619-49a4-ba52-801e93a43dac.png",
+      "target": "/assets/images/lore/b661a293-e619-49a4-ba52-801e93a43dac.png",
+      "category": "lore",
+      "size_bytes": 3176440
+    },
+    {
+      "source": "/assets/zogs/imported-assets/b698bcb7-6877-4445-bf88-8e945f885a59-2.png",
+      "target": "/assets/images/lore/b698bcb7-6877-4445-bf88-8e945f885a59-2.png",
+      "category": "lore",
+      "size_bytes": 2444381
+    },
+    {
+      "source": "/assets/zogs/imported-assets/b698bcb7-6877-4445-bf88-8e945f885a59.png",
+      "target": "/assets/images/lore/b698bcb7-6877-4445-bf88-8e945f885a59.png",
+      "category": "lore",
+      "size_bytes": 2444381
+    },
+    {
+      "source": "/assets/zogs/imported-assets/c612df9e-1ffa-4884-9116-353ed4816099-2.png",
+      "target": "/assets/images/lore/c612df9e-1ffa-4884-9116-353ed4816099-2.png",
+      "category": "lore",
+      "size_bytes": 2441997
+    },
+    {
+      "source": "/assets/zogs/imported-assets/c612df9e-1ffa-4884-9116-353ed4816099.png",
+      "target": "/assets/images/lore/c612df9e-1ffa-4884-9116-353ed4816099.png",
+      "category": "lore",
+      "size_bytes": 2441997
+    },
+    {
+      "source": "/assets/zogs/imported-assets/c887adcf-7f4a-497f-8faf-d3c6aa427674.png",
+      "target": "/assets/images/lore/c887adcf-7f4a-497f-8faf-d3c6aa427674.png",
+      "category": "lore",
+      "size_bytes": 1270509
+    },
+    {
+      "source": "/assets/zogs/imported-assets/cae88e3c-21db-491a-b025-d290863e236f.png",
+      "target": "/assets/images/lore/cae88e3c-21db-491a-b025-d290863e236f.png",
+      "category": "lore",
+      "size_bytes": 2873322
+    },
+    {
+      "source": "/assets/zogs/imported-assets/chatgpt-image-11-mar-2026-16-50-58.png",
+      "target": "/assets/images/lore/chatgpt-image-11-mar-2026-16-50-58-02.png",
+      "category": "lore",
+      "size_bytes": 3495455
+    },
+    {
+      "source": "/assets/zogs/imported-assets/chatgpt-image-11-mar-2026-16-51-05.png",
+      "target": "/assets/images/lore/chatgpt-image-11-mar-2026-16-51-05-02.png",
+      "category": "lore",
+      "size_bytes": 3273807
+    },
+    {
+      "source": "/assets/zogs/imported-assets/chatgpt-image-11-mar-2026-16-51-09.png",
+      "target": "/assets/images/lore/chatgpt-image-11-mar-2026-16-51-09-02.png",
+      "category": "lore",
+      "size_bytes": 2169345
+    },
+    {
+      "source": "/assets/zogs/imported-assets/chatgpt-image-11-mar-2026-16-51-14.png",
+      "target": "/assets/images/lore/chatgpt-image-11-mar-2026-16-51-14-02.png",
+      "category": "lore",
+      "size_bytes": 3338634
+    },
+    {
+      "source": "/assets/zogs/imported-assets/chatgpt-image-11-mar-2026-16-51-21.png",
+      "target": "/assets/images/lore/chatgpt-image-11-mar-2026-16-51-21-02.png",
+      "category": "lore",
+      "size_bytes": 3350505
+    },
+    {
+      "source": "/assets/zogs/imported-assets/chatgpt-image-12-mar-2026-04-19-22-2.png",
+      "target": "/assets/images/lore/chatgpt-image-12-mar-2026-04-19-22-2.png",
+      "category": "lore",
+      "size_bytes": 3387484
+    },
+    {
+      "source": "/assets/zogs/imported-assets/chatgpt-image-12-mar-2026-04-19-22.png",
+      "target": "/assets/images/lore/chatgpt-image-12-mar-2026-04-19-22.png",
+      "category": "lore",
+      "size_bytes": 3387484
+    },
+    {
+      "source": "/assets/zogs/imported-assets/chatgpt-image-6-mar-2026-20-33-12.png",
+      "target": "/assets/images/lore/chatgpt-image-6-mar-2026-20-33-12.png",
+      "category": "lore",
+      "size_bytes": 2934746
+    },
+    {
+      "source": "/assets/zogs/imported-assets/chatgpt-image-6-mar-2026-20-45-34.png",
+      "target": "/assets/images/lore/chatgpt-image-6-mar-2026-20-45-34.png",
+      "category": "lore",
+      "size_bytes": 3459378
+    },
+    {
+      "source": "/assets/zogs/imported-assets/chatgpt-image-7-mar-2026-13-52-43.png",
+      "target": "/assets/images/lore/chatgpt-image-7-mar-2026-13-52-43.png",
+      "category": "lore",
+      "size_bytes": 3165871
+    },
+    {
+      "source": "/assets/zogs/imported-assets/chatgpt-image-7-mar-2026-13-53-32.png",
+      "target": "/assets/images/lore/chatgpt-image-7-mar-2026-13-53-32.png",
+      "category": "lore",
+      "size_bytes": 3270827
+    },
+    {
+      "source": "/assets/zogs/imported-assets/city-fantasy-landscape-process-video-by-jstiller30-dfqpmat-fullview.jpg",
+      "target": "/assets/images/cities/city-fantasy-landscape-process-video-by-jstiller30-dfqpmat-fullview.jpg",
+      "category": "cities",
+      "size_bytes": 79923
+    },
+    {
+      "source": "/assets/zogs/imported-assets/cosmic-serpent-galaxy-art.webp",
+      "target": "/assets/images/bosses/cosmic-serpent-galaxy-art.webp",
+      "category": "bosses",
+      "size_bytes": 9658
+    },
+    {
+      "source": "/assets/zogs/imported-assets/cosmis-pack-99999-2.png",
+      "target": "/assets/images/lore/cosmis-pack-99999-2.png",
+      "category": "lore",
+      "size_bytes": 3313045
+    },
+    {
+      "source": "/assets/zogs/imported-assets/cosmis-pack-99999-3.png",
+      "target": "/assets/images/lore/cosmis-pack-99999-3.png",
+      "category": "lore",
+      "size_bytes": 3313045
+    },
+    {
+      "source": "/assets/zogs/imported-assets/cosmis-pack-99999.png",
+      "target": "/assets/images/lore/cosmis-pack-99999.png",
+      "category": "lore",
+      "size_bytes": 3313045
+    },
+    {
+      "source": "/assets/zogs/imported-assets/cosmos-2.png",
+      "target": "/assets/images/lore/cosmos-2.png",
+      "category": "lore",
+      "size_bytes": 3243124
+    },
+    {
+      "source": "/assets/zogs/imported-assets/cosmos-3.png",
+      "target": "/assets/images/lore/cosmos-3.png",
+      "category": "lore",
+      "size_bytes": 3243124
+    },
+    {
+      "source": "/assets/zogs/imported-assets/cosmos.png",
+      "target": "/assets/images/lore/cosmos.png",
+      "category": "lore",
+      "size_bytes": 3243124
+    },
+    {
+      "source": "/assets/zogs/imported-assets/df36had-01f8f342-f79a-46e6-a381-f346676837a9.jpg",
+      "target": "/assets/images/lore/df36had-01f8f342-f79a-46e6-a381-f346676837a9-02.jpg",
+      "category": "lore",
+      "size_bytes": 7685075
+    },
+    {
+      "source": "/assets/zogs/imported-assets/e0dccb8f-f345-4cf2-970f-fd746dd05f0d.png",
+      "target": "/assets/images/lore/e0dccb8f-f345-4cf2-970f-fd746dd05f0d.png",
+      "category": "lore",
+      "size_bytes": 2973899
+    },
+    {
+      "source": "/assets/zogs/imported-assets/e1l9n8ouuaqcha4.jpg",
+      "target": "/assets/images/lore/e1l9n8ouuaqcha4.jpg",
+      "category": "lore",
+      "size_bytes": 177676
+    },
+    {
+      "source": "/assets/zogs/imported-assets/e6b6411c-b719-43ff-96c0-92cf47c8044f-medium.webp",
+      "target": "/assets/images/lore/e6b6411c-b719-43ff-96c0-92cf47c8044f-medium.webp",
+      "category": "lore",
+      "size_bytes": 103054
+    },
+    {
+      "source": "/assets/zogs/imported-assets/edcosmos-y-sus-9999999-idea-de-lore-y-movimiento-2.png",
+      "target": "/assets/images/lore/edcosmos-y-sus-9999999-idea-de-lore-y-movimiento-2.png",
+      "category": "lore",
+      "size_bytes": 3415097
+    },
+    {
+      "source": "/assets/zogs/imported-assets/edcosmos-y-sus-9999999-idea-de-lore-y-movimiento-3.png",
+      "target": "/assets/images/lore/edcosmos-y-sus-9999999-idea-de-lore-y-movimiento-3.png",
+      "category": "lore",
+      "size_bytes": 3415097
+    },
+    {
+      "source": "/assets/zogs/imported-assets/edcosmos-y-sus-9999999-idea-de-lore-y-movimiento-4.png",
+      "target": "/assets/images/lore/edcosmos-y-sus-9999999-idea-de-lore-y-movimiento-4.png",
+      "category": "lore",
+      "size_bytes": 3415097
+    },
+    {
+      "source": "/assets/zogs/imported-assets/edcosmos-y-sus-9999999-idea-de-lore-y-movimiento.png",
+      "target": "/assets/images/lore/edcosmos-y-sus-9999999-idea-de-lore-y-movimiento.png",
+      "category": "lore",
+      "size_bytes": 3415097
+    },
+    {
+      "source": "/assets/zogs/imported-assets/endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras-2.png",
+      "target": "/assets/images/mounts/endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras-2.png",
+      "category": "mounts",
+      "size_bytes": 3167390
+    },
+    {
+      "source": "/assets/zogs/imported-assets/endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras-3.png",
+      "target": "/assets/images/mounts/endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras-3.png",
+      "category": "mounts",
+      "size_bytes": 3167390
+    },
+    {
+      "source": "/assets/zogs/imported-assets/endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras.png",
+      "target": "/assets/images/mounts/endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras.png",
+      "category": "mounts",
+      "size_bytes": 3167390
+    },
+    {
+      "source": "/assets/zogs/imported-assets/estructura-y-muebles-endcosmos-2.png",
+      "target": "/assets/images/lore/estructura-y-muebles-endcosmos-2.png",
+      "category": "lore",
+      "size_bytes": 3037642
+    },
+    {
+      "source": "/assets/zogs/imported-assets/estructura-y-muebles-endcosmos-3.png",
+      "target": "/assets/images/lore/estructura-y-muebles-endcosmos-3.png",
+      "category": "lore",
+      "size_bytes": 3037642
+    },
+    {
+      "source": "/assets/zogs/imported-assets/estructura-y-muebles-endcosmos.png",
+      "target": "/assets/images/lore/estructura-y-muebles-endcosmos.png",
+      "category": "lore",
+      "size_bytes": 3037642
+    },
+    {
+      "source": "/assets/zogs/imported-assets/exoplanet-mission-timeline-article.jpg",
+      "target": "/assets/images/lore/exoplanet-mission-timeline-article.jpg",
+      "category": "lore",
+      "size_bytes": 112232
+    },
+    {
+      "source": "/assets/zogs/imported-assets/f252687f-32ab-4b3b-b5de-81cfd4ebc117-2.png",
+      "target": "/assets/images/lore/f252687f-32ab-4b3b-b5de-81cfd4ebc117-2.png",
+      "category": "lore",
+      "size_bytes": 2606271
+    },
+    {
+      "source": "/assets/zogs/imported-assets/f252687f-32ab-4b3b-b5de-81cfd4ebc117.png",
+      "target": "/assets/images/lore/f252687f-32ab-4b3b-b5de-81cfd4ebc117.png",
+      "category": "lore",
+      "size_bytes": 2606271
+    },
+    {
+      "source": "/assets/zogs/imported-assets/f32fc538-1663-4f76-adee-7a8adc6dc89d-2.png",
+      "target": "/assets/images/lore/f32fc538-1663-4f76-adee-7a8adc6dc89d-2.png",
+      "category": "lore",
+      "size_bytes": 2090853
+    },
+    {
+      "source": "/assets/zogs/imported-assets/f32fc538-1663-4f76-adee-7a8adc6dc89d.png",
+      "target": "/assets/images/lore/f32fc538-1663-4f76-adee-7a8adc6dc89d.png",
+      "category": "lore",
+      "size_bytes": 2090853
+    },
+    {
+      "source": "/assets/zogs/imported-assets/f3c9da1a-1a37-43c4-a404-2b5be71c79ad-2.png",
+      "target": "/assets/images/lore/f3c9da1a-1a37-43c4-a404-2b5be71c79ad-2.png",
+      "category": "lore",
+      "size_bytes": 2129451
+    },
+    {
+      "source": "/assets/zogs/imported-assets/f3c9da1a-1a37-43c4-a404-2b5be71c79ad.png",
+      "target": "/assets/images/lore/f3c9da1a-1a37-43c4-a404-2b5be71c79ad.png",
+      "category": "lore",
+      "size_bytes": 2129451
+    },
+    {
+      "source": "/assets/zogs/imported-assets/f6fde5a9-bed7-45ad-8edf-f71f44262c76-2.png",
+      "target": "/assets/images/lore/f6fde5a9-bed7-45ad-8edf-f71f44262c76-2.png",
+      "category": "lore",
+      "size_bytes": 2248807
+    },
+    {
+      "source": "/assets/zogs/imported-assets/f6fde5a9-bed7-45ad-8edf-f71f44262c76.png",
+      "target": "/assets/images/lore/f6fde5a9-bed7-45ad-8edf-f71f44262c76.png",
+      "category": "lore",
+      "size_bytes": 2248807
+    },
+    {
+      "source": "/assets/zogs/imported-assets/f724590e-0a33-41c4-bcdd-d4d1f9327724.png",
+      "target": "/assets/images/lore/f724590e-0a33-41c4-bcdd-d4d1f9327724-02.png",
+      "category": "lore",
+      "size_bytes": 3273807
+    },
+    {
+      "source": "/assets/zogs/imported-assets/fa58c31e-34ba-4a65-8963-0e265cdfb549-2.png",
+      "target": "/assets/images/lore/fa58c31e-34ba-4a65-8963-0e265cdfb549-2.png",
+      "category": "lore",
+      "size_bytes": 2270057
+    },
+    {
+      "source": "/assets/zogs/imported-assets/fa58c31e-34ba-4a65-8963-0e265cdfb549.png",
+      "target": "/assets/images/lore/fa58c31e-34ba-4a65-8963-0e265cdfb549.png",
+      "category": "lore",
+      "size_bytes": 2270057
+    },
+    {
+      "source": "/assets/zogs/imported-assets/fde074e3-d6ad-4a17-b237-c055d9a31c88.png",
+      "target": "/assets/images/lore/fde074e3-d6ad-4a17-b237-c055d9a31c88.png",
+      "category": "lore",
+      "size_bytes": 1615719
+    },
+    {
+      "source": "/assets/zogs/imported-assets/fornax-virgo2011.jpg",
+      "target": "/assets/images/lore/fornax-virgo2011-02.jpg",
+      "category": "lore",
+      "size_bytes": 1567167
+    },
+    {
+      "source": "/assets/zogs/imported-assets/fspas-06-00023-g0001.webp",
+      "target": "/assets/images/lore/fspas-06-00023-g0001.webp",
+      "category": "lore",
+      "size_bytes": 289306
+    },
+    {
+      "source": "/assets/zogs/imported-assets/gj7gtmnl4v3fjtjsoqy-jwei7qo45mg3-wjbrgzzhzklvikxs2htewzljnltooslhmmyl9185znvoduhfucockzm0mnvyilzr3oamfj7r30.jpg",
+      "target": "/assets/images/lore/gj7gtmnl4v3fjtjsoqy-jwei7qo45mg3-wjbrgzzhzklvikxs2htewzljnltooslhmmyl9185znvoduhfucockzm0mnvyilzr3oamfj7r30.jpg",
+      "category": "lore",
+      "size_bytes": 92199
+    },
+    {
+      "source": "/assets/zogs/imported-assets/hd-wallpaper-yeti-in-the-space-nebula-creature-fantasy-thumbnail.jpg",
+      "target": "/assets/images/backgrounds/hd-wallpaper-yeti-in-the-space-nebula-creature-fantasy-thumbnail.jpg",
+      "category": "backgrounds",
+      "size_bytes": 10874
+    },
+    {
+      "source": "/assets/zogs/imported-assets/her.png",
+      "target": "/assets/images/lore/her.png",
+      "category": "lore",
+      "size_bytes": 2934746
+    },
+    {
+      "source": "/assets/zogs/imported-assets/hero2.png",
+      "target": "/assets/images/hero/hero2.png",
+      "category": "hero",
+      "size_bytes": 3429625
+    },
+    {
+      "source": "/assets/zogs/imported-assets/https-dev-to-uploads-s3-amazonaws-com-uploads-articles-5z67c77cxdp5vvnoxkyn.png",
+      "target": "/assets/images/lore/https-dev-to-uploads-s3-amazonaws-com-uploads-articles-5z67c77cxdp5vvnoxkyn.png",
+      "category": "lore",
+      "size_bytes": 294658
+    },
+    {
+      "source": "/assets/zogs/imported-assets/il-1080xn-6497006747-kzoq.jpg",
+      "target": "/assets/images/lore/il-1080xn-6497006747-kzoq.jpg",
+      "category": "lore",
+      "size_bytes": 356784
+    },
+    {
+      "source": "/assets/zogs/imported-assets/il-570xn-5648906785-k93p-2.jpg",
+      "target": "/assets/images/lore/il-570xn-5648906785-k93p-2.jpg",
+      "category": "lore",
+      "size_bytes": 81627
+    },
+    {
+      "source": "/assets/zogs/imported-assets/il-570xn-5648906785-k93p.jpg",
+      "target": "/assets/images/lore/il-570xn-5648906785-k93p.jpg",
+      "category": "lore",
+      "size_bytes": 81627
+    },
+    {
+      "source": "/assets/zogs/imported-assets/il-570xn-5708613664-91d7-2.jpg",
+      "target": "/assets/images/lore/il-570xn-5708613664-91d7-2.jpg",
+      "category": "lore",
+      "size_bytes": 96443
+    },
+    {
+      "source": "/assets/zogs/imported-assets/il-570xn-5708613664-91d7.jpg",
+      "target": "/assets/images/lore/il-570xn-5708613664-91d7.jpg",
+      "category": "lore",
+      "size_bytes": 96443
+    },
+    {
+      "source": "/assets/zogs/imported-assets/il-fullxfull-4364653685-lm0k.avif",
+      "target": "/assets/images/lore/il-fullxfull-4364653685-lm0k.avif",
+      "category": "lore",
+      "size_bytes": 823278
+    },
+    {
+      "source": "/assets/zogs/imported-assets/il-fullxfull-6544827928-k3sj-2.jpg",
+      "target": "/assets/images/lore/il-fullxfull-6544827928-k3sj-2.jpg",
+      "category": "lore",
+      "size_bytes": 224443
+    },
+    {
+      "source": "/assets/zogs/imported-assets/il-fullxfull-6544827928-k3sj.jpg",
+      "target": "/assets/images/lore/il-fullxfull-6544827928-k3sj.jpg",
+      "category": "lore",
+      "size_bytes": 224443
+    },
+    {
+      "source": "/assets/zogs/imported-assets/infinity-symbol-particle-element-for-high-end-branding.webp",
+      "target": "/assets/images/lore/infinity-symbol-particle-element-for-high-end-branding.webp",
+      "category": "lore",
+      "size_bytes": 70332
+    },
+    {
+      "source": "/assets/zogs/imported-assets/inside-science-pudgy-dragon-orion-nebula-01-ht-jc-190214-hpmain-16x9-992.jpg",
+      "target": "/assets/images/bosses/inside-science-pudgy-dragon-orion-nebula-01-ht-jc-190214-hpmain-16x9-992.jpg",
+      "category": "bosses",
+      "size_bytes": 30853
+    },
+    {
+      "source": "/assets/zogs/imported-assets/la-verdad-en-endcosmo-2.png",
+      "target": "/assets/images/lore/la-verdad-en-endcosmo-2.png",
+      "category": "lore",
+      "size_bytes": 3018325
+    },
+    {
+      "source": "/assets/zogs/imported-assets/la-verdad-en-endcosmo-3.png",
+      "target": "/assets/images/lore/la-verdad-en-endcosmo-3.png",
+      "category": "lore",
+      "size_bytes": 3018325
+    },
+    {
+      "source": "/assets/zogs/imported-assets/la-verdad-en-endcosmo-4.png",
+      "target": "/assets/images/lore/la-verdad-en-endcosmo-4.png",
+      "category": "lore",
+      "size_bytes": 3018325
+    },
+    {
+      "source": "/assets/zogs/imported-assets/la-verdad-en-endcosmo.png",
+      "target": "/assets/images/lore/la-verdad-en-endcosmo.png",
+      "category": "lore",
+      "size_bytes": 3018325
+    },
+    {
+      "source": "/assets/zogs/imported-assets/lqrhhyh7tqfpxzer9mfwnk.jpg",
+      "target": "/assets/images/lore/lqrhhyh7tqfpxzer9mfwnk.jpg",
+      "category": "lore",
+      "size_bytes": 1415780
+    },
+    {
+      "source": "/assets/zogs/imported-assets/m4g-ng-gelnz9k36aid09khfbrdzuh4m32uai76dpgak8kekvvjktcmz4e3z9fvkjek-ds7zhit4oobfzldyfjn3ybsjw3huedmnvk7ek48.jpg",
+      "target": "/assets/images/lore/m4g-ng-gelnz9k36aid09khfbrdzuh4m32uai76dpgak8kekvvjktcmz4e3z9fvkjek-ds7zhit4oobfzldyfjn3ybsjw3huedmnvk7ek48.jpg",
+      "category": "lore",
+      "size_bytes": 118123
+    },
+    {
+      "source": "/assets/zogs/imported-assets/m4qxctqywt2qt6qyuq8kx7-1920-80.png",
+      "target": "/assets/images/lore/m4qxctqywt2qt6qyuq8kx7-1920-80.png",
+      "category": "lore",
+      "size_bytes": 2329013
+    },
+    {
+      "source": "/assets/zogs/imported-assets/mass-effect-galaxy-map-by-exoartmakes-dihk77g-fullview.jpg",
+      "target": "/assets/images/maps/mass-effect-galaxy-map-by-exoartmakes-dihk77g-fullview.jpg",
+      "category": "maps",
+      "size_bytes": 264534
+    },
+    {
+      "source": "/assets/zogs/imported-assets/md-y3vpjs-4f90e55fde343be869437265fec254d34f6f09bf.jpg",
+      "target": "/assets/images/lore/md-y3vpjs-4f90e55fde343be869437265fec254d34f6f09bf.jpg",
+      "category": "lore",
+      "size_bytes": 94135
+    },
+    {
+      "source": "/assets/zogs/imported-assets/md-ytal77-3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0-2.jpg",
+      "target": "/assets/images/lore/md-ytal77-3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0-2.jpg",
+      "category": "lore",
+      "size_bytes": 70730
+    },
+    {
+      "source": "/assets/zogs/imported-assets/md-ytal77-3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0.jpg",
+      "target": "/assets/images/lore/md-ytal77-3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0.jpg",
+      "category": "lore",
+      "size_bytes": 70730
+    },
+    {
+      "source": "/assets/zogs/imported-assets/modularmedievalassetpack-featured-894x488-b4e2ef12d3a64abc877fd05754008dc9.png",
+      "target": "/assets/images/lore/modularmedievalassetpack-featured-894x488-b4e2ef12d3a64abc877fd05754008dc9.png",
+      "category": "lore",
+      "size_bytes": 1052960
+    },
+    {
+      "source": "/assets/zogs/imported-assets/motion-battle.avif",
+      "target": "/assets/images/bosses/motion-battle.avif",
+      "category": "bosses",
+      "size_bytes": 40974
+    },
+    {
+      "source": "/assets/zogs/imported-assets/motion-hero-secondary.avif",
+      "target": "/assets/images/hero/motion-hero-secondary.avif",
+      "category": "hero",
+      "size_bytes": 146327
+    },
+    {
+      "source": "/assets/zogs/imported-assets/motion-main-map.avif",
+      "target": "/assets/images/maps/motion-main-map.avif",
+      "category": "maps",
+      "size_bytes": 264333
+    },
+    {
+      "source": "/assets/zogs/imported-assets/motion-realm-ice.avif",
+      "target": "/assets/images/maps/motion-realm-ice.avif",
+      "category": "maps",
+      "size_bytes": 256671
+    },
+    {
+      "source": "/assets/zogs/imported-assets/motion-realm-void.avif",
+      "target": "/assets/images/maps/motion-realm-void.avif",
+      "category": "maps",
+      "size_bytes": 44130
+    },
+    {
+      "source": "/assets/zogs/imported-assets/mythic-gravity-central-coherence-vortex.jpg",
+      "target": "/assets/images/lore/mythic-gravity-central-coherence-vortex.jpg",
+      "category": "lore",
+      "size_bytes": 150669
+    },
+    {
+      "source": "/assets/zogs/imported-assets/nebula-guardian-wall-art-943965.jpg",
+      "target": "/assets/images/npcs/nebula-guardian-wall-art-943965.jpg",
+      "category": "npcs",
+      "size_bytes": 117606
+    },
+    {
+      "source": "/assets/zogs/imported-assets/orbiting-planet-space-themed-motion-background-clip-hd.webp",
+      "target": "/assets/images/backgrounds/orbiting-planet-space-themed-motion-background-clip-hd.webp",
+      "category": "backgrounds",
+      "size_bytes": 152656
+    },
+    {
+      "source": "/assets/zogs/imported-assets/osmadth-bancur-city-by-flaviobolla-d4zpa5a-fullview.jpg",
+      "target": "/assets/images/cities/osmadth-bancur-city-by-flaviobolla-d4zpa5a-fullview.jpg",
+      "category": "cities",
+      "size_bytes": 129431
+    },
+    {
+      "source": "/assets/zogs/imported-assets/pngtree-celestial-being-emerges-from-energy-portal-in-post-apocalyptic-wasteland-image-19868561.webp",
+      "target": "/assets/images/portals/pngtree-celestial-being-emerges-from-energy-portal-in-post-apocalyptic-wasteland-image-19868561.webp",
+      "category": "portals",
+      "size_bytes": 66780
+    },
+    {
+      "source": "/assets/zogs/imported-assets/pngtree-futuristic-sci-fi-energy-core-with-blue-glow-png-image-18097773.webp",
+      "target": "/assets/images/lore/pngtree-futuristic-sci-fi-energy-core-with-blue-glow-png-image-18097773.webp",
+      "category": "lore",
+      "size_bytes": 25470
+    },
+    {
+      "source": "/assets/zogs/imported-assets/pngtree-sculpted-head-silhouette-against-vibrant-cosmic-background-of-swirling-galaxies-and-picture-image-16624136.jpg",
+      "target": "/assets/images/backgrounds/pngtree-sculpted-head-silhouette-against-vibrant-cosmic-background-of-swirling-galaxies-and-picture-image-16624136.jpg",
+      "category": "backgrounds",
+      "size_bytes": 844288
+    },
+    {
+      "source": "/assets/zogs/imported-assets/portada1.png",
+      "target": "/assets/images/hero/portada1-02.png",
+      "category": "hero",
+      "size_bytes": 3273807
+    },
+    {
+      "source": "/assets/zogs/imported-assets/portal-1-2.png",
+      "target": "/assets/images/portals/portal-1-2.png",
+      "category": "portals",
+      "size_bytes": 3521887
+    },
+    {
+      "source": "/assets/zogs/imported-assets/portal-1.png",
+      "target": "/assets/images/portals/portal-1.png",
+      "category": "portals",
+      "size_bytes": 3521887
+    },
+    {
+      "source": "/assets/zogs/imported-assets/potw2319a.jpg",
+      "target": "/assets/images/lore/potw2319a.jpg",
+      "category": "lore",
+      "size_bytes": 2278160
+    },
+    {
+      "source": "/assets/zogs/imported-assets/pqosoeiggkt04h0isu6zg-by-1v1jjddpb-6h67l4z-zmbbno7i5kscijhsmvydvnxmua1ziwytlhk4vocqzxsmpby0gta-vpgkkhdobdwa.jpg",
+      "target": "/assets/images/lore/pqosoeiggkt04h0isu6zg-by-1v1jjddpb-6h67l4z-zmbbno7i5kscijhsmvydvnxmua1ziwytlhk4vocqzxsmpby0gta-vpgkkhdobdwa.jpg",
+      "category": "lore",
+      "size_bytes": 133513
+    },
+    {
+      "source": "/assets/zogs/imported-assets/remotesensing-16-03023-g011-550.jpg",
+      "target": "/assets/images/lore/remotesensing-16-03023-g011-550.jpg",
+      "category": "lore",
+      "size_bytes": 98770
+    },
+    {
+      "source": "/assets/zogs/imported-assets/rxhvyt0psg01uhak6isx4vy6jw95smwai4dys3r7azs1lbadzeylj-un0d8lvfik-o-sk4w6wsfkr3htwwhgytp056nty-v-iyx09u7sbae.jpg",
+      "target": "/assets/images/lore/rxhvyt0psg01uhak6isx4vy6jw95smwai4dys3r7azs1lbadzeylj-un0d8lvfik-o-sk4w6wsfkr3htwwhgytp056nty-v-iyx09u7sbae.jpg",
+      "category": "lore",
+      "size_bytes": 111214
+    },
+    {
+      "source": "/assets/zogs/imported-assets/skeletor-vs-zedd-tn-by-hollow.jpg",
+      "target": "/assets/images/lore/skeletor-vs-zedd-tn-by-hollow.jpg",
+      "category": "lore",
+      "size_bytes": 62661
+    },
+    {
+      "source": "/assets/zogs/imported-assets/skvrs-uliurjnwgpv-3fpy0qz5chwckf9emeq2pg9vaidouggbvk-clvo45zey584xfk2cmetsm8cd7blbnxbdkjjivljaoiirgt87dkvlq.jpg",
+      "target": "/assets/images/lore/skvrs-uliurjnwgpv-3fpy0qz5chwckf9emeq2pg9vaidouggbvk-clvo45zey584xfk2cmetsm8cd7blbnxbdkjjivljaoiirgt87dkvlq.jpg",
+      "category": "lore",
+      "size_bytes": 217758
+    },
+    {
+      "source": "/assets/zogs/imported-assets/the-eternal-cosmic-warrior-by-brucalord-dilxa37-fullview.jpg",
+      "target": "/assets/images/bosses/the-eternal-cosmic-warrior-by-brucalord-dilxa37-fullview.jpg",
+      "category": "bosses",
+      "size_bytes": 742468
+    },
+    {
+      "source": "/assets/zogs/imported-assets/thumb-1920-1312489.jpg",
+      "target": "/assets/images/lore/thumb-1920-1312489.jpg",
+      "category": "lore",
+      "size_bytes": 369325
+    },
+    {
+      "source": "/assets/zogs/imported-assets/thumb-1920-345775.jpg",
+      "target": "/assets/images/lore/thumb-1920-345775.jpg",
+      "category": "lore",
+      "size_bytes": 265091
+    },
+    {
+      "source": "/assets/zogs/imported-assets/thumb-1920-552411.jpg",
+      "target": "/assets/images/lore/thumb-1920-552411.jpg",
+      "category": "lore",
+      "size_bytes": 277336
+    },
+    {
+      "source": "/assets/zogs/imported-assets/thumb-1920-881685.jpg",
+      "target": "/assets/images/lore/thumb-1920-881685.jpg",
+      "category": "lore",
+      "size_bytes": 617721
+    },
+    {
+      "source": "/assets/zogs/imported-assets/thumb-350-1110106.webp",
+      "target": "/assets/images/lore/thumb-350-1110106.webp",
+      "category": "lore",
+      "size_bytes": 14820
+    },
+    {
+      "source": "/assets/zogs/imported-assets/tumblr-m1mag9rcjz1qb9ckeo1-500.png",
+      "target": "/assets/images/lore/tumblr-m1mag9rcjz1qb9ckeo1-500.png",
+      "category": "lore",
+      "size_bytes": 37154
+    },
+    {
+      "source": "/assets/zogs/imported-assets/visitar-endcomos-2.png",
+      "target": "/assets/images/lore/visitar-endcomos-2.png",
+      "category": "lore",
+      "size_bytes": 3334305
+    },
+    {
+      "source": "/assets/zogs/imported-assets/visitar-endcomos-3.png",
+      "target": "/assets/images/lore/visitar-endcomos-3.png",
+      "category": "lore",
+      "size_bytes": 3334305
+    },
+    {
+      "source": "/assets/zogs/imported-assets/visitar-endcomos.png",
+      "target": "/assets/images/lore/visitar-endcomos.png",
+      "category": "lore",
+      "size_bytes": 3334305
+    },
+    {
+      "source": "/assets/zogs/imported-assets/ways-to-get-peace-in-endcosmos-2.png",
+      "target": "/assets/images/lore/ways-to-get-peace-in-endcosmos-2.png",
+      "category": "lore",
+      "size_bytes": 3565817
+    },
+    {
+      "source": "/assets/zogs/imported-assets/ways-to-get-peace-in-endcosmos.png",
+      "target": "/assets/images/lore/ways-to-get-peace-in-endcosmos.png",
+      "category": "lore",
+      "size_bytes": 3565817
+    },
+    {
+      "source": "/assets/zogs/imported-assets/world.png",
+      "target": "/assets/images/maps/world.png",
+      "category": "maps",
+      "size_bytes": 3477034
+    },
+    {
+      "source": "/assets/zogs/potw2319a.jpg",
+      "target": "/assets/images/lore/potw2319a-02.jpg",
+      "category": "lore",
+      "size_bytes": 2278160
+    },
+    {
+      "source": "/assets/zogs/v1/1-2.png",
+      "target": "/assets/images/lore/1-2-02.png",
+      "category": "lore",
+      "size_bytes": 2483084
+    },
+    {
+      "source": "/assets/zogs/v1/1.png",
+      "target": "/assets/images/lore/1-02.png",
+      "category": "lore",
+      "size_bytes": 2483084
+    },
+    {
+      "source": "/assets/zogs/v1/10-2.png",
+      "target": "/assets/images/lore/10-2-02.png",
+      "category": "lore",
+      "size_bytes": 2405931
+    },
+    {
+      "source": "/assets/zogs/v1/10.png",
+      "target": "/assets/images/lore/10-02.png",
+      "category": "lore",
+      "size_bytes": 2405931
+    },
+    {
+      "source": "/assets/zogs/v1/11-2.png",
+      "target": "/assets/images/lore/11-2-02.png",
+      "category": "lore",
+      "size_bytes": 2385026
+    },
+    {
+      "source": "/assets/zogs/v1/11.png",
+      "target": "/assets/images/lore/11-02.png",
+      "category": "lore",
+      "size_bytes": 2385026
+    },
+    {
+      "source": "/assets/zogs/v1/12-2.png",
+      "target": "/assets/images/lore/12-2-02.png",
+      "category": "lore",
+      "size_bytes": 2444381
+    },
+    {
+      "source": "/assets/zogs/v1/12.png",
+      "target": "/assets/images/lore/12-02.png",
+      "category": "lore",
+      "size_bytes": 2444381
+    },
+    {
+      "source": "/assets/zogs/v1/13-2.png",
+      "target": "/assets/images/lore/13-2-02.png",
+      "category": "lore",
+      "size_bytes": 2250568
+    },
+    {
+      "source": "/assets/zogs/v1/13.png",
+      "target": "/assets/images/lore/13-02.png",
+      "category": "lore",
+      "size_bytes": 2250568
+    },
+    {
+      "source": "/assets/zogs/v1/14-2.png",
+      "target": "/assets/images/lore/14-2-02.png",
+      "category": "lore",
+      "size_bytes": 2463632
+    },
+    {
+      "source": "/assets/zogs/v1/14.png",
+      "target": "/assets/images/lore/14-02.png",
+      "category": "lore",
+      "size_bytes": 2463632
+    },
+    {
+      "source": "/assets/zogs/v1/15-2.png",
+      "target": "/assets/images/lore/15-2-02.png",
+      "category": "lore",
+      "size_bytes": 3504407
+    },
+    {
+      "source": "/assets/zogs/v1/15.png",
+      "target": "/assets/images/lore/15-02.png",
+      "category": "lore",
+      "size_bytes": 3504407
+    },
+    {
+      "source": "/assets/zogs/v1/16-2.png",
+      "target": "/assets/images/lore/16-2-02.png",
+      "category": "lore",
+      "size_bytes": 3701062
+    },
+    {
+      "source": "/assets/zogs/v1/16.png",
+      "target": "/assets/images/lore/16-02.png",
+      "category": "lore",
+      "size_bytes": 3701062
+    },
+    {
+      "source": "/assets/zogs/v1/17-2.png",
+      "target": "/assets/images/lore/17-2-02.png",
+      "category": "lore",
+      "size_bytes": 3013414
+    },
+    {
+      "source": "/assets/zogs/v1/17.png",
+      "target": "/assets/images/lore/17-02.png",
+      "category": "lore",
+      "size_bytes": 3013414
+    },
+    {
+      "source": "/assets/zogs/v1/18-2.png",
+      "target": "/assets/images/lore/18-2-02.png",
+      "category": "lore",
+      "size_bytes": 2221877
+    },
+    {
+      "source": "/assets/zogs/v1/18.png",
+      "target": "/assets/images/lore/18-02.png",
+      "category": "lore",
+      "size_bytes": 2221877
+    },
+    {
+      "source": "/assets/zogs/v1/19-2.png",
+      "target": "/assets/images/lore/19-2-02.png",
+      "category": "lore",
+      "size_bytes": 2130416
+    },
+    {
+      "source": "/assets/zogs/v1/19.png",
+      "target": "/assets/images/lore/19-02.png",
+      "category": "lore",
+      "size_bytes": 2130416
+    },
+    {
+      "source": "/assets/zogs/v1/1_10724.png",
+      "target": "/assets/images/lore/1-10724-02.png",
+      "category": "lore",
+      "size_bytes": 37236
+    },
+    {
+      "source": "/assets/zogs/v1/2-2.png",
+      "target": "/assets/images/lore/2-2-02.png",
+      "category": "lore",
+      "size_bytes": 2486979
+    },
+    {
+      "source": "/assets/zogs/v1/2.png",
+      "target": "/assets/images/lore/2-02.png",
+      "category": "lore",
+      "size_bytes": 2486979
+    },
+    {
+      "source": "/assets/zogs/v1/20-2.png",
+      "target": "/assets/images/lore/20-2-02.png",
+      "category": "lore",
+      "size_bytes": 2441997
+    },
+    {
+      "source": "/assets/zogs/v1/20.png",
+      "target": "/assets/images/lore/20-02.png",
+      "category": "lore",
+      "size_bytes": 2441997
+    },
+    {
+      "source": "/assets/zogs/v1/21-2.png",
+      "target": "/assets/images/lore/21-2-02.png",
+      "category": "lore",
+      "size_bytes": 2563246
+    },
+    {
+      "source": "/assets/zogs/v1/21.png",
+      "target": "/assets/images/lore/21-02.png",
+      "category": "lore",
+      "size_bytes": 2563246
+    },
+    {
+      "source": "/assets/zogs/v1/3-2.png",
+      "target": "/assets/images/lore/3-2-02.png",
+      "category": "lore",
+      "size_bytes": 2339848
+    },
+    {
+      "source": "/assets/zogs/v1/3.png",
+      "target": "/assets/images/lore/3-02.png",
+      "category": "lore",
+      "size_bytes": 2339848
+    },
+    {
+      "source": "/assets/zogs/v1/4-2.png",
+      "target": "/assets/images/lore/4-2-02.png",
+      "category": "lore",
+      "size_bytes": 2227689
+    },
+    {
+      "source": "/assets/zogs/v1/4.png",
+      "target": "/assets/images/lore/4-02.png",
+      "category": "lore",
+      "size_bytes": 2227689
+    },
+    {
+      "source": "/assets/zogs/v1/5-2.png",
+      "target": "/assets/images/lore/5-2-02.png",
+      "category": "lore",
+      "size_bytes": 2149927
+    },
+    {
+      "source": "/assets/zogs/v1/5.png",
+      "target": "/assets/images/lore/5-02.png",
+      "category": "lore",
+      "size_bytes": 2149927
+    },
+    {
+      "source": "/assets/zogs/v1/6-2.png",
+      "target": "/assets/images/lore/6-2-02.png",
+      "category": "lore",
+      "size_bytes": 2386292
+    },
+    {
+      "source": "/assets/zogs/v1/6.png",
+      "target": "/assets/images/lore/6-02.png",
+      "category": "lore",
+      "size_bytes": 2386292
+    },
+    {
+      "source": "/assets/zogs/v1/7-2.png",
+      "target": "/assets/images/lore/7-2-02.png",
+      "category": "lore",
+      "size_bytes": 2647945
+    },
+    {
+      "source": "/assets/zogs/v1/7.png",
+      "target": "/assets/images/lore/7-02.png",
+      "category": "lore",
+      "size_bytes": 2647945
+    },
+    {
+      "source": "/assets/zogs/v1/8-2.png",
+      "target": "/assets/images/lore/8-2-02.png",
+      "category": "lore",
+      "size_bytes": 2431306
+    },
+    {
+      "source": "/assets/zogs/v1/8.png",
+      "target": "/assets/images/lore/8-02.png",
+      "category": "lore",
+      "size_bytes": 2431306
+    },
+    {
+      "source": "/assets/zogs/v1/9-2.png",
+      "target": "/assets/images/lore/9-2-02.png",
+      "category": "lore",
+      "size_bytes": 2467611
+    },
+    {
+      "source": "/assets/zogs/v1/9.png",
+      "target": "/assets/images/lore/9-02.png",
+      "category": "lore",
+      "size_bytes": 2467611
+    },
+    {
+      "source": "/assets/zogs/v1/il_570xN.5648906785_k93p.jpg",
+      "target": "/assets/images/lore/il-570xn-5648906785-k93p-02.jpg",
+      "category": "lore",
+      "size_bytes": 81627
+    },
+    {
+      "source": "/assets/zogs/v1/il_570xN.5708613664_91d7.jpg",
+      "target": "/assets/images/lore/il-570xn-5708613664-91d7-02.jpg",
+      "category": "lore",
+      "size_bytes": 96443
+    },
+    {
+      "source": "/assets/zogs/v1/il_fullxfull.6544827928_k3sj.jpg",
+      "target": "/assets/images/lore/il-fullxfull-6544827928-k3sj-02.jpg",
+      "category": "lore",
+      "size_bytes": 224443
+    },
+    {
+      "source": "/assets/zogs/v1/md_ytal77_3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0.jpg",
+      "target": "/assets/images/lore/md-ytal77-3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0-02.jpg",
+      "category": "lore",
+      "size_bytes": 70730
+    },
+    {
+      "source": "/assets/zogs/v2/0d6aeb92-86e0-4f77-a56f-aad63aa5fd0d.png",
+      "target": "/assets/images/lore/0d6aeb92-86e0-4f77-a56f-aad63aa5fd0d-02.png",
+      "category": "lore",
+      "size_bytes": 2474058
+    },
+    {
+      "source": "/assets/zogs/v2/16b6820b-a3a6-4f12-bd91-bdcf5c97acc4.png",
+      "target": "/assets/images/lore/16b6820b-a3a6-4f12-bd91-bdcf5c97acc4-02.png",
+      "category": "lore",
+      "size_bytes": 2398610
+    },
+    {
+      "source": "/assets/zogs/v2/16ce668b-cc24-44c5-b785-003eacfc1a66-2.png",
+      "target": "/assets/images/lore/16ce668b-cc24-44c5-b785-003eacfc1a66-2-02.png",
+      "category": "lore",
+      "size_bytes": 2130416
+    },
+    {
+      "source": "/assets/zogs/v2/16ce668b-cc24-44c5-b785-003eacfc1a66.png",
+      "target": "/assets/images/lore/16ce668b-cc24-44c5-b785-003eacfc1a66-02.png",
+      "category": "lore",
+      "size_bytes": 2130416
+    },
+    {
+      "source": "/assets/zogs/v2/2fe9563b-d22f-4f45-b54e-a54b258da6dd.png",
+      "target": "/assets/images/lore/2fe9563b-d22f-4f45-b54e-a54b258da6dd-02.png",
+      "category": "lore",
+      "size_bytes": 2370738
+    },
+    {
+      "source": "/assets/zogs/v2/3618c7ef-caee-46a1-9cc6-bc1d0e518ce5-2.png",
+      "target": "/assets/images/lore/3618c7ef-caee-46a1-9cc6-bc1d0e518ce5-2-02.png",
+      "category": "lore",
+      "size_bytes": 2221877
+    },
+    {
+      "source": "/assets/zogs/v2/3618c7ef-caee-46a1-9cc6-bc1d0e518ce5.png",
+      "target": "/assets/images/lore/3618c7ef-caee-46a1-9cc6-bc1d0e518ce5-02.png",
+      "category": "lore",
+      "size_bytes": 2221877
+    },
+    {
+      "source": "/assets/zogs/v2/3dfd977c-55ee-41de-9e5b-bc1890cf5441.png",
+      "target": "/assets/images/lore/3dfd977c-55ee-41de-9e5b-bc1890cf5441-02.png",
+      "category": "lore",
+      "size_bytes": 2410483
+    },
+    {
+      "source": "/assets/zogs/v2/45588853-d137-429c-9ef4-2cad2caeacea-2.png",
+      "target": "/assets/images/lore/45588853-d137-429c-9ef4-2cad2caeacea-2-02.png",
+      "category": "lore",
+      "size_bytes": 2431306
+    },
+    {
+      "source": "/assets/zogs/v2/45588853-d137-429c-9ef4-2cad2caeacea.png",
+      "target": "/assets/images/lore/45588853-d137-429c-9ef4-2cad2caeacea-02.png",
+      "category": "lore",
+      "size_bytes": 2431306
+    },
+    {
+      "source": "/assets/zogs/v2/549cc996-b0e6-48c3-bb4e-02ac064d8c88-2.png",
+      "target": "/assets/images/lore/549cc996-b0e6-48c3-bb4e-02ac064d8c88-2-02.png",
+      "category": "lore",
+      "size_bytes": 2250568
+    },
+    {
+      "source": "/assets/zogs/v2/549cc996-b0e6-48c3-bb4e-02ac064d8c88.png",
+      "target": "/assets/images/lore/549cc996-b0e6-48c3-bb4e-02ac064d8c88-02.png",
+      "category": "lore",
+      "size_bytes": 2250568
+    },
+    {
+      "source": "/assets/zogs/v2/5d8457df-af04-49c4-b28f-d25b4c09cfb9-2.png",
+      "target": "/assets/images/lore/5d8457df-af04-49c4-b28f-d25b4c09cfb9-2-02.png",
+      "category": "lore",
+      "size_bytes": 2385026
+    },
+    {
+      "source": "/assets/zogs/v2/5d8457df-af04-49c4-b28f-d25b4c09cfb9.png",
+      "target": "/assets/images/lore/5d8457df-af04-49c4-b28f-d25b4c09cfb9-02.png",
+      "category": "lore",
+      "size_bytes": 2385026
+    },
+    {
+      "source": "/assets/zogs/v2/684ec1eb-6801-4f15-a244-fa8f13d33ab8.png",
+      "target": "/assets/images/lore/684ec1eb-6801-4f15-a244-fa8f13d33ab8-02.png",
+      "category": "lore",
+      "size_bytes": 2330337
+    },
+    {
+      "source": "/assets/zogs/v2/6cbcac41-3cee-48d5-953c-ea7ad1a04098-2.png",
+      "target": "/assets/images/lore/6cbcac41-3cee-48d5-953c-ea7ad1a04098-2-02.png",
+      "category": "lore",
+      "size_bytes": 2467611
+    },
+    {
+      "source": "/assets/zogs/v2/6cbcac41-3cee-48d5-953c-ea7ad1a04098.png",
+      "target": "/assets/images/lore/6cbcac41-3cee-48d5-953c-ea7ad1a04098-02.png",
+      "category": "lore",
+      "size_bytes": 2467611
+    },
+    {
+      "source": "/assets/zogs/v2/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0-2.png",
+      "target": "/assets/images/lore/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0-2-02.png",
+      "category": "lore",
+      "size_bytes": 3701062
+    },
+    {
+      "source": "/assets/zogs/v2/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0.png",
+      "target": "/assets/images/lore/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0-02.png",
+      "category": "lore",
+      "size_bytes": 3701062
+    },
+    {
+      "source": "/assets/zogs/v2/78565d2d-57ec-41fb-ac8b-0013a2c9236c-2.png",
+      "target": "/assets/images/lore/78565d2d-57ec-41fb-ac8b-0013a2c9236c-2-02.png",
+      "category": "lore",
+      "size_bytes": 3504407
+    },
+    {
+      "source": "/assets/zogs/v2/78565d2d-57ec-41fb-ac8b-0013a2c9236c.png",
+      "target": "/assets/images/lore/78565d2d-57ec-41fb-ac8b-0013a2c9236c-02.png",
+      "category": "lore",
+      "size_bytes": 3504407
+    },
+    {
+      "source": "/assets/zogs/v2/8b16e5a2-ae02-4eb2-a405-67d740e71669.png",
+      "target": "/assets/images/lore/8b16e5a2-ae02-4eb2-a405-67d740e71669-02.png",
+      "category": "lore",
+      "size_bytes": 2172241
+    },
+    {
+      "source": "/assets/zogs/v2/8bb89adf-d6f5-41f4-b314-90d09fa25c60.png",
+      "target": "/assets/images/lore/8bb89adf-d6f5-41f4-b314-90d09fa25c60-02.png",
+      "category": "lore",
+      "size_bytes": 2373497
+    },
+    {
+      "source": "/assets/zogs/v2/8f245e3f-8a88-47cb-bdf9-e00067f38896.png",
+      "target": "/assets/images/lore/8f245e3f-8a88-47cb-bdf9-e00067f38896-02.png",
+      "category": "lore",
+      "size_bytes": 2417971
+    },
+    {
+      "source": "/assets/zogs/v2/8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f-2.png",
+      "target": "/assets/images/lore/8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f-2-02.png",
+      "category": "lore",
+      "size_bytes": 2463632
+    },
+    {
+      "source": "/assets/zogs/v2/8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f.png",
+      "target": "/assets/images/lore/8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f-02.png",
+      "category": "lore",
+      "size_bytes": 2463632
+    },
+    {
+      "source": "/assets/zogs/v2/a49f8d18-49f0-4682-be93-c53515e75621-2.png",
+      "target": "/assets/images/lore/a49f8d18-49f0-4682-be93-c53515e75621-2-02.png",
+      "category": "lore",
+      "size_bytes": 2405931
+    },
+    {
+      "source": "/assets/zogs/v2/a49f8d18-49f0-4682-be93-c53515e75621.png",
+      "target": "/assets/images/lore/a49f8d18-49f0-4682-be93-c53515e75621-02.png",
+      "category": "lore",
+      "size_bytes": 2405931
+    },
+    {
+      "source": "/assets/zogs/v2/aa1fba69-49b4-41d4-a931-92ae9955fbc2-2.png",
+      "target": "/assets/images/lore/aa1fba69-49b4-41d4-a931-92ae9955fbc2-2-02.png",
+      "category": "lore",
+      "size_bytes": 3013414
+    },
+    {
+      "source": "/assets/zogs/v2/aa1fba69-49b4-41d4-a931-92ae9955fbc2.png",
+      "target": "/assets/images/lore/aa1fba69-49b4-41d4-a931-92ae9955fbc2-02.png",
+      "category": "lore",
+      "size_bytes": 3013414
+    },
+    {
+      "source": "/assets/zogs/v2/aa9082e8-4ee2-43e9-9af8-38ca8071a04c-2.png",
+      "target": "/assets/images/lore/aa9082e8-4ee2-43e9-9af8-38ca8071a04c-2-02.png",
+      "category": "lore",
+      "size_bytes": 2563246
+    },
+    {
+      "source": "/assets/zogs/v2/aa9082e8-4ee2-43e9-9af8-38ca8071a04c.png",
+      "target": "/assets/images/lore/aa9082e8-4ee2-43e9-9af8-38ca8071a04c-02.png",
+      "category": "lore",
+      "size_bytes": 2563246
+    },
+    {
+      "source": "/assets/zogs/v2/b35989dc-d0df-4d58-9261-75ac7dec3c55.png",
+      "target": "/assets/images/lore/b35989dc-d0df-4d58-9261-75ac7dec3c55-02.png",
+      "category": "lore",
+      "size_bytes": 2130511
+    },
+    {
+      "source": "/assets/zogs/v2/b698bcb7-6877-4445-bf88-8e945f885a59-2.png",
+      "target": "/assets/images/lore/b698bcb7-6877-4445-bf88-8e945f885a59-2-02.png",
+      "category": "lore",
+      "size_bytes": 2444381
+    },
+    {
+      "source": "/assets/zogs/v2/b698bcb7-6877-4445-bf88-8e945f885a59.png",
+      "target": "/assets/images/lore/b698bcb7-6877-4445-bf88-8e945f885a59-02.png",
+      "category": "lore",
+      "size_bytes": 2444381
+    },
+    {
+      "source": "/assets/zogs/v2/c612df9e-1ffa-4884-9116-353ed4816099-2.png",
+      "target": "/assets/images/lore/c612df9e-1ffa-4884-9116-353ed4816099-2-02.png",
+      "category": "lore",
+      "size_bytes": 2441997
+    },
+    {
+      "source": "/assets/zogs/v2/c612df9e-1ffa-4884-9116-353ed4816099.png",
+      "target": "/assets/images/lore/c612df9e-1ffa-4884-9116-353ed4816099-02.png",
+      "category": "lore",
+      "size_bytes": 2441997
+    },
+    {
+      "source": "/assets/zogs/v2/f252687f-32ab-4b3b-b5de-81cfd4ebc117.png",
+      "target": "/assets/images/lore/f252687f-32ab-4b3b-b5de-81cfd4ebc117-02.png",
+      "category": "lore",
+      "size_bytes": 2606271
+    },
+    {
+      "source": "/assets/zogs/v2/f32fc538-1663-4f76-adee-7a8adc6dc89d.png",
+      "target": "/assets/images/lore/f32fc538-1663-4f76-adee-7a8adc6dc89d-02.png",
+      "category": "lore",
+      "size_bytes": 2090853
+    },
+    {
+      "source": "/assets/zogs/v2/f3c9da1a-1a37-43c4-a404-2b5be71c79ad.png",
+      "target": "/assets/images/lore/f3c9da1a-1a37-43c4-a404-2b5be71c79ad-02.png",
+      "category": "lore",
+      "size_bytes": 2129451
+    },
+    {
+      "source": "/assets/zogs/v2/f6fde5a9-bed7-45ad-8edf-f71f44262c76.png",
+      "target": "/assets/images/lore/f6fde5a9-bed7-45ad-8edf-f71f44262c76-02.png",
+      "category": "lore",
+      "size_bytes": 2248807
+    },
+    {
+      "source": "/assets/zogs/v2/fa58c31e-34ba-4a65-8963-0e265cdfb549.png",
+      "target": "/assets/images/lore/fa58c31e-34ba-4a65-8963-0e265cdfb549-02.png",
+      "category": "lore",
+      "size_bytes": 2270057
+    }
+  ]
+}

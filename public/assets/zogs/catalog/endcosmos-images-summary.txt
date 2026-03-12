@@ -1,0 +1,15 @@
+TOTAL: 137
+
+BY EXTENSION:
+.png: 73
+.jpg: 49
+.webp: 12
+.jpeg: 3
+
+BY CATEGORY:
+mixed: 120
+cosmos: 5
+dragon: 4
+infinity: 4
+city: 2
+portal: 2

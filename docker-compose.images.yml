@@ -1,0 +1,19 @@
+services:
+  endcosmos-api:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: endcosmos-api
+    restart: unless-stopped
+    env_file:
+      - backend/.env
+    environment:
+      IMAGE_STORAGE_PATH: /data/images
+    ports:
+      - "8000:8000"
+    volumes:
+      - endcosmos_images:/data/images
+
+volumes:
+  endcosmos_images:
+    name: endcosmos_images

@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-03-12T02:49:50.067140+00:00",
+  "summary": {
+    "total_images": 27,
+    "worlds": 1,
+    "entities": 2,
+    "portals": 4,
+    "maps": 1,
+    "events": 19
+  },
+  "systems": {
+    "world_generator": [
+      "820079311f63aba6"
+    ],
+    "entity_registry": [
+      "3837bcc85078bd30",
+      "d62fb2feb2a85fb8"
+    ],
+    "portal_network": [
+      "34287801daa63651",
+      "4ee3b67a18d37896",
+      "42ba8fd0cfe796f7",
+      "57432d71066de62a"
+    ],
+    "map_forge": [
+      "ca920211f195497c"
+    ],
+    "event_orchestrator": [
+      "5b97b7f187858e26",
+      "7b9f8fa1e18fa7a4",
+      "78e13aa159616bea",
+      "b42c6cab2c68d4ab",
+      "f21e75467d18a7b8",
+      "dfee9bcb3fdb4881",
+      "d962b76f127255da",
+      "826fb2d522b4d413",
+      "bed2f956c26fdbed",
+      "cad539346e062345",
+      "33c46371925e291c",
+      "003254266d15cc8b",
+      "9107c8eef7ee8e34",
+      "cedfc1808a4a4fa4",
+      "a1175a4b80abfd69",
+      "a9685d3a69e2da1e",
+      "0e699b8fec30c075",
+      "b17ab6526251ff29",
+      "55c4561d83bcbd72"
+    ]
+  },
+  "interpretation": {
+    "rule_1": "Cada imagen fue asignada a un sistema del universo.",
+    "rule_2": "Ninguna imagen queda sin propósito.",
+    "rule_3": "Tipos detectados: mapa, entidad, evento, mundo, portal dimensional.",
+    "rule_4": "Se reorganiza automáticamente por clasificación semántica.",
+    "rule_5": "Recursos sin match explícito se integran como eventos narrativos."
+  }
+}

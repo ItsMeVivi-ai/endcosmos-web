@@ -1,0 +1,817 @@
+{
+  "generated_at": "2026-03-12T07:59:25.881774+00:00",
+  "items": [
+    {
+      "nombre": "15C7F06A D254 4014 8312 6C9D39D507B3",
+      "tipo": "NPC",
+      "descripcion": "15C7F06A D254 4014 8312 6C9D39D507B3 se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "15C7F06A D254 4014 8312 6C9D39D507B3 emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador 15C7F06A D254 4014 8312 6C9D39D507B3",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de 15C7F06A D254 4014 8312 6C9D39D507B3",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/15c7f06a-d254-4014-8312-6c9d39d507b3.png",
+      "route": "/assets/npc/15c7f06a-d254-4014-8312-6c9d39d507b3.json"
+    },
+    {
+      "nombre": "1856Dcec C3F1 4031 8B9C 811155A8Bcfc",
+      "tipo": "NPC",
+      "descripcion": "1856Dcec C3F1 4031 8B9C 811155A8Bcfc se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "1856Dcec C3F1 4031 8B9C 811155A8Bcfc emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador 1856Dcec C3F1 4031 8B9C 811155A8Bcfc",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de 1856Dcec C3F1 4031 8B9C 811155A8Bcfc",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/1856dcec-c3f1-4031-8b9c-811155a8bcfc.png",
+      "route": "/assets/npc/1856dcec-c3f1-4031-8b9c-811155a8bcfc.json"
+    },
+    {
+      "nombre": "49565312 1485 4663 9D30 D4Ef49360C03",
+      "tipo": "NPC",
+      "descripcion": "49565312 1485 4663 9D30 D4Ef49360C03 se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "49565312 1485 4663 9D30 D4Ef49360C03 emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador 49565312 1485 4663 9D30 D4Ef49360C03",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de 49565312 1485 4663 9D30 D4Ef49360C03",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/49565312-1485-4663-9d30-d4ef49360c03.png",
+      "route": "/assets/npc/49565312-1485-4663-9d30-d4ef49360c03.json"
+    },
+    {
+      "nombre": "4D370563 F976 4Ebe 9Ee4 8E79D5226233",
+      "tipo": "NPC",
+      "descripcion": "4D370563 F976 4Ebe 9Ee4 8E79D5226233 se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "4D370563 F976 4Ebe 9Ee4 8E79D5226233 emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador 4D370563 F976 4Ebe 9Ee4 8E79D5226233",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de 4D370563 F976 4Ebe 9Ee4 8E79D5226233",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/4d370563-f976-4ebe-9ee4-8e79d5226233.png",
+      "route": "/assets/npc/4d370563-f976-4ebe-9ee4-8e79d5226233.json"
+    },
+    {
+      "nombre": "Chatgpt Image 11 Mar 2026, 16 51 21",
+      "tipo": "NPC",
+      "descripcion": "Chatgpt Image 11 Mar 2026, 16 51 21 se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "Chatgpt Image 11 Mar 2026, 16 51 21 emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador Chatgpt Image 11 Mar 2026, 16 51 21",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de Chatgpt Image 11 Mar 2026, 16 51 21",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/_catalog/ChatGPT Image 11 mar 2026, 16_51_21.png",
+      "route": "/assets/npc/chatgpt-image-11-mar-2026-16-51-21.json"
+    },
+    {
+      "nombre": "Asset1",
+      "tipo": "NPC",
+      "descripcion": "Asset1 se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "Asset1 emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador Asset1",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de Asset1",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/ASSETS/asset1.png",
+      "route": "/assets/npc/asset1.json"
+    },
+    {
+      "nombre": "Cosmos Paisaje Ciudad Armonica",
+      "tipo": "NPC",
+      "descripcion": "Cosmos Paisaje Ciudad Armonica se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "Cosmos Paisaje Ciudad Armonica emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador Cosmos Paisaje Ciudad Armonica",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de Cosmos Paisaje Ciudad Armonica",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/ASSETS/cosmos paisaje ciudad armonica.png",
+      "route": "/assets/npc/cosmos-paisaje-ciudad-armonica.json"
+    },
+    {
+      "nombre": "Endcosmos Hero",
+      "tipo": "NPC",
+      "descripcion": "Endcosmos Hero se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "Endcosmos Hero emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador Endcosmos Hero",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de Endcosmos Hero",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/ASSETS/endcosmos hero.png",
+      "route": "/assets/npc/endcosmos-hero.json"
+    },
+    {
+      "nombre": "Endcosmos Paisaje",
+      "tipo": "NPC",
+      "descripcion": "Endcosmos Paisaje se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "Endcosmos Paisaje emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador Endcosmos Paisaje",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de Endcosmos Paisaje",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/ASSETS/endcosmos paisaje.png",
+      "route": "/assets/npc/endcosmos-paisaje.json"
+    },
+    {
+      "nombre": "Hera Asset1",
+      "tipo": "NPC",
+      "descripcion": "Hera Asset1 se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "Hera Asset1 emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador Hera Asset1",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de Hera Asset1",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/ASSETS/hera asset1.png",
+      "route": "/assets/npc/hera-asset1.json"
+    },
+    {
+      "nombre": "Hera",
+      "tipo": "NPC",
+      "descripcion": "Hera se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "Hera emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador Hera",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de Hera",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/ASSETS/hera.png",
+      "route": "/assets/npc/hera.json"
+    },
+    {
+      "nombre": "B661A293 E619 49A4 Ba52 801E93A43Dac",
+      "tipo": "NPC",
+      "descripcion": "B661A293 E619 49A4 Ba52 801E93A43Dac se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "B661A293 E619 49A4 Ba52 801E93A43Dac emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador B661A293 E619 49A4 Ba52 801E93A43Dac",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de B661A293 E619 49A4 Ba52 801E93A43Dac",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/b661a293-e619-49a4-ba52-801e93a43dac.png",
+      "route": "/assets/npc/b661a293-e619-49a4-ba52-801e93a43dac.json"
+    },
+    {
+      "nombre": "B871874E A401 4272 A5Da 544A3561B7Ba",
+      "tipo": "NPC",
+      "descripcion": "B871874E A401 4272 A5Da 544A3561B7Ba se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "B871874E A401 4272 A5Da 544A3561B7Ba emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador B871874E A401 4272 A5Da 544A3561B7Ba",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de B871874E A401 4272 A5Da 544A3561B7Ba",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/b871874e-a401-4272-a5da-544a3561b7ba.png",
+      "route": "/assets/npc/b871874e-a401-4272-a5da-544a3561b7ba.json"
+    },
+    {
+      "nombre": "Cae88E3C 21Db 491A B025 D290863E236F",
+      "tipo": "NPC",
+      "descripcion": "Cae88E3C 21Db 491A B025 D290863E236F se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "Cae88E3C 21Db 491A B025 D290863E236F emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador Cae88E3C 21Db 491A B025 D290863E236F",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de Cae88E3C 21Db 491A B025 D290863E236F",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/cae88e3c-21db-491a-b025-d290863e236f.png",
+      "route": "/assets/npc/cae88e3c-21db-491a-b025-d290863e236f.json"
+    },
+    {
+      "nombre": "Chatgpt Image 6 Mar 2026, 20 33 12",
+      "tipo": "NPC",
+      "descripcion": "Chatgpt Image 6 Mar 2026, 20 33 12 se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "Chatgpt Image 6 Mar 2026, 20 33 12 emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador Chatgpt Image 6 Mar 2026, 20 33 12",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de Chatgpt Image 6 Mar 2026, 20 33 12",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/ChatGPT Image 6 mar 2026, 20_33_12.png",
+      "route": "/assets/npc/chatgpt-image-6-mar-2026-20-33-12.json"
+    },
+    {
+      "nombre": "Chatgpt Image 7 Mar 2026, 13 52 43",
+      "tipo": "NPC",
+      "descripcion": "Chatgpt Image 7 Mar 2026, 13 52 43 se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "Chatgpt Image 7 Mar 2026, 13 52 43 emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador Chatgpt Image 7 Mar 2026, 13 52 43",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de Chatgpt Image 7 Mar 2026, 13 52 43",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/ChatGPT Image 7 mar 2026, 13_52_43.png",
+      "route": "/assets/npc/chatgpt-image-7-mar-2026-13-52-43.json"
+    },
+    {
+      "nombre": "Chatgpt Image 7 Mar 2026, 13 53 32",
+      "tipo": "NPC",
+      "descripcion": "Chatgpt Image 7 Mar 2026, 13 53 32 se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "Chatgpt Image 7 Mar 2026, 13 53 32 emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador Chatgpt Image 7 Mar 2026, 13 53 32",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de Chatgpt Image 7 Mar 2026, 13 53 32",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/ChatGPT Image 7 mar 2026, 13_53_32.png",
+      "route": "/assets/npc/chatgpt-image-7-mar-2026-13-53-32.json"
+    },
+    {
+      "nombre": "15",
+      "tipo": "NPC",
+      "descripcion": "15 se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "15 emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador 15",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de 15",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/Imagenes V1 - copia/15.png",
+      "route": "/assets/npc/15.json"
+    },
+    {
+      "nombre": "16",
+      "tipo": "NPC",
+      "descripcion": "16 se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "16 emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador 16",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de 16",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/Imagenes V1 - copia/16.png",
+      "route": "/assets/npc/16.json"
+    },
+    {
+      "nombre": "Il Fullxfull.6544827928 K3Sj",
+      "tipo": "NPC",
+      "descripcion": "Il Fullxfull.6544827928 K3Sj se interpreta como npc con lectura visual de 928x1232.",
+      "lore": "Il Fullxfull.6544827928 K3Sj emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador Il Fullxfull.6544827928 K3Sj",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de Il Fullxfull.6544827928 K3Sj",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/Imagenes V1 - copia/il_fullxfull.6544827928_k3sj.jpg",
+      "route": "/assets/npc/il-fullxfull-6544827928-k3sj.json"
+    },
+    {
+      "nombre": "15",
+      "tipo": "NPC",
+      "descripcion": "15 se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "15 emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador 15",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de 15",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/Imagenes V1/15.png",
+      "route": "/assets/npc/15.json"
+    },
+    {
+      "nombre": "16",
+      "tipo": "NPC",
+      "descripcion": "16 se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "16 emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador 16",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de 16",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/Imagenes V1/16.png",
+      "route": "/assets/npc/16.json"
+    },
+    {
+      "nombre": "Il Fullxfull.6544827928 K3Sj",
+      "tipo": "NPC",
+      "descripcion": "Il Fullxfull.6544827928 K3Sj se interpreta como npc con lectura visual de 928x1232.",
+      "lore": "Il Fullxfull.6544827928 K3Sj emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador Il Fullxfull.6544827928 K3Sj",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de Il Fullxfull.6544827928 K3Sj",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/Imagenes V1/il_fullxfull.6544827928_k3sj.jpg",
+      "route": "/assets/npc/il-fullxfull-6544827928-k3sj.json"
+    },
+    {
+      "nombre": "75E5Ba18 1Ba1 4305 97Ea 9C4A5Ae31Cb0",
+      "tipo": "NPC",
+      "descripcion": "75E5Ba18 1Ba1 4305 97Ea 9C4A5Ae31Cb0 se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "75E5Ba18 1Ba1 4305 97Ea 9C4A5Ae31Cb0 emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador 75E5Ba18 1Ba1 4305 97Ea 9C4A5Ae31Cb0",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de 75E5Ba18 1Ba1 4305 97Ea 9C4A5Ae31Cb0",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/Imagenes V2 - copia/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0.png",
+      "route": "/assets/npc/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0.json"
+    },
+    {
+      "nombre": "78565D2D 57Ec 41Fb Ac8B 0013A2C9236C",
+      "tipo": "NPC",
+      "descripcion": "78565D2D 57Ec 41Fb Ac8B 0013A2C9236C se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "78565D2D 57Ec 41Fb Ac8B 0013A2C9236C emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador 78565D2D 57Ec 41Fb Ac8B 0013A2C9236C",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de 78565D2D 57Ec 41Fb Ac8B 0013A2C9236C",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/Imagenes V2 - copia/78565d2d-57ec-41fb-ac8b-0013a2c9236c.png",
+      "route": "/assets/npc/78565d2d-57ec-41fb-ac8b-0013a2c9236c.json"
+    },
+    {
+      "nombre": "75E5Ba18 1Ba1 4305 97Ea 9C4A5Ae31Cb0",
+      "tipo": "NPC",
+      "descripcion": "75E5Ba18 1Ba1 4305 97Ea 9C4A5Ae31Cb0 se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "75E5Ba18 1Ba1 4305 97Ea 9C4A5Ae31Cb0 emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador 75E5Ba18 1Ba1 4305 97Ea 9C4A5Ae31Cb0",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de 75E5Ba18 1Ba1 4305 97Ea 9C4A5Ae31Cb0",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/Imagenes V2/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0.png",
+      "route": "/assets/npc/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0.json"
+    },
+    {
+      "nombre": "78565D2D 57Ec 41Fb Ac8B 0013A2C9236C",
+      "tipo": "NPC",
+      "descripcion": "78565D2D 57Ec 41Fb Ac8B 0013A2C9236C se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "78565D2D 57Ec 41Fb Ac8B 0013A2C9236C emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador 78565D2D 57Ec 41Fb Ac8B 0013A2C9236C",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de 78565D2D 57Ec 41Fb Ac8B 0013A2C9236C",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/Imagenes V2/78565d2d-57ec-41fb-ac8b-0013a2c9236c.png",
+      "route": "/assets/npc/78565d2d-57ec-41fb-ac8b-0013a2c9236c.json"
+    },
+    {
+      "nombre": "9529717D 2Eb7 4Dde Ac1D E00Cb0Ac15Aa",
+      "tipo": "NPC",
+      "descripcion": "9529717D 2Eb7 4Dde Ac1D E00Cb0Ac15Aa se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "9529717D 2Eb7 4Dde Ac1D E00Cb0Ac15Aa emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador 9529717D 2Eb7 4Dde Ac1D E00Cb0Ac15Aa",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de 9529717D 2Eb7 4Dde Ac1D E00Cb0Ac15Aa",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/WEB PORTAL - copia/9529717d-2eb7-4dde-ac1d-e00cb0ac15aa.png",
+      "route": "/assets/npc/9529717d-2eb7-4dde-ac1d-e00cb0ac15aa.json"
+    },
+    {
+      "nombre": "Chatgpt Image 12 Mar 2026, 08 53 30",
+      "tipo": "NPC",
+      "descripcion": "Chatgpt Image 12 Mar 2026, 08 53 30 se interpreta como npc con lectura visual de 1024x1536.",
+      "lore": "Chatgpt Image 12 Mar 2026, 08 53 30 emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este npc conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Activa diálogo, reputación, comercio y cadenas de misiones.",
+      "npc_relacionados": [
+        "Operador Chatgpt Image 12 Mar 2026, 08 53 30",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de Chatgpt Image 12 Mar 2026, 08 53 30",
+        "Asegurar control estratégico del npc",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Suplantadores Cuánticos",
+        "Mercenarios del Vacío"
+      ],
+      "recompensas": [
+        "Reputación de Facción",
+        "Contrato exclusivo"
+      ],
+      "nivel_recomendado": "1-60",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/WEB PORTAL - copia/ChatGPT Image 12 mar 2026, 08_53_30.png",
+      "route": "/assets/npc/chatgpt-image-12-mar-2026-08-53-30.json"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import date, datetime
 from typing import Literal
 
 from pydantic import BaseModel, ConfigDict, EmailStr, Field, field_validator
@@ -11,8 +11,10 @@ DANGEROUS_CHARS = {"<", ">", "'", '"', "`", ";"}
 class RegisterRequest(BaseModel):
     username: str = Field(min_length=3, max_length=16, pattern=USERNAME_PATTERN)
     email: EmailStr
+    birth_date: date
     password: str = Field(min_length=8, max_length=128)
     confirm_password: str = Field(min_length=8, max_length=128)
+    accepted_privacy: bool
     source: Literal["web", "launcher", "panel", "discord", "google"] = "web"
 
     @field_validator("username")
@@ -22,6 +24,13 @@ class RegisterRequest(BaseModel):
         if clean != value:
             raise ValueError("Username cannot start or end with spaces")
         return clean
+
+    @field_validator("birth_date")
+    @classmethod
+    def validate_birth_date(cls, value: date) -> date:
+        if value >= date.today():
+            raise ValueError("birth_date must be in the past")
+        return value
 
     @field_validator("password")
     @classmethod
@@ -37,6 +46,13 @@ class RegisterRequest(BaseModel):
     def validate_confirm_password(cls, value: str) -> str:
         if any(char in value for char in DANGEROUS_CHARS):
             raise ValueError("Confirm password contains unsupported special characters")
+        return value
+
+    @field_validator("accepted_privacy")
+    @classmethod
+    def validate_accepted_privacy(cls, value: bool) -> bool:
+        if value is not True:
+            raise ValueError("Privacy policy acceptance is required")
         return value
 
 

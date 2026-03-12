@@ -1,0 +1,184 @@
+{
+  "entries": [
+    {
+      "id": "NEWS-261",
+      "date": "2026-03-12",
+      "slug": "nebula-ix-corredor-abierto",
+      "title": "Apertura del Corredor Nébula IX",
+      "summary": "Un corredor inestable conecta Draco con sistemas no cartografiados y activa protocolos de tránsito restringido.",
+      "location": "Borde orbital de Draco",
+      "tags": [
+        "exploration",
+        "world-building",
+        "systems"
+      ],
+      "content": [
+        "Las sondas de la Llunaris Vanguard confirmaron la apertura del Corredor Nébula IX tras tres ciclos de anomalías gravitacionales.",
+        "El tránsito civil queda restringido mientras los Forgebound Houses despliegan balizas cuánticas para reducir pérdidas de convoy.",
+        "Se reporta actividad de nómadas Aster en la periferia del corredor, con señales de intercambio no autorizado."
+      ]
+    },
+    {
+      "id": "NEWS-262",
+      "date": "2026-03-13",
+      "slug": "archivo-ceniza-reactiva",
+      "title": "El Archivo de Ceniza Reactiva",
+      "summary": "Se reactivó un repositorio ancestral en Ashfall Basin con mapas de rutas prohibidas.",
+      "location": "Ashfall Basin",
+      "tags": [
+        "lore",
+        "archives",
+        "draco"
+      ],
+      "content": [
+        "Un equipo mixto de cartógrafos y tecnomantes desbloqueó cámaras selladas bajo sedimento de hierro líquido.",
+        "Los fragmentos recuperados contienen cartografías parciales de corredores anteriores al Pacto de Convoys.",
+        "El Consejo de Draco autorizó investigación limitada por riesgo de contaminación cognitiva en operadores sin blindaje psíquico."
+      ]
+    },
+    {
+      "id": "NEWS-263",
+      "date": "2026-03-14",
+      "slug": "pacto-shatter-docks",
+      "title": "Veyra Quill firma el Pacto de Shatter Docks",
+      "summary": "Nuevo acuerdo logístico reduce pérdidas de convoy y estabiliza exportaciones críticas.",
+      "location": "Shatter Docks",
+      "tags": [
+        "economy",
+        "logistics",
+        "npc"
+      ],
+      "content": [
+        "El pacto introduce ventanas de tránsito blindado para rutas médicas y suministros de infraestructura.",
+        "Las primeras simulaciones del guild mercante proyectan una reducción de pérdidas del 18% en la siguiente fase.",
+        "Facciones independientes exigen auditoría abierta para evitar concentración de poder en las casas fundadoras."
+      ]
+    },
+    {
+      "id": "NEWS-264",
+      "date": "2026-03-15",
+      "slug": "incidente-noctilux-ecos",
+      "title": "Incidente Noctilux: Ecos de Fondo",
+      "summary": "Patrullas detectan patrones de baja frecuencia compatibles con lenguaje estructurado.",
+      "location": "Noctilux Plateau",
+      "tags": [
+        "ai-dialogues",
+        "mystery",
+        "threat"
+      ],
+      "content": [
+        "Las emisiones registradas no corresponden a fauna conocida ni a señalización de convoy.",
+        "Arcane Tower sugiere origen pre-imperial y recomienda protocolo de observación silenciosa.",
+        "Se elevó el nivel de alerta a medio hasta confirmar si existe respuesta adaptativa al contacto humano."
+      ]
+    },
+    {
+      "id": "NEWS-265",
+      "date": "2026-03-16",
+      "slug": "lumens-volatile-growth",
+      "title": "Mercado de Lumens entra en Volatile-Growth",
+      "summary": "La economía de Draco acelera con alta demanda de Aether Iron y volatilidad de rutas.",
+      "location": "Citadel Ring Exchange",
+      "tags": [
+        "economy",
+        "systems",
+        "trade"
+      ],
+      "content": [
+        "La cotización de Aether Iron subió por demanda defensiva en sectores periféricos.",
+        "Interrupciones en rutas del corredor generan oscilaciones abruptas de liquidez entre casas mercantes.",
+        "El índice de confianza civil se mantiene neutro, pero con alerta moderada para nuevos inversores."
+      ]
+    },
+    {
+      "id": "NEWS-266",
+      "date": "2026-03-17",
+      "slug": "ferric-hydra-ruptura-furnace-rift",
+      "title": "Ferric Hydra rompe contención en Furnace Rift",
+      "summary": "Una brecha de contención activa defensa orbital y bloquea minería de núcleo profundo.",
+      "location": "Furnace Rift",
+      "tags": [
+        "creatures",
+        "threat",
+        "world-building"
+      ],
+      "content": [
+        "Equipos de extracción reportaron vibraciones secuenciales antes de la ruptura de anillos térmicos.",
+        "La Hydra desplazó dos plataformas autónomas y obligó a evacuar cuadrantes de trabajo.",
+        "Rhokan Ember solicita refuerzos de caza pesada y revisión del protocolo de perforación."
+      ]
+    },
+    {
+      "id": "NEWS-267",
+      "date": "2026-03-18",
+      "slug": "carta-aster-nomads",
+      "title": "Aster Nomads publica Carta de Tránsito Libre",
+      "summary": "Los nómadas proponen rutas neutrales y arbitraje independiente para convoys.",
+      "location": "Periferia del Corredor Nébula IX",
+      "tags": [
+        "factions",
+        "diplomacy",
+        "expansion"
+      ],
+      "content": [
+        "La Carta plantea tres carriles neutrales bajo supervisión rotativa entre facciones firmantes.",
+        "Llunaris Vanguard ve potencial estratégico, pero exige controles de identidad y carga más estrictos.",
+        "El debate abre una vía diplomática inédita en la frontera de expansión reciente."
+      ]
+    },
+    {
+      "id": "NEWS-268",
+      "date": "2026-03-19",
+      "slug": "draco-somnian-archives",
+      "title": "Somnian Archives detecta huecos históricos en Draco",
+      "summary": "Nuevos análisis revelan dos ciclos completos ausentes en registros oficiales.",
+      "location": "Somnian Archives",
+      "tags": [
+        "archives",
+        "lore",
+        "mystery"
+      ],
+      "content": [
+        "La sincronización de sellos temporales evidencia manipulación sobre capas de memoria pública.",
+        "Los vacíos coinciden con primeras referencias al Leviathan de corrientes profundas.",
+        "Se habilita investigación cruzada con custodios de Arcane Tower y el Consejo de Cronistas."
+      ]
+    },
+    {
+      "id": "NEWS-269",
+      "date": "2026-03-20",
+      "slug": "ai-dialogue-protocol-ix",
+      "title": "Protocol IX habilita diálogos de IA táctica",
+      "summary": "Nuevo protocolo permite asistentes estratégicos en tiempo real para convoys y patrullas.",
+      "location": "Citadel Ring Command",
+      "tags": [
+        "ai-dialogues",
+        "game-systems",
+        "technology"
+      ],
+      "content": [
+        "El sistema combina lectura de riesgo, simulación de ruta y negociación asistida por contexto.",
+        "Pilotos veteranos reportan mejor coordinación bajo tormenta de rift con menor carga cognitiva.",
+        "El Consejo limita su uso a zonas certificadas para evitar dependencia operativa temprana."
+      ]
+    },
+    {
+      "id": "NEWS-270",
+      "date": "2026-03-21",
+      "slug": "worlds-astra-ix-propuesta",
+      "title": "Se propone la sección /worlds/astra-ix",
+      "summary": "ORACLE recomienda abrir nueva sección web para consolidar expansión narrativa multizona.",
+      "location": "Núcleo de Coordinación EndCosmos",
+      "tags": [
+        "web-expansion",
+        "oracle",
+        "infinite-worlds"
+      ],
+      "content": [
+        "La propuesta integra biomas de océano cristalino, nodos de civilización emergente y eventos dinámicos.",
+        "ARCHITECT sugiere estructura modular para escalar lore, NPCs y sistemas económicos por capítulos.",
+        "BUILDER y MAINTAINER quedan preasignados para ejecución por fases con validación de rendimiento."
+      ]
+    }
+  ]
+}

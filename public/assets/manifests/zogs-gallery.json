@@ -1,0 +1,1565 @@
+{
+  "generated_at": "2026-03-12T11:29:35.136733+00:00",
+  "base_image": {
+    "src": "/assets/zogs/catalog/portada1-2.png",
+    "alt": "EndCosmos y sus ideas de lore y movimiento"
+  },
+  "narratives": [
+    {
+      "title": "endcosmos images catalog",
+      "source": "endcosmos-images-catalog.json",
+      "type": "json",
+      "content": "[\n  {\n    \"name\": \"0_K-q8XID3qORj8V-T.jpg\",\n    \"relative_path\": \"0_K-q8XID3qORj8V-T.jpg\",\n    \"extension\": \".jpg\",\n    \"size_bytes\": 46464,\n    \"width\": 600,\n    \"height\": 492,\n    \"aspect_ratio\": 1.2195,\n    \"category\": \"mixed\",\n    \"sha256\": \"76C34B1C25A598DB1E2E447A177ECFC85F143C87AFECC4C11199E85A4D6E23E6\",\n    \"modified_utc\": \"2026-03-07T02:11:38.2793049Z\"\n  },\n  {\n    \"name\": \"03-space-eagle-nebula.jpg\",\n    \"relative_path\": \"03-space-eagle-nebula.jpg\",\n    \"extension\": \".jpg\",\n    \"size_bytes\": 1249623,\n    \"width\": 3072,\n    \"height\": 3072,\n    \"aspect_ratio\": 1.0,\n    \"category\": \"cosmos\",\n    \"sha256\": \"8E5CEB66B623E19EC82DA42F434E55EF31745A4EF2028322654CFD04ECDB5BFD\",\n    \"modified_utc\": \"2026-03-07T01:05:33.0878906Z\"\n  },\n  {\n    \"name\": \"03773bf7-2ecb-470f-a390-2b02c8de1477.png\",\n    \"relative_path\": \"03773bf7-2ecb-470f-a390-2b02c8de1477.png\",\n    \"extension\": \".png\",\n    \"size_bytes\": 3202768,\n    \"width\": 1536,\n    \"height\": 1024,\n    \"aspect_ratio\": 1.5,\n    \"category\": \"mixed\",\n    \"sha256\": \"A3C09875BD02683A4BA3D6D04DB60814E8218080B7EAD14FA53C08C503A63C0E\",\n    \"modified_utc\": \"2026-03-09T16:44:59.2182415Z\"\n  },\n  {\n    \"name\": \"063b3970-b498-47a2-b28a-c536c93acefc_medium.webp\",\n    \"relative_path\": \"063b3970-b498-47a2-b28a-c536c93acefc_medium.webp\",\n    \"extension\": \".webp\",\n    \"size_bytes\": 158658,\n    \"width\": null,\n    \"height\": null,\n    \"aspect_ratio\": null,\n    \"category\": \"mixed\",\n    \"sha256\": \"4D1406C1356117DB20A02408BC0B846A82DA837D9691656BD581F09A9FDB3DE3\",\n    \"modified_utc\": \"2026-03-07T16:01:19.0700673Z\"\n  },\n  {\n    \"name\": \"1_-bgIH56OfCuEgowtqOxobQ.jpg\",\n    \"relative_path\": \"1_-bgIH56OfCuEgowtqOxobQ.jpg\",\n    \"extension\": \".jpg\",\n    \"size_bytes\": 117909,\n    \"width\": 631,\n    \"height\": 893,\n    \"aspect_ratio\": 0.7066,\n    \"category\": \"mixed\",\n    \"sha256\": \"16CD67CFEA87D0516FB49A19F049812CE22F77BE3D3D50850BE9B4DDF27BE537\",\n    \"modified_utc\": \"2026-03-10T15:32:17.1883370Z\"\n  },\n  {\n    \"name\": \"1_8mA4oCFq3xw1UAz7Q_maYg.jpg\",\n    \"relative_path\": \"1_8mA4oCFq3xw1UAz7Q_maYg.jpg\",\n    \"extension\": \".jpg\",\n    \"size_bytes\": 58680,\n    \"width\": 958,\n    \"height\": 632,\n    \"aspect_ratio\": 1.5158,\n    \"category\": \"infinity\",\n    \"sha256\": \"183A9D4CFAEE5C43814A6AD82201F24FD6D109B93A5C3B5A42C2B4BF11086727\",\n    \"modified_utc\": \"2026-03-07T02:11:46.4364817Z\"\n  },\n  {\n    \"name\": \"1_B1bySwN3CpepfjwAvyjvTQ.jpg\",\n    \"relative_path\": \"1_B1bySwN3CpepfjwAvyjvTQ.jpg\",\n    \"extension\": \".jpg\",\n    \"size_bytes\": 183916,\n    \"width\": 1280,\n    \"height\": 724,\n    \"aspect_ratio\": 1.768,\n    \"category\": \"mixed\",\n    \"sha256\": \"2A245DA4862F22EC095E393332018D9099E50823A3676BBE82835F2238481DBC\",\n    \"modified_utc\": \"2026-03-07T00:57:31.6525281Z\"\n  },\n  {\n    \"name\": \"1_VVvDYU4yy7mdsykR2Od_fQ.jpg\",\n    \"relative_path\": \"1_VVvDYU4yy7mdsykR2Od_fQ.jpg\",\n    \"extension\": \".jpg\",\n    \"size_bytes\": 275876,\n    \"width\": 1024,\n    \"height\": 1024,\n    \"aspect_ratio\": 1.0,\n    \"category\": \"mixed\",\n    \"sha256\": \"1CB0673E441DAE519DA114E0A5FD9925187ABFD35815A32EE7F130602CAA89A5\",\n    \"modified_utc\": \"2026-03-10T15:32:33.6726220Z\"\n  },\n  {\n    \"name\": \"1003670 (1).png\",\n    \"relative_path\": \"1003670 (1).png\",\n    \"extension\": \".png\",\n    \"size_bytes\": 3056232,\n    \"width\": 1920,\n    \"height\": 1080,\n    \"aspect_ratio\": 1.7778,\n    \"category\": \"mixed\",\n    \"sha256\": \"318B847EA051F4E875A02B7ABBD3CDA4FA1401DA6CB0A03A7302FF16F40B6D76\",\n    \"modified_utc\": \"2026-03-07T00:40:38.0507247Z\"\n  },\n  {\n    \"name\": \"11212408550228480745_2048.jpg\",\n    \"relative_path\": \"11212408550228480745_2048.jpg\",\n    \"extension\": \".jpg\",\n    \"size_bytes\": 509747,\n    \"width\": 1946,\n    \"height\": 1946,\n    \"aspect_ratio\": 1.0,\n    \"category\": \"mixed\",\n    \"sha256\": \"B07463778376B46077BB4066287E91C09AB87E577E3FD5F3CD271CE7A1E3931B\",\n    \"modified_utc\": \"2026-03-11T14:28:45.7629000Z\"\n  },\n  {\n    \"name\": \"1175534.jpg\",\n    \"relative_path\": \"1175534.jpg\",\n    \"extension\": \".jpg\",\n    \"size_bytes\": 1051039,\n    \"width\": 3440,\n    \"height\": 1440,\n    \"aspect_ra\n\n...[contenido truncado]"
+    },
+    {
+      "title": "endcosmos images summary",
+      "source": "endcosmos-images-summary.txt",
+      "type": "txt",
+      "content": "TOTAL: 137\n\nBY EXTENSION:\n.png: 73\n.jpg: 49\n.webp: 12\n.jpeg: 3\n\nBY CATEGORY:\nmixed: 120\ncosmos: 5\ndragon: 4\ninfinity: 4\ncity: 2\nportal: 2"
+    },
+    {
+      "title": "endcosmos web shortlists",
+      "source": "endcosmos-web-shortlists.json",
+      "type": "json",
+      "content": "{\n  \"generated_utc\": \"2026-03-11T15:17:27.7204515Z\",\n  \"hero_desktop\": [\n    {\n      \"name\": \"df36had-01f8f342-f79a-46e6-a381-f346676837a9.jpg\",\n      \"relative_path\": \"df36had-01f8f342-f79a-46e6-a381-f346676837a9.jpg\",\n      \"extension\": \".jpg\",\n      \"size_bytes\": 7685075,\n      \"width\": 8865,\n      \"height\": 4024,\n      \"aspect_ratio\": \"2,203\",\n      \"category\": \"mixed\",\n      \"sha256\": \"179D462E2DE6C6D7F51DBC707E99DA51A39DD283FD9F7238608D48B812BE974F\",\n      \"modified_utc\": \"2026-03-07T16:01:29.5554768Z\"\n    },\n    {\n      \"name\": \"potw2319a.jpg\",\n      \"relative_path\": \"potw2319a.jpg\",\n      \"extension\": \".jpg\",\n      \"size_bytes\": 2278160,\n      \"width\": 2839,\n      \"height\": 2389,\n      \"aspect_ratio\": \"1,1884\",\n      \"category\": \"mixed\",\n      \"sha256\": \"2920B7613432874561EBA18149BAAAC06884766BBF31DBBC0E34DEA305D3BE0D\",\n      \"modified_utc\": \"2026-03-11T14:29:24.0381164Z\"\n    },\n    {\n      \"name\": \"fornax_virgo2011.jpg\",\n      \"relative_path\": \"fornax_virgo2011.jpg\",\n      \"extension\": \".jpg\",\n      \"size_bytes\": 1567167,\n      \"width\": 3536,\n      \"height\": 3172,\n      \"aspect_ratio\": \"1,1148\",\n      \"category\": \"mixed\",\n      \"sha256\": \"D2171BE5E49591C879B432C98A620C9D9E552826D556AC6F1CA07BD214D6A9DE\",\n      \"modified_utc\": \"2026-03-07T01:02:54.4326614Z\"\n    },\n    {\n      \"name\": \"03-space-eagle-nebula.jpg\",\n      \"relative_path\": \"03-space-eagle-nebula.jpg\",\n      \"extension\": \".jpg\",\n      \"size_bytes\": 1249623,\n      \"width\": 3072,\n      \"height\": 3072,\n      \"aspect_ratio\": \"1\",\n      \"category\": \"cosmos\",\n      \"sha256\": \"8E5CEB66B623E19EC82DA42F434E55EF31745A4EF2028322654CFD04ECDB5BFD\",\n      \"modified_utc\": \"2026-03-07T01:05:33.0878906Z\"\n    },\n    {\n      \"name\": \"1175534.jpg\",\n      \"relative_path\": \"1175534.jpg\",\n      \"extension\": \".jpg\",\n      \"size_bytes\": 1051039,\n      \"width\": 3440,\n      \"height\": 1440,\n      \"aspect_ratio\": \"2,3889\",\n      \"category\": \"mixed\",\n      \"sha256\": \"1D01537B34D3FC4EF3B459FE55941ECB7D25671C659DB263BFD44A0753AF9BBB\",\n      \"modified_utc\": \"2026-03-11T14:29:16.0435328Z\"\n    },\n    {\n      \"name\": \"M4G_Ng-gELNZ9k36AiD09khFbRdzUH4m32uai76DPGAK8KEKvvjktCMz4E3z9FvkJeK-Ds7ZhIT4oOBfzlDyfjn3Ybsjw3hUeDMnVK7eK48.jpg\",\n      \"relative_path\": \"M4G_Ng-gELNZ9k36AiD09khFbRdzUH4m32uai76DPGAK8KEKvvjktCMz4E3z9FvkJeK-Ds7ZhIT4oOBfzlDyfjn3Ybsjw3hUeDMnVK7eK48.jpg\",\n      \"extension\": \".jpg\",\n      \"size_bytes\": 118123,\n      \"width\": 2949,\n      \"height\": 1017,\n      \"aspect_ratio\": \"2,8997\",\n      \"category\": \"mixed\",\n      \"sha256\": \"5B1E9E84CDA84785831D233151119DCAA95FB20DEE60C242CE2C27849358FF61\",\n      \"modified_utc\": \"2026-03-11T13:18:46.6418136Z\"\n    }\n  ],\n  \"hero_mobile\": {\n    \"name\": \"416030b5298d3fe495ed409820bfec69a1a62781.jpeg\",\n    \"relative_path\": \"416030b5298d3fe495ed409820bfec69a1a62781.jpeg\",\n    \"extension\": \".jpeg\",\n    \"size_bytes\": 2070937,\n    \"width\": 3000,\n    \"height\": 4000,\n    \"aspect_ratio\": \"0,75\",\n    \"category\": \"mixed\",\n    \"sha256\": \"EA65D324AFC40764556E19DFA4BA740E44E937CE5FFBF81476D5034E86A8BEDB\",\n    \"modified_utc\": \"2026-03-07T00:20:10.8200378Z\"\n  },\n  \"grid_square\": [\n    {\n      \"name\": \"7.png\",\n      \"relative_path\": \"Imagenes V1\\\\7.png\",\n      \"extension\": \".png\",\n      \"size_bytes\": 2647945,\n      \"width\": 1024,\n      \"height\": 1024,\n      \"aspect_ratio\": \"1\",\n      \"category\": \"mixed\",\n      \"sha256\": \"ECD1247331358B2991E2ED13650C060108524BC6F76D562C1D18D95166F50785\",\n      \"modified_utc\": \"2026-03-11T14:47:59.6504960Z\"\n    },\n    {\n      \"name\": \"f252687f-32ab-4b3b-b5de-81cfd4ebc117.png\",\n      \"relative_path\": \"Imagenes V2\\\\endcosmos_images\\\\f252687f-32ab-4b3b-b5de-81cfd4ebc117.png\",\n      \"extension\": \".png\",\n      \"size_bytes\": 2606271,\n      \"width\": 1024,\n      \"height\": 1024,\n      \"aspect_ratio\": \"1\",\n      \"category\": \"mixed\",\n      \"sha256\": \"B205F11B504BF1D829521D03A7C46D785BCBC20B251481CA32E8BA426040F077\",\n      \"modified_utc\": \"2026-03-11T14:51:24.0000000Z\"\n    },\n    {\n      \"name\": \"21.png\",\n      \"relative_path\": \"Imagenes V1\\\\21.png\n\n...[contenido truncado]"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Portadas",
+      "grid_class": "zogs-grid-featured",
+      "items": [
+        {
+          "src": "/assets/zogs/catalog/portada1-2.png",
+          "alt": "Portada: Portada1 2"
+        },
+        {
+          "src": "/assets/zogs/catalog/portada1.png",
+          "alt": "Portada: Portada1"
+        }
+      ]
+    },
+    {
+      "title": "Assets ZOGS",
+      "grid_class": "zogs-grid-featured",
+      "items": [
+        {
+          "src": "/assets/zogs/imported-assets/0-k-q8xid3qorj8v-t.jpg",
+          "alt": "Assets: 0 k q8xid3qorj8v t"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/0d6aeb92-86e0-4f77-a56f-aad63aa5fd0d-2.png",
+          "alt": "Assets: 0d6aeb92 86e0 4f77 a56f aad63aa5fd0d 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/0d6aeb92-86e0-4f77-a56f-aad63aa5fd0d.png",
+          "alt": "Assets: 0d6aeb92 86e0 4f77 a56f aad63aa5fd0d"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/1-2.png",
+          "alt": "Assets: 1 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/1-8ma4ocfq3xw1uaz7q-mayg.jpg",
+          "alt": "Assets: 1 8ma4ocfq3xw1uaz7q mayg"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/1-10724-2.png",
+          "alt": "Assets: 1 10724 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/1-10724.png",
+          "alt": "Assets: 1 10724"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/1-b1byswn3cpepfjwavyjvtq.jpg",
+          "alt": "Assets: 1 b1byswn3cpepfjwavyjvtq"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/1-bgih56ofcuegowtqoxobq-copia.jpg",
+          "alt": "Assets: 1 bgih56ofcuegowtqoxobq copia"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/1-bgih56ofcuegowtqoxobq.jpg",
+          "alt": "Assets: 1 bgih56ofcuegowtqoxobq"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/1-vvvdyu4yy7mdsykr2od-fq.jpg",
+          "alt": "Assets: 1 vvvdyu4yy7mdsykr2od fq"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/1.png",
+          "alt": "Assets: 1"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/1a7c4613c8f558ac8e41cf06af40498d.jpg",
+          "alt": "Assets: 1a7c4613c8f558ac8e41cf06af40498d"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/2-2.png",
+          "alt": "Assets: 2 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/2.png",
+          "alt": "Assets: 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/2fe9563b-d22f-4f45-b54e-a54b258da6dd-2.png",
+          "alt": "Assets: 2fe9563b d22f 4f45 b54e a54b258da6dd 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/2fe9563b-d22f-4f45-b54e-a54b258da6dd.png",
+          "alt": "Assets: 2fe9563b d22f 4f45 b54e a54b258da6dd"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/3-2.png",
+          "alt": "Assets: 3 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+          "alt": "Assets: 03 space eagle nebula"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/3.png",
+          "alt": "Assets: 3"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/3dfd977c-55ee-41de-9e5b-bc1890cf5441-2.png",
+          "alt": "Assets: 3dfd977c 55ee 41de 9e5b bc1890cf5441 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/3dfd977c-55ee-41de-9e5b-bc1890cf5441.png",
+          "alt": "Assets: 3dfd977c 55ee 41de 9e5b bc1890cf5441"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/4-2.png",
+          "alt": "Assets: 4 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/4.png",
+          "alt": "Assets: 4"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/4ab2e091-da1b-48c5-a6c1-1fb3d0cc6289.png",
+          "alt": "Assets: 4ab2e091 da1b 48c5 a6c1 1fb3d0cc6289"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/5-2.png",
+          "alt": "Assets: 5 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/5.png",
+          "alt": "Assets: 5"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/5d8457df-af04-49c4-b28f-d25b4c09cfb9-2.png",
+          "alt": "Assets: 5d8457df af04 49c4 b28f d25b4c09cfb9 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/5d8457df-af04-49c4-b28f-d25b4c09cfb9.png",
+          "alt": "Assets: 5d8457df af04 49c4 b28f d25b4c09cfb9"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/5e7hhx9srml3rszjwgoxyz1hxzfsuahls-ta4julzhrm15r8r5ct-nbfnrppz4g-hqcpomwqopu8p7mk72hqk2m1vkljnop4ccnsx4cgxb0.jpg",
+          "alt": "Assets: 5e7hhx9srml3rszjwgoxyz1hxzfsuahls ta4julzhrm15r8r5ct nbfnrppz4g hqcpomwqopu8p7mk72hqk2m1vkljnop4ccnsx4cgxb0"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/6-2.png",
+          "alt": "Assets: 6 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/6.png",
+          "alt": "Assets: 6"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/6assets1-2.png",
+          "alt": "Assets: 6assets1 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/6assets1-3.png",
+          "alt": "Assets: 6assets1 3"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/6assets1-4.png",
+          "alt": "Assets: 6assets1 4"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/6assets1.png",
+          "alt": "Assets: 6assets1"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/6cbcac41-3cee-48d5-953c-ea7ad1a04098-2.png",
+          "alt": "Assets: 6cbcac41 3cee 48d5 953c ea7ad1a04098 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/6cbcac41-3cee-48d5-953c-ea7ad1a04098.png",
+          "alt": "Assets: 6cbcac41 3cee 48d5 953c ea7ad1a04098"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/6jfy7ecahuosjccauylb3o.jpg",
+          "alt": "Assets: 6jfy7ecahuosjccauylb3o"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/7-2.png",
+          "alt": "Assets: 7 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/7.png",
+          "alt": "Assets: 7"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/8-2.png",
+          "alt": "Assets: 8 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/8.png",
+          "alt": "Assets: 8"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/8b16e5a2-ae02-4eb2-a405-67d740e71669-2.png",
+          "alt": "Assets: 8b16e5a2 ae02 4eb2 a405 67d740e71669 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/8b16e5a2-ae02-4eb2-a405-67d740e71669.png",
+          "alt": "Assets: 8b16e5a2 ae02 4eb2 a405 67d740e71669"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/8b33a2cfdba72ecfe415cba79d9f8ea9.jpg",
+          "alt": "Assets: 8b33a2cfdba72ecfe415cba79d9f8ea9"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/8bb89adf-d6f5-41f4-b314-90d09fa25c60-2.png",
+          "alt": "Assets: 8bb89adf d6f5 41f4 b314 90d09fa25c60 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/8bb89adf-d6f5-41f4-b314-90d09fa25c60.png",
+          "alt": "Assets: 8bb89adf d6f5 41f4 b314 90d09fa25c60"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/8c569664-1712-49aa-8512-36407ee88106.png",
+          "alt": "Assets: 8c569664 1712 49aa 8512 36407ee88106"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f-2.png",
+          "alt": "Assets: 8f7e15eb 537f 4a57 b1d9 be0f3c62ba6f 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f.png",
+          "alt": "Assets: 8f7e15eb 537f 4a57 b1d9 be0f3c62ba6f"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/8f245e3f-8a88-47cb-bdf9-e00067f38896-2.png",
+          "alt": "Assets: 8f245e3f 8a88 47cb bdf9 e00067f38896 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/8f245e3f-8a88-47cb-bdf9-e00067f38896.png",
+          "alt": "Assets: 8f245e3f 8a88 47cb bdf9 e00067f38896"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/9-2.png",
+          "alt": "Assets: 9 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/9.png",
+          "alt": "Assets: 9"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/9d9d5754ae8016c18a7fd4029ab11df8.jpg",
+          "alt": "Assets: 9d9d5754ae8016c18a7fd4029ab11df8"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/10-2.png",
+          "alt": "Assets: 10 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/10.png",
+          "alt": "Assets: 10"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/11-2.png",
+          "alt": "Assets: 11 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/11.png",
+          "alt": "Assets: 11"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/12-2.png",
+          "alt": "Assets: 12 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/12.png",
+          "alt": "Assets: 12"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/13-2.png",
+          "alt": "Assets: 13 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/13.png",
+          "alt": "Assets: 13"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/14-2.png",
+          "alt": "Assets: 14 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/14-3.png",
+          "alt": "Assets: 14 3"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/14.png",
+          "alt": "Assets: 14"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/14df6d39-249a-4bf6-93de-7bcf4457690e-medium.webp",
+          "alt": "Assets: 14df6d39 249a 4bf6 93de 7bcf4457690e medium"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/15-2.png",
+          "alt": "Assets: 15 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/15.png",
+          "alt": "Assets: 15"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/15c7f06a-d254-4014-8312-6c9d39d507b3.png",
+          "alt": "Assets: 15c7f06a d254 4014 8312 6c9d39d507b3"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/16-2.png",
+          "alt": "Assets: 16 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/16.png",
+          "alt": "Assets: 16"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/16b6820b-a3a6-4f12-bd91-bdcf5c97acc4-2.png",
+          "alt": "Assets: 16b6820b a3a6 4f12 bd91 bdcf5c97acc4 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/16b6820b-a3a6-4f12-bd91-bdcf5c97acc4.png",
+          "alt": "Assets: 16b6820b a3a6 4f12 bd91 bdcf5c97acc4"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/16ce668b-cc24-44c5-b785-003eacfc1a66-2.png",
+          "alt": "Assets: 16ce668b cc24 44c5 b785 003eacfc1a66 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/16ce668b-cc24-44c5-b785-003eacfc1a66.png",
+          "alt": "Assets: 16ce668b cc24 44c5 b785 003eacfc1a66"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/17-2.png",
+          "alt": "Assets: 17 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/17.png",
+          "alt": "Assets: 17"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/18-2.png",
+          "alt": "Assets: 18 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/18.png",
+          "alt": "Assets: 18"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/19-2.png",
+          "alt": "Assets: 19 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/19.png",
+          "alt": "Assets: 19"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/20-2.png",
+          "alt": "Assets: 20 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/20.png",
+          "alt": "Assets: 20"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/21-2.png",
+          "alt": "Assets: 21 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/21.png",
+          "alt": "Assets: 21"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/44fef06ec8bdbb784ba2ae2b4ab1983ade52b7dc.jpeg",
+          "alt": "Assets: 44fef06ec8bdbb784ba2ae2b4ab1983ade52b7dc"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/48b9aeb7c93c1707315444bdc150b43e.jpg",
+          "alt": "Assets: 48b9aeb7c93c1707315444bdc150b43e"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/52a55a68-a27e-42d0-86f1-cb8466346eeb-2.png",
+          "alt": "Assets: 52a55a68 a27e 42d0 86f1 cb8466346eeb 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/52a55a68-a27e-42d0-86f1-cb8466346eeb-3.png",
+          "alt": "Assets: 52a55a68 a27e 42d0 86f1 cb8466346eeb 3"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/52a55a68-a27e-42d0-86f1-cb8466346eeb.png",
+          "alt": "Assets: 52a55a68 a27e 42d0 86f1 cb8466346eeb"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/61-fd-qumkl-ac-uf1000-1000-ql80.jpg",
+          "alt": "Assets: 61 fd qumkl ac uf1000 1000 ql80"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/063b3970-b498-47a2-b28a-c536c93acefc-medium.webp",
+          "alt": "Assets: 063b3970 b498 47a2 b28a c536c93acefc medium"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/65c1250a-3442-4e2c-a974-a9b6599873fc.webp",
+          "alt": "Assets: 65c1250a 3442 4e2c a974 a9b6599873fc"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/71qsfmevfdl-ac-uf1000-1000-ql80.jpg",
+          "alt": "Assets: 71qsfmevfdl ac uf1000 1000 ql80"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0-2.png",
+          "alt": "Assets: 75e5ba18 1ba1 4305 97ea 9c4a5ae31cb0 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0.png",
+          "alt": "Assets: 75e5ba18 1ba1 4305 97ea 9c4a5ae31cb0"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/78b35709-93da-4a94-97aa-592b9123a1ee.png",
+          "alt": "Assets: 78b35709 93da 4a94 97aa 592b9123a1ee"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/549cc996-b0e6-48c3-bb4e-02ac064d8c88-2.png",
+          "alt": "Assets: 549cc996 b0e6 48c3 bb4e 02ac064d8c88 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/549cc996-b0e6-48c3-bb4e-02ac064d8c88.png",
+          "alt": "Assets: 549cc996 b0e6 48c3 bb4e 02ac064d8c88"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/684ec1eb-6801-4f15-a244-fa8f13d33ab8-2.png",
+          "alt": "Assets: 684ec1eb 6801 4f15 a244 fa8f13d33ab8 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/684ec1eb-6801-4f15-a244-fa8f13d33ab8.png",
+          "alt": "Assets: 684ec1eb 6801 4f15 a244 fa8f13d33ab8"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/999-asets-in-one-2.png",
+          "alt": "Assets: 999 asets in one 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/999-asets-in-one-3.png",
+          "alt": "Assets: 999 asets in one 3"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/999-asets-in-one-4.png",
+          "alt": "Assets: 999 asets in one 4"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/999-asets-in-one.png",
+          "alt": "Assets: 999 asets in one"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos-2.png",
+          "alt": "Assets: 999personajes principales y mapas donde viven endcosmos 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos-3.png",
+          "alt": "Assets: 999personajes principales y mapas donde viven endcosmos 3"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos-4.png",
+          "alt": "Assets: 999personajes principales y mapas donde viven endcosmos 4"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos.png",
+          "alt": "Assets: 999personajes principales y mapas donde viven endcosmos"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/1200x866.jpg",
+          "alt": "Assets: 1200x866"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/1856dcec-c3f1-4031-8b9c-811155a8bcfc.png",
+          "alt": "Assets: 1856dcec c3f1 4031 8b9c 811155a8bcfc"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/2024-09-22t18-29-07-375z-medium.webp",
+          "alt": "Assets: 2024 09 22t18 29 07 375z medium"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/3618c7ef-caee-46a1-9cc6-bc1d0e518ce5-2.png",
+          "alt": "Assets: 3618c7ef caee 46a1 9cc6 bc1d0e518ce5 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/3618c7ef-caee-46a1-9cc6-bc1d0e518ce5.png",
+          "alt": "Assets: 3618c7ef caee 46a1 9cc6 bc1d0e518ce5"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/03773bf7-2ecb-470f-a390-2b02c8de1477.png",
+          "alt": "Assets: 03773bf7 2ecb 470f a390 2b02c8de1477"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/78565d2d-57ec-41fb-ac8b-0013a2c9236c-2.png",
+          "alt": "Assets: 78565d2d 57ec 41fb ac8b 0013a2c9236c 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/78565d2d-57ec-41fb-ac8b-0013a2c9236c.png",
+          "alt": "Assets: 78565d2d 57ec 41fb ac8b 0013a2c9236c"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/416030b5298d3fe495ed409820bfec69a1a62781.jpeg",
+          "alt": "Assets: 416030b5298d3fe495ed409820bfec69a1a62781"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/425139-riendas-del-dragon-nimbo-astral.jpg",
+          "alt": "Assets: 425139 riendas del dragon nimbo astral"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/975686f3-6e46-4ba6-a244-01c331fc70cd.png",
+          "alt": "Assets: 975686f3 6e46 4ba6 a244 01c331fc70cd"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/1003670-1.png",
+          "alt": "Assets: 1003670 1"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/1175534.jpg",
+          "alt": "Assets: 1175534"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/2862206.jpg",
+          "alt": "Assets: 2862206"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+          "alt": "Assets: 9999999 languajes jobs exploration worlds landscapes planetas endcosmos 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+          "alt": "Assets: 9999999 languajes jobs exploration worlds landscapes planetas endcosmos 3"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos.png",
+          "alt": "Assets: 9999999 languajes jobs exploration worlds landscapes planetas endcosmos"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/45588853-d137-429c-9ef4-2cad2caeacea-2.png",
+          "alt": "Assets: 45588853 d137 429c 9ef4 2cad2caeacea 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/45588853-d137-429c-9ef4-2cad2caeacea.png",
+          "alt": "Assets: 45588853 d137 429c 9ef4 2cad2caeacea"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/11212408550228480745-2048.jpg",
+          "alt": "Assets: 11212408550228480745 2048"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/a3c855c4002ab5455ab6abc70e0304a6.jpeg",
+          "alt": "Assets: A3c855c4002ab5455ab6abc70e0304a6"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/a49f8d18-49f0-4682-be93-c53515e75621-2.png",
+          "alt": "Assets: A49f8d18 49f0 4682 be93 c53515e75621 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/a49f8d18-49f0-4682-be93-c53515e75621.png",
+          "alt": "Assets: A49f8d18 49f0 4682 be93 c53515e75621"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/aa1fba69-49b4-41d4-a931-92ae9955fbc2-2.png",
+          "alt": "Assets: Aa1fba69 49b4 41d4 a931 92ae9955fbc2 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/aa1fba69-49b4-41d4-a931-92ae9955fbc2.png",
+          "alt": "Assets: Aa1fba69 49b4 41d4 a931 92ae9955fbc2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/aa9082e8-4ee2-43e9-9af8-38ca8071a04c-2.png",
+          "alt": "Assets: Aa9082e8 4ee2 43e9 9af8 38ca8071a04c 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/aa9082e8-4ee2-43e9-9af8-38ca8071a04c.png",
+          "alt": "Assets: Aa9082e8 4ee2 43e9 9af8 38ca8071a04c"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/ae14fc54-1152-49eb-bc33-ba8a56fe83f0-medium.webp",
+          "alt": "Assets: Ae14fc54 1152 49eb bc33 ba8a56fe83f0 medium"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/aguejero-nogro-2.png",
+          "alt": "Assets: Aguejero nogro 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/aguejero-nogro-3.png",
+          "alt": "Assets: Aguejero nogro 3"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/aguejero-nogro.png",
+          "alt": "Assets: Aguejero nogro"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/album-alb2268411.jpg",
+          "alt": "Assets: Album alb2268411"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/alien1.png",
+          "alt": "Assets: Alien1"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/b661a293-e619-49a4-ba52-801e93a43dac.png",
+          "alt": "Assets: B661a293 e619 49a4 ba52 801e93a43dac"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/b698bcb7-6877-4445-bf88-8e945f885a59-2.png",
+          "alt": "Assets: B698bcb7 6877 4445 bf88 8e945f885a59 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/b698bcb7-6877-4445-bf88-8e945f885a59.png",
+          "alt": "Assets: B698bcb7 6877 4445 bf88 8e945f885a59"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/b35989dc-d0df-4d58-9261-75ac7dec3c55-2.png",
+          "alt": "Assets: B35989dc d0df 4d58 9261 75ac7dec3c55 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/b35989dc-d0df-4d58-9261-75ac7dec3c55.png",
+          "alt": "Assets: B35989dc d0df 4d58 9261 75ac7dec3c55"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/c612df9e-1ffa-4884-9116-353ed4816099-2.png",
+          "alt": "Assets: C612df9e 1ffa 4884 9116 353ed4816099 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/c612df9e-1ffa-4884-9116-353ed4816099.png",
+          "alt": "Assets: C612df9e 1ffa 4884 9116 353ed4816099"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/c887adcf-7f4a-497f-8faf-d3c6aa427674.png",
+          "alt": "Assets: C887adcf 7f4a 497f 8faf d3c6aa427674"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/cae88e3c-21db-491a-b025-d290863e236f.png",
+          "alt": "Assets: Cae88e3c 21db 491a b025 d290863e236f"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/chatgpt-image-6-mar-2026-20-33-12.png",
+          "alt": "Assets: Chatgpt image 6 mar 2026 20 33 12"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/chatgpt-image-6-mar-2026-20-45-34.png",
+          "alt": "Assets: Chatgpt image 6 mar 2026 20 45 34"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/chatgpt-image-7-mar-2026-13-52-43.png",
+          "alt": "Assets: Chatgpt image 7 mar 2026 13 52 43"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/chatgpt-image-7-mar-2026-13-53-32.png",
+          "alt": "Assets: Chatgpt image 7 mar 2026 13 53 32"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/chatgpt-image-11-mar-2026-16-50-58.png",
+          "alt": "Assets: Chatgpt image 11 mar 2026 16 50 58"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/chatgpt-image-11-mar-2026-16-51-05.png",
+          "alt": "Assets: Chatgpt image 11 mar 2026 16 51 05"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/chatgpt-image-11-mar-2026-16-51-09.png",
+          "alt": "Assets: Chatgpt image 11 mar 2026 16 51 09"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/chatgpt-image-11-mar-2026-16-51-14.png",
+          "alt": "Assets: Chatgpt image 11 mar 2026 16 51 14"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/chatgpt-image-11-mar-2026-16-51-21.png",
+          "alt": "Assets: Chatgpt image 11 mar 2026 16 51 21"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/chatgpt-image-12-mar-2026-04-19-22-2.png",
+          "alt": "Assets: Chatgpt image 12 mar 2026 04 19 22 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/chatgpt-image-12-mar-2026-04-19-22.png",
+          "alt": "Assets: Chatgpt image 12 mar 2026 04 19 22"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/city-fantasy-landscape-process-video-by-jstiller30-dfqpmat-fullview.jpg",
+          "alt": "Assets: City fantasy landscape process video by jstiller30 dfqpmat fullview"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/cosmic-serpent-galaxy-art.webp",
+          "alt": "Assets: Cosmic serpent galaxy art"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/cosmis-pack-99999-2.png",
+          "alt": "Assets: Cosmis pack 99999 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/cosmis-pack-99999-3.png",
+          "alt": "Assets: Cosmis pack 99999 3"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/cosmis-pack-99999.png",
+          "alt": "Assets: Cosmis pack 99999"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/cosmos-2.png",
+          "alt": "Assets: Cosmos 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/cosmos-3.png",
+          "alt": "Assets: Cosmos 3"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/cosmos.png",
+          "alt": "Assets: Cosmos"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/df36had-01f8f342-f79a-46e6-a381-f346676837a9.jpg",
+          "alt": "Assets: Df36had 01f8f342 f79a 46e6 a381 f346676837a9"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/e0dccb8f-f345-4cf2-970f-fd746dd05f0d.png",
+          "alt": "Assets: E0dccb8f f345 4cf2 970f fd746dd05f0d"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/e1l9n8ouuaqcha4.jpg",
+          "alt": "Assets: E1l9n8ouuaqcha4"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/e6b6411c-b719-43ff-96c0-92cf47c8044f-medium.webp",
+          "alt": "Assets: E6b6411c b719 43ff 96c0 92cf47c8044f medium"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/edcosmos-y-sus-9999999-idea-de-lore-y-movimiento-2.png",
+          "alt": "Assets: Edcosmos y sus 9999999 idea de lore y movimiento 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/edcosmos-y-sus-9999999-idea-de-lore-y-movimiento-3.png",
+          "alt": "Assets: Edcosmos y sus 9999999 idea de lore y movimiento 3"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/edcosmos-y-sus-9999999-idea-de-lore-y-movimiento-4.png",
+          "alt": "Assets: Edcosmos y sus 9999999 idea de lore y movimiento 4"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/edcosmos-y-sus-9999999-idea-de-lore-y-movimiento.png",
+          "alt": "Assets: Edcosmos y sus 9999999 idea de lore y movimiento"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras-2.png",
+          "alt": "Assets: Endcosmos assets outfits skins monturas pets pets de monturas voladoras 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras-3.png",
+          "alt": "Assets: Endcosmos assets outfits skins monturas pets pets de monturas voladoras 3"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras.png",
+          "alt": "Assets: Endcosmos assets outfits skins monturas pets pets de monturas voladoras"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/estructura-y-muebles-endcosmos-2.png",
+          "alt": "Assets: Estructura y muebles endcosmos 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/estructura-y-muebles-endcosmos-3.png",
+          "alt": "Assets: Estructura y muebles endcosmos 3"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/estructura-y-muebles-endcosmos.png",
+          "alt": "Assets: Estructura y muebles endcosmos"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/exoplanet-mission-timeline-article.jpg",
+          "alt": "Assets: Exoplanet mission timeline article"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/f3c9da1a-1a37-43c4-a404-2b5be71c79ad-2.png",
+          "alt": "Assets: F3c9da1a 1a37 43c4 a404 2b5be71c79ad 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/f3c9da1a-1a37-43c4-a404-2b5be71c79ad.png",
+          "alt": "Assets: F3c9da1a 1a37 43c4 a404 2b5be71c79ad"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/f6fde5a9-bed7-45ad-8edf-f71f44262c76-2.png",
+          "alt": "Assets: F6fde5a9 bed7 45ad 8edf f71f44262c76 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/f6fde5a9-bed7-45ad-8edf-f71f44262c76.png",
+          "alt": "Assets: F6fde5a9 bed7 45ad 8edf f71f44262c76"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/f32fc538-1663-4f76-adee-7a8adc6dc89d-2.png",
+          "alt": "Assets: F32fc538 1663 4f76 adee 7a8adc6dc89d 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/f32fc538-1663-4f76-adee-7a8adc6dc89d.png",
+          "alt": "Assets: F32fc538 1663 4f76 adee 7a8adc6dc89d"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/f252687f-32ab-4b3b-b5de-81cfd4ebc117-2.png",
+          "alt": "Assets: F252687f 32ab 4b3b b5de 81cfd4ebc117 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/f252687f-32ab-4b3b-b5de-81cfd4ebc117.png",
+          "alt": "Assets: F252687f 32ab 4b3b b5de 81cfd4ebc117"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/f724590e-0a33-41c4-bcdd-d4d1f9327724.png",
+          "alt": "Assets: F724590e 0a33 41c4 bcdd d4d1f9327724"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/fa58c31e-34ba-4a65-8963-0e265cdfb549-2.png",
+          "alt": "Assets: Fa58c31e 34ba 4a65 8963 0e265cdfb549 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/fa58c31e-34ba-4a65-8963-0e265cdfb549.png",
+          "alt": "Assets: Fa58c31e 34ba 4a65 8963 0e265cdfb549"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/fde074e3-d6ad-4a17-b237-c055d9a31c88.png",
+          "alt": "Assets: Fde074e3 d6ad 4a17 b237 c055d9a31c88"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/fornax-virgo2011.jpg",
+          "alt": "Assets: Fornax virgo2011"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/fspas-06-00023-g0001.webp",
+          "alt": "Assets: Fspas 06 00023 g0001"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/gj7gtmnl4v3fjtjsoqy-jwei7qo45mg3-wjbrgzzhzklvikxs2htewzljnltooslhmmyl9185znvoduhfucockzm0mnvyilzr3oamfj7r30.jpg",
+          "alt": "Assets: Gj7gtmnl4v3fjtjsoqy jwei7qo45mg3 wjbrgzzhzklvikxs2htewzljnltooslhmmyl9185znvoduhfucockzm0mnvyilzr3oamfj7r30"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/hd-wallpaper-yeti-in-the-space-nebula-creature-fantasy-thumbnail.jpg",
+          "alt": "Assets: Hd wallpaper yeti in the space nebula creature fantasy thumbnail"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/her.png",
+          "alt": "Assets: Her"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/hero2.png",
+          "alt": "Assets: Hero2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/https-dev-to-uploads-s3-amazonaws-com-uploads-articles-5z67c77cxdp5vvnoxkyn.png",
+          "alt": "Assets: Https dev to uploads s3 amazonaws com uploads articles 5z67c77cxdp5vvnoxkyn"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/il-570xn-5648906785-k93p-2.jpg",
+          "alt": "Assets: Il 570xn 5648906785 k93p 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/il-570xn-5648906785-k93p.jpg",
+          "alt": "Assets: Il 570xn 5648906785 k93p"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/il-570xn-5708613664-91d7-2.jpg",
+          "alt": "Assets: Il 570xn 5708613664 91d7 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/il-570xn-5708613664-91d7.jpg",
+          "alt": "Assets: Il 570xn 5708613664 91d7"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/il-1080xn-6497006747-kzoq.jpg",
+          "alt": "Assets: Il 1080xn 6497006747 kzoq"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/il-fullxfull-4364653685-lm0k.avif",
+          "alt": "Assets: Il fullxfull 4364653685 lm0k"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/il-fullxfull-6544827928-k3sj-2.jpg",
+          "alt": "Assets: Il fullxfull 6544827928 k3sj 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/il-fullxfull-6544827928-k3sj.jpg",
+          "alt": "Assets: Il fullxfull 6544827928 k3sj"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/infinity-symbol-particle-element-for-high-end-branding.webp",
+          "alt": "Assets: Infinity symbol particle element for high end branding"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/inside-science-pudgy-dragon-orion-nebula-01-ht-jc-190214-hpmain-16x9-992.jpg",
+          "alt": "Assets: Inside science pudgy dragon orion nebula 01 ht jc 190214 hpmain 16x9 992"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/la-verdad-en-endcosmo-2.png",
+          "alt": "Assets: La verdad en endcosmo 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/la-verdad-en-endcosmo-3.png",
+          "alt": "Assets: La verdad en endcosmo 3"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/la-verdad-en-endcosmo-4.png",
+          "alt": "Assets: La verdad en endcosmo 4"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/la-verdad-en-endcosmo.png",
+          "alt": "Assets: La verdad en endcosmo"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/lqrhhyh7tqfpxzer9mfwnk.jpg",
+          "alt": "Assets: Lqrhhyh7tqfpxzer9mfwnk"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/m4g-ng-gelnz9k36aid09khfbrdzuh4m32uai76dpgak8kekvvjktcmz4e3z9fvkjek-ds7zhit4oobfzldyfjn3ybsjw3huedmnvk7ek48.jpg",
+          "alt": "Assets: M4g ng gelnz9k36aid09khfbrdzuh4m32uai76dpgak8kekvvjktcmz4e3z9fvkjek ds7zhit4oobfzldyfjn3ybsjw3huedmnvk7ek48"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/m4qxctqywt2qt6qyuq8kx7-1920-80.png",
+          "alt": "Assets: M4qxctqywt2qt6qyuq8kx7 1920 80"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/mass-effect-galaxy-map-by-exoartmakes-dihk77g-fullview.jpg",
+          "alt": "Assets: Mass effect galaxy map by exoartmakes dihk77g fullview"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/md-y3vpjs-4f90e55fde343be869437265fec254d34f6f09bf.jpg",
+          "alt": "Assets: Md y3vpjs 4f90e55fde343be869437265fec254d34f6f09bf"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/md-ytal77-3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0-2.jpg",
+          "alt": "Assets: Md ytal77 3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/md-ytal77-3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0.jpg",
+          "alt": "Assets: Md ytal77 3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/modularmedievalassetpack-featured-894x488-b4e2ef12d3a64abc877fd05754008dc9.png",
+          "alt": "Assets: Modularmedievalassetpack featured 894x488 b4e2ef12d3a64abc877fd05754008dc9"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/motion-battle.avif",
+          "alt": "Assets: Motion battle"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/motion-hero-secondary.avif",
+          "alt": "Assets: Motion hero secondary"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/motion-main-map.avif",
+          "alt": "Assets: Motion main map"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/motion-realm-ice.avif",
+          "alt": "Assets: Motion realm ice"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/motion-realm-void.avif",
+          "alt": "Assets: Motion realm void"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/mythic-gravity-central-coherence-vortex.jpg",
+          "alt": "Assets: Mythic gravity central coherence vortex"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/nebula-guardian-wall-art-943965.jpg",
+          "alt": "Assets: Nebula guardian wall art 943965"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/orbiting-planet-space-themed-motion-background-clip-hd.webp",
+          "alt": "Assets: Orbiting planet space themed motion background clip hd"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/osmadth-bancur-city-by-flaviobolla-d4zpa5a-fullview.jpg",
+          "alt": "Assets: Osmadth bancur city by flaviobolla d4zpa5a fullview"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/pngtree-celestial-being-emerges-from-energy-portal-in-post-apocalyptic-wasteland-image-19868561.webp",
+          "alt": "Assets: Pngtree celestial being emerges from energy portal in post apocalyptic wasteland image 19868561"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/pngtree-futuristic-sci-fi-energy-core-with-blue-glow-png-image-18097773.webp",
+          "alt": "Assets: Pngtree futuristic sci fi energy core with blue glow png image 18097773"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/pngtree-sculpted-head-silhouette-against-vibrant-cosmic-background-of-swirling-galaxies-and-picture-image-16624136.jpg",
+          "alt": "Assets: Pngtree sculpted head silhouette against vibrant cosmic background of swirling galaxies and picture image 16624136"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/portada1.png",
+          "alt": "Assets: Portada1"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/portal-1-2.png",
+          "alt": "Assets: Portal 1 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/portal-1.png",
+          "alt": "Assets: Portal 1"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/potw2319a.jpg",
+          "alt": "Assets: Potw2319a"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/pqosoeiggkt04h0isu6zg-by-1v1jjddpb-6h67l4z-zmbbno7i5kscijhsmvydvnxmua1ziwytlhk4vocqzxsmpby0gta-vpgkkhdobdwa.jpg",
+          "alt": "Assets: Pqosoeiggkt04h0isu6zg by 1v1jjddpb 6h67l4z zmbbno7i5kscijhsmvydvnxmua1ziwytlhk4vocqzxsmpby0gta vpgkkhdobdwa"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/remotesensing-16-03023-g011-550.jpg",
+          "alt": "Assets: Remotesensing 16 03023 g011 550"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/rxhvyt0psg01uhak6isx4vy6jw95smwai4dys3r7azs1lbadzeylj-un0d8lvfik-o-sk4w6wsfkr3htwwhgytp056nty-v-iyx09u7sbae.jpg",
+          "alt": "Assets: Rxhvyt0psg01uhak6isx4vy6jw95smwai4dys3r7azs1lbadzeylj un0d8lvfik o sk4w6wsfkr3htwwhgytp056nty v iyx09u7sbae"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/skeletor-vs-zedd-tn-by-hollow.jpg",
+          "alt": "Assets: Skeletor vs zedd tn by hollow"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/skvrs-uliurjnwgpv-3fpy0qz5chwckf9emeq2pg9vaidouggbvk-clvo45zey584xfk2cmetsm8cd7blbnxbdkjjivljaoiirgt87dkvlq.jpg",
+          "alt": "Assets: Skvrs uliurjnwgpv 3fpy0qz5chwckf9emeq2pg9vaidouggbvk clvo45zey584xfk2cmetsm8cd7blbnxbdkjjivljaoiirgt87dkvlq"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/the-eternal-cosmic-warrior-by-brucalord-dilxa37-fullview.jpg",
+          "alt": "Assets: The eternal cosmic warrior by brucalord dilxa37 fullview"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/thumb-350-1110106.webp",
+          "alt": "Assets: Thumb 350 1110106"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/thumb-1920-345775.jpg",
+          "alt": "Assets: Thumb 1920 345775"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/thumb-1920-552411.jpg",
+          "alt": "Assets: Thumb 1920 552411"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/thumb-1920-881685.jpg",
+          "alt": "Assets: Thumb 1920 881685"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/thumb-1920-1312489.jpg",
+          "alt": "Assets: Thumb 1920 1312489"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/tumblr-m1mag9rcjz1qb9ckeo1-500.png",
+          "alt": "Assets: Tumblr m1mag9rcjz1qb9ckeo1 500"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/visitar-endcomos-2.png",
+          "alt": "Assets: Visitar endcomos 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/visitar-endcomos-3.png",
+          "alt": "Assets: Visitar endcomos 3"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/visitar-endcomos.png",
+          "alt": "Assets: Visitar endcomos"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/ways-to-get-peace-in-endcosmos-2.png",
+          "alt": "Assets: Ways to get peace in endcosmos 2"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/ways-to-get-peace-in-endcosmos.png",
+          "alt": "Assets: Ways to get peace in endcosmos"
+        },
+        {
+          "src": "/assets/zogs/imported-assets/world.png",
+          "alt": "Assets: World"
+        }
+      ]
+    },
+    {
+      "title": "Featured",
+      "grid_class": "zogs-grid-featured",
+      "items": [
+        {
+          "src": "/assets/zogs/03-space-eagle-nebula.jpg",
+          "alt": "Featured: 03 space eagle nebula"
+        },
+        {
+          "src": "/assets/zogs/416030b5298d3fe495ed409820bfec69a1a62781.jpeg",
+          "alt": "Featured: 416030b5298d3fe495ed409820bfec69a1a62781"
+        },
+        {
+          "src": "/assets/zogs/425139-riendas-del-dragon-nimbo-astral.jpg",
+          "alt": "Featured: 425139 riendas del dragon nimbo astral"
+        },
+        {
+          "src": "/assets/zogs/1175534.jpg",
+          "alt": "Featured: 1175534"
+        },
+        {
+          "src": "/assets/zogs/df36had-01f8f342-f79a-46e6-a381-f346676837a9.jpg",
+          "alt": "Featured: Df36had 01f8f342 f79a 46e6 a381 f346676837a9"
+        },
+        {
+          "src": "/assets/zogs/fornax_virgo2011.jpg",
+          "alt": "Featured: Fornax virgo2011"
+        },
+        {
+          "src": "/assets/zogs/potw2319a.jpg",
+          "alt": "Featured: Potw2319a"
+        }
+      ]
+    },
+    {
+      "title": "Imagenes V1",
+      "grid_class": "",
+      "items": [
+        {
+          "src": "/assets/zogs/v1/1-2.png",
+          "alt": "ZOGS V1: 1 2"
+        },
+        {
+          "src": "/assets/zogs/v1/1.png",
+          "alt": "ZOGS V1: 1"
+        },
+        {
+          "src": "/assets/zogs/v1/1_10724.png",
+          "alt": "ZOGS V1: 1 10724"
+        },
+        {
+          "src": "/assets/zogs/v1/2-2.png",
+          "alt": "ZOGS V1: 2 2"
+        },
+        {
+          "src": "/assets/zogs/v1/2.png",
+          "alt": "ZOGS V1: 2"
+        },
+        {
+          "src": "/assets/zogs/v1/3-2.png",
+          "alt": "ZOGS V1: 3 2"
+        },
+        {
+          "src": "/assets/zogs/v1/3.png",
+          "alt": "ZOGS V1: 3"
+        },
+        {
+          "src": "/assets/zogs/v1/4-2.png",
+          "alt": "ZOGS V1: 4 2"
+        },
+        {
+          "src": "/assets/zogs/v1/4.png",
+          "alt": "ZOGS V1: 4"
+        },
+        {
+          "src": "/assets/zogs/v1/5-2.png",
+          "alt": "ZOGS V1: 5 2"
+        },
+        {
+          "src": "/assets/zogs/v1/5.png",
+          "alt": "ZOGS V1: 5"
+        },
+        {
+          "src": "/assets/zogs/v1/6-2.png",
+          "alt": "ZOGS V1: 6 2"
+        },
+        {
+          "src": "/assets/zogs/v1/6.png",
+          "alt": "ZOGS V1: 6"
+        },
+        {
+          "src": "/assets/zogs/v1/7-2.png",
+          "alt": "ZOGS V1: 7 2"
+        },
+        {
+          "src": "/assets/zogs/v1/7.png",
+          "alt": "ZOGS V1: 7"
+        },
+        {
+          "src": "/assets/zogs/v1/8-2.png",
+          "alt": "ZOGS V1: 8 2"
+        },
+        {
+          "src": "/assets/zogs/v1/8.png",
+          "alt": "ZOGS V1: 8"
+        },
+        {
+          "src": "/assets/zogs/v1/9-2.png",
+          "alt": "ZOGS V1: 9 2"
+        },
+        {
+          "src": "/assets/zogs/v1/9.png",
+          "alt": "ZOGS V1: 9"
+        },
+        {
+          "src": "/assets/zogs/v1/10-2.png",
+          "alt": "ZOGS V1: 10 2"
+        },
+        {
+          "src": "/assets/zogs/v1/10.png",
+          "alt": "ZOGS V1: 10"
+        },
+        {
+          "src": "/assets/zogs/v1/11-2.png",
+          "alt": "ZOGS V1: 11 2"
+        },
+        {
+          "src": "/assets/zogs/v1/11.png",
+          "alt": "ZOGS V1: 11"
+        },
+        {
+          "src": "/assets/zogs/v1/12-2.png",
+          "alt": "ZOGS V1: 12 2"
+        },
+        {
+          "src": "/assets/zogs/v1/12.png",
+          "alt": "ZOGS V1: 12"
+        },
+        {
+          "src": "/assets/zogs/v1/13-2.png",
+          "alt": "ZOGS V1: 13 2"
+        },
+        {
+          "src": "/assets/zogs/v1/13.png",
+          "alt": "ZOGS V1: 13"
+        },
+        {
+          "src": "/assets/zogs/v1/14-2.png",
+          "alt": "ZOGS V1: 14 2"
+        },
+        {
+          "src": "/assets/zogs/v1/14.png",
+          "alt": "ZOGS V1: 14"
+        },
+        {
+          "src": "/assets/zogs/v1/15-2.png",
+          "alt": "ZOGS V1: 15 2"
+        },
+        {
+          "src": "/assets/zogs/v1/15.png",
+          "alt": "ZOGS V1: 15"
+        },
+        {
+          "src": "/assets/zogs/v1/16-2.png",
+          "alt": "ZOGS V1: 16 2"
+        },
+        {
+          "src": "/assets/zogs/v1/16.png",
+          "alt": "ZOGS V1: 16"
+        },
+        {
+          "src": "/assets/zogs/v1/17-2.png",
+          "alt": "ZOGS V1: 17 2"
+        },
+        {
+          "src": "/assets/zogs/v1/17.png",
+          "alt": "ZOGS V1: 17"
+        },
+        {
+          "src": "/assets/zogs/v1/18-2.png",
+          "alt": "ZOGS V1: 18 2"
+        },
+        {
+          "src": "/assets/zogs/v1/18.png",
+          "alt": "ZOGS V1: 18"
+        },
+        {
+          "src": "/assets/zogs/v1/19-2.png",
+          "alt": "ZOGS V1: 19 2"
+        },
+        {
+          "src": "/assets/zogs/v1/19.png",
+          "alt": "ZOGS V1: 19"
+        },
+        {
+          "src": "/assets/zogs/v1/20-2.png",
+          "alt": "ZOGS V1: 20 2"
+        },
+        {
+          "src": "/assets/zogs/v1/20.png",
+          "alt": "ZOGS V1: 20"
+        },
+        {
+          "src": "/assets/zogs/v1/21-2.png",
+          "alt": "ZOGS V1: 21 2"
+        },
+        {
+          "src": "/assets/zogs/v1/21.png",
+          "alt": "ZOGS V1: 21"
+        },
+        {
+          "src": "/assets/zogs/v1/il_570xN.5648906785_k93p.jpg",
+          "alt": "ZOGS V1: Il 570xN.5648906785 k93p"
+        },
+        {
+          "src": "/assets/zogs/v1/il_570xN.5708613664_91d7.jpg",
+          "alt": "ZOGS V1: Il 570xN.5708613664 91d7"
+        },
+        {
+          "src": "/assets/zogs/v1/il_fullxfull.6544827928_k3sj.jpg",
+          "alt": "ZOGS V1: Il fullxfull.6544827928 k3sj"
+        },
+        {
+          "src": "/assets/zogs/v1/md_ytal77_3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0.jpg",
+          "alt": "ZOGS V1: Md ytal77 3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0"
+        }
+      ]
+    },
+    {
+      "title": "Imagenes V2",
+      "grid_class": "",
+      "items": [
+        {
+          "src": "/assets/zogs/v2/0d6aeb92-86e0-4f77-a56f-aad63aa5fd0d.png",
+          "alt": "ZOGS V2: 0d6aeb92 86e0 4f77 a56f aad63aa5fd0d"
+        },
+        {
+          "src": "/assets/zogs/v2/2fe9563b-d22f-4f45-b54e-a54b258da6dd.png",
+          "alt": "ZOGS V2: 2fe9563b d22f 4f45 b54e a54b258da6dd"
+        },
+        {
+          "src": "/assets/zogs/v2/3dfd977c-55ee-41de-9e5b-bc1890cf5441.png",
+          "alt": "ZOGS V2: 3dfd977c 55ee 41de 9e5b bc1890cf5441"
+        },
+        {
+          "src": "/assets/zogs/v2/5d8457df-af04-49c4-b28f-d25b4c09cfb9-2.png",
+          "alt": "ZOGS V2: 5d8457df af04 49c4 b28f d25b4c09cfb9 2"
+        },
+        {
+          "src": "/assets/zogs/v2/5d8457df-af04-49c4-b28f-d25b4c09cfb9.png",
+          "alt": "ZOGS V2: 5d8457df af04 49c4 b28f d25b4c09cfb9"
+        },
+        {
+          "src": "/assets/zogs/v2/6cbcac41-3cee-48d5-953c-ea7ad1a04098-2.png",
+          "alt": "ZOGS V2: 6cbcac41 3cee 48d5 953c ea7ad1a04098 2"
+        },
+        {
+          "src": "/assets/zogs/v2/6cbcac41-3cee-48d5-953c-ea7ad1a04098.png",
+          "alt": "ZOGS V2: 6cbcac41 3cee 48d5 953c ea7ad1a04098"
+        },
+        {
+          "src": "/assets/zogs/v2/8b16e5a2-ae02-4eb2-a405-67d740e71669.png",
+          "alt": "ZOGS V2: 8b16e5a2 ae02 4eb2 a405 67d740e71669"
+        },
+        {
+          "src": "/assets/zogs/v2/8bb89adf-d6f5-41f4-b314-90d09fa25c60.png",
+          "alt": "ZOGS V2: 8bb89adf d6f5 41f4 b314 90d09fa25c60"
+        },
+        {
+          "src": "/assets/zogs/v2/8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f-2.png",
+          "alt": "ZOGS V2: 8f7e15eb 537f 4a57 b1d9 be0f3c62ba6f 2"
+        },
+        {
+          "src": "/assets/zogs/v2/8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f.png",
+          "alt": "ZOGS V2: 8f7e15eb 537f 4a57 b1d9 be0f3c62ba6f"
+        },
+        {
+          "src": "/assets/zogs/v2/8f245e3f-8a88-47cb-bdf9-e00067f38896.png",
+          "alt": "ZOGS V2: 8f245e3f 8a88 47cb bdf9 e00067f38896"
+        },
+        {
+          "src": "/assets/zogs/v2/16b6820b-a3a6-4f12-bd91-bdcf5c97acc4.png",
+          "alt": "ZOGS V2: 16b6820b a3a6 4f12 bd91 bdcf5c97acc4"
+        },
+        {
+          "src": "/assets/zogs/v2/16ce668b-cc24-44c5-b785-003eacfc1a66-2.png",
+          "alt": "ZOGS V2: 16ce668b cc24 44c5 b785 003eacfc1a66 2"
+        },
+        {
+          "src": "/assets/zogs/v2/16ce668b-cc24-44c5-b785-003eacfc1a66.png",
+          "alt": "ZOGS V2: 16ce668b cc24 44c5 b785 003eacfc1a66"
+        },
+        {
+          "src": "/assets/zogs/v2/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0-2.png",
+          "alt": "ZOGS V2: 75e5ba18 1ba1 4305 97ea 9c4a5ae31cb0 2"
+        },
+        {
+          "src": "/assets/zogs/v2/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0.png",
+          "alt": "ZOGS V2: 75e5ba18 1ba1 4305 97ea 9c4a5ae31cb0"
+        },
+        {
+          "src": "/assets/zogs/v2/549cc996-b0e6-48c3-bb4e-02ac064d8c88-2.png",
+          "alt": "ZOGS V2: 549cc996 b0e6 48c3 bb4e 02ac064d8c88 2"
+        },
+        {
+          "src": "/assets/zogs/v2/549cc996-b0e6-48c3-bb4e-02ac064d8c88.png",
+          "alt": "ZOGS V2: 549cc996 b0e6 48c3 bb4e 02ac064d8c88"
+        },
+        {
+          "src": "/assets/zogs/v2/684ec1eb-6801-4f15-a244-fa8f13d33ab8.png",
+          "alt": "ZOGS V2: 684ec1eb 6801 4f15 a244 fa8f13d33ab8"
+        },
+        {
+          "src": "/assets/zogs/v2/3618c7ef-caee-46a1-9cc6-bc1d0e518ce5-2.png",
+          "alt": "ZOGS V2: 3618c7ef caee 46a1 9cc6 bc1d0e518ce5 2"
+        },
+        {
+          "src": "/assets/zogs/v2/3618c7ef-caee-46a1-9cc6-bc1d0e518ce5.png",
+          "alt": "ZOGS V2: 3618c7ef caee 46a1 9cc6 bc1d0e518ce5"
+        },
+        {
+          "src": "/assets/zogs/v2/78565d2d-57ec-41fb-ac8b-0013a2c9236c-2.png",
+          "alt": "ZOGS V2: 78565d2d 57ec 41fb ac8b 0013a2c9236c 2"
+        },
+        {
+          "src": "/assets/zogs/v2/78565d2d-57ec-41fb-ac8b-0013a2c9236c.png",
+          "alt": "ZOGS V2: 78565d2d 57ec 41fb ac8b 0013a2c9236c"
+        },
+        {
+          "src": "/assets/zogs/v2/45588853-d137-429c-9ef4-2cad2caeacea-2.png",
+          "alt": "ZOGS V2: 45588853 d137 429c 9ef4 2cad2caeacea 2"
+        },
+        {
+          "src": "/assets/zogs/v2/45588853-d137-429c-9ef4-2cad2caeacea.png",
+          "alt": "ZOGS V2: 45588853 d137 429c 9ef4 2cad2caeacea"
+        },
+        {
+          "src": "/assets/zogs/v2/a49f8d18-49f0-4682-be93-c53515e75621-2.png",
+          "alt": "ZOGS V2: A49f8d18 49f0 4682 be93 c53515e75621 2"
+        },
+        {
+          "src": "/assets/zogs/v2/a49f8d18-49f0-4682-be93-c53515e75621.png",
+          "alt": "ZOGS V2: A49f8d18 49f0 4682 be93 c53515e75621"
+        },
+        {
+          "src": "/assets/zogs/v2/aa1fba69-49b4-41d4-a931-92ae9955fbc2-2.png",
+          "alt": "ZOGS V2: Aa1fba69 49b4 41d4 a931 92ae9955fbc2 2"
+        },
+        {
+          "src": "/assets/zogs/v2/aa1fba69-49b4-41d4-a931-92ae9955fbc2.png",
+          "alt": "ZOGS V2: Aa1fba69 49b4 41d4 a931 92ae9955fbc2"
+        },
+        {
+          "src": "/assets/zogs/v2/aa9082e8-4ee2-43e9-9af8-38ca8071a04c-2.png",
+          "alt": "ZOGS V2: Aa9082e8 4ee2 43e9 9af8 38ca8071a04c 2"
+        },
+        {
+          "src": "/assets/zogs/v2/aa9082e8-4ee2-43e9-9af8-38ca8071a04c.png",
+          "alt": "ZOGS V2: Aa9082e8 4ee2 43e9 9af8 38ca8071a04c"
+        },
+        {
+          "src": "/assets/zogs/v2/b698bcb7-6877-4445-bf88-8e945f885a59-2.png",
+          "alt": "ZOGS V2: B698bcb7 6877 4445 bf88 8e945f885a59 2"
+        },
+        {
+          "src": "/assets/zogs/v2/b698bcb7-6877-4445-bf88-8e945f885a59.png",
+          "alt": "ZOGS V2: B698bcb7 6877 4445 bf88 8e945f885a59"
+        },
+        {
+          "src": "/assets/zogs/v2/b35989dc-d0df-4d58-9261-75ac7dec3c55.png",
+          "alt": "ZOGS V2: B35989dc d0df 4d58 9261 75ac7dec3c55"
+        },
+        {
+          "src": "/assets/zogs/v2/c612df9e-1ffa-4884-9116-353ed4816099-2.png",
+          "alt": "ZOGS V2: C612df9e 1ffa 4884 9116 353ed4816099 2"
+        },
+        {
+          "src": "/assets/zogs/v2/c612df9e-1ffa-4884-9116-353ed4816099.png",
+          "alt": "ZOGS V2: C612df9e 1ffa 4884 9116 353ed4816099"
+        },
+        {
+          "src": "/assets/zogs/v2/f3c9da1a-1a37-43c4-a404-2b5be71c79ad.png",
+          "alt": "ZOGS V2: F3c9da1a 1a37 43c4 a404 2b5be71c79ad"
+        },
+        {
+          "src": "/assets/zogs/v2/f6fde5a9-bed7-45ad-8edf-f71f44262c76.png",
+          "alt": "ZOGS V2: F6fde5a9 bed7 45ad 8edf f71f44262c76"
+        },
+        {
+          "src": "/assets/zogs/v2/f32fc538-1663-4f76-adee-7a8adc6dc89d.png",
+          "alt": "ZOGS V2: F32fc538 1663 4f76 adee 7a8adc6dc89d"
+        },
+        {
+          "src": "/assets/zogs/v2/f252687f-32ab-4b3b-b5de-81cfd4ebc117.png",
+          "alt": "ZOGS V2: F252687f 32ab 4b3b b5de 81cfd4ebc117"
+        },
+        {
+          "src": "/assets/zogs/v2/fa58c31e-34ba-4a65-8963-0e265cdfb549.png",
+          "alt": "ZOGS V2: Fa58c31e 34ba 4a65 8963 0e265cdfb549"
+        }
+      ]
+    },
+    {
+      "title": "Catalog Picks",
+      "grid_class": "zogs-grid-catalog",
+      "items": [
+        {
+          "src": "/assets/zogs/catalog/8c569664-1712-49aa-8512-36407ee88106.png",
+          "alt": "Catalog: 8c569664 1712 49aa 8512 36407ee88106"
+        },
+        {
+          "src": "/assets/zogs/catalog/78b35709-93da-4a94-97aa-592b9123a1ee.png",
+          "alt": "Catalog: 78b35709 93da 4a94 97aa 592b9123a1ee"
+        },
+        {
+          "src": "/assets/zogs/catalog/ChatGPT%20Image%2011%20mar%202026%2C%2016_50_58-2.png",
+          "alt": "Catalog: ChatGPT Image 11 mar 2026, 16 50 58 2"
+        },
+        {
+          "src": "/assets/zogs/catalog/ChatGPT%20Image%2011%20mar%202026%2C%2016_50_58.png",
+          "alt": "Catalog: ChatGPT Image 11 mar 2026, 16 50 58"
+        },
+        {
+          "src": "/assets/zogs/catalog/ChatGPT%20Image%2011%20mar%202026%2C%2016_51_05-2.png",
+          "alt": "Catalog: ChatGPT Image 11 mar 2026, 16 51 05 2"
+        },
+        {
+          "src": "/assets/zogs/catalog/ChatGPT%20Image%2011%20mar%202026%2C%2016_51_05.png",
+          "alt": "Catalog: ChatGPT Image 11 mar 2026, 16 51 05"
+        },
+        {
+          "src": "/assets/zogs/catalog/ChatGPT%20Image%2011%20mar%202026%2C%2016_51_09-2.png",
+          "alt": "Catalog: ChatGPT Image 11 mar 2026, 16 51 09 2"
+        },
+        {
+          "src": "/assets/zogs/catalog/ChatGPT%20Image%2011%20mar%202026%2C%2016_51_09.png",
+          "alt": "Catalog: ChatGPT Image 11 mar 2026, 16 51 09"
+        },
+        {
+          "src": "/assets/zogs/catalog/ChatGPT%20Image%2011%20mar%202026%2C%2016_51_14-2.png",
+          "alt": "Catalog: ChatGPT Image 11 mar 2026, 16 51 14 2"
+        },
+        {
+          "src": "/assets/zogs/catalog/ChatGPT%20Image%2011%20mar%202026%2C%2016_51_14.png",
+          "alt": "Catalog: ChatGPT Image 11 mar 2026, 16 51 14"
+        },
+        {
+          "src": "/assets/zogs/catalog/ChatGPT%20Image%2011%20mar%202026%2C%2016_51_21-2.png",
+          "alt": "Catalog: ChatGPT Image 11 mar 2026, 16 51 21 2"
+        },
+        {
+          "src": "/assets/zogs/catalog/ChatGPT%20Image%2011%20mar%202026%2C%2016_51_21.png",
+          "alt": "Catalog: ChatGPT Image 11 mar 2026, 16 51 21"
+        },
+        {
+          "src": "/assets/zogs/catalog/f724590e-0a33-41c4-bcdd-d4d1f9327724.png",
+          "alt": "Catalog: F724590e 0a33 41c4 bcdd d4d1f9327724"
+        },
+        {
+          "src": "/assets/zogs/catalog/portada1-2.png",
+          "alt": "Catalog: Portada1 2"
+        },
+        {
+          "src": "/assets/zogs/catalog/portada1.png",
+          "alt": "Catalog: Portada1"
+        }
+      ]
+    }
+  ]
+}

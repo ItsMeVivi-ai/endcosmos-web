@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "slug": "auroria-prime",
+      "name": "Auroria Prime",
+      "galaxy": "vyrakth"
+    },
+    {
+      "slug": "noctis-helix",
+      "name": "Noctis Helix",
+      "galaxy": "vyrakth"
+    }
+  ]
+}

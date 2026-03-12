@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>Mapa Principal | ENDCOSMOS</title>
+    <meta
+      name="description"
+      content="Mapa principal de EndCosmos: Celestial Expanse, regiones, leyes cosmicas, NPCs y sistema de descubrimiento."
+    />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://endcosmos.com/world" />
+
+    <link rel="icon" href="/assets/favicon.ico" />
+    <link rel="stylesheet" href="/css/style.css?v=20260312pc" />
+    <script src="/js/cosmos-dynamic-clock.js" defer></script>
+  </head>
+  <body class="page-clean page-ultra-gothic">
+    <canvas class="starfield" aria-hidden="true"></canvas>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="/" aria-label="ENDCOSMOS home">
+          <span class="brand-mark">✦</span>
+          <span class="brand-name">ENDCOSMOS</span>
+        </a>
+
+        <div class="nav-links">
+          <a href="/news" class="nav-link">News</a>
+          <a href="/lore" class="nav-link">Lore</a>
+          <a href="/mapas" class="nav-link">Maps</a>
+          <a href="/world" class="nav-link is-active">World</a>
+          <a href="/ranking" class="nav-link">Ranking</a>
+          <a href="/download" class="nav-link">Download</a>
+          <a
+            href="https://discord.gg/de6rZQtUUH"
+            class="nav-link nav-cta"
+            rel="noopener"
+            target="_blank"
+            >Discord</a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="section">
+        <div class="wrap">
+          <div class="hero-head">
+            <p class="kicker">Núcleo del universo jugable</p>
+            <h1>Celestial Expanse</h1>
+            <p class="muted">
+              Mapa principal del mundo de EndCosmos conectado para web, lore,
+              sistema de juego, wiki, NPCs y motor de descubrimiento.
+            </p>
+          </div>
+          <div class="card card-spaced card-clean">
+            <p>
+              Integración activa:
+              <a href="/ai/world-lore" target="_blank" rel="noopener"
+                >/ai/world-lore</a
+              >,
+              <a href="/ai/npc/dialogue" target="_blank" rel="noopener"
+                >/ai/npc/dialogue</a
+              >,
+              <a href="/ai/discovery" target="_blank" rel="noopener"
+                >/ai/discovery</a
+              >,
+              <a href="/ai/decision" target="_blank" rel="noopener"
+                >/ai/decision</a
+              >,
+              <a href="/ai/world/regions" target="_blank" rel="noopener"
+                >/ai/world/regions</a
+              >,
+              <a href="/ai/world/npcs" target="_blank" rel="noopener"
+                >/ai/world/npcs</a
+              >
+            </p>
+          </div>
+          <figure class="world-hero-map card card-spaced card-clean">
+            <img
+              id="world-hero-image"
+              src="/assets/images/endcosmos-maps-main.png"
+              alt="Mapa principal del mundo EndCosmos"
+              loading="eager"
+            />
+            <figcaption class="muted">
+              Mapa principal oficial: Celestial Expanse
+            </figcaption>
+          </figure>
+          <div class="grid" id="world-catalog-stats">
+            <div class="card card-spaced">Cargando catálogo expandido...</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap">
+          <h2 class="section-title">Regiones principales</h2>
+          <div class="grid" id="world-regions">
+            <div class="card card-spaced">Cargando regiones...</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap">
+          <h2 class="section-title">Leyes del universo</h2>
+          <div class="grid" id="world-laws">
+            <div class="card card-spaced">Cargando leyes...</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap">
+          <h2 class="section-title">Sistema de pensamiento y descubrimiento</h2>
+          <div class="grid" id="world-systems">
+            <div class="card card-spaced">Cargando sistemas...</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap">
+          <h2 class="section-title">NPCs principales y capas del universo</h2>
+          <div class="grid" id="world-npcs-layers">
+            <div class="card card-spaced">Cargando NPCs y capas...</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="world-npc-boss-title">
+        <div class="wrap">
+          <h2 id="world-npc-boss-title" class="section-title">
+            NPCs, bosses y criaturas
+          </h2>
+          <div
+            class="visual-pack-grid"
+            data-visual-gallery
+            data-visual-category="npcs-bosses,mounts-pets-creatures"
+            data-visual-limit="20"
+            aria-label="NPCs, bosses, monturas y criaturas"
+          ></div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="world-bg-title">
+        <div class="wrap">
+          <h2 id="world-bg-title" class="section-title">Fondos cósmicos</h2>
+          <div
+            class="visual-pack-grid"
+            data-visual-gallery
+            data-visual-category="cosmic-backgrounds"
+            data-visual-limit="16"
+            aria-label="Fondos cósmicos de EndCosmos"
+          ></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-grid">
+        <div>
+          <strong>EndCosmos</strong><br />
+          <span class="muted">endcosmos.com</span>
+        </div>
+
+        <div class="footer-links">
+          <a href="/privacy">Privacy</a>
+          <a href="/terms">Terms</a>
+          <a href="/contact">Contact</a>
+        </div>
+
+        <div class="muted">
+          © <span id="y"></span> ENDCOSMOS. All rights reserved.
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/app.js?v=20260312"></script>
+    <script src="/js/world-core.js"></script>
+    <script src="/js/world-visual-pack.js" defer></script>
+    <script src="/js/senior-mode.js" defer></script>
+  </body>
+</html>

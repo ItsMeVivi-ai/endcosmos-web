@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-03-12T07:59:25.877406+00:00",
+  "systems": {
+    "sistema_de_civilizaciones": "Facciones emergen por tipo RAZA/CIUDAD y relación de NPC.",
+    "sistema_de_economia": "RECURSO + OBJETO + ARTEFACTO alimentan mercado y crafting.",
+    "sistema_de_portales": "PORTAL conecta mapas y dimensiones con eventos rotativos.",
+    "sistema_de_dimensiones": "DIMENSION define reglas avanzadas y riesgo alto.",
+    "sistema_de_alquimia": "Combinación de RECURSO y ARTEFACTO para buffs y progresión.",
+    "sistema_de_monturas": "MONTURA habilita rutas especiales y movilidad táctica.",
+    "sistema_de_profesiones": "Especializaciones por cadena de misiones y economía.",
+    "sistema_de_reinos": "CIUDAD y MAPA soportan control territorial por civilizaciones.",
+    "sistema_de_boss_mundiales": "BOSS globales escalan por fase y actividad del servidor."
+  },
+  "universe_flags": {
+    "infinito": true,
+    "multidimensional": true,
+    "evolutivo": true,
+    "expansible": true
+  },
+  "total_assets": 214
+}

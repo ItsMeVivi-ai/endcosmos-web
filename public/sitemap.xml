@@ -16,12 +16,142 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://endcosmos.com/mapas/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/world/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/worlds/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/universe/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/planets/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/factions/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/civilizations/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/technology/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/archives/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/ai-dialogues/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/infinite-worlds/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/worlds/vyrakth/auroria-prime/chromatics</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/worlds/vyrakth/aurelia-prime/connected-core/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/worlds/vyrakth/portal-nexus/gate-wardens/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/worlds/vyrakth/tempest-front/stormbinders/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/worlds/vyrakth/umbra-cycle/chrono-watch/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/worlds/vyrakth/echo-archives/lorekeepers/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/worlds/vyrakth/titan-rift/boss-hunters/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/worlds/vyrakth/rift-convergence/event-cabal/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/worlds/vyrakth/ether-bazaar/trade-syndicate/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/worlds/vyrakth/iron-border/faction-legions/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/worlds/vyrakth/hidden-grove/pathfinders/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/worlds/vyrakth/corrupted-mire/purifiers/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/worlds/vyrakth/fortress-chain/warlords/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/alquimia/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
     <loc>https://endcosmos.com/ranking/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://endcosmos.com/download/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/zogs/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -39,5 +169,20 @@
     <loc>https://endcosmos.com/contact/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/code-changes/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/game-internal-changes/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://endcosmos.com/site-map/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.60</priority>
   </url>
 </urlset>

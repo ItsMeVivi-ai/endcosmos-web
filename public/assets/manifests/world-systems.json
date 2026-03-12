@@ -1,0 +1,316 @@
+{
+  "generated_at": "2026-03-12T00:00:00Z",
+  "systems": [
+    {
+      "id": "regions",
+      "name": "Sistema de Regiones",
+      "items": [
+        "ciudad central",
+        "zona salvaje",
+        "mazmorra",
+        "zona élite",
+        "boss arena",
+        "zona secreta",
+        "portal dimensional"
+      ]
+    },
+    {
+      "id": "layers",
+      "name": "Sistema de Capas del Mundo",
+      "items": [
+        "superficie",
+        "subsuelo",
+        "cielos",
+        "órbita",
+        "vacío cósmico",
+        "dimensión espejo",
+        "mundo corrupto"
+      ]
+    },
+    {
+      "id": "biomes",
+      "name": "Sistema de Biomas",
+      "items": [
+        "desierto astral",
+        "bosque vivo",
+        "ruinas antiguas",
+        "ciudad mecánica",
+        "océano negro",
+        "volcán celeste",
+        "tundra lunar",
+        "jardín prohibido"
+      ]
+    },
+    {
+      "id": "world-connection",
+      "name": "Sistema de Conexión entre Mundos",
+      "items": [
+        "portales",
+        "llaves dimensionales",
+        "eventos globales",
+        "reputación",
+        "quests principales",
+        "control de territorio"
+      ]
+    },
+    {
+      "id": "living-lore",
+      "name": "Sistema de Lore Vivo",
+      "items": [
+        "quién gobierna",
+        "qué pasó allí",
+        "qué energía lo alimenta",
+        "qué facción lo disputa",
+        "qué peligro oculta"
+      ]
+    },
+    {
+      "id": "dynamic-weather",
+      "name": "Sistema de Clima Dinámico",
+      "items": [
+        "lluvia ácida",
+        "niebla oscura",
+        "tormenta eléctrica",
+        "eclipse",
+        "auroras",
+        "lluvia de meteoros",
+        "viento del vacío"
+      ]
+    },
+    {
+      "id": "time-cycle",
+      "name": "Sistema de Ciclo Temporal",
+      "items": [
+        "día/noche",
+        "estaciones",
+        "eras",
+        "eventos astrales",
+        "tiempo roto",
+        "zonas de aceleración/ralentización temporal"
+      ]
+    },
+    {
+      "id": "cities",
+      "name": "Sistema de Ciudades Principales",
+      "items": [
+        "capital imperial",
+        "puerto comercial",
+        "ciudad sagrada",
+        "fortaleza militar",
+        "laboratorio arcano",
+        "mercado negro",
+        "ciudad caída"
+      ]
+    },
+    {
+      "id": "factions",
+      "name": "Sistema de Facciones",
+      "items": [
+        "Imperio Solar",
+        "Orden Llunaris",
+        "Hijos del Vacío",
+        "Mercaderes de Éter",
+        "Guardianes Leviathan",
+        "Exiliados Mecánicos"
+      ]
+    },
+    {
+      "id": "territory",
+      "name": "Sistema de Control Territorial",
+      "items": [
+        "captura de fortalezas",
+        "impuestos regionales",
+        "buffs de zona",
+        "invocación de bosses",
+        "rutas exclusivas"
+      ]
+    },
+    {
+      "id": "smart-npcs",
+      "name": "Sistema de NPCs Inteligentes",
+      "items": [
+        "memoria de eventos",
+        "reacción por reputación",
+        "diálogo estacional",
+        "quests ocultas",
+        "escenas de lore"
+      ]
+    },
+    {
+      "id": "global-events",
+      "name": "Sistema de Eventos Globales",
+      "items": [
+        "invasión demoníaca",
+        "apertura de grietas",
+        "caída de meteorito",
+        "despertar de Leviathan",
+        "guerra entre ciudades",
+        "corrupción de mapa"
+      ]
+    },
+    {
+      "id": "world-bosses",
+      "name": "Sistema de Bosses del Mundo",
+      "items": [
+        "bosses errantes",
+        "bosses por clima",
+        "bosses por horario",
+        "bosses por facción",
+        "bosses invocados",
+        "bosses de reino"
+      ]
+    },
+    {
+      "id": "resources",
+      "name": "Sistema de Recursos del Mundo",
+      "items": [
+        "minerales raros",
+        "esencia astral",
+        "flora alquímica",
+        "fragmentos del vacío",
+        "reliquias antiguas",
+        "energía de boss"
+      ]
+    },
+    {
+      "id": "economy",
+      "name": "Sistema de Economía Regional",
+      "items": [
+        "runas",
+        "alquimia",
+        "monturas",
+        "materiales prohibidos",
+        "tecnología celestial"
+      ]
+    },
+    {
+      "id": "exploration",
+      "name": "Sistema de Secretos y Exploración",
+      "items": [
+        "cofres ocultos",
+        "puertas invisibles",
+        "mapas fragmentados",
+        "rutas secretas",
+        "zonas por condición",
+        "NPCs escondidos"
+      ]
+    },
+    {
+      "id": "verticality",
+      "name": "Sistema de Verticalidad",
+      "items": [
+        "puentes aéreos",
+        "torres",
+        "catacumbas",
+        "montañas escalables",
+        "ruinas flotantes",
+        "abismos navegables"
+      ]
+    },
+    {
+      "id": "transport",
+      "name": "Sistema de Transporte",
+      "items": [
+        "monturas",
+        "barcos",
+        "tren arcano",
+        "portales",
+        "alas temporales",
+        "bestias cósmicas",
+        "ascensores antiguos"
+      ]
+    },
+    {
+      "id": "corruption",
+      "name": "Sistema de Corrupción del Mundo",
+      "items": [
+        "mutación de enemigos",
+        "desaparición de NPCs",
+        "alteración de recursos",
+        "transformación de cielo",
+        "aparición de nuevos bosses"
+      ]
+    },
+    {
+      "id": "world-progression",
+      "name": "Sistema de Progresión Mundial",
+      "items": [
+        "rango de explorador",
+        "resonancia cósmica",
+        "reputación de mundo",
+        "afinidad elemental",
+        "dominio dimensional"
+      ]
+    }
+  ],
+  "priority_12": [
+    "Mapa principal conectado",
+    "Portales entre regiones",
+    "Clima dinámico",
+    "Ciclo día/noche",
+    "NPCs con lore",
+    "Bosses de mundo",
+    "Eventos globales",
+    "Economía regional",
+    "Facciones",
+    "Exploración secreta",
+    "Corrupción de zonas",
+    "Control territorial"
+  ],
+  "world_structure": {
+    "nucleo": [
+      "Aurelia Prime",
+      "Ciudad Draco",
+      "Llunaris",
+      "Uruk Reborn"
+    ],
+    "anillos_exteriores": [
+      "farmeo",
+      "PvP",
+      "bosses",
+      "eventos",
+      "exploración"
+    ],
+    "capas_superiores": [
+      "cielo",
+      "islas flotantes",
+      "lunas artificiales",
+      "templos astrales"
+    ],
+    "capas_inferiores": [
+      "minas",
+      "prisiones",
+      "abismos",
+      "océanos subterráneos",
+      "nidos de bosses"
+    ],
+    "capas_finales": [
+      "vacío",
+      "mundo espejo",
+      "reino Leviathan",
+      "trono del final"
+    ]
+  },
+  "master_formula": [
+    "Identidad visual",
+    "Lore propio",
+    "Recurso exclusivo",
+    "Boss único",
+    "Evento especial",
+    "NPC importante",
+    "Secreto oculto",
+    "Conexión con otro mundo"
+  ],
+  "sample_world": {
+    "route": "/worlds/vyrakth/llunaris-depth/echo-order",
+    "name": "Llunaris Depth",
+    "type": "laboratorio cósmico sumergido",
+    "weather": "niebla azul eléctrica",
+    "resource": "cristal de memoria",
+    "boss": "Archivista del Abismo",
+    "event": "ruptura del tiempo cada 6 horas",
+    "npc": "Hera de los Ecos",
+    "mechanic": "puertas que solo abren con reputación",
+    "secret": "acceso al mundo espejo"
+  }
+}

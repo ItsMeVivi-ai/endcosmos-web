@@ -1,0 +1,228 @@
+{
+  "updatedAt": "2026-03-12",
+  "characters": [
+    {
+      "name": "Veyra Quill",
+      "role": "Diplomática de Llunaris",
+      "summary": "Negociadora de corredores de tránsito entre potencias en conflicto.",
+      "connections": [
+        "Llunaris",
+        "Shatter Docks",
+        "Imperio Solar"
+      ]
+    },
+    {
+      "name": "Rhokan Ember",
+      "role": "Señor de Forja de Draco",
+      "summary": "Mando industrial-militar que protege el núcleo de Furnace Rift.",
+      "connections": [
+        "Draco",
+        "Ferric Hydra",
+        "Forgebound Houses"
+      ]
+    },
+    {
+      "name": "Seliar Keth",
+      "role": "Navegante de Convoy",
+      "summary": "Capitán de rutas de alto riesgo en corredores inestables.",
+      "connections": [
+        "Nébula IX",
+        "Shatter Docks",
+        "Orden Llunaris"
+      ]
+    },
+    {
+      "name": "Arconte Sol Vhar",
+      "role": "Primus del Imperio Solar",
+      "summary": "Autoridad central de Aurelia Prime y garante del orden imperial.",
+      "connections": [
+        "Aurelia Prime",
+        "Imperio Solar",
+        "Guerras Cósmicas"
+      ]
+    },
+    {
+      "name": "Madre Iskaria",
+      "role": "Custodia de Uruk Reborn",
+      "summary": "Guardiana de criptas ancestrales y tratados funerarios.",
+      "connections": [
+        "Uruk Reborn",
+        "Guardianes Leviathan",
+        "Imperios Antiguos"
+      ]
+    },
+    {
+      "name": "Thalen Or-Ra",
+      "role": "Maestro de Predicción Llunaris",
+      "summary": "Estratega orbital y arquitecto de simulaciones de conflicto.",
+      "connections": [
+        "Llunaris",
+        "Protocol IX",
+        "Somnian Archives"
+      ]
+    },
+    {
+      "name": "Kora Myrr",
+      "role": "Mercader Sombra de Lumens",
+      "summary": "Operadora de arbitraje financiero entre facciones rivales.",
+      "connections": [
+        "Draco",
+        "Mercado de Lumens",
+        "Convoys neutrales"
+      ]
+    },
+    {
+      "name": "Edran Helix",
+      "role": "Archivista de Somnian",
+      "summary": "Descifra huecos históricos y cronologías editadas.",
+      "connections": [
+        "Somnian Archives",
+        "Leviathan",
+        "Uruk Reborn"
+      ]
+    },
+    {
+      "name": "Naevor Kain",
+      "role": "Apóstol de los Hijos del Vacío",
+      "summary": "Líder doctrinal de la fractura como vía evolutiva.",
+      "connections": [
+        "Hijos del Vacío",
+        "Fracturas dimensionales",
+        "Noctilux"
+      ]
+    },
+    {
+      "name": "Seraphine Aster",
+      "role": "Matriarca Nómada",
+      "summary": "Portavoz de la Carta de Tránsito Libre en frontera.",
+      "connections": [
+        "Aster Nomads",
+        "Nébula IX",
+        "Draco"
+      ]
+    },
+    {
+      "name": "Ionn Vesk",
+      "role": "Centinela de Sellos Abisales",
+      "summary": "Comandante de contención frente a despertares leviáticos.",
+      "connections": [
+        "Guardianes Leviathan",
+        "Uruk Reborn",
+        "Fosas astrales"
+      ]
+    },
+    {
+      "name": "Yara Noctis",
+      "role": "Cartógrafa de Mundos Ocultos",
+      "summary": "Exploradora de corredores fantasma fuera de mapas oficiales.",
+      "connections": [
+        "Mundos ocultos",
+        "Llunaris",
+        "Somnian Archives"
+      ]
+    }
+  ],
+  "bosses": [
+    {
+      "name": "Leviathan, Sombra de Mareas",
+      "domain": "Fosas cósmicas",
+      "threat": "Omega"
+    },
+    {
+      "name": "Ferric Hydra Primordial",
+      "domain": "Furnace Rift",
+      "threat": "Extremo"
+    },
+    {
+      "name": "Titán de Basalto Khor-Mael",
+      "domain": "Mundos muertos",
+      "threat": "Extremo"
+    },
+    {
+      "name": "Oráculo Ciego de Noctilux",
+      "domain": "Noctilux Plateau",
+      "threat": "Alto"
+    },
+    {
+      "name": "Soberano de Ceniza Vhal-Tor",
+      "domain": "Ruinas imperiales",
+      "threat": "Alto"
+    },
+    {
+      "name": "Arquitecto del Umbral Fracto",
+      "domain": "Fracturas dimensionales",
+      "threat": "Extremo"
+    },
+    {
+      "name": "Madre Colmena Erebis",
+      "domain": "Nidos de vacío",
+      "threat": "Alto"
+    },
+    {
+      "name": "Custodio del Trono Hueco",
+      "domain": "Criptas de Uruk Reborn",
+      "threat": "Crítico"
+    },
+    {
+      "name": "Gemelo Solar-Nulo",
+      "domain": "Aurelia profunda",
+      "threat": "Crítico"
+    },
+    {
+      "name": "Cronarca del Último Ciclo",
+      "domain": "Cámaras temporales de Somnian",
+      "threat": "Omega"
+    }
+  ],
+  "artifacts": [
+    "Corona de Helios Quebrado",
+    "Llave de Nébula IX",
+    "Lanza de Ceniza Fría",
+    "Códice de Somnian",
+    "Esfera Leviática",
+    "Anillo de Uruk Primordial",
+    "Núcleo Ferrum-Δ",
+    "Manto del Navegante Ciego",
+    "Sello de Obsidiana IX",
+    "Ídolo de la Primera Vibración",
+    "Daga de los Nueve Tronos",
+    "Lámpara del Umbral Blanco"
+  ],
+  "majorWars": [
+    "Guerra de los Nueve Tronos",
+    "Campañas de Ceniza Solar",
+    "Ruptura de Llunaris",
+    "Sitio de Draco",
+    "Guerra del Umbral Negro",
+    "Cruzada de Sellos Abisales",
+    "Conflicto de las Puertas Vivas",
+    "Guerra de la Memoria Rota"
+  ],
+  "timeline": [
+    "Primera Vibración del Cosmos",
+    "Nacimiento del Tejido Estelar",
+    "Apertura de las primeras fracturas",
+    "Fundación de ciudades-umbral",
+    "Ascenso de las Primeras Civilizaciones",
+    "Creación de artefactos de linaje",
+    "Inicio de la Guerra de los Nueve Tronos",
+    "Caída del Primer Imperio Unificado",
+    "Éxodo hacia corredores exteriores",
+    "Fundación de Aurelia Prime",
+    "Surgimiento de Llunaris como observatorio supremo",
+    "Colonización inicial de Draco",
+    "Exhumación de Uruk Primordial",
+    "Nacimiento de Uruk Reborn",
+    "Primer Murmullo documentado de Leviathan",
+    "Campañas de Ceniza Solar",
+    "Ruptura de Llunaris",
+    "Sitio de Draco",
+    "Concordato de Ceniza Fría",
+    "Sellado de Criptas Abisales",
+    "Aparición de huecos históricos en Somnian",
+    "Apertura del Corredor Nébula IX",
+    "Protocolo IX de diálogos tácticos",
+    "Carta de Tránsito Libre Aster",
+    "Inicio de la Fase de Expansión Infinita"
+  ]
+}

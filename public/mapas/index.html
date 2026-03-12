@@ -1,0 +1,100 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Mapas | ENDCOSMOS</title>
+    <meta name="description" content="Centro de mapas de EndCosmos." />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://endcosmos.com/mapas" />
+    <link rel="icon" href="/assets/favicon.ico" />
+    <link rel="stylesheet" href="/css/style.css?v=20260312pc" />
+    <script src="/js/cosmos-dynamic-clock.js" defer></script>
+  </head>
+  <body class="page-clean">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="/" aria-label="ENDCOSMOS home">
+          <span class="brand-mark">✦</span>
+          <span class="brand-name">ENDCOSMOS</span>
+        </a>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="section">
+        <div class="wrap">
+          <div class="hero-head hero-head-compact">
+            <div class="hero-head-row">
+              <h1 data-i18n="maps_title">Maps</h1>
+              <button
+                class="btn btn-secondary map-lang-btn"
+                type="button"
+                data-lang-toggle
+                aria-label="Switch language"
+                aria-pressed="false"
+              >
+                ES
+              </button>
+            </div>
+            <p class="muted" data-i18n="maps_subtitle">
+              The core of the main map lives in Celestial Expanse.
+            </p>
+            <p
+              class="muted map-lang-status"
+              data-lang-status
+              aria-live="polite"
+            >
+              Language: English
+            </p>
+          </div>
+          <div class="card card-spaced card-clean">
+            <p data-i18n-html="maps_world_cta">
+              Continue to <a href="/world">/world</a> to explore regions, laws,
+              NPCs, and discovery.
+            </p>
+          </div>
+          <div data-map-node-root></div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="maps-visual-title">
+        <div class="wrap">
+          <p class="kicker">Visual Priority Pack</p>
+          <h2 id="maps-visual-title">Mapas, ciudades y portales</h2>
+          <p class="muted">
+            Integración visual activa para rutas, ciudades núcleo y nodos de
+            portal.
+          </p>
+          <div
+            class="visual-pack-grid"
+            data-visual-gallery
+            data-visual-category="maps-cities,portals-libraries"
+            data-visual-limit="18"
+            aria-label="Mapas y portales de EndCosmos"
+          ></div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap footer-grid">
+        <div>
+          <strong>EndCosmos</strong><br /><span class="muted"
+            >endcosmos.com</span
+          >
+        </div>
+        <div class="footer-links">
+          <a href="/privacy">Privacy</a><a href="/terms">Terms</a
+          ><a href="/contact">Contact</a>
+        </div>
+        <div class="muted">
+          © <span id="y"></span> ENDCOSMOS. All rights reserved.
+        </div>
+      </div>
+    </footer>
+    <script src="/js/mapas-core.js" defer></script>
+    <script src="/js/world-visual-pack.js" defer></script>
+    <script src="/js/app.js?v=20260312"></script>
+    <script src="/js/senior-mode.js" defer></script>
+  </body>
+</html>

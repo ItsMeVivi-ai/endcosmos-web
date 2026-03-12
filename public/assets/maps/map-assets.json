@@ -1,0 +1,229 @@
+{
+  "generated_at": "2026-03-12T07:59:25.882587+00:00",
+  "items": [
+    {
+      "nombre": "Thumb 1920 725221",
+      "tipo": "MAPA",
+      "descripcion": "Thumb 1920 725221 se interpreta como mapa con lectura visual de 1920x1056.",
+      "lore": "Thumb 1920 725221 emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este mapa conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Desbloquea zonas, rutas rápidas y eventos dinámicos de territorio.",
+      "npc_relacionados": [
+        "Operador Thumb 1920 725221",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de Thumb 1920 725221",
+        "Asegurar control estratégico del mapa",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Exploradores Hostiles",
+        "Cartógrafos Corruptos"
+      ],
+      "recompensas": [
+        "Fragmento de Cartografía",
+        "Acceso a ruta oculta"
+      ],
+      "nivel_recomendado": "10-25",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/thumb-1920-725221.jpg",
+      "route": "/assets/maps/thumb-1920-725221.json"
+    },
+    {
+      "nombre": "Portal 1",
+      "tipo": "PORTAL",
+      "descripcion": "Portal 1 se interpreta como portal con lectura visual de 1536x1024.",
+      "lore": "Portal 1 emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este portal conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Conector entre mundos y contenido temporal escalable.",
+      "npc_relacionados": [
+        "Operador Portal 1",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de Portal 1",
+        "Asegurar control estratégico del portal",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Entidades Errantes",
+        "Anomalías del Vacío"
+      ],
+      "recompensas": [
+        "Créditos cósmicos",
+        "Material avanzado"
+      ],
+      "nivel_recomendado": "30-70",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/WEB PORTAL - copia/PORTAL 1.png",
+      "route": "/assets/world/portal-1.json"
+    },
+    {
+      "nombre": "Portal Endcosmos",
+      "tipo": "PORTAL",
+      "descripcion": "Portal Endcosmos se interpreta como portal con lectura visual de 1536x1024.",
+      "lore": "Portal Endcosmos emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este portal conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Conector entre mundos y contenido temporal escalable.",
+      "npc_relacionados": [
+        "Operador Portal Endcosmos",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de Portal Endcosmos",
+        "Asegurar control estratégico del portal",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Entidades Errantes",
+        "Anomalías del Vacío"
+      ],
+      "recompensas": [
+        "Créditos cósmicos",
+        "Material avanzado"
+      ],
+      "nivel_recomendado": "30-70",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/WEB PORTAL - copia/portal endcosmos.png",
+      "route": "/assets/world/portal-endcosmos.json"
+    },
+    {
+      "nombre": "Thumb 1920 1141535",
+      "tipo": "MAPA",
+      "descripcion": "Thumb 1920 1141535 se interpreta como mapa con lectura visual de 1920x1080.",
+      "lore": "Thumb 1920 1141535 emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este mapa conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Desbloquea zonas, rutas rápidas y eventos dinámicos de territorio.",
+      "npc_relacionados": [
+        "Operador Thumb 1920 1141535",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de Thumb 1920 1141535",
+        "Asegurar control estratégico del mapa",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Exploradores Hostiles",
+        "Cartógrafos Corruptos"
+      ],
+      "recompensas": [
+        "Fragmento de Cartografía",
+        "Acceso a ruta oculta"
+      ],
+      "nivel_recomendado": "10-25",
+      "mapa_relacionado": "Thumb 1920 1141535",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/WEB PORTAL - copia/thumb-1920-1141535.jpg",
+      "route": "/assets/maps/thumb-1920-1141535.json"
+    },
+    {
+      "nombre": "Thumb 1920 385821",
+      "tipo": "MAPA",
+      "descripcion": "Thumb 1920 385821 se interpreta como mapa con lectura visual de 1680x980.",
+      "lore": "Thumb 1920 385821 emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este mapa conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Desbloquea zonas, rutas rápidas y eventos dinámicos de territorio.",
+      "npc_relacionados": [
+        "Operador Thumb 1920 385821",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de Thumb 1920 385821",
+        "Asegurar control estratégico del mapa",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Exploradores Hostiles",
+        "Cartógrafos Corruptos"
+      ],
+      "recompensas": [
+        "Fragmento de Cartografía",
+        "Acceso a ruta oculta"
+      ],
+      "nivel_recomendado": "10-25",
+      "mapa_relacionado": "Thumb 1920 385821",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/WEB PORTAL - copia/thumb-1920-385821.jpg",
+      "route": "/assets/maps/thumb-1920-385821.json"
+    },
+    {
+      "nombre": "Videoblocks Infinity Nebula As A Symbol For The Endless Deep Space Universe Rref Q1Mkl Thumbnail 1080 10",
+      "tipo": "MAPA",
+      "descripcion": "Videoblocks Infinity Nebula As A Symbol For The Endless Deep Space Universe Rref Q1Mkl Thumbnail 1080 10 se interpreta como mapa con lectura visual de 1920x1080.",
+      "lore": "Videoblocks Infinity Nebula As A Symbol For The Endless Deep Space Universe Rref Q1Mkl Thumbnail 1080 10 emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este mapa conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Desbloquea zonas, rutas rápidas y eventos dinámicos de territorio.",
+      "npc_relacionados": [
+        "Operador Videoblocks Infinity Nebula As A Symbol For The Endless Deep Space Universe Rref Q1Mkl Thumbnail 1080 10",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de Videoblocks Infinity Nebula As A Symbol For The Endless Deep Space Universe Rref Q1Mkl Thumbnail 1080 10",
+        "Asegurar control estratégico del mapa",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Exploradores Hostiles",
+        "Cartógrafos Corruptos"
+      ],
+      "recompensas": [
+        "Fragmento de Cartografía",
+        "Acceso a ruta oculta"
+      ],
+      "nivel_recomendado": "10-25",
+      "mapa_relacionado": "Videoblocks Infinity Nebula As A Symbol For The Endless Deep Space Universe Rref Q1Mkl Thumbnail 1080 10",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/WEB PORTAL - copia/videoblocks-infinity-nebula-as-a-symbol-for-the-endless-deep-space-universe_rref-q1mkl_thumbnail-1080_10.png",
+      "route": "/assets/maps/videoblocks-infinity-nebula-as-a-symbol-for-the-endless-deep-space-universe-rref-q1mkl-thumbnail-1080-10.json"
+    },
+    {
+      "nombre": "Portal 1",
+      "tipo": "PORTAL",
+      "descripcion": "Portal 1 se interpreta como portal con lectura visual de 1536x1024.",
+      "lore": "Portal 1 emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este portal conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Conector entre mundos y contenido temporal escalable.",
+      "npc_relacionados": [
+        "Operador Portal 1",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de Portal 1",
+        "Asegurar control estratégico del portal",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Entidades Errantes",
+        "Anomalías del Vacío"
+      ],
+      "recompensas": [
+        "Créditos cósmicos",
+        "Material avanzado"
+      ],
+      "nivel_recomendado": "30-70",
+      "mapa_relacionado": "Thumb 1920 725221",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/WEB PORTAL/PORTAL 1.png",
+      "route": "/assets/world/portal-1.json"
+    },
+    {
+      "nombre": "World",
+      "tipo": "MAPA",
+      "descripcion": "World se interpreta como mapa con lectura visual de 1024x1536.",
+      "lore": "World emerge del Archivo ZOGS como nodo de memoria activa. En EndCosmos, este mapa conecta civilizaciones, conflictos y rutas de expansión interdimensional.",
+      "funcion_en_el_juego": "Desbloquea zonas, rutas rápidas y eventos dinámicos de territorio.",
+      "npc_relacionados": [
+        "Operador World",
+        "Archivista Dimensional"
+      ],
+      "misiones": [
+        "Investigar anomalía de World",
+        "Asegurar control estratégico del mapa",
+        "Sincronizar datos del nodo con el Codex central"
+      ],
+      "enemigos": [
+        "Exploradores Hostiles",
+        "Cartógrafos Corruptos"
+      ],
+      "recompensas": [
+        "Fragmento de Cartografía",
+        "Acceso a ruta oculta"
+      ],
+      "nivel_recomendado": "10-25",
+      "mapa_relacionado": "World",
+      "source_image": "C:/Users/Vivi/OneDrive/COSMOS/ZOGS/world.png",
+      "route": "/assets/maps/world.json"
+    }
+  ]
+}

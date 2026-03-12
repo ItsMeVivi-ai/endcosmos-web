@@ -1,0 +1,4167 @@
+{
+  "generated_at": "2026-03-12T10:17:32.285834+00:00",
+  "assets_root": "C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/assets",
+  "total": 416,
+  "records": [
+    {
+      "id": "b4e7738bef3fa9fb",
+      "filename": "battle.webp",
+      "web_path": "/assets/battle.webp",
+      "source_dir": ".",
+      "extension": ".webp",
+      "size_bytes": 42546,
+      "size_kb": 41.55,
+      "image_type": "evento"
+    },
+    {
+      "id": "93abf128ae7d1090",
+      "filename": "brand-art.jpg",
+      "web_path": "/assets/brand-art.jpg",
+      "source_dir": ".",
+      "extension": ".jpg",
+      "size_bytes": 184857,
+      "size_kb": 180.52,
+      "image_type": "recurso"
+    },
+    {
+      "id": "30d54af8ca21287e",
+      "filename": "cover-endcosmos-portal.png",
+      "web_path": "/assets/cover-endcosmos-portal.png",
+      "source_dir": ".",
+      "extension": ".png",
+      "size_bytes": 3055954,
+      "size_kb": 2984.33,
+      "image_type": "portal"
+    },
+    {
+      "id": "135172d29305fb6a",
+      "filename": "event.webp",
+      "web_path": "/assets/event.webp",
+      "source_dir": ".",
+      "extension": ".webp",
+      "size_bytes": 147129,
+      "size_kb": 143.68,
+      "image_type": "evento"
+    },
+    {
+      "id": "f9406e0476be2a9d",
+      "filename": "favicon.png",
+      "web_path": "/assets/favicon.png",
+      "source_dir": ".",
+      "extension": ".png",
+      "size_bytes": 3124431,
+      "size_kb": 3051.2,
+      "image_type": "recurso"
+    },
+    {
+      "id": "f266e47b4568698a",
+      "filename": "hero-main.jpg",
+      "web_path": "/assets/hero-main.jpg",
+      "source_dir": ".",
+      "extension": ".jpg",
+      "size_bytes": 2158339,
+      "size_kb": 2107.75,
+      "image_type": "nucleo_visual"
+    },
+    {
+      "id": "53d9e65c1b5af9e2",
+      "filename": "hero-secondary.jpg",
+      "web_path": "/assets/hero-secondary.jpg",
+      "source_dir": ".",
+      "extension": ".jpg",
+      "size_bytes": 301907,
+      "size_kb": 294.83,
+      "image_type": "nucleo_visual"
+    },
+    {
+      "id": "dfc22cb65f83b274",
+      "filename": "hero.jpg",
+      "web_path": "/assets/hero.jpg",
+      "source_dir": ".",
+      "extension": ".jpg",
+      "size_bytes": 0,
+      "size_kb": 0.0,
+      "image_type": "nucleo_visual"
+    },
+    {
+      "id": "81cbb2ec9c7b509a",
+      "filename": "1170873.jpg",
+      "web_path": "/assets/images/1170873.jpg",
+      "source_dir": "images",
+      "extension": ".jpg",
+      "size_bytes": 1995088,
+      "size_kb": 1948.33,
+      "image_type": "recurso"
+    },
+    {
+      "id": "51447638c2c9b5f3",
+      "filename": "1_BXHLXNp6LJNnbDvEcTCMkg.png",
+      "web_path": "/assets/images/1_BXHLXNp6LJNnbDvEcTCMkg.png",
+      "source_dir": "images",
+      "extension": ".png",
+      "size_bytes": 4254929,
+      "size_kb": 4155.2,
+      "image_type": "recurso"
+    },
+    {
+      "id": "abdfb6fe46037d69",
+      "filename": "78b35709-93da-4a94-97aa-592b9123a1ee.png",
+      "web_path": "/assets/images/78b35709-93da-4a94-97aa-592b9123a1ee.png",
+      "source_dir": "images",
+      "extension": ".png",
+      "size_bytes": 3124431,
+      "size_kb": 3051.2,
+      "image_type": "recurso"
+    },
+    {
+      "id": "26d317182f915228",
+      "filename": "a710e3f4b8f559ac406d4797390b5cc2.webp",
+      "web_path": "/assets/images/a710e3f4b8f559ac406d4797390b5cc2.webp",
+      "source_dir": "images",
+      "extension": ".webp",
+      "size_bytes": 147129,
+      "size_kb": 143.68,
+      "image_type": "recurso"
+    },
+    {
+      "id": "d37288c917a40792",
+      "filename": "b94f1411a6ddcd2b912060223f767036.webp",
+      "web_path": "/assets/images/b94f1411a6ddcd2b912060223f767036.webp",
+      "source_dir": "images",
+      "extension": ".webp",
+      "size_bytes": 9722,
+      "size_kb": 9.49,
+      "image_type": "recurso"
+    },
+    {
+      "id": "d73c654469d40308",
+      "filename": "bosque 4.jpg",
+      "web_path": "/assets/images/bosque 4.jpg",
+      "source_dir": "images",
+      "extension": ".jpg",
+      "size_bytes": 408392,
+      "size_kb": 398.82,
+      "image_type": "recurso"
+    },
+    {
+      "id": "b24a5a0b38b6aa33",
+      "filename": "bosque1.jpg",
+      "web_path": "/assets/images/bosque1.jpg",
+      "source_dir": "images",
+      "extension": ".jpg",
+      "size_bytes": 191873,
+      "size_kb": 187.38,
+      "image_type": "recurso"
+    },
+    {
+      "id": "5cb7e51dbd9f660a",
+      "filename": "Bosque2.webp",
+      "web_path": "/assets/images/Bosque2.webp",
+      "source_dir": "images",
+      "extension": ".webp",
+      "size_bytes": 46862,
+      "size_kb": 45.76,
+      "image_type": "recurso"
+    },
+    {
+      "id": "bfcfb5e2819f9704",
+      "filename": "bosque3.jpg",
+      "web_path": "/assets/images/bosque3.jpg",
+      "source_dir": "images",
+      "extension": ".jpg",
+      "size_bytes": 127519,
+      "size_kb": 124.53,
+      "image_type": "recurso"
+    },
+    {
+      "id": "4040a0222ea09212",
+      "filename": "endcosmos-hero-cinematic.avif",
+      "web_path": "/assets/images/endcosmos-hero-cinematic.avif",
+      "source_dir": "images",
+      "extension": ".avif",
+      "size_bytes": 228170,
+      "size_kb": 222.82,
+      "image_type": "nucleo_visual"
+    },
+    {
+      "id": "f08d3e014153b4c3",
+      "filename": "endcosmos-hero-cinematic.webp",
+      "web_path": "/assets/images/endcosmos-hero-cinematic.webp",
+      "source_dir": "images",
+      "extension": ".webp",
+      "size_bytes": 443404,
+      "size_kb": 433.01,
+      "image_type": "nucleo_visual"
+    },
+    {
+      "id": "80883bb482bdfa06",
+      "filename": "endcosmos-maps-main.png",
+      "web_path": "/assets/images/endcosmos-maps-main.png",
+      "source_dir": "images",
+      "extension": ".png",
+      "size_bytes": 3289393,
+      "size_kb": 3212.3,
+      "image_type": "mapa"
+    },
+    {
+      "id": "7479032f174dfd5f",
+      "filename": "eTyhSp9g4fbSwbFtcG9mHo.jpg",
+      "web_path": "/assets/images/eTyhSp9g4fbSwbFtcG9mHo.jpg",
+      "source_dir": "images",
+      "extension": ".jpg",
+      "size_bytes": 506375,
+      "size_kb": 494.51,
+      "image_type": "recurso"
+    },
+    {
+      "id": "f224fe321b789335",
+      "filename": "GUIDE_UNIVERSE.jpg",
+      "web_path": "/assets/images/GUIDE_UNIVERSE.jpg",
+      "source_dir": "images",
+      "extension": ".jpg",
+      "size_bytes": 276119,
+      "size_kb": 269.65,
+      "image_type": "recurso"
+    },
+    {
+      "id": "614258af235ac8d4",
+      "filename": "HighresScreenshot00005-1920x1080-89b9232274748bd5313f20f9b2d513fe.jpg",
+      "web_path": "/assets/images/HighresScreenshot00005-1920x1080-89b9232274748bd5313f20f9b2d513fe.jpg",
+      "source_dir": "images",
+      "extension": ".jpg",
+      "size_bytes": 556568,
+      "size_kb": 543.52,
+      "image_type": "recurso"
+    },
+    {
+      "id": "ff47a1055e62f090",
+      "filename": "NPC.jpg",
+      "web_path": "/assets/images/NPC.jpg",
+      "source_dir": "images",
+      "extension": ".jpg",
+      "size_bytes": 41057,
+      "size_kb": 40.09,
+      "image_type": "entidad"
+    },
+    {
+      "id": "21d8b4bf55afae98",
+      "filename": "NPC_UNIVERSE.jpg",
+      "web_path": "/assets/images/NPC_UNIVERSE.jpg",
+      "source_dir": "images",
+      "extension": ".jpg",
+      "size_bytes": 102957,
+      "size_kb": 100.54,
+      "image_type": "entidad"
+    },
+    {
+      "id": "75f10365830bf81c",
+      "filename": "original-16b1cb1b8f32cecff4c0166422b86444.jpg",
+      "web_path": "/assets/images/original-16b1cb1b8f32cecff4c0166422b86444.jpg",
+      "source_dir": "images",
+      "extension": ".jpg",
+      "size_bytes": 48494,
+      "size_kb": 47.36,
+      "image_type": "recurso"
+    },
+    {
+      "id": "454ae1491c4d0090",
+      "filename": "pngtree-cosmic-portal-to-another-dimension-opens-freely-always-image_20919279.webp",
+      "web_path": "/assets/images/pngtree-cosmic-portal-to-another-dimension-opens-freely-always-image_20919279.webp",
+      "source_dir": "images",
+      "extension": ".webp",
+      "size_bytes": 52592,
+      "size_kb": 51.36,
+      "image_type": "portal"
+    },
+    {
+      "id": "2e20a4b6822ef1da",
+      "filename": "pngtree-epic-clash-of-ancient-warriors-in-traditional-armor-fighting-fiercely-within-image_20719811.webp",
+      "web_path": "/assets/images/pngtree-epic-clash-of-ancient-warriors-in-traditional-armor-fighting-fiercely-within-image_20719811.webp",
+      "source_dir": "images",
+      "extension": ".webp",
+      "size_bytes": 42546,
+      "size_kb": 41.55,
+      "image_type": "recurso"
+    },
+    {
+      "id": "af949056dd5d58bb",
+      "filename": "pngtree-futuristic-cosmic-portal-to-another-dimension-image_20878348.webp",
+      "web_path": "/assets/images/pngtree-futuristic-cosmic-portal-to-another-dimension-image_20878348.webp",
+      "source_dir": "images",
+      "extension": ".webp",
+      "size_bytes": 118336,
+      "size_kb": 115.56,
+      "image_type": "portal"
+    },
+    {
+      "id": "4457007a8af31c18",
+      "filename": "pngtree-futuristic-sci-fi-dream-worlds-enriched-with-vivid-neon-accents-merging-picture-image_16250523.jpg",
+      "web_path": "/assets/images/pngtree-futuristic-sci-fi-dream-worlds-enriched-with-vivid-neon-accents-merging-picture-image_16250523.jpg",
+      "source_dir": "images",
+      "extension": ".jpg",
+      "size_bytes": 1513170,
+      "size_kb": 1477.71,
+      "image_type": "mundo"
+    },
+    {
+      "id": "79ea39c6590b3b01",
+      "filename": "Purple Energy Portal Overlay for Sci-Fi Logo Animation-HD.webp",
+      "web_path": "/assets/images/Purple Energy Portal Overlay for Sci-Fi Logo Animation-HD.webp",
+      "source_dir": "images",
+      "extension": ".webp",
+      "size_bytes": 81424,
+      "size_kb": 79.52,
+      "image_type": "portal"
+    },
+    {
+      "id": "efe8d9ffa27691a9",
+      "filename": "purple-and-blue-sci-fi-city-background-qrtlhfz3pjiw11ry.jpg",
+      "web_path": "/assets/images/purple-and-blue-sci-fi-city-background-qrtlhfz3pjiw11ry.jpg",
+      "source_dir": "images",
+      "extension": ".jpg",
+      "size_bytes": 301907,
+      "size_kb": 294.83,
+      "image_type": "region"
+    },
+    {
+      "id": "a530f59a6d13d2f9",
+      "filename": "QQLZeMBCdeUdaggZnpyPWA.jpg",
+      "web_path": "/assets/images/QQLZeMBCdeUdaggZnpyPWA.jpg",
+      "source_dir": "images",
+      "extension": ".jpg",
+      "size_bytes": 441135,
+      "size_kb": 430.8,
+      "image_type": "recurso"
+    },
+    {
+      "id": "9890c0109952db80",
+      "filename": "STScI-01JZNDGSHWXK3NGZ0Y1WKPKGP9.png",
+      "web_path": "/assets/images/STScI-01JZNDGSHWXK3NGZ0Y1WKPKGP9.png",
+      "source_dir": "images",
+      "extension": ".png",
+      "size_bytes": 334168,
+      "size_kb": 326.34,
+      "image_type": "recurso"
+    },
+    {
+      "id": "28645b11797255ef",
+      "filename": "thumb-1920-1141535.jpg",
+      "web_path": "/assets/images/thumb-1920-1141535.jpg",
+      "source_dir": "images",
+      "extension": ".jpg",
+      "size_bytes": 177930,
+      "size_kb": 173.76,
+      "image_type": "recurso"
+    },
+    {
+      "id": "090e1903c8973e92",
+      "filename": "thumb-1920-904050.jpg",
+      "web_path": "/assets/images/thumb-1920-904050.jpg",
+      "source_dir": "images",
+      "extension": ".jpg",
+      "size_bytes": 264142,
+      "size_kb": 257.95,
+      "image_type": "recurso"
+    },
+    {
+      "id": "b897ad27bc509532",
+      "filename": "ueu-dark-universe-logo-portal-rendering-cf-a.jpg",
+      "web_path": "/assets/images/ueu-dark-universe-logo-portal-rendering-cf-a.jpg",
+      "source_dir": "images",
+      "extension": ".jpg",
+      "size_bytes": 184857,
+      "size_kb": 180.52,
+      "image_type": "portal"
+    },
+    {
+      "id": "0eb68aa7281c8ff6",
+      "filename": "wOFg_7AQTQ_BJ8WIy5afClPGzUSZkBjQOe0Zzux8e8pj9PWGV8LSojAjQmaBe5asX6_zDVxW2aBD5vLb29IGWgok8Vx1wygAceQX5KAZSWM.jpg",
+      "web_path": "/assets/images/wOFg_7AQTQ_BJ8WIy5afClPGzUSZkBjQOe0Zzux8e8pj9PWGV8LSojAjQmaBe5asX6_zDVxW2aBD5vLb29IGWgok8Vx1wygAceQX5KAZSWM.jpg",
+      "source_dir": "images",
+      "extension": ".jpg",
+      "size_bytes": 292422,
+      "size_kb": 285.57,
+      "image_type": "recurso"
+    },
+    {
+      "id": "d7d09ed314b2f2df",
+      "filename": "logo.png",
+      "web_path": "/assets/logo.png",
+      "source_dir": ".",
+      "extension": ".png",
+      "size_bytes": 334168,
+      "size_kb": 326.34,
+      "image_type": "recurso"
+    },
+    {
+      "id": "7e2cab6c2e40806e",
+      "filename": "og.jpg",
+      "web_path": "/assets/og.jpg",
+      "source_dir": ".",
+      "extension": ".jpg",
+      "size_bytes": 556568,
+      "size_kb": 543.52,
+      "image_type": "recurso"
+    },
+    {
+      "id": "89ab9913f52ec7f2",
+      "filename": "portal.webp",
+      "web_path": "/assets/portal.webp",
+      "source_dir": ".",
+      "extension": ".webp",
+      "size_bytes": 118336,
+      "size_kb": 115.56,
+      "image_type": "portal"
+    },
+    {
+      "id": "026bb19883c44dc3",
+      "filename": "realm-ice.jpg",
+      "web_path": "/assets/realm-ice.jpg",
+      "source_dir": ".",
+      "extension": ".jpg",
+      "size_bytes": 506375,
+      "size_kb": 494.51,
+      "image_type": "region"
+    },
+    {
+      "id": "42182ba9f45e5020",
+      "filename": "realm-void.jpg",
+      "web_path": "/assets/realm-void.jpg",
+      "source_dir": ".",
+      "extension": ".jpg",
+      "size_bytes": 441135,
+      "size_kb": 430.8,
+      "image_type": "region"
+    },
+    {
+      "id": "ac9235216db28815",
+      "filename": "03-space-eagle-nebula.jpg",
+      "web_path": "/assets/zogs/03-space-eagle-nebula.jpg",
+      "source_dir": "zogs",
+      "extension": ".jpg",
+      "size_bytes": 1249623,
+      "size_kb": 1220.33,
+      "image_type": "region"
+    },
+    {
+      "id": "1b4e998f72c1eca9",
+      "filename": "1175534.jpg",
+      "web_path": "/assets/zogs/1175534.jpg",
+      "source_dir": "zogs",
+      "extension": ".jpg",
+      "size_bytes": 1051039,
+      "size_kb": 1026.41,
+      "image_type": "recurso"
+    },
+    {
+      "id": "1df07f19311ddb5f",
+      "filename": "416030b5298d3fe495ed409820bfec69a1a62781.jpeg",
+      "web_path": "/assets/zogs/416030b5298d3fe495ed409820bfec69a1a62781.jpeg",
+      "source_dir": "zogs",
+      "extension": ".jpeg",
+      "size_bytes": 2070937,
+      "size_kb": 2022.4,
+      "image_type": "recurso"
+    },
+    {
+      "id": "e9b66fc12a08c0d3",
+      "filename": "425139-riendas-del-dragon-nimbo-astral.jpg",
+      "web_path": "/assets/zogs/425139-riendas-del-dragon-nimbo-astral.jpg",
+      "source_dir": "zogs",
+      "extension": ".jpg",
+      "size_bytes": 147134,
+      "size_kb": 143.69,
+      "image_type": "recurso"
+    },
+    {
+      "id": "f249bd8602b9d62a",
+      "filename": "78b35709-93da-4a94-97aa-592b9123a1ee.png",
+      "web_path": "/assets/zogs/catalog/78b35709-93da-4a94-97aa-592b9123a1ee.png",
+      "source_dir": "zogs/catalog",
+      "extension": ".png",
+      "size_bytes": 3124431,
+      "size_kb": 3051.2,
+      "image_type": "recurso"
+    },
+    {
+      "id": "88eb9051946d448d",
+      "filename": "8c569664-1712-49aa-8512-36407ee88106.png",
+      "web_path": "/assets/zogs/catalog/8c569664-1712-49aa-8512-36407ee88106.png",
+      "source_dir": "zogs/catalog",
+      "extension": ".png",
+      "size_bytes": 2169345,
+      "size_kb": 2118.5,
+      "image_type": "recurso"
+    },
+    {
+      "id": "c7fabe70b50cba87",
+      "filename": "ChatGPT Image 11 mar 2026, 16_50_58-2.png",
+      "web_path": "/assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_50_58-2.png",
+      "source_dir": "zogs/catalog",
+      "extension": ".png",
+      "size_bytes": 3495455,
+      "size_kb": 3413.53,
+      "image_type": "recurso"
+    },
+    {
+      "id": "3390727d82cdf9e7",
+      "filename": "ChatGPT Image 11 mar 2026, 16_50_58.png",
+      "web_path": "/assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_50_58.png",
+      "source_dir": "zogs/catalog",
+      "extension": ".png",
+      "size_bytes": 3495455,
+      "size_kb": 3413.53,
+      "image_type": "recurso"
+    },
+    {
+      "id": "19c482ad02855cad",
+      "filename": "ChatGPT Image 11 mar 2026, 16_51_05-2.png",
+      "web_path": "/assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_51_05-2.png",
+      "source_dir": "zogs/catalog",
+      "extension": ".png",
+      "size_bytes": 3273807,
+      "size_kb": 3197.08,
+      "image_type": "recurso"
+    },
+    {
+      "id": "bd23d39b6b7ca715",
+      "filename": "ChatGPT Image 11 mar 2026, 16_51_05.png",
+      "web_path": "/assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_51_05.png",
+      "source_dir": "zogs/catalog",
+      "extension": ".png",
+      "size_bytes": 3273807,
+      "size_kb": 3197.08,
+      "image_type": "recurso"
+    },
+    {
+      "id": "399920bbb60c7344",
+      "filename": "ChatGPT Image 11 mar 2026, 16_51_09-2.png",
+      "web_path": "/assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_51_09-2.png",
+      "source_dir": "zogs/catalog",
+      "extension": ".png",
+      "size_bytes": 2169345,
+      "size_kb": 2118.5,
+      "image_type": "recurso"
+    },
+    {
+      "id": "cbf135c200bd231d",
+      "filename": "ChatGPT Image 11 mar 2026, 16_51_09.png",
+      "web_path": "/assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_51_09.png",
+      "source_dir": "zogs/catalog",
+      "extension": ".png",
+      "size_bytes": 2169345,
+      "size_kb": 2118.5,
+      "image_type": "recurso"
+    },
+    {
+      "id": "8cdf285cb998b2fa",
+      "filename": "ChatGPT Image 11 mar 2026, 16_51_14-2.png",
+      "web_path": "/assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_51_14-2.png",
+      "source_dir": "zogs/catalog",
+      "extension": ".png",
+      "size_bytes": 3338634,
+      "size_kb": 3260.38,
+      "image_type": "recurso"
+    },
+    {
+      "id": "726ff060d160a2ce",
+      "filename": "ChatGPT Image 11 mar 2026, 16_51_14.png",
+      "web_path": "/assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_51_14.png",
+      "source_dir": "zogs/catalog",
+      "extension": ".png",
+      "size_bytes": 3338634,
+      "size_kb": 3260.38,
+      "image_type": "recurso"
+    },
+    {
+      "id": "177d56e2ebdc3d67",
+      "filename": "ChatGPT Image 11 mar 2026, 16_51_21-2.png",
+      "web_path": "/assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_51_21-2.png",
+      "source_dir": "zogs/catalog",
+      "extension": ".png",
+      "size_bytes": 3350505,
+      "size_kb": 3271.98,
+      "image_type": "recurso"
+    },
+    {
+      "id": "2c050581433cde03",
+      "filename": "ChatGPT Image 11 mar 2026, 16_51_21.png",
+      "web_path": "/assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_51_21.png",
+      "source_dir": "zogs/catalog",
+      "extension": ".png",
+      "size_bytes": 3350505,
+      "size_kb": 3271.98,
+      "image_type": "recurso"
+    },
+    {
+      "id": "42bf68e3defd367c",
+      "filename": "f724590e-0a33-41c4-bcdd-d4d1f9327724.png",
+      "web_path": "/assets/zogs/catalog/f724590e-0a33-41c4-bcdd-d4d1f9327724.png",
+      "source_dir": "zogs/catalog",
+      "extension": ".png",
+      "size_bytes": 3273807,
+      "size_kb": 3197.08,
+      "image_type": "recurso"
+    },
+    {
+      "id": "6d06e1cb7a350dcc",
+      "filename": "portada1-2.png",
+      "web_path": "/assets/zogs/catalog/portada1-2.png",
+      "source_dir": "zogs/catalog",
+      "extension": ".png",
+      "size_bytes": 3273807,
+      "size_kb": 3197.08,
+      "image_type": "recurso"
+    },
+    {
+      "id": "678fa1513f7fc4e4",
+      "filename": "portada1.png",
+      "web_path": "/assets/zogs/catalog/portada1.png",
+      "source_dir": "zogs/catalog",
+      "extension": ".png",
+      "size_bytes": 3273807,
+      "size_kb": 3197.08,
+      "image_type": "recurso"
+    },
+    {
+      "id": "01df66b3864769b5",
+      "filename": "df36had-01f8f342-f79a-46e6-a381-f346676837a9.jpg",
+      "web_path": "/assets/zogs/df36had-01f8f342-f79a-46e6-a381-f346676837a9.jpg",
+      "source_dir": "zogs",
+      "extension": ".jpg",
+      "size_bytes": 7685075,
+      "size_kb": 7504.96,
+      "image_type": "recurso"
+    },
+    {
+      "id": "c5e4c2176559b6e0",
+      "filename": "fornax_virgo2011.jpg",
+      "web_path": "/assets/zogs/fornax_virgo2011.jpg",
+      "source_dir": "zogs",
+      "extension": ".jpg",
+      "size_bytes": 1567167,
+      "size_kb": 1530.44,
+      "image_type": "recurso"
+    },
+    {
+      "id": "72d46ecc2eb6651e",
+      "filename": "0-k-q8xid3qorj8v-t.jpg",
+      "web_path": "/assets/zogs/imported-assets/0-k-q8xid3qorj8v-t.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 46464,
+      "size_kb": 45.38,
+      "image_type": "recurso"
+    },
+    {
+      "id": "e888a6d1434d4517",
+      "filename": "03-space-eagle-nebula.jpg",
+      "web_path": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 1249623,
+      "size_kb": 1220.33,
+      "image_type": "region"
+    },
+    {
+      "id": "bfe85f17650a833c",
+      "filename": "03773bf7-2ecb-470f-a390-2b02c8de1477.png",
+      "web_path": "/assets/zogs/imported-assets/03773bf7-2ecb-470f-a390-2b02c8de1477.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3202768,
+      "size_kb": 3127.7,
+      "image_type": "recurso"
+    },
+    {
+      "id": "ba43adb03764593f",
+      "filename": "063b3970-b498-47a2-b28a-c536c93acefc-medium.webp",
+      "web_path": "/assets/zogs/imported-assets/063b3970-b498-47a2-b28a-c536c93acefc-medium.webp",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".webp",
+      "size_bytes": 158658,
+      "size_kb": 154.94,
+      "image_type": "recurso"
+    },
+    {
+      "id": "91165cdeea4bf718",
+      "filename": "0d6aeb92-86e0-4f77-a56f-aad63aa5fd0d-2.png",
+      "web_path": "/assets/zogs/imported-assets/0d6aeb92-86e0-4f77-a56f-aad63aa5fd0d-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2474058,
+      "size_kb": 2416.07,
+      "image_type": "recurso"
+    },
+    {
+      "id": "619f2e8a5cc130c0",
+      "filename": "0d6aeb92-86e0-4f77-a56f-aad63aa5fd0d.png",
+      "web_path": "/assets/zogs/imported-assets/0d6aeb92-86e0-4f77-a56f-aad63aa5fd0d.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2474058,
+      "size_kb": 2416.07,
+      "image_type": "recurso"
+    },
+    {
+      "id": "e4043d3c94ec93d2",
+      "filename": "1-10724-2.png",
+      "web_path": "/assets/zogs/imported-assets/1-10724-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 37236,
+      "size_kb": 36.36,
+      "image_type": "recurso"
+    },
+    {
+      "id": "c61710889a8dcceb",
+      "filename": "1-10724.png",
+      "web_path": "/assets/zogs/imported-assets/1-10724.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 37236,
+      "size_kb": 36.36,
+      "image_type": "recurso"
+    },
+    {
+      "id": "e162aba1078d46cb",
+      "filename": "1-2.png",
+      "web_path": "/assets/zogs/imported-assets/1-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2483084,
+      "size_kb": 2424.89,
+      "image_type": "recurso"
+    },
+    {
+      "id": "80d916f5ef29d800",
+      "filename": "1-8ma4ocfq3xw1uaz7q-mayg.jpg",
+      "web_path": "/assets/zogs/imported-assets/1-8ma4ocfq3xw1uaz7q-mayg.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 58680,
+      "size_kb": 57.3,
+      "image_type": "recurso"
+    },
+    {
+      "id": "a1b5cfa0b89d3cc1",
+      "filename": "1-b1byswn3cpepfjwavyjvtq.jpg",
+      "web_path": "/assets/zogs/imported-assets/1-b1byswn3cpepfjwavyjvtq.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 183916,
+      "size_kb": 179.61,
+      "image_type": "recurso"
+    },
+    {
+      "id": "5a3debd339785044",
+      "filename": "1-bgih56ofcuegowtqoxobq-copia.jpg",
+      "web_path": "/assets/zogs/imported-assets/1-bgih56ofcuegowtqoxobq-copia.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 117909,
+      "size_kb": 115.15,
+      "image_type": "recurso"
+    },
+    {
+      "id": "56e41100404e1aff",
+      "filename": "1-bgih56ofcuegowtqoxobq.jpg",
+      "web_path": "/assets/zogs/imported-assets/1-bgih56ofcuegowtqoxobq.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 117909,
+      "size_kb": 115.15,
+      "image_type": "recurso"
+    },
+    {
+      "id": "16a6d2fc18794f88",
+      "filename": "1-vvvdyu4yy7mdsykr2od-fq.jpg",
+      "web_path": "/assets/zogs/imported-assets/1-vvvdyu4yy7mdsykr2od-fq.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 275876,
+      "size_kb": 269.41,
+      "image_type": "recurso"
+    },
+    {
+      "id": "c01f90878bdaefff",
+      "filename": "1.png",
+      "web_path": "/assets/zogs/imported-assets/1.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2483084,
+      "size_kb": 2424.89,
+      "image_type": "recurso"
+    },
+    {
+      "id": "85b18524f0e57b2c",
+      "filename": "10-2.png",
+      "web_path": "/assets/zogs/imported-assets/10-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2405931,
+      "size_kb": 2349.54,
+      "image_type": "recurso"
+    },
+    {
+      "id": "c41154f6f3b5e3a0",
+      "filename": "10.png",
+      "web_path": "/assets/zogs/imported-assets/10.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2405931,
+      "size_kb": 2349.54,
+      "image_type": "recurso"
+    },
+    {
+      "id": "4cd9fc7fbd13889e",
+      "filename": "1003670-1.png",
+      "web_path": "/assets/zogs/imported-assets/1003670-1.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3056232,
+      "size_kb": 2984.6,
+      "image_type": "recurso"
+    },
+    {
+      "id": "ab88b5678364698d",
+      "filename": "11-2.png",
+      "web_path": "/assets/zogs/imported-assets/11-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2385026,
+      "size_kb": 2329.13,
+      "image_type": "recurso"
+    },
+    {
+      "id": "c71f3a20a113c542",
+      "filename": "11.png",
+      "web_path": "/assets/zogs/imported-assets/11.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2385026,
+      "size_kb": 2329.13,
+      "image_type": "recurso"
+    },
+    {
+      "id": "513853b741c5ee1d",
+      "filename": "11212408550228480745-2048.jpg",
+      "web_path": "/assets/zogs/imported-assets/11212408550228480745-2048.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 509747,
+      "size_kb": 497.8,
+      "image_type": "recurso"
+    },
+    {
+      "id": "04597c4047a4b252",
+      "filename": "1175534.jpg",
+      "web_path": "/assets/zogs/imported-assets/1175534.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 1051039,
+      "size_kb": 1026.41,
+      "image_type": "recurso"
+    },
+    {
+      "id": "c57207e93cd156e0",
+      "filename": "12-2.png",
+      "web_path": "/assets/zogs/imported-assets/12-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2444381,
+      "size_kb": 2387.09,
+      "image_type": "recurso"
+    },
+    {
+      "id": "84694bbbcace87f5",
+      "filename": "12.png",
+      "web_path": "/assets/zogs/imported-assets/12.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2444381,
+      "size_kb": 2387.09,
+      "image_type": "recurso"
+    },
+    {
+      "id": "9142d3166761bf60",
+      "filename": "1200x866.jpg",
+      "web_path": "/assets/zogs/imported-assets/1200x866.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 251897,
+      "size_kb": 245.99,
+      "image_type": "recurso"
+    },
+    {
+      "id": "031ae1e9ab0b7a81",
+      "filename": "13-2.png",
+      "web_path": "/assets/zogs/imported-assets/13-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2250568,
+      "size_kb": 2197.82,
+      "image_type": "recurso"
+    },
+    {
+      "id": "19c0cc2301d348c6",
+      "filename": "13.png",
+      "web_path": "/assets/zogs/imported-assets/13.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2250568,
+      "size_kb": 2197.82,
+      "image_type": "recurso"
+    },
+    {
+      "id": "22ab58d75b868617",
+      "filename": "14-2.png",
+      "web_path": "/assets/zogs/imported-assets/14-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2463632,
+      "size_kb": 2405.89,
+      "image_type": "recurso"
+    },
+    {
+      "id": "50d031f5160cf187",
+      "filename": "14-3.png",
+      "web_path": "/assets/zogs/imported-assets/14-3.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2463632,
+      "size_kb": 2405.89,
+      "image_type": "recurso"
+    },
+    {
+      "id": "1b2c8ef7efd9cdd0",
+      "filename": "14.png",
+      "web_path": "/assets/zogs/imported-assets/14.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 1391426,
+      "size_kb": 1358.81,
+      "image_type": "recurso"
+    },
+    {
+      "id": "55b381c3b8916eec",
+      "filename": "14df6d39-249a-4bf6-93de-7bcf4457690e-medium.webp",
+      "web_path": "/assets/zogs/imported-assets/14df6d39-249a-4bf6-93de-7bcf4457690e-medium.webp",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".webp",
+      "size_bytes": 123712,
+      "size_kb": 120.81,
+      "image_type": "recurso"
+    },
+    {
+      "id": "915285fe849103b4",
+      "filename": "15-2.png",
+      "web_path": "/assets/zogs/imported-assets/15-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3504407,
+      "size_kb": 3422.27,
+      "image_type": "recurso"
+    },
+    {
+      "id": "3320d379d2a5a752",
+      "filename": "15.png",
+      "web_path": "/assets/zogs/imported-assets/15.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3504407,
+      "size_kb": 3422.27,
+      "image_type": "recurso"
+    },
+    {
+      "id": "8a7f4ee8da247d67",
+      "filename": "15c7f06a-d254-4014-8312-6c9d39d507b3.png",
+      "web_path": "/assets/zogs/imported-assets/15c7f06a-d254-4014-8312-6c9d39d507b3.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2934746,
+      "size_kb": 2865.96,
+      "image_type": "recurso"
+    },
+    {
+      "id": "1f9ed7a8e0c19de4",
+      "filename": "16-2.png",
+      "web_path": "/assets/zogs/imported-assets/16-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3701062,
+      "size_kb": 3614.32,
+      "image_type": "recurso"
+    },
+    {
+      "id": "89564ca2bb55189b",
+      "filename": "16.png",
+      "web_path": "/assets/zogs/imported-assets/16.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3701062,
+      "size_kb": 3614.32,
+      "image_type": "recurso"
+    },
+    {
+      "id": "67455f6b47ad014d",
+      "filename": "16b6820b-a3a6-4f12-bd91-bdcf5c97acc4-2.png",
+      "web_path": "/assets/zogs/imported-assets/16b6820b-a3a6-4f12-bd91-bdcf5c97acc4-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2398610,
+      "size_kb": 2342.39,
+      "image_type": "recurso"
+    },
+    {
+      "id": "17d231e383ef4633",
+      "filename": "16b6820b-a3a6-4f12-bd91-bdcf5c97acc4.png",
+      "web_path": "/assets/zogs/imported-assets/16b6820b-a3a6-4f12-bd91-bdcf5c97acc4.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2398610,
+      "size_kb": 2342.39,
+      "image_type": "recurso"
+    },
+    {
+      "id": "30f240e10589ade5",
+      "filename": "16ce668b-cc24-44c5-b785-003eacfc1a66-2.png",
+      "web_path": "/assets/zogs/imported-assets/16ce668b-cc24-44c5-b785-003eacfc1a66-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2130416,
+      "size_kb": 2080.48,
+      "image_type": "recurso"
+    },
+    {
+      "id": "97a142a47cdda75f",
+      "filename": "16ce668b-cc24-44c5-b785-003eacfc1a66.png",
+      "web_path": "/assets/zogs/imported-assets/16ce668b-cc24-44c5-b785-003eacfc1a66.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2130416,
+      "size_kb": 2080.48,
+      "image_type": "recurso"
+    },
+    {
+      "id": "344f8e16c10bb6e4",
+      "filename": "17-2.png",
+      "web_path": "/assets/zogs/imported-assets/17-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3013414,
+      "size_kb": 2942.79,
+      "image_type": "recurso"
+    },
+    {
+      "id": "9b9131155855e182",
+      "filename": "17.png",
+      "web_path": "/assets/zogs/imported-assets/17.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3013414,
+      "size_kb": 2942.79,
+      "image_type": "recurso"
+    },
+    {
+      "id": "a31b159aa87c0875",
+      "filename": "18-2.png",
+      "web_path": "/assets/zogs/imported-assets/18-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2221877,
+      "size_kb": 2169.8,
+      "image_type": "recurso"
+    },
+    {
+      "id": "d70d6fe2e26fb2cb",
+      "filename": "18.png",
+      "web_path": "/assets/zogs/imported-assets/18.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2221877,
+      "size_kb": 2169.8,
+      "image_type": "recurso"
+    },
+    {
+      "id": "01386ce765c786d6",
+      "filename": "1856dcec-c3f1-4031-8b9c-811155a8bcfc.png",
+      "web_path": "/assets/zogs/imported-assets/1856dcec-c3f1-4031-8b9c-811155a8bcfc.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3254144,
+      "size_kb": 3177.88,
+      "image_type": "recurso"
+    },
+    {
+      "id": "7d76eadb537aa7f9",
+      "filename": "19-2.png",
+      "web_path": "/assets/zogs/imported-assets/19-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2130416,
+      "size_kb": 2080.48,
+      "image_type": "recurso"
+    },
+    {
+      "id": "653deb6b72001380",
+      "filename": "19.png",
+      "web_path": "/assets/zogs/imported-assets/19.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2130416,
+      "size_kb": 2080.48,
+      "image_type": "recurso"
+    },
+    {
+      "id": "a9c1964e2428eff9",
+      "filename": "1a7c4613c8f558ac8e41cf06af40498d.jpg",
+      "web_path": "/assets/zogs/imported-assets/1a7c4613c8f558ac8e41cf06af40498d.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 142196,
+      "size_kb": 138.86,
+      "image_type": "recurso"
+    },
+    {
+      "id": "de6e49b933ad7f6c",
+      "filename": "2-2.png",
+      "web_path": "/assets/zogs/imported-assets/2-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2486979,
+      "size_kb": 2428.69,
+      "image_type": "recurso"
+    },
+    {
+      "id": "3f1988fb0f49225a",
+      "filename": "2.png",
+      "web_path": "/assets/zogs/imported-assets/2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2486979,
+      "size_kb": 2428.69,
+      "image_type": "recurso"
+    },
+    {
+      "id": "785cb1dcea7b39a9",
+      "filename": "20-2.png",
+      "web_path": "/assets/zogs/imported-assets/20-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2441997,
+      "size_kb": 2384.76,
+      "image_type": "recurso"
+    },
+    {
+      "id": "687ecffcbc6f16ca",
+      "filename": "20.png",
+      "web_path": "/assets/zogs/imported-assets/20.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2441997,
+      "size_kb": 2384.76,
+      "image_type": "recurso"
+    },
+    {
+      "id": "334bc891cd3c3520",
+      "filename": "2024-09-22t18-29-07-375z-medium.webp",
+      "web_path": "/assets/zogs/imported-assets/2024-09-22t18-29-07-375z-medium.webp",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".webp",
+      "size_bytes": 115728,
+      "size_kb": 113.02,
+      "image_type": "recurso"
+    },
+    {
+      "id": "c36cebb420c94f7d",
+      "filename": "21-2.png",
+      "web_path": "/assets/zogs/imported-assets/21-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2563246,
+      "size_kb": 2503.17,
+      "image_type": "recurso"
+    },
+    {
+      "id": "e2f784c68a24bb98",
+      "filename": "21.png",
+      "web_path": "/assets/zogs/imported-assets/21.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2563246,
+      "size_kb": 2503.17,
+      "image_type": "recurso"
+    },
+    {
+      "id": "a066c65a310964ca",
+      "filename": "2862206.jpg",
+      "web_path": "/assets/zogs/imported-assets/2862206.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 14000,
+      "size_kb": 13.67,
+      "image_type": "recurso"
+    },
+    {
+      "id": "128a71e0496218e8",
+      "filename": "2fe9563b-d22f-4f45-b54e-a54b258da6dd-2.png",
+      "web_path": "/assets/zogs/imported-assets/2fe9563b-d22f-4f45-b54e-a54b258da6dd-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2370738,
+      "size_kb": 2315.17,
+      "image_type": "recurso"
+    },
+    {
+      "id": "48c3706ad7cc1679",
+      "filename": "2fe9563b-d22f-4f45-b54e-a54b258da6dd.png",
+      "web_path": "/assets/zogs/imported-assets/2fe9563b-d22f-4f45-b54e-a54b258da6dd.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2370738,
+      "size_kb": 2315.17,
+      "image_type": "recurso"
+    },
+    {
+      "id": "ad17f65842e933bc",
+      "filename": "3-2.png",
+      "web_path": "/assets/zogs/imported-assets/3-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2339848,
+      "size_kb": 2285.01,
+      "image_type": "recurso"
+    },
+    {
+      "id": "aee1e38ed8a8ce83",
+      "filename": "3.png",
+      "web_path": "/assets/zogs/imported-assets/3.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2339848,
+      "size_kb": 2285.01,
+      "image_type": "recurso"
+    },
+    {
+      "id": "f9cdc435fe932fe8",
+      "filename": "3618c7ef-caee-46a1-9cc6-bc1d0e518ce5-2.png",
+      "web_path": "/assets/zogs/imported-assets/3618c7ef-caee-46a1-9cc6-bc1d0e518ce5-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2221877,
+      "size_kb": 2169.8,
+      "image_type": "recurso"
+    },
+    {
+      "id": "29855d237b8b5ca8",
+      "filename": "3618c7ef-caee-46a1-9cc6-bc1d0e518ce5.png",
+      "web_path": "/assets/zogs/imported-assets/3618c7ef-caee-46a1-9cc6-bc1d0e518ce5.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2221877,
+      "size_kb": 2169.8,
+      "image_type": "recurso"
+    },
+    {
+      "id": "d566a810b418767a",
+      "filename": "3dfd977c-55ee-41de-9e5b-bc1890cf5441-2.png",
+      "web_path": "/assets/zogs/imported-assets/3dfd977c-55ee-41de-9e5b-bc1890cf5441-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2410483,
+      "size_kb": 2353.99,
+      "image_type": "recurso"
+    },
+    {
+      "id": "90d964d770235a58",
+      "filename": "3dfd977c-55ee-41de-9e5b-bc1890cf5441.png",
+      "web_path": "/assets/zogs/imported-assets/3dfd977c-55ee-41de-9e5b-bc1890cf5441.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2410483,
+      "size_kb": 2353.99,
+      "image_type": "recurso"
+    },
+    {
+      "id": "106005cc10e78e77",
+      "filename": "4-2.png",
+      "web_path": "/assets/zogs/imported-assets/4-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2227689,
+      "size_kb": 2175.48,
+      "image_type": "recurso"
+    },
+    {
+      "id": "08beac09a23a2909",
+      "filename": "4.png",
+      "web_path": "/assets/zogs/imported-assets/4.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2227689,
+      "size_kb": 2175.48,
+      "image_type": "recurso"
+    },
+    {
+      "id": "8a11a4a84934f093",
+      "filename": "416030b5298d3fe495ed409820bfec69a1a62781.jpeg",
+      "web_path": "/assets/zogs/imported-assets/416030b5298d3fe495ed409820bfec69a1a62781.jpeg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpeg",
+      "size_bytes": 2070937,
+      "size_kb": 2022.4,
+      "image_type": "recurso"
+    },
+    {
+      "id": "2c09fa40838846b8",
+      "filename": "425139-riendas-del-dragon-nimbo-astral.jpg",
+      "web_path": "/assets/zogs/imported-assets/425139-riendas-del-dragon-nimbo-astral.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 147134,
+      "size_kb": 143.69,
+      "image_type": "recurso"
+    },
+    {
+      "id": "6531cf1947a8357a",
+      "filename": "44fef06ec8bdbb784ba2ae2b4ab1983ade52b7dc.jpeg",
+      "web_path": "/assets/zogs/imported-assets/44fef06ec8bdbb784ba2ae2b4ab1983ade52b7dc.jpeg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpeg",
+      "size_bytes": 60005,
+      "size_kb": 58.6,
+      "image_type": "recurso"
+    },
+    {
+      "id": "d5b368bce8b125dd",
+      "filename": "45588853-d137-429c-9ef4-2cad2caeacea-2.png",
+      "web_path": "/assets/zogs/imported-assets/45588853-d137-429c-9ef4-2cad2caeacea-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2431306,
+      "size_kb": 2374.32,
+      "image_type": "recurso"
+    },
+    {
+      "id": "91c63e3514cd480c",
+      "filename": "45588853-d137-429c-9ef4-2cad2caeacea.png",
+      "web_path": "/assets/zogs/imported-assets/45588853-d137-429c-9ef4-2cad2caeacea.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2431306,
+      "size_kb": 2374.32,
+      "image_type": "recurso"
+    },
+    {
+      "id": "08131c2d9eeab17f",
+      "filename": "48b9aeb7c93c1707315444bdc150b43e.jpg",
+      "web_path": "/assets/zogs/imported-assets/48b9aeb7c93c1707315444bdc150b43e.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 39741,
+      "size_kb": 38.81,
+      "image_type": "recurso"
+    },
+    {
+      "id": "7bd94c5937f3ef11",
+      "filename": "4ab2e091-da1b-48c5-a6c1-1fb3d0cc6289.png",
+      "web_path": "/assets/zogs/imported-assets/4ab2e091-da1b-48c5-a6c1-1fb3d0cc6289.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3226931,
+      "size_kb": 3151.3,
+      "image_type": "recurso"
+    },
+    {
+      "id": "e478976b77e845db",
+      "filename": "5-2.png",
+      "web_path": "/assets/zogs/imported-assets/5-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2149927,
+      "size_kb": 2099.54,
+      "image_type": "recurso"
+    },
+    {
+      "id": "c3f9c8475eef0881",
+      "filename": "5.png",
+      "web_path": "/assets/zogs/imported-assets/5.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2149927,
+      "size_kb": 2099.54,
+      "image_type": "recurso"
+    },
+    {
+      "id": "cc2562bbc7578e79",
+      "filename": "52a55a68-a27e-42d0-86f1-cb8466346eeb-2.png",
+      "web_path": "/assets/zogs/imported-assets/52a55a68-a27e-42d0-86f1-cb8466346eeb-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2849866,
+      "size_kb": 2783.07,
+      "image_type": "recurso"
+    },
+    {
+      "id": "0c2392d22709342a",
+      "filename": "52a55a68-a27e-42d0-86f1-cb8466346eeb-3.png",
+      "web_path": "/assets/zogs/imported-assets/52a55a68-a27e-42d0-86f1-cb8466346eeb-3.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2849866,
+      "size_kb": 2783.07,
+      "image_type": "recurso"
+    },
+    {
+      "id": "768eb253001639c6",
+      "filename": "52a55a68-a27e-42d0-86f1-cb8466346eeb.png",
+      "web_path": "/assets/zogs/imported-assets/52a55a68-a27e-42d0-86f1-cb8466346eeb.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2849866,
+      "size_kb": 2783.07,
+      "image_type": "recurso"
+    },
+    {
+      "id": "fca0868bb82b651d",
+      "filename": "549cc996-b0e6-48c3-bb4e-02ac064d8c88-2.png",
+      "web_path": "/assets/zogs/imported-assets/549cc996-b0e6-48c3-bb4e-02ac064d8c88-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2250568,
+      "size_kb": 2197.82,
+      "image_type": "recurso"
+    },
+    {
+      "id": "ca5f058afc9f6dfe",
+      "filename": "549cc996-b0e6-48c3-bb4e-02ac064d8c88.png",
+      "web_path": "/assets/zogs/imported-assets/549cc996-b0e6-48c3-bb4e-02ac064d8c88.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2250568,
+      "size_kb": 2197.82,
+      "image_type": "recurso"
+    },
+    {
+      "id": "ca1c82010c03dbd5",
+      "filename": "5d8457df-af04-49c4-b28f-d25b4c09cfb9-2.png",
+      "web_path": "/assets/zogs/imported-assets/5d8457df-af04-49c4-b28f-d25b4c09cfb9-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2385026,
+      "size_kb": 2329.13,
+      "image_type": "recurso"
+    },
+    {
+      "id": "3c52b2db225d8efc",
+      "filename": "5d8457df-af04-49c4-b28f-d25b4c09cfb9.png",
+      "web_path": "/assets/zogs/imported-assets/5d8457df-af04-49c4-b28f-d25b4c09cfb9.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2385026,
+      "size_kb": 2329.13,
+      "image_type": "recurso"
+    },
+    {
+      "id": "c7400e815ea30ae3",
+      "filename": "5e7hhx9srml3rszjwgoxyz1hxzfsuahls-ta4julzhrm15r8r5ct-nbfnrppz4g-hqcpomwqopu8p7mk72hqk2m1vkljnop4ccnsx4cgxb0.jpg",
+      "web_path": "/assets/zogs/imported-assets/5e7hhx9srml3rszjwgoxyz1hxzfsuahls-ta4julzhrm15r8r5ct-nbfnrppz4g-hqcpomwqopu8p7mk72hqk2m1vkljnop4ccnsx4cgxb0.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 100868,
+      "size_kb": 98.5,
+      "image_type": "recurso"
+    },
+    {
+      "id": "387ecb54ccdeadb0",
+      "filename": "6-2.png",
+      "web_path": "/assets/zogs/imported-assets/6-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2386292,
+      "size_kb": 2330.36,
+      "image_type": "recurso"
+    },
+    {
+      "id": "60802964b4e17b27",
+      "filename": "6.png",
+      "web_path": "/assets/zogs/imported-assets/6.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2386292,
+      "size_kb": 2330.36,
+      "image_type": "recurso"
+    },
+    {
+      "id": "3eda5813fbde825b",
+      "filename": "61-fd-qumkl-ac-uf1000-1000-ql80.jpg",
+      "web_path": "/assets/zogs/imported-assets/61-fd-qumkl-ac-uf1000-1000-ql80.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 72378,
+      "size_kb": 70.68,
+      "image_type": "recurso"
+    },
+    {
+      "id": "1d6130574e293f57",
+      "filename": "65c1250a-3442-4e2c-a974-a9b6599873fc.webp",
+      "web_path": "/assets/zogs/imported-assets/65c1250a-3442-4e2c-a974-a9b6599873fc.webp",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".webp",
+      "size_bytes": 443404,
+      "size_kb": 433.01,
+      "image_type": "recurso"
+    },
+    {
+      "id": "b9eb0b31f91f0e64",
+      "filename": "684ec1eb-6801-4f15-a244-fa8f13d33ab8-2.png",
+      "web_path": "/assets/zogs/imported-assets/684ec1eb-6801-4f15-a244-fa8f13d33ab8-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2330337,
+      "size_kb": 2275.72,
+      "image_type": "recurso"
+    },
+    {
+      "id": "6100b7326e41a734",
+      "filename": "684ec1eb-6801-4f15-a244-fa8f13d33ab8.png",
+      "web_path": "/assets/zogs/imported-assets/684ec1eb-6801-4f15-a244-fa8f13d33ab8.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2330337,
+      "size_kb": 2275.72,
+      "image_type": "recurso"
+    },
+    {
+      "id": "2f5d6775d00d7c1b",
+      "filename": "6assets1-2.png",
+      "web_path": "/assets/zogs/imported-assets/6assets1-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3154217,
+      "size_kb": 3080.29,
+      "image_type": "recurso"
+    },
+    {
+      "id": "9f2dc658d1bc264c",
+      "filename": "6assets1-3.png",
+      "web_path": "/assets/zogs/imported-assets/6assets1-3.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3154217,
+      "size_kb": 3080.29,
+      "image_type": "recurso"
+    },
+    {
+      "id": "bc5623c56221cc81",
+      "filename": "6assets1-4.png",
+      "web_path": "/assets/zogs/imported-assets/6assets1-4.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3154217,
+      "size_kb": 3080.29,
+      "image_type": "recurso"
+    },
+    {
+      "id": "7e16130c9b2be205",
+      "filename": "6assets1.png",
+      "web_path": "/assets/zogs/imported-assets/6assets1.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3154217,
+      "size_kb": 3080.29,
+      "image_type": "recurso"
+    },
+    {
+      "id": "1338c95c618ea21c",
+      "filename": "6cbcac41-3cee-48d5-953c-ea7ad1a04098-2.png",
+      "web_path": "/assets/zogs/imported-assets/6cbcac41-3cee-48d5-953c-ea7ad1a04098-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2467611,
+      "size_kb": 2409.78,
+      "image_type": "recurso"
+    },
+    {
+      "id": "a8db7575fecc66bc",
+      "filename": "6cbcac41-3cee-48d5-953c-ea7ad1a04098.png",
+      "web_path": "/assets/zogs/imported-assets/6cbcac41-3cee-48d5-953c-ea7ad1a04098.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2467611,
+      "size_kb": 2409.78,
+      "image_type": "recurso"
+    },
+    {
+      "id": "3fd2389cd30189e5",
+      "filename": "6jfy7ecahuosjccauylb3o.jpg",
+      "web_path": "/assets/zogs/imported-assets/6jfy7ecahuosjccauylb3o.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 266083,
+      "size_kb": 259.85,
+      "image_type": "recurso"
+    },
+    {
+      "id": "2a0745d8d11642d4",
+      "filename": "7-2.png",
+      "web_path": "/assets/zogs/imported-assets/7-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2647945,
+      "size_kb": 2585.88,
+      "image_type": "recurso"
+    },
+    {
+      "id": "4a670ee3b5867d64",
+      "filename": "7.png",
+      "web_path": "/assets/zogs/imported-assets/7.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2647945,
+      "size_kb": 2585.88,
+      "image_type": "recurso"
+    },
+    {
+      "id": "bac030c2963e7bfc",
+      "filename": "71qsfmevfdl-ac-uf1000-1000-ql80.jpg",
+      "web_path": "/assets/zogs/imported-assets/71qsfmevfdl-ac-uf1000-1000-ql80.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 81435,
+      "size_kb": 79.53,
+      "image_type": "recurso"
+    },
+    {
+      "id": "7fd0e6a07fd214c8",
+      "filename": "75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0-2.png",
+      "web_path": "/assets/zogs/imported-assets/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3701062,
+      "size_kb": 3614.32,
+      "image_type": "recurso"
+    },
+    {
+      "id": "1b146210dd2f76ed",
+      "filename": "75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0.png",
+      "web_path": "/assets/zogs/imported-assets/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3701062,
+      "size_kb": 3614.32,
+      "image_type": "recurso"
+    },
+    {
+      "id": "9ce57d778cd6d9ad",
+      "filename": "78565d2d-57ec-41fb-ac8b-0013a2c9236c-2.png",
+      "web_path": "/assets/zogs/imported-assets/78565d2d-57ec-41fb-ac8b-0013a2c9236c-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3504407,
+      "size_kb": 3422.27,
+      "image_type": "recurso"
+    },
+    {
+      "id": "380052ace34a93d7",
+      "filename": "78565d2d-57ec-41fb-ac8b-0013a2c9236c.png",
+      "web_path": "/assets/zogs/imported-assets/78565d2d-57ec-41fb-ac8b-0013a2c9236c.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3504407,
+      "size_kb": 3422.27,
+      "image_type": "recurso"
+    },
+    {
+      "id": "bdf0a36b77135285",
+      "filename": "78b35709-93da-4a94-97aa-592b9123a1ee.png",
+      "web_path": "/assets/zogs/imported-assets/78b35709-93da-4a94-97aa-592b9123a1ee.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3124431,
+      "size_kb": 3051.2,
+      "image_type": "recurso"
+    },
+    {
+      "id": "eb5e87246f1a75c1",
+      "filename": "8-2.png",
+      "web_path": "/assets/zogs/imported-assets/8-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2431306,
+      "size_kb": 2374.32,
+      "image_type": "recurso"
+    },
+    {
+      "id": "1992d9abc2840ee8",
+      "filename": "8.png",
+      "web_path": "/assets/zogs/imported-assets/8.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2431306,
+      "size_kb": 2374.32,
+      "image_type": "recurso"
+    },
+    {
+      "id": "199b286a89c6a2e0",
+      "filename": "8b16e5a2-ae02-4eb2-a405-67d740e71669-2.png",
+      "web_path": "/assets/zogs/imported-assets/8b16e5a2-ae02-4eb2-a405-67d740e71669-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2172241,
+      "size_kb": 2121.33,
+      "image_type": "recurso"
+    },
+    {
+      "id": "b5e247b7a7524c57",
+      "filename": "8b16e5a2-ae02-4eb2-a405-67d740e71669.png",
+      "web_path": "/assets/zogs/imported-assets/8b16e5a2-ae02-4eb2-a405-67d740e71669.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2172241,
+      "size_kb": 2121.33,
+      "image_type": "recurso"
+    },
+    {
+      "id": "a78b4fd7c4ae5716",
+      "filename": "8b33a2cfdba72ecfe415cba79d9f8ea9.jpg",
+      "web_path": "/assets/zogs/imported-assets/8b33a2cfdba72ecfe415cba79d9f8ea9.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 61138,
+      "size_kb": 59.71,
+      "image_type": "recurso"
+    },
+    {
+      "id": "6f3136408873e34f",
+      "filename": "8bb89adf-d6f5-41f4-b314-90d09fa25c60-2.png",
+      "web_path": "/assets/zogs/imported-assets/8bb89adf-d6f5-41f4-b314-90d09fa25c60-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2373497,
+      "size_kb": 2317.87,
+      "image_type": "recurso"
+    },
+    {
+      "id": "e9901d04fc1b9071",
+      "filename": "8bb89adf-d6f5-41f4-b314-90d09fa25c60.png",
+      "web_path": "/assets/zogs/imported-assets/8bb89adf-d6f5-41f4-b314-90d09fa25c60.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2373497,
+      "size_kb": 2317.87,
+      "image_type": "recurso"
+    },
+    {
+      "id": "f6d31dc05c756adf",
+      "filename": "8c569664-1712-49aa-8512-36407ee88106.png",
+      "web_path": "/assets/zogs/imported-assets/8c569664-1712-49aa-8512-36407ee88106.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2169345,
+      "size_kb": 2118.5,
+      "image_type": "recurso"
+    },
+    {
+      "id": "84c2a6282b99cddf",
+      "filename": "8f245e3f-8a88-47cb-bdf9-e00067f38896-2.png",
+      "web_path": "/assets/zogs/imported-assets/8f245e3f-8a88-47cb-bdf9-e00067f38896-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2417971,
+      "size_kb": 2361.3,
+      "image_type": "recurso"
+    },
+    {
+      "id": "199f75e0063c8288",
+      "filename": "8f245e3f-8a88-47cb-bdf9-e00067f38896.png",
+      "web_path": "/assets/zogs/imported-assets/8f245e3f-8a88-47cb-bdf9-e00067f38896.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2417971,
+      "size_kb": 2361.3,
+      "image_type": "recurso"
+    },
+    {
+      "id": "31f9d37edc581027",
+      "filename": "8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f-2.png",
+      "web_path": "/assets/zogs/imported-assets/8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2463632,
+      "size_kb": 2405.89,
+      "image_type": "recurso"
+    },
+    {
+      "id": "1577bddd7d20ae7e",
+      "filename": "8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f.png",
+      "web_path": "/assets/zogs/imported-assets/8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2463632,
+      "size_kb": 2405.89,
+      "image_type": "recurso"
+    },
+    {
+      "id": "8e1c72940e5111ca",
+      "filename": "9-2.png",
+      "web_path": "/assets/zogs/imported-assets/9-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2467611,
+      "size_kb": 2409.78,
+      "image_type": "recurso"
+    },
+    {
+      "id": "bbc9e31f06e7f521",
+      "filename": "9.png",
+      "web_path": "/assets/zogs/imported-assets/9.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2467611,
+      "size_kb": 2409.78,
+      "image_type": "recurso"
+    },
+    {
+      "id": "1553fc833d9c2235",
+      "filename": "975686f3-6e46-4ba6-a244-01c331fc70cd.png",
+      "web_path": "/assets/zogs/imported-assets/975686f3-6e46-4ba6-a244-01c331fc70cd.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 1886648,
+      "size_kb": 1842.43,
+      "image_type": "recurso"
+    },
+    {
+      "id": "67c1dddd63e65c29",
+      "filename": "999-asets-in-one-2.png",
+      "web_path": "/assets/zogs/imported-assets/999-asets-in-one-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3265306,
+      "size_kb": 3188.78,
+      "image_type": "recurso"
+    },
+    {
+      "id": "37562ebb4da3baff",
+      "filename": "999-asets-in-one-3.png",
+      "web_path": "/assets/zogs/imported-assets/999-asets-in-one-3.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3265306,
+      "size_kb": 3188.78,
+      "image_type": "recurso"
+    },
+    {
+      "id": "04e33d99d110acd2",
+      "filename": "999-asets-in-one-4.png",
+      "web_path": "/assets/zogs/imported-assets/999-asets-in-one-4.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3265306,
+      "size_kb": 3188.78,
+      "image_type": "recurso"
+    },
+    {
+      "id": "1bcc0a6512f6465f",
+      "filename": "999-asets-in-one.png",
+      "web_path": "/assets/zogs/imported-assets/999-asets-in-one.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3265306,
+      "size_kb": 3188.78,
+      "image_type": "recurso"
+    },
+    {
+      "id": "8a58c57be12fe616",
+      "filename": "9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+      "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3309203,
+      "size_kb": 3231.64,
+      "image_type": "mundo"
+    },
+    {
+      "id": "2961d3ae9dfe24d1",
+      "filename": "9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+      "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3309203,
+      "size_kb": 3231.64,
+      "image_type": "mundo"
+    },
+    {
+      "id": "a26b0b1d09413932",
+      "filename": "9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos.png",
+      "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3309203,
+      "size_kb": 3231.64,
+      "image_type": "mundo"
+    },
+    {
+      "id": "8cdcb2043dde458e",
+      "filename": "999personajes-principales-y-mapas-donde-viven-endcosmos-2.png",
+      "web_path": "/assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3289393,
+      "size_kb": 3212.3,
+      "image_type": "mapa"
+    },
+    {
+      "id": "b87680e8e7debee0",
+      "filename": "999personajes-principales-y-mapas-donde-viven-endcosmos-3.png",
+      "web_path": "/assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos-3.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3289393,
+      "size_kb": 3212.3,
+      "image_type": "mapa"
+    },
+    {
+      "id": "0b0f00595174586a",
+      "filename": "999personajes-principales-y-mapas-donde-viven-endcosmos-4.png",
+      "web_path": "/assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos-4.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3289393,
+      "size_kb": 3212.3,
+      "image_type": "mapa"
+    },
+    {
+      "id": "933158ced3965ecd",
+      "filename": "999personajes-principales-y-mapas-donde-viven-endcosmos.png",
+      "web_path": "/assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3289393,
+      "size_kb": 3212.3,
+      "image_type": "mapa"
+    },
+    {
+      "id": "de529327633cbad3",
+      "filename": "9d9d5754ae8016c18a7fd4029ab11df8.jpg",
+      "web_path": "/assets/zogs/imported-assets/9d9d5754ae8016c18a7fd4029ab11df8.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 21637,
+      "size_kb": 21.13,
+      "image_type": "recurso"
+    },
+    {
+      "id": "18f7e1bf705b10a4",
+      "filename": "a3c855c4002ab5455ab6abc70e0304a6.jpeg",
+      "web_path": "/assets/zogs/imported-assets/a3c855c4002ab5455ab6abc70e0304a6.jpeg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpeg",
+      "size_bytes": 71743,
+      "size_kb": 70.06,
+      "image_type": "recurso"
+    },
+    {
+      "id": "8d601133ed0f8446",
+      "filename": "a49f8d18-49f0-4682-be93-c53515e75621-2.png",
+      "web_path": "/assets/zogs/imported-assets/a49f8d18-49f0-4682-be93-c53515e75621-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2405931,
+      "size_kb": 2349.54,
+      "image_type": "recurso"
+    },
+    {
+      "id": "f94a3a0724c08d15",
+      "filename": "a49f8d18-49f0-4682-be93-c53515e75621.png",
+      "web_path": "/assets/zogs/imported-assets/a49f8d18-49f0-4682-be93-c53515e75621.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2405931,
+      "size_kb": 2349.54,
+      "image_type": "recurso"
+    },
+    {
+      "id": "0cf36d1dc636e434",
+      "filename": "aa1fba69-49b4-41d4-a931-92ae9955fbc2-2.png",
+      "web_path": "/assets/zogs/imported-assets/aa1fba69-49b4-41d4-a931-92ae9955fbc2-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3013414,
+      "size_kb": 2942.79,
+      "image_type": "recurso"
+    },
+    {
+      "id": "194fc61ed21df2f0",
+      "filename": "aa1fba69-49b4-41d4-a931-92ae9955fbc2.png",
+      "web_path": "/assets/zogs/imported-assets/aa1fba69-49b4-41d4-a931-92ae9955fbc2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3013414,
+      "size_kb": 2942.79,
+      "image_type": "recurso"
+    },
+    {
+      "id": "12623f1fd624773e",
+      "filename": "aa9082e8-4ee2-43e9-9af8-38ca8071a04c-2.png",
+      "web_path": "/assets/zogs/imported-assets/aa9082e8-4ee2-43e9-9af8-38ca8071a04c-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2563246,
+      "size_kb": 2503.17,
+      "image_type": "recurso"
+    },
+    {
+      "id": "1a1d77da3c2a16b9",
+      "filename": "aa9082e8-4ee2-43e9-9af8-38ca8071a04c.png",
+      "web_path": "/assets/zogs/imported-assets/aa9082e8-4ee2-43e9-9af8-38ca8071a04c.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2563246,
+      "size_kb": 2503.17,
+      "image_type": "recurso"
+    },
+    {
+      "id": "0cb0382b45ee7db8",
+      "filename": "ae14fc54-1152-49eb-bc33-ba8a56fe83f0-medium.webp",
+      "web_path": "/assets/zogs/imported-assets/ae14fc54-1152-49eb-bc33-ba8a56fe83f0-medium.webp",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".webp",
+      "size_bytes": 111950,
+      "size_kb": 109.33,
+      "image_type": "recurso"
+    },
+    {
+      "id": "61bc77686f37d7fa",
+      "filename": "aguejero-nogro-2.png",
+      "web_path": "/assets/zogs/imported-assets/aguejero-nogro-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2277828,
+      "size_kb": 2224.44,
+      "image_type": "recurso"
+    },
+    {
+      "id": "c4bf1c55a5fd20fc",
+      "filename": "aguejero-nogro-3.png",
+      "web_path": "/assets/zogs/imported-assets/aguejero-nogro-3.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2277828,
+      "size_kb": 2224.44,
+      "image_type": "recurso"
+    },
+    {
+      "id": "60a23447cc249770",
+      "filename": "aguejero-nogro.png",
+      "web_path": "/assets/zogs/imported-assets/aguejero-nogro.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2277828,
+      "size_kb": 2224.44,
+      "image_type": "recurso"
+    },
+    {
+      "id": "511214e3b0d8abd6",
+      "filename": "album-alb2268411.jpg",
+      "web_path": "/assets/zogs/imported-assets/album-alb2268411.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 310057,
+      "size_kb": 302.79,
+      "image_type": "recurso"
+    },
+    {
+      "id": "e3bdea53f405c0a2",
+      "filename": "alien1.png",
+      "web_path": "/assets/zogs/imported-assets/alien1.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 1499756,
+      "size_kb": 1464.61,
+      "image_type": "recurso"
+    },
+    {
+      "id": "77f9a893619f3c23",
+      "filename": "b35989dc-d0df-4d58-9261-75ac7dec3c55-2.png",
+      "web_path": "/assets/zogs/imported-assets/b35989dc-d0df-4d58-9261-75ac7dec3c55-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2130511,
+      "size_kb": 2080.58,
+      "image_type": "recurso"
+    },
+    {
+      "id": "a797e55beb71aeea",
+      "filename": "b35989dc-d0df-4d58-9261-75ac7dec3c55.png",
+      "web_path": "/assets/zogs/imported-assets/b35989dc-d0df-4d58-9261-75ac7dec3c55.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2130511,
+      "size_kb": 2080.58,
+      "image_type": "recurso"
+    },
+    {
+      "id": "b28fa08792fa0583",
+      "filename": "b661a293-e619-49a4-ba52-801e93a43dac.png",
+      "web_path": "/assets/zogs/imported-assets/b661a293-e619-49a4-ba52-801e93a43dac.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3176440,
+      "size_kb": 3101.99,
+      "image_type": "recurso"
+    },
+    {
+      "id": "ed0393abb856d36f",
+      "filename": "b698bcb7-6877-4445-bf88-8e945f885a59-2.png",
+      "web_path": "/assets/zogs/imported-assets/b698bcb7-6877-4445-bf88-8e945f885a59-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2444381,
+      "size_kb": 2387.09,
+      "image_type": "recurso"
+    },
+    {
+      "id": "3fb8ba618c73151c",
+      "filename": "b698bcb7-6877-4445-bf88-8e945f885a59.png",
+      "web_path": "/assets/zogs/imported-assets/b698bcb7-6877-4445-bf88-8e945f885a59.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2444381,
+      "size_kb": 2387.09,
+      "image_type": "recurso"
+    },
+    {
+      "id": "790fa727fb0b437d",
+      "filename": "c612df9e-1ffa-4884-9116-353ed4816099-2.png",
+      "web_path": "/assets/zogs/imported-assets/c612df9e-1ffa-4884-9116-353ed4816099-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2441997,
+      "size_kb": 2384.76,
+      "image_type": "recurso"
+    },
+    {
+      "id": "8c1f191c0a87d4ec",
+      "filename": "c612df9e-1ffa-4884-9116-353ed4816099.png",
+      "web_path": "/assets/zogs/imported-assets/c612df9e-1ffa-4884-9116-353ed4816099.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2441997,
+      "size_kb": 2384.76,
+      "image_type": "recurso"
+    },
+    {
+      "id": "9bfd96237407a434",
+      "filename": "c887adcf-7f4a-497f-8faf-d3c6aa427674.png",
+      "web_path": "/assets/zogs/imported-assets/c887adcf-7f4a-497f-8faf-d3c6aa427674.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 1270509,
+      "size_kb": 1240.73,
+      "image_type": "recurso"
+    },
+    {
+      "id": "0ea72ea224a929bb",
+      "filename": "cae88e3c-21db-491a-b025-d290863e236f.png",
+      "web_path": "/assets/zogs/imported-assets/cae88e3c-21db-491a-b025-d290863e236f.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2873322,
+      "size_kb": 2805.98,
+      "image_type": "recurso"
+    },
+    {
+      "id": "f06330a73a947d2f",
+      "filename": "chatgpt-image-11-mar-2026-16-50-58.png",
+      "web_path": "/assets/zogs/imported-assets/chatgpt-image-11-mar-2026-16-50-58.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3495455,
+      "size_kb": 3413.53,
+      "image_type": "recurso"
+    },
+    {
+      "id": "b96c39cd9c29aaea",
+      "filename": "chatgpt-image-11-mar-2026-16-51-05.png",
+      "web_path": "/assets/zogs/imported-assets/chatgpt-image-11-mar-2026-16-51-05.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3273807,
+      "size_kb": 3197.08,
+      "image_type": "recurso"
+    },
+    {
+      "id": "6eca4ae610d11654",
+      "filename": "chatgpt-image-11-mar-2026-16-51-09.png",
+      "web_path": "/assets/zogs/imported-assets/chatgpt-image-11-mar-2026-16-51-09.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2169345,
+      "size_kb": 2118.5,
+      "image_type": "recurso"
+    },
+    {
+      "id": "cacd72e1c7507281",
+      "filename": "chatgpt-image-11-mar-2026-16-51-14.png",
+      "web_path": "/assets/zogs/imported-assets/chatgpt-image-11-mar-2026-16-51-14.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3338634,
+      "size_kb": 3260.38,
+      "image_type": "recurso"
+    },
+    {
+      "id": "75468a419fff1ab1",
+      "filename": "chatgpt-image-11-mar-2026-16-51-21.png",
+      "web_path": "/assets/zogs/imported-assets/chatgpt-image-11-mar-2026-16-51-21.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3350505,
+      "size_kb": 3271.98,
+      "image_type": "recurso"
+    },
+    {
+      "id": "24eaf4aac03cf1c7",
+      "filename": "chatgpt-image-12-mar-2026-04-19-22-2.png",
+      "web_path": "/assets/zogs/imported-assets/chatgpt-image-12-mar-2026-04-19-22-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3387484,
+      "size_kb": 3308.09,
+      "image_type": "recurso"
+    },
+    {
+      "id": "126eb5c15a2e0f88",
+      "filename": "chatgpt-image-12-mar-2026-04-19-22.png",
+      "web_path": "/assets/zogs/imported-assets/chatgpt-image-12-mar-2026-04-19-22.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3387484,
+      "size_kb": 3308.09,
+      "image_type": "recurso"
+    },
+    {
+      "id": "f790f4cb59cb141b",
+      "filename": "chatgpt-image-6-mar-2026-20-33-12.png",
+      "web_path": "/assets/zogs/imported-assets/chatgpt-image-6-mar-2026-20-33-12.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2934746,
+      "size_kb": 2865.96,
+      "image_type": "recurso"
+    },
+    {
+      "id": "9b4e3c91c6309020",
+      "filename": "chatgpt-image-6-mar-2026-20-45-34.png",
+      "web_path": "/assets/zogs/imported-assets/chatgpt-image-6-mar-2026-20-45-34.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3459378,
+      "size_kb": 3378.3,
+      "image_type": "recurso"
+    },
+    {
+      "id": "259d0bc5e4ded16a",
+      "filename": "chatgpt-image-7-mar-2026-13-52-43.png",
+      "web_path": "/assets/zogs/imported-assets/chatgpt-image-7-mar-2026-13-52-43.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3165871,
+      "size_kb": 3091.67,
+      "image_type": "recurso"
+    },
+    {
+      "id": "862421f2e7e08a0e",
+      "filename": "chatgpt-image-7-mar-2026-13-53-32.png",
+      "web_path": "/assets/zogs/imported-assets/chatgpt-image-7-mar-2026-13-53-32.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3270827,
+      "size_kb": 3194.17,
+      "image_type": "recurso"
+    },
+    {
+      "id": "963abc2a9565fc74",
+      "filename": "city-fantasy-landscape-process-video-by-jstiller30-dfqpmat-fullview.jpg",
+      "web_path": "/assets/zogs/imported-assets/city-fantasy-landscape-process-video-by-jstiller30-dfqpmat-fullview.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 79923,
+      "size_kb": 78.05,
+      "image_type": "region"
+    },
+    {
+      "id": "5168f27dfdde5a45",
+      "filename": "cosmic-serpent-galaxy-art.webp",
+      "web_path": "/assets/zogs/imported-assets/cosmic-serpent-galaxy-art.webp",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".webp",
+      "size_bytes": 9658,
+      "size_kb": 9.43,
+      "image_type": "recurso"
+    },
+    {
+      "id": "f5e124474cf163e4",
+      "filename": "cosmis-pack-99999-2.png",
+      "web_path": "/assets/zogs/imported-assets/cosmis-pack-99999-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3313045,
+      "size_kb": 3235.4,
+      "image_type": "recurso"
+    },
+    {
+      "id": "f2b7581ff599caaa",
+      "filename": "cosmis-pack-99999-3.png",
+      "web_path": "/assets/zogs/imported-assets/cosmis-pack-99999-3.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3313045,
+      "size_kb": 3235.4,
+      "image_type": "recurso"
+    },
+    {
+      "id": "4c19521a26069988",
+      "filename": "cosmis-pack-99999.png",
+      "web_path": "/assets/zogs/imported-assets/cosmis-pack-99999.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3313045,
+      "size_kb": 3235.4,
+      "image_type": "recurso"
+    },
+    {
+      "id": "5414a9ba2aff830f",
+      "filename": "cosmos-2.png",
+      "web_path": "/assets/zogs/imported-assets/cosmos-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3243124,
+      "size_kb": 3167.11,
+      "image_type": "recurso"
+    },
+    {
+      "id": "1608c631fe27cd67",
+      "filename": "cosmos-3.png",
+      "web_path": "/assets/zogs/imported-assets/cosmos-3.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3243124,
+      "size_kb": 3167.11,
+      "image_type": "recurso"
+    },
+    {
+      "id": "705a32bd92e6dfcc",
+      "filename": "cosmos.png",
+      "web_path": "/assets/zogs/imported-assets/cosmos.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3243124,
+      "size_kb": 3167.11,
+      "image_type": "recurso"
+    },
+    {
+      "id": "8fb979974d0e86c1",
+      "filename": "df36had-01f8f342-f79a-46e6-a381-f346676837a9.jpg",
+      "web_path": "/assets/zogs/imported-assets/df36had-01f8f342-f79a-46e6-a381-f346676837a9.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 7685075,
+      "size_kb": 7504.96,
+      "image_type": "recurso"
+    },
+    {
+      "id": "df4a071a59357228",
+      "filename": "e0dccb8f-f345-4cf2-970f-fd746dd05f0d.png",
+      "web_path": "/assets/zogs/imported-assets/e0dccb8f-f345-4cf2-970f-fd746dd05f0d.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2973899,
+      "size_kb": 2904.2,
+      "image_type": "recurso"
+    },
+    {
+      "id": "0ade71d97db8911d",
+      "filename": "e1l9n8ouuaqcha4.jpg",
+      "web_path": "/assets/zogs/imported-assets/e1l9n8ouuaqcha4.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 177676,
+      "size_kb": 173.51,
+      "image_type": "recurso"
+    },
+    {
+      "id": "e3bfb20e369f29c0",
+      "filename": "e6b6411c-b719-43ff-96c0-92cf47c8044f-medium.webp",
+      "web_path": "/assets/zogs/imported-assets/e6b6411c-b719-43ff-96c0-92cf47c8044f-medium.webp",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".webp",
+      "size_bytes": 103054,
+      "size_kb": 100.64,
+      "image_type": "recurso"
+    },
+    {
+      "id": "ae86c18474f99523",
+      "filename": "edcosmos-y-sus-9999999-idea-de-lore-y-movimiento-2.png",
+      "web_path": "/assets/zogs/imported-assets/edcosmos-y-sus-9999999-idea-de-lore-y-movimiento-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3415097,
+      "size_kb": 3335.06,
+      "image_type": "recurso"
+    },
+    {
+      "id": "49ad199bfab09382",
+      "filename": "edcosmos-y-sus-9999999-idea-de-lore-y-movimiento-3.png",
+      "web_path": "/assets/zogs/imported-assets/edcosmos-y-sus-9999999-idea-de-lore-y-movimiento-3.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3415097,
+      "size_kb": 3335.06,
+      "image_type": "recurso"
+    },
+    {
+      "id": "0a7bd8aa72b780fd",
+      "filename": "edcosmos-y-sus-9999999-idea-de-lore-y-movimiento-4.png",
+      "web_path": "/assets/zogs/imported-assets/edcosmos-y-sus-9999999-idea-de-lore-y-movimiento-4.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3415097,
+      "size_kb": 3335.06,
+      "image_type": "recurso"
+    },
+    {
+      "id": "39093b8634f29919",
+      "filename": "edcosmos-y-sus-9999999-idea-de-lore-y-movimiento.png",
+      "web_path": "/assets/zogs/imported-assets/edcosmos-y-sus-9999999-idea-de-lore-y-movimiento.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3415097,
+      "size_kb": 3335.06,
+      "image_type": "recurso"
+    },
+    {
+      "id": "9ab93dc0b85aef09",
+      "filename": "endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras-2.png",
+      "web_path": "/assets/zogs/imported-assets/endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3167390,
+      "size_kb": 3093.15,
+      "image_type": "recurso"
+    },
+    {
+      "id": "18ab7bcd6094338d",
+      "filename": "endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras-3.png",
+      "web_path": "/assets/zogs/imported-assets/endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras-3.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3167390,
+      "size_kb": 3093.15,
+      "image_type": "recurso"
+    },
+    {
+      "id": "0a68b718bc41ca8f",
+      "filename": "endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras.png",
+      "web_path": "/assets/zogs/imported-assets/endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3167390,
+      "size_kb": 3093.15,
+      "image_type": "recurso"
+    },
+    {
+      "id": "d312c08078e17086",
+      "filename": "estructura-y-muebles-endcosmos-2.png",
+      "web_path": "/assets/zogs/imported-assets/estructura-y-muebles-endcosmos-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3037642,
+      "size_kb": 2966.45,
+      "image_type": "recurso"
+    },
+    {
+      "id": "18f9b957790e61f8",
+      "filename": "estructura-y-muebles-endcosmos-3.png",
+      "web_path": "/assets/zogs/imported-assets/estructura-y-muebles-endcosmos-3.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3037642,
+      "size_kb": 2966.45,
+      "image_type": "recurso"
+    },
+    {
+      "id": "34d67e283ab9dcc2",
+      "filename": "estructura-y-muebles-endcosmos.png",
+      "web_path": "/assets/zogs/imported-assets/estructura-y-muebles-endcosmos.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3037642,
+      "size_kb": 2966.45,
+      "image_type": "recurso"
+    },
+    {
+      "id": "c90fd136ba2d6c4a",
+      "filename": "exoplanet-mission-timeline-article.jpg",
+      "web_path": "/assets/zogs/imported-assets/exoplanet-mission-timeline-article.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 112232,
+      "size_kb": 109.6,
+      "image_type": "mundo"
+    },
+    {
+      "id": "90a48aefd4aa0aba",
+      "filename": "f252687f-32ab-4b3b-b5de-81cfd4ebc117-2.png",
+      "web_path": "/assets/zogs/imported-assets/f252687f-32ab-4b3b-b5de-81cfd4ebc117-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2606271,
+      "size_kb": 2545.19,
+      "image_type": "recurso"
+    },
+    {
+      "id": "5a6568c4cbd7a14d",
+      "filename": "f252687f-32ab-4b3b-b5de-81cfd4ebc117.png",
+      "web_path": "/assets/zogs/imported-assets/f252687f-32ab-4b3b-b5de-81cfd4ebc117.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2606271,
+      "size_kb": 2545.19,
+      "image_type": "recurso"
+    },
+    {
+      "id": "23b6f9598684fd37",
+      "filename": "f32fc538-1663-4f76-adee-7a8adc6dc89d-2.png",
+      "web_path": "/assets/zogs/imported-assets/f32fc538-1663-4f76-adee-7a8adc6dc89d-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2090853,
+      "size_kb": 2041.85,
+      "image_type": "recurso"
+    },
+    {
+      "id": "53ae28b4a08cb6b6",
+      "filename": "f32fc538-1663-4f76-adee-7a8adc6dc89d.png",
+      "web_path": "/assets/zogs/imported-assets/f32fc538-1663-4f76-adee-7a8adc6dc89d.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2090853,
+      "size_kb": 2041.85,
+      "image_type": "recurso"
+    },
+    {
+      "id": "f1350c29d001603a",
+      "filename": "f3c9da1a-1a37-43c4-a404-2b5be71c79ad-2.png",
+      "web_path": "/assets/zogs/imported-assets/f3c9da1a-1a37-43c4-a404-2b5be71c79ad-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2129451,
+      "size_kb": 2079.54,
+      "image_type": "recurso"
+    },
+    {
+      "id": "f62f2ab2ccb26354",
+      "filename": "f3c9da1a-1a37-43c4-a404-2b5be71c79ad.png",
+      "web_path": "/assets/zogs/imported-assets/f3c9da1a-1a37-43c4-a404-2b5be71c79ad.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2129451,
+      "size_kb": 2079.54,
+      "image_type": "recurso"
+    },
+    {
+      "id": "92cc8fc720828e41",
+      "filename": "f6fde5a9-bed7-45ad-8edf-f71f44262c76-2.png",
+      "web_path": "/assets/zogs/imported-assets/f6fde5a9-bed7-45ad-8edf-f71f44262c76-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2248807,
+      "size_kb": 2196.1,
+      "image_type": "recurso"
+    },
+    {
+      "id": "9c97b861f4acdbc4",
+      "filename": "f6fde5a9-bed7-45ad-8edf-f71f44262c76.png",
+      "web_path": "/assets/zogs/imported-assets/f6fde5a9-bed7-45ad-8edf-f71f44262c76.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2248807,
+      "size_kb": 2196.1,
+      "image_type": "recurso"
+    },
+    {
+      "id": "01649017994a9083",
+      "filename": "f724590e-0a33-41c4-bcdd-d4d1f9327724.png",
+      "web_path": "/assets/zogs/imported-assets/f724590e-0a33-41c4-bcdd-d4d1f9327724.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3273807,
+      "size_kb": 3197.08,
+      "image_type": "recurso"
+    },
+    {
+      "id": "42f0c626455c30e5",
+      "filename": "fa58c31e-34ba-4a65-8963-0e265cdfb549-2.png",
+      "web_path": "/assets/zogs/imported-assets/fa58c31e-34ba-4a65-8963-0e265cdfb549-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2270057,
+      "size_kb": 2216.85,
+      "image_type": "recurso"
+    },
+    {
+      "id": "88d26b73cd082733",
+      "filename": "fa58c31e-34ba-4a65-8963-0e265cdfb549.png",
+      "web_path": "/assets/zogs/imported-assets/fa58c31e-34ba-4a65-8963-0e265cdfb549.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2270057,
+      "size_kb": 2216.85,
+      "image_type": "recurso"
+    },
+    {
+      "id": "d7e737f9591c4635",
+      "filename": "fde074e3-d6ad-4a17-b237-c055d9a31c88.png",
+      "web_path": "/assets/zogs/imported-assets/fde074e3-d6ad-4a17-b237-c055d9a31c88.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 1615719,
+      "size_kb": 1577.85,
+      "image_type": "recurso"
+    },
+    {
+      "id": "e960144dd0dd8dca",
+      "filename": "fornax-virgo2011.jpg",
+      "web_path": "/assets/zogs/imported-assets/fornax-virgo2011.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 1567167,
+      "size_kb": 1530.44,
+      "image_type": "recurso"
+    },
+    {
+      "id": "48e7d940eeb1a95f",
+      "filename": "fspas-06-00023-g0001.webp",
+      "web_path": "/assets/zogs/imported-assets/fspas-06-00023-g0001.webp",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".webp",
+      "size_bytes": 289306,
+      "size_kb": 282.53,
+      "image_type": "recurso"
+    },
+    {
+      "id": "309631ba60da960a",
+      "filename": "gj7gtmnl4v3fjtjsoqy-jwei7qo45mg3-wjbrgzzhzklvikxs2htewzljnltooslhmmyl9185znvoduhfucockzm0mnvyilzr3oamfj7r30.jpg",
+      "web_path": "/assets/zogs/imported-assets/gj7gtmnl4v3fjtjsoqy-jwei7qo45mg3-wjbrgzzhzklvikxs2htewzljnltooslhmmyl9185znvoduhfucockzm0mnvyilzr3oamfj7r30.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 92199,
+      "size_kb": 90.04,
+      "image_type": "recurso"
+    },
+    {
+      "id": "f2521a1e545291fa",
+      "filename": "hd-wallpaper-yeti-in-the-space-nebula-creature-fantasy-thumbnail.jpg",
+      "web_path": "/assets/zogs/imported-assets/hd-wallpaper-yeti-in-the-space-nebula-creature-fantasy-thumbnail.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 10874,
+      "size_kb": 10.62,
+      "image_type": "region"
+    },
+    {
+      "id": "b7e302ccfcc4f5bf",
+      "filename": "her.png",
+      "web_path": "/assets/zogs/imported-assets/her.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2934746,
+      "size_kb": 2865.96,
+      "image_type": "recurso"
+    },
+    {
+      "id": "3faf0db9929113fb",
+      "filename": "hero2.png",
+      "web_path": "/assets/zogs/imported-assets/hero2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3429625,
+      "size_kb": 3349.24,
+      "image_type": "nucleo_visual"
+    },
+    {
+      "id": "3bab350b9b1c5881",
+      "filename": "https-dev-to-uploads-s3-amazonaws-com-uploads-articles-5z67c77cxdp5vvnoxkyn.png",
+      "web_path": "/assets/zogs/imported-assets/https-dev-to-uploads-s3-amazonaws-com-uploads-articles-5z67c77cxdp5vvnoxkyn.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 294658,
+      "size_kb": 287.75,
+      "image_type": "recurso"
+    },
+    {
+      "id": "47fc9e0aec30f6b3",
+      "filename": "il-1080xn-6497006747-kzoq.jpg",
+      "web_path": "/assets/zogs/imported-assets/il-1080xn-6497006747-kzoq.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 356784,
+      "size_kb": 348.42,
+      "image_type": "recurso"
+    },
+    {
+      "id": "258284e1340e9f37",
+      "filename": "il-570xn-5648906785-k93p-2.jpg",
+      "web_path": "/assets/zogs/imported-assets/il-570xn-5648906785-k93p-2.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 81627,
+      "size_kb": 79.71,
+      "image_type": "recurso"
+    },
+    {
+      "id": "65833038b5fa1be4",
+      "filename": "il-570xn-5648906785-k93p.jpg",
+      "web_path": "/assets/zogs/imported-assets/il-570xn-5648906785-k93p.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 81627,
+      "size_kb": 79.71,
+      "image_type": "recurso"
+    },
+    {
+      "id": "3fbe3c5d2235e06c",
+      "filename": "il-570xn-5708613664-91d7-2.jpg",
+      "web_path": "/assets/zogs/imported-assets/il-570xn-5708613664-91d7-2.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 96443,
+      "size_kb": 94.18,
+      "image_type": "recurso"
+    },
+    {
+      "id": "285e154048a2752c",
+      "filename": "il-570xn-5708613664-91d7.jpg",
+      "web_path": "/assets/zogs/imported-assets/il-570xn-5708613664-91d7.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 96443,
+      "size_kb": 94.18,
+      "image_type": "recurso"
+    },
+    {
+      "id": "505be25ff97b30b5",
+      "filename": "il-fullxfull-4364653685-lm0k.avif",
+      "web_path": "/assets/zogs/imported-assets/il-fullxfull-4364653685-lm0k.avif",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".avif",
+      "size_bytes": 823278,
+      "size_kb": 803.98,
+      "image_type": "recurso"
+    },
+    {
+      "id": "046f310bf2ada653",
+      "filename": "il-fullxfull-6544827928-k3sj-2.jpg",
+      "web_path": "/assets/zogs/imported-assets/il-fullxfull-6544827928-k3sj-2.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 224443,
+      "size_kb": 219.18,
+      "image_type": "recurso"
+    },
+    {
+      "id": "e61c00fc6caabd40",
+      "filename": "il-fullxfull-6544827928-k3sj.jpg",
+      "web_path": "/assets/zogs/imported-assets/il-fullxfull-6544827928-k3sj.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 224443,
+      "size_kb": 219.18,
+      "image_type": "recurso"
+    },
+    {
+      "id": "0a71bcc196e55bc6",
+      "filename": "infinity-symbol-particle-element-for-high-end-branding.webp",
+      "web_path": "/assets/zogs/imported-assets/infinity-symbol-particle-element-for-high-end-branding.webp",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".webp",
+      "size_bytes": 70332,
+      "size_kb": 68.68,
+      "image_type": "recurso"
+    },
+    {
+      "id": "79f7ee90f7ea6a1e",
+      "filename": "inside-science-pudgy-dragon-orion-nebula-01-ht-jc-190214-hpmain-16x9-992.jpg",
+      "web_path": "/assets/zogs/imported-assets/inside-science-pudgy-dragon-orion-nebula-01-ht-jc-190214-hpmain-16x9-992.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 30853,
+      "size_kb": 30.13,
+      "image_type": "region"
+    },
+    {
+      "id": "7929c792101f817d",
+      "filename": "la-verdad-en-endcosmo-2.png",
+      "web_path": "/assets/zogs/imported-assets/la-verdad-en-endcosmo-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3018325,
+      "size_kb": 2947.58,
+      "image_type": "recurso"
+    },
+    {
+      "id": "60dccb26165e295b",
+      "filename": "la-verdad-en-endcosmo-3.png",
+      "web_path": "/assets/zogs/imported-assets/la-verdad-en-endcosmo-3.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3018325,
+      "size_kb": 2947.58,
+      "image_type": "recurso"
+    },
+    {
+      "id": "49e4bc1e28b49483",
+      "filename": "la-verdad-en-endcosmo-4.png",
+      "web_path": "/assets/zogs/imported-assets/la-verdad-en-endcosmo-4.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3018325,
+      "size_kb": 2947.58,
+      "image_type": "recurso"
+    },
+    {
+      "id": "bed43a671d9ca441",
+      "filename": "la-verdad-en-endcosmo.png",
+      "web_path": "/assets/zogs/imported-assets/la-verdad-en-endcosmo.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3018325,
+      "size_kb": 2947.58,
+      "image_type": "recurso"
+    },
+    {
+      "id": "952091b66ab01907",
+      "filename": "lqrhhyh7tqfpxzer9mfwnk.jpg",
+      "web_path": "/assets/zogs/imported-assets/lqrhhyh7tqfpxzer9mfwnk.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 1415780,
+      "size_kb": 1382.6,
+      "image_type": "recurso"
+    },
+    {
+      "id": "9f5222b72dcd4956",
+      "filename": "m4g-ng-gelnz9k36aid09khfbrdzuh4m32uai76dpgak8kekvvjktcmz4e3z9fvkjek-ds7zhit4oobfzldyfjn3ybsjw3huedmnvk7ek48.jpg",
+      "web_path": "/assets/zogs/imported-assets/m4g-ng-gelnz9k36aid09khfbrdzuh4m32uai76dpgak8kekvvjktcmz4e3z9fvkjek-ds7zhit4oobfzldyfjn3ybsjw3huedmnvk7ek48.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 118123,
+      "size_kb": 115.35,
+      "image_type": "recurso"
+    },
+    {
+      "id": "40063438dbbeac46",
+      "filename": "m4qxctqywt2qt6qyuq8kx7-1920-80.png",
+      "web_path": "/assets/zogs/imported-assets/m4qxctqywt2qt6qyuq8kx7-1920-80.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 2329013,
+      "size_kb": 2274.43,
+      "image_type": "recurso"
+    },
+    {
+      "id": "bc96bc720e6613f8",
+      "filename": "mass-effect-galaxy-map-by-exoartmakes-dihk77g-fullview.jpg",
+      "web_path": "/assets/zogs/imported-assets/mass-effect-galaxy-map-by-exoartmakes-dihk77g-fullview.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 264534,
+      "size_kb": 258.33,
+      "image_type": "mapa"
+    },
+    {
+      "id": "41adb3679ce49c0a",
+      "filename": "md-y3vpjs-4f90e55fde343be869437265fec254d34f6f09bf.jpg",
+      "web_path": "/assets/zogs/imported-assets/md-y3vpjs-4f90e55fde343be869437265fec254d34f6f09bf.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 94135,
+      "size_kb": 91.93,
+      "image_type": "recurso"
+    },
+    {
+      "id": "a7eb1bc2cf0a1bc2",
+      "filename": "md-ytal77-3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0-2.jpg",
+      "web_path": "/assets/zogs/imported-assets/md-ytal77-3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0-2.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 70730,
+      "size_kb": 69.07,
+      "image_type": "recurso"
+    },
+    {
+      "id": "523ec109a1ff699e",
+      "filename": "md-ytal77-3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0.jpg",
+      "web_path": "/assets/zogs/imported-assets/md-ytal77-3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 70730,
+      "size_kb": 69.07,
+      "image_type": "recurso"
+    },
+    {
+      "id": "8ef617e4e0068b30",
+      "filename": "modularmedievalassetpack-featured-894x488-b4e2ef12d3a64abc877fd05754008dc9.png",
+      "web_path": "/assets/zogs/imported-assets/modularmedievalassetpack-featured-894x488-b4e2ef12d3a64abc877fd05754008dc9.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 1052960,
+      "size_kb": 1028.28,
+      "image_type": "recurso"
+    },
+    {
+      "id": "e733e81d518c4db4",
+      "filename": "motion-battle.avif",
+      "web_path": "/assets/zogs/imported-assets/motion-battle.avif",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".avif",
+      "size_bytes": 40974,
+      "size_kb": 40.01,
+      "image_type": "evento"
+    },
+    {
+      "id": "61af9dedec6f56e1",
+      "filename": "motion-hero-secondary.avif",
+      "web_path": "/assets/zogs/imported-assets/motion-hero-secondary.avif",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".avif",
+      "size_bytes": 146327,
+      "size_kb": 142.9,
+      "image_type": "nucleo_visual"
+    },
+    {
+      "id": "a4bf71a8bd69af82",
+      "filename": "motion-main-map.avif",
+      "web_path": "/assets/zogs/imported-assets/motion-main-map.avif",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".avif",
+      "size_bytes": 264333,
+      "size_kb": 258.14,
+      "image_type": "mapa"
+    },
+    {
+      "id": "0f6d003f07a751e9",
+      "filename": "motion-realm-ice.avif",
+      "web_path": "/assets/zogs/imported-assets/motion-realm-ice.avif",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".avif",
+      "size_bytes": 256671,
+      "size_kb": 250.66,
+      "image_type": "region"
+    },
+    {
+      "id": "8ad2c1b31b52f6c8",
+      "filename": "motion-realm-void.avif",
+      "web_path": "/assets/zogs/imported-assets/motion-realm-void.avif",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".avif",
+      "size_bytes": 44130,
+      "size_kb": 43.1,
+      "image_type": "region"
+    },
+    {
+      "id": "d8d70f4312518724",
+      "filename": "mythic-gravity-central-coherence-vortex.jpg",
+      "web_path": "/assets/zogs/imported-assets/mythic-gravity-central-coherence-vortex.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 150669,
+      "size_kb": 147.14,
+      "image_type": "recurso"
+    },
+    {
+      "id": "c2a1216f4a1fc135",
+      "filename": "nebula-guardian-wall-art-943965.jpg",
+      "web_path": "/assets/zogs/imported-assets/nebula-guardian-wall-art-943965.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 117606,
+      "size_kb": 114.85,
+      "image_type": "region"
+    },
+    {
+      "id": "bb87f5ce5f59c1ff",
+      "filename": "orbiting-planet-space-themed-motion-background-clip-hd.webp",
+      "web_path": "/assets/zogs/imported-assets/orbiting-planet-space-themed-motion-background-clip-hd.webp",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".webp",
+      "size_bytes": 152656,
+      "size_kb": 149.08,
+      "image_type": "mundo"
+    },
+    {
+      "id": "f022050300ab740d",
+      "filename": "osmadth-bancur-city-by-flaviobolla-d4zpa5a-fullview.jpg",
+      "web_path": "/assets/zogs/imported-assets/osmadth-bancur-city-by-flaviobolla-d4zpa5a-fullview.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 129431,
+      "size_kb": 126.4,
+      "image_type": "region"
+    },
+    {
+      "id": "3d20eb539e7adfb6",
+      "filename": "pngtree-celestial-being-emerges-from-energy-portal-in-post-apocalyptic-wasteland-image-19868561.webp",
+      "web_path": "/assets/zogs/imported-assets/pngtree-celestial-being-emerges-from-energy-portal-in-post-apocalyptic-wasteland-image-19868561.webp",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".webp",
+      "size_bytes": 66780,
+      "size_kb": 65.21,
+      "image_type": "portal"
+    },
+    {
+      "id": "b8fedf5a4c478297",
+      "filename": "pngtree-futuristic-sci-fi-energy-core-with-blue-glow-png-image-18097773.webp",
+      "web_path": "/assets/zogs/imported-assets/pngtree-futuristic-sci-fi-energy-core-with-blue-glow-png-image-18097773.webp",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".webp",
+      "size_bytes": 25470,
+      "size_kb": 24.87,
+      "image_type": "recurso"
+    },
+    {
+      "id": "b369923f99c40e0b",
+      "filename": "pngtree-sculpted-head-silhouette-against-vibrant-cosmic-background-of-swirling-galaxies-and-picture-image-16624136.jpg",
+      "web_path": "/assets/zogs/imported-assets/pngtree-sculpted-head-silhouette-against-vibrant-cosmic-background-of-swirling-galaxies-and-picture-image-16624136.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 844288,
+      "size_kb": 824.5,
+      "image_type": "recurso"
+    },
+    {
+      "id": "b1c9f9910e1a2d88",
+      "filename": "portada1.png",
+      "web_path": "/assets/zogs/imported-assets/portada1.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3273807,
+      "size_kb": 3197.08,
+      "image_type": "recurso"
+    },
+    {
+      "id": "f7554616a1420c2d",
+      "filename": "portal-1-2.png",
+      "web_path": "/assets/zogs/imported-assets/portal-1-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3521887,
+      "size_kb": 3439.34,
+      "image_type": "portal"
+    },
+    {
+      "id": "d6ad5022756eb0ae",
+      "filename": "portal-1.png",
+      "web_path": "/assets/zogs/imported-assets/portal-1.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3521887,
+      "size_kb": 3439.34,
+      "image_type": "portal"
+    },
+    {
+      "id": "463ac16f2417b98e",
+      "filename": "potw2319a.jpg",
+      "web_path": "/assets/zogs/imported-assets/potw2319a.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 2278160,
+      "size_kb": 2224.77,
+      "image_type": "recurso"
+    },
+    {
+      "id": "f97451d588df4096",
+      "filename": "pqosoeiggkt04h0isu6zg-by-1v1jjddpb-6h67l4z-zmbbno7i5kscijhsmvydvnxmua1ziwytlhk4vocqzxsmpby0gta-vpgkkhdobdwa.jpg",
+      "web_path": "/assets/zogs/imported-assets/pqosoeiggkt04h0isu6zg-by-1v1jjddpb-6h67l4z-zmbbno7i5kscijhsmvydvnxmua1ziwytlhk4vocqzxsmpby0gta-vpgkkhdobdwa.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 133513,
+      "size_kb": 130.38,
+      "image_type": "recurso"
+    },
+    {
+      "id": "9e3069e0b3fd64cb",
+      "filename": "remotesensing-16-03023-g011-550.jpg",
+      "web_path": "/assets/zogs/imported-assets/remotesensing-16-03023-g011-550.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 98770,
+      "size_kb": 96.46,
+      "image_type": "recurso"
+    },
+    {
+      "id": "532b5d9f93dda610",
+      "filename": "rxhvyt0psg01uhak6isx4vy6jw95smwai4dys3r7azs1lbadzeylj-un0d8lvfik-o-sk4w6wsfkr3htwwhgytp056nty-v-iyx09u7sbae.jpg",
+      "web_path": "/assets/zogs/imported-assets/rxhvyt0psg01uhak6isx4vy6jw95smwai4dys3r7azs1lbadzeylj-un0d8lvfik-o-sk4w6wsfkr3htwwhgytp056nty-v-iyx09u7sbae.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 111214,
+      "size_kb": 108.61,
+      "image_type": "recurso"
+    },
+    {
+      "id": "e53edc05c734ea5a",
+      "filename": "skeletor-vs-zedd-tn-by-hollow.jpg",
+      "web_path": "/assets/zogs/imported-assets/skeletor-vs-zedd-tn-by-hollow.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 62661,
+      "size_kb": 61.19,
+      "image_type": "recurso"
+    },
+    {
+      "id": "cf34a28f3f5a5de2",
+      "filename": "skvrs-uliurjnwgpv-3fpy0qz5chwckf9emeq2pg9vaidouggbvk-clvo45zey584xfk2cmetsm8cd7blbnxbdkjjivljaoiirgt87dkvlq.jpg",
+      "web_path": "/assets/zogs/imported-assets/skvrs-uliurjnwgpv-3fpy0qz5chwckf9emeq2pg9vaidouggbvk-clvo45zey584xfk2cmetsm8cd7blbnxbdkjjivljaoiirgt87dkvlq.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 217758,
+      "size_kb": 212.65,
+      "image_type": "recurso"
+    },
+    {
+      "id": "462e8686bfbe7df6",
+      "filename": "the-eternal-cosmic-warrior-by-brucalord-dilxa37-fullview.jpg",
+      "web_path": "/assets/zogs/imported-assets/the-eternal-cosmic-warrior-by-brucalord-dilxa37-fullview.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 742468,
+      "size_kb": 725.07,
+      "image_type": "recurso"
+    },
+    {
+      "id": "3f2bda3e4e5b8b1e",
+      "filename": "thumb-1920-1312489.jpg",
+      "web_path": "/assets/zogs/imported-assets/thumb-1920-1312489.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 369325,
+      "size_kb": 360.67,
+      "image_type": "recurso"
+    },
+    {
+      "id": "208643c90e3ddd4c",
+      "filename": "thumb-1920-345775.jpg",
+      "web_path": "/assets/zogs/imported-assets/thumb-1920-345775.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 265091,
+      "size_kb": 258.88,
+      "image_type": "recurso"
+    },
+    {
+      "id": "59a32a668ba59b6e",
+      "filename": "thumb-1920-552411.jpg",
+      "web_path": "/assets/zogs/imported-assets/thumb-1920-552411.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 277336,
+      "size_kb": 270.84,
+      "image_type": "recurso"
+    },
+    {
+      "id": "167d5c9310ce61f7",
+      "filename": "thumb-1920-881685.jpg",
+      "web_path": "/assets/zogs/imported-assets/thumb-1920-881685.jpg",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".jpg",
+      "size_bytes": 617721,
+      "size_kb": 603.24,
+      "image_type": "recurso"
+    },
+    {
+      "id": "438ed304b24edfee",
+      "filename": "thumb-350-1110106.webp",
+      "web_path": "/assets/zogs/imported-assets/thumb-350-1110106.webp",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".webp",
+      "size_bytes": 14820,
+      "size_kb": 14.47,
+      "image_type": "recurso"
+    },
+    {
+      "id": "63a851161ca466f8",
+      "filename": "tumblr-m1mag9rcjz1qb9ckeo1-500.png",
+      "web_path": "/assets/zogs/imported-assets/tumblr-m1mag9rcjz1qb9ckeo1-500.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 37154,
+      "size_kb": 36.28,
+      "image_type": "recurso"
+    },
+    {
+      "id": "f7dc59aa8606b6ad",
+      "filename": "visitar-endcomos-2.png",
+      "web_path": "/assets/zogs/imported-assets/visitar-endcomos-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3334305,
+      "size_kb": 3256.16,
+      "image_type": "recurso"
+    },
+    {
+      "id": "1aad5e33b5343461",
+      "filename": "visitar-endcomos-3.png",
+      "web_path": "/assets/zogs/imported-assets/visitar-endcomos-3.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3334305,
+      "size_kb": 3256.16,
+      "image_type": "recurso"
+    },
+    {
+      "id": "167ba282ef480829",
+      "filename": "visitar-endcomos.png",
+      "web_path": "/assets/zogs/imported-assets/visitar-endcomos.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3334305,
+      "size_kb": 3256.16,
+      "image_type": "recurso"
+    },
+    {
+      "id": "be2c3315f386fd4f",
+      "filename": "ways-to-get-peace-in-endcosmos-2.png",
+      "web_path": "/assets/zogs/imported-assets/ways-to-get-peace-in-endcosmos-2.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3565817,
+      "size_kb": 3482.24,
+      "image_type": "recurso"
+    },
+    {
+      "id": "5ef754583d6973c1",
+      "filename": "ways-to-get-peace-in-endcosmos.png",
+      "web_path": "/assets/zogs/imported-assets/ways-to-get-peace-in-endcosmos.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3565817,
+      "size_kb": 3482.24,
+      "image_type": "recurso"
+    },
+    {
+      "id": "2869acc8113b466a",
+      "filename": "world.png",
+      "web_path": "/assets/zogs/imported-assets/world.png",
+      "source_dir": "zogs/imported-assets",
+      "extension": ".png",
+      "size_bytes": 3477034,
+      "size_kb": 3395.54,
+      "image_type": "mundo"
+    },
+    {
+      "id": "77b34cd92d622026",
+      "filename": "potw2319a.jpg",
+      "web_path": "/assets/zogs/potw2319a.jpg",
+      "source_dir": "zogs",
+      "extension": ".jpg",
+      "size_bytes": 2278160,
+      "size_kb": 2224.77,
+      "image_type": "recurso"
+    },
+    {
+      "id": "25b7b09c68e35eaf",
+      "filename": "1-2.png",
+      "web_path": "/assets/zogs/v1/1-2.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2483084,
+      "size_kb": 2424.89,
+      "image_type": "zog"
+    },
+    {
+      "id": "b8e662e5c3c7ef6a",
+      "filename": "1.png",
+      "web_path": "/assets/zogs/v1/1.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2483084,
+      "size_kb": 2424.89,
+      "image_type": "zog"
+    },
+    {
+      "id": "66e26e8a2bcdfc8f",
+      "filename": "10-2.png",
+      "web_path": "/assets/zogs/v1/10-2.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2405931,
+      "size_kb": 2349.54,
+      "image_type": "zog"
+    },
+    {
+      "id": "32c800d968497f3c",
+      "filename": "10.png",
+      "web_path": "/assets/zogs/v1/10.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2405931,
+      "size_kb": 2349.54,
+      "image_type": "zog"
+    },
+    {
+      "id": "9e1b1c339aa74654",
+      "filename": "11-2.png",
+      "web_path": "/assets/zogs/v1/11-2.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2385026,
+      "size_kb": 2329.13,
+      "image_type": "zog"
+    },
+    {
+      "id": "cda33d0df7894791",
+      "filename": "11.png",
+      "web_path": "/assets/zogs/v1/11.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2385026,
+      "size_kb": 2329.13,
+      "image_type": "zog"
+    },
+    {
+      "id": "39db13c97863b4e8",
+      "filename": "12-2.png",
+      "web_path": "/assets/zogs/v1/12-2.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2444381,
+      "size_kb": 2387.09,
+      "image_type": "zog"
+    },
+    {
+      "id": "9817e2dad7295fbb",
+      "filename": "12.png",
+      "web_path": "/assets/zogs/v1/12.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2444381,
+      "size_kb": 2387.09,
+      "image_type": "zog"
+    },
+    {
+      "id": "8dda3f06cbd660db",
+      "filename": "13-2.png",
+      "web_path": "/assets/zogs/v1/13-2.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2250568,
+      "size_kb": 2197.82,
+      "image_type": "zog"
+    },
+    {
+      "id": "31bea0a785f6df3c",
+      "filename": "13.png",
+      "web_path": "/assets/zogs/v1/13.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2250568,
+      "size_kb": 2197.82,
+      "image_type": "zog"
+    },
+    {
+      "id": "7a47cd70eff51896",
+      "filename": "14-2.png",
+      "web_path": "/assets/zogs/v1/14-2.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2463632,
+      "size_kb": 2405.89,
+      "image_type": "zog"
+    },
+    {
+      "id": "32b3ba45dd16e8d7",
+      "filename": "14.png",
+      "web_path": "/assets/zogs/v1/14.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2463632,
+      "size_kb": 2405.89,
+      "image_type": "zog"
+    },
+    {
+      "id": "e1b547a2585004cc",
+      "filename": "15-2.png",
+      "web_path": "/assets/zogs/v1/15-2.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 3504407,
+      "size_kb": 3422.27,
+      "image_type": "zog"
+    },
+    {
+      "id": "a78a177d43999e18",
+      "filename": "15.png",
+      "web_path": "/assets/zogs/v1/15.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 3504407,
+      "size_kb": 3422.27,
+      "image_type": "zog"
+    },
+    {
+      "id": "ad2fafe6c6bd5e01",
+      "filename": "16-2.png",
+      "web_path": "/assets/zogs/v1/16-2.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 3701062,
+      "size_kb": 3614.32,
+      "image_type": "zog"
+    },
+    {
+      "id": "821dbdc25c70b739",
+      "filename": "16.png",
+      "web_path": "/assets/zogs/v1/16.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 3701062,
+      "size_kb": 3614.32,
+      "image_type": "zog"
+    },
+    {
+      "id": "629687631f063dae",
+      "filename": "17-2.png",
+      "web_path": "/assets/zogs/v1/17-2.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 3013414,
+      "size_kb": 2942.79,
+      "image_type": "zog"
+    },
+    {
+      "id": "864415b825f9a893",
+      "filename": "17.png",
+      "web_path": "/assets/zogs/v1/17.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 3013414,
+      "size_kb": 2942.79,
+      "image_type": "zog"
+    },
+    {
+      "id": "41e270586d308a72",
+      "filename": "18-2.png",
+      "web_path": "/assets/zogs/v1/18-2.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2221877,
+      "size_kb": 2169.8,
+      "image_type": "zog"
+    },
+    {
+      "id": "f389205c269338ec",
+      "filename": "18.png",
+      "web_path": "/assets/zogs/v1/18.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2221877,
+      "size_kb": 2169.8,
+      "image_type": "zog"
+    },
+    {
+      "id": "f557ae889af5993f",
+      "filename": "19-2.png",
+      "web_path": "/assets/zogs/v1/19-2.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2130416,
+      "size_kb": 2080.48,
+      "image_type": "zog"
+    },
+    {
+      "id": "b5824167a3fa0d33",
+      "filename": "19.png",
+      "web_path": "/assets/zogs/v1/19.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2130416,
+      "size_kb": 2080.48,
+      "image_type": "zog"
+    },
+    {
+      "id": "40df232f11fd5b94",
+      "filename": "1_10724.png",
+      "web_path": "/assets/zogs/v1/1_10724.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 37236,
+      "size_kb": 36.36,
+      "image_type": "zog"
+    },
+    {
+      "id": "007ad92bcdc59bc7",
+      "filename": "2-2.png",
+      "web_path": "/assets/zogs/v1/2-2.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2486979,
+      "size_kb": 2428.69,
+      "image_type": "zog"
+    },
+    {
+      "id": "881e7deeb9c47d28",
+      "filename": "2.png",
+      "web_path": "/assets/zogs/v1/2.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2486979,
+      "size_kb": 2428.69,
+      "image_type": "zog"
+    },
+    {
+      "id": "064bb6cf879126e6",
+      "filename": "20-2.png",
+      "web_path": "/assets/zogs/v1/20-2.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2441997,
+      "size_kb": 2384.76,
+      "image_type": "zog"
+    },
+    {
+      "id": "776ff56d56efe3ad",
+      "filename": "20.png",
+      "web_path": "/assets/zogs/v1/20.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2441997,
+      "size_kb": 2384.76,
+      "image_type": "zog"
+    },
+    {
+      "id": "d3f539b93af107b7",
+      "filename": "21-2.png",
+      "web_path": "/assets/zogs/v1/21-2.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2563246,
+      "size_kb": 2503.17,
+      "image_type": "zog"
+    },
+    {
+      "id": "dede1113ad30eb0d",
+      "filename": "21.png",
+      "web_path": "/assets/zogs/v1/21.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2563246,
+      "size_kb": 2503.17,
+      "image_type": "zog"
+    },
+    {
+      "id": "b3e5ad7dcfd2f1ed",
+      "filename": "3-2.png",
+      "web_path": "/assets/zogs/v1/3-2.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2339848,
+      "size_kb": 2285.01,
+      "image_type": "zog"
+    },
+    {
+      "id": "6d26ad5aae873e68",
+      "filename": "3.png",
+      "web_path": "/assets/zogs/v1/3.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2339848,
+      "size_kb": 2285.01,
+      "image_type": "zog"
+    },
+    {
+      "id": "3e7e2393aa3424e7",
+      "filename": "4-2.png",
+      "web_path": "/assets/zogs/v1/4-2.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2227689,
+      "size_kb": 2175.48,
+      "image_type": "zog"
+    },
+    {
+      "id": "fae2e6d3a01d5dd0",
+      "filename": "4.png",
+      "web_path": "/assets/zogs/v1/4.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2227689,
+      "size_kb": 2175.48,
+      "image_type": "zog"
+    },
+    {
+      "id": "3472b15cf93896b4",
+      "filename": "5-2.png",
+      "web_path": "/assets/zogs/v1/5-2.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2149927,
+      "size_kb": 2099.54,
+      "image_type": "zog"
+    },
+    {
+      "id": "a57a64b4d56e2b83",
+      "filename": "5.png",
+      "web_path": "/assets/zogs/v1/5.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2149927,
+      "size_kb": 2099.54,
+      "image_type": "zog"
+    },
+    {
+      "id": "15457e249238f458",
+      "filename": "6-2.png",
+      "web_path": "/assets/zogs/v1/6-2.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2386292,
+      "size_kb": 2330.36,
+      "image_type": "zog"
+    },
+    {
+      "id": "24e87a07b90636ac",
+      "filename": "6.png",
+      "web_path": "/assets/zogs/v1/6.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2386292,
+      "size_kb": 2330.36,
+      "image_type": "zog"
+    },
+    {
+      "id": "891bd73ae7206875",
+      "filename": "7-2.png",
+      "web_path": "/assets/zogs/v1/7-2.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2647945,
+      "size_kb": 2585.88,
+      "image_type": "zog"
+    },
+    {
+      "id": "a6e0b592e20816d3",
+      "filename": "7.png",
+      "web_path": "/assets/zogs/v1/7.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2647945,
+      "size_kb": 2585.88,
+      "image_type": "zog"
+    },
+    {
+      "id": "f2401fc465699045",
+      "filename": "8-2.png",
+      "web_path": "/assets/zogs/v1/8-2.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2431306,
+      "size_kb": 2374.32,
+      "image_type": "zog"
+    },
+    {
+      "id": "a217048e9ea11d1f",
+      "filename": "8.png",
+      "web_path": "/assets/zogs/v1/8.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2431306,
+      "size_kb": 2374.32,
+      "image_type": "zog"
+    },
+    {
+      "id": "706bf9037ab02065",
+      "filename": "9-2.png",
+      "web_path": "/assets/zogs/v1/9-2.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2467611,
+      "size_kb": 2409.78,
+      "image_type": "zog"
+    },
+    {
+      "id": "c20b66d7709bb9ee",
+      "filename": "9.png",
+      "web_path": "/assets/zogs/v1/9.png",
+      "source_dir": "zogs/v1",
+      "extension": ".png",
+      "size_bytes": 2467611,
+      "size_kb": 2409.78,
+      "image_type": "zog"
+    },
+    {
+      "id": "5eb89a54bb87b829",
+      "filename": "il_570xN.5648906785_k93p.jpg",
+      "web_path": "/assets/zogs/v1/il_570xN.5648906785_k93p.jpg",
+      "source_dir": "zogs/v1",
+      "extension": ".jpg",
+      "size_bytes": 81627,
+      "size_kb": 79.71,
+      "image_type": "zog"
+    },
+    {
+      "id": "56f6696104938000",
+      "filename": "il_570xN.5708613664_91d7.jpg",
+      "web_path": "/assets/zogs/v1/il_570xN.5708613664_91d7.jpg",
+      "source_dir": "zogs/v1",
+      "extension": ".jpg",
+      "size_bytes": 96443,
+      "size_kb": 94.18,
+      "image_type": "zog"
+    },
+    {
+      "id": "0d05e7e6215c0111",
+      "filename": "il_fullxfull.6544827928_k3sj.jpg",
+      "web_path": "/assets/zogs/v1/il_fullxfull.6544827928_k3sj.jpg",
+      "source_dir": "zogs/v1",
+      "extension": ".jpg",
+      "size_bytes": 224443,
+      "size_kb": 219.18,
+      "image_type": "zog"
+    },
+    {
+      "id": "5a2b96726cc18a24",
+      "filename": "md_ytal77_3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0.jpg",
+      "web_path": "/assets/zogs/v1/md_ytal77_3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0.jpg",
+      "source_dir": "zogs/v1",
+      "extension": ".jpg",
+      "size_bytes": 70730,
+      "size_kb": 69.07,
+      "image_type": "zog"
+    },
+    {
+      "id": "56003d7f6b8c4ec0",
+      "filename": "0d6aeb92-86e0-4f77-a56f-aad63aa5fd0d.png",
+      "web_path": "/assets/zogs/v2/0d6aeb92-86e0-4f77-a56f-aad63aa5fd0d.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2474058,
+      "size_kb": 2416.07,
+      "image_type": "zog"
+    },
+    {
+      "id": "4153e8570889311a",
+      "filename": "16b6820b-a3a6-4f12-bd91-bdcf5c97acc4.png",
+      "web_path": "/assets/zogs/v2/16b6820b-a3a6-4f12-bd91-bdcf5c97acc4.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2398610,
+      "size_kb": 2342.39,
+      "image_type": "zog"
+    },
+    {
+      "id": "e611cf3c06643406",
+      "filename": "16ce668b-cc24-44c5-b785-003eacfc1a66-2.png",
+      "web_path": "/assets/zogs/v2/16ce668b-cc24-44c5-b785-003eacfc1a66-2.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2130416,
+      "size_kb": 2080.48,
+      "image_type": "zog"
+    },
+    {
+      "id": "9919d43ff24be5f7",
+      "filename": "16ce668b-cc24-44c5-b785-003eacfc1a66.png",
+      "web_path": "/assets/zogs/v2/16ce668b-cc24-44c5-b785-003eacfc1a66.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2130416,
+      "size_kb": 2080.48,
+      "image_type": "zog"
+    },
+    {
+      "id": "c9d6ef9bbcb25071",
+      "filename": "2fe9563b-d22f-4f45-b54e-a54b258da6dd.png",
+      "web_path": "/assets/zogs/v2/2fe9563b-d22f-4f45-b54e-a54b258da6dd.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2370738,
+      "size_kb": 2315.17,
+      "image_type": "zog"
+    },
+    {
+      "id": "9b99ecc112ea1098",
+      "filename": "3618c7ef-caee-46a1-9cc6-bc1d0e518ce5-2.png",
+      "web_path": "/assets/zogs/v2/3618c7ef-caee-46a1-9cc6-bc1d0e518ce5-2.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2221877,
+      "size_kb": 2169.8,
+      "image_type": "zog"
+    },
+    {
+      "id": "c25beb04067caf05",
+      "filename": "3618c7ef-caee-46a1-9cc6-bc1d0e518ce5.png",
+      "web_path": "/assets/zogs/v2/3618c7ef-caee-46a1-9cc6-bc1d0e518ce5.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2221877,
+      "size_kb": 2169.8,
+      "image_type": "zog"
+    },
+    {
+      "id": "b3b30e2d2d313037",
+      "filename": "3dfd977c-55ee-41de-9e5b-bc1890cf5441.png",
+      "web_path": "/assets/zogs/v2/3dfd977c-55ee-41de-9e5b-bc1890cf5441.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2410483,
+      "size_kb": 2353.99,
+      "image_type": "zog"
+    },
+    {
+      "id": "3c8aea08d6eeb2e1",
+      "filename": "45588853-d137-429c-9ef4-2cad2caeacea-2.png",
+      "web_path": "/assets/zogs/v2/45588853-d137-429c-9ef4-2cad2caeacea-2.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2431306,
+      "size_kb": 2374.32,
+      "image_type": "zog"
+    },
+    {
+      "id": "be707fced45fb067",
+      "filename": "45588853-d137-429c-9ef4-2cad2caeacea.png",
+      "web_path": "/assets/zogs/v2/45588853-d137-429c-9ef4-2cad2caeacea.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2431306,
+      "size_kb": 2374.32,
+      "image_type": "zog"
+    },
+    {
+      "id": "7d4ccd1b3c1690d3",
+      "filename": "549cc996-b0e6-48c3-bb4e-02ac064d8c88-2.png",
+      "web_path": "/assets/zogs/v2/549cc996-b0e6-48c3-bb4e-02ac064d8c88-2.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2250568,
+      "size_kb": 2197.82,
+      "image_type": "zog"
+    },
+    {
+      "id": "699762452a1766f2",
+      "filename": "549cc996-b0e6-48c3-bb4e-02ac064d8c88.png",
+      "web_path": "/assets/zogs/v2/549cc996-b0e6-48c3-bb4e-02ac064d8c88.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2250568,
+      "size_kb": 2197.82,
+      "image_type": "zog"
+    },
+    {
+      "id": "4c8fbdab6af73c92",
+      "filename": "5d8457df-af04-49c4-b28f-d25b4c09cfb9-2.png",
+      "web_path": "/assets/zogs/v2/5d8457df-af04-49c4-b28f-d25b4c09cfb9-2.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2385026,
+      "size_kb": 2329.13,
+      "image_type": "zog"
+    },
+    {
+      "id": "a2fcf2445b6e525b",
+      "filename": "5d8457df-af04-49c4-b28f-d25b4c09cfb9.png",
+      "web_path": "/assets/zogs/v2/5d8457df-af04-49c4-b28f-d25b4c09cfb9.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2385026,
+      "size_kb": 2329.13,
+      "image_type": "zog"
+    },
+    {
+      "id": "bdce124bffae3586",
+      "filename": "684ec1eb-6801-4f15-a244-fa8f13d33ab8.png",
+      "web_path": "/assets/zogs/v2/684ec1eb-6801-4f15-a244-fa8f13d33ab8.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2330337,
+      "size_kb": 2275.72,
+      "image_type": "zog"
+    },
+    {
+      "id": "a37d1720c65b83d0",
+      "filename": "6cbcac41-3cee-48d5-953c-ea7ad1a04098-2.png",
+      "web_path": "/assets/zogs/v2/6cbcac41-3cee-48d5-953c-ea7ad1a04098-2.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2467611,
+      "size_kb": 2409.78,
+      "image_type": "zog"
+    },
+    {
+      "id": "b273e49e5e535a10",
+      "filename": "6cbcac41-3cee-48d5-953c-ea7ad1a04098.png",
+      "web_path": "/assets/zogs/v2/6cbcac41-3cee-48d5-953c-ea7ad1a04098.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2467611,
+      "size_kb": 2409.78,
+      "image_type": "zog"
+    },
+    {
+      "id": "4b99c540ad684546",
+      "filename": "75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0-2.png",
+      "web_path": "/assets/zogs/v2/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0-2.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 3701062,
+      "size_kb": 3614.32,
+      "image_type": "zog"
+    },
+    {
+      "id": "965df0e1d3a65147",
+      "filename": "75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0.png",
+      "web_path": "/assets/zogs/v2/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 3701062,
+      "size_kb": 3614.32,
+      "image_type": "zog"
+    },
+    {
+      "id": "524daf4c3913615a",
+      "filename": "78565d2d-57ec-41fb-ac8b-0013a2c9236c-2.png",
+      "web_path": "/assets/zogs/v2/78565d2d-57ec-41fb-ac8b-0013a2c9236c-2.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 3504407,
+      "size_kb": 3422.27,
+      "image_type": "zog"
+    },
+    {
+      "id": "cd8be1a1bd57e8e1",
+      "filename": "78565d2d-57ec-41fb-ac8b-0013a2c9236c.png",
+      "web_path": "/assets/zogs/v2/78565d2d-57ec-41fb-ac8b-0013a2c9236c.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 3504407,
+      "size_kb": 3422.27,
+      "image_type": "zog"
+    },
+    {
+      "id": "50141d9a449b14f6",
+      "filename": "8b16e5a2-ae02-4eb2-a405-67d740e71669.png",
+      "web_path": "/assets/zogs/v2/8b16e5a2-ae02-4eb2-a405-67d740e71669.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2172241,
+      "size_kb": 2121.33,
+      "image_type": "zog"
+    },
+    {
+      "id": "cfcceb2a09b6f6da",
+      "filename": "8bb89adf-d6f5-41f4-b314-90d09fa25c60.png",
+      "web_path": "/assets/zogs/v2/8bb89adf-d6f5-41f4-b314-90d09fa25c60.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2373497,
+      "size_kb": 2317.87,
+      "image_type": "zog"
+    },
+    {
+      "id": "cf58cb4c6dd706b6",
+      "filename": "8f245e3f-8a88-47cb-bdf9-e00067f38896.png",
+      "web_path": "/assets/zogs/v2/8f245e3f-8a88-47cb-bdf9-e00067f38896.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2417971,
+      "size_kb": 2361.3,
+      "image_type": "zog"
+    },
+    {
+      "id": "f85f2945d9d729e4",
+      "filename": "8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f-2.png",
+      "web_path": "/assets/zogs/v2/8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f-2.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2463632,
+      "size_kb": 2405.89,
+      "image_type": "zog"
+    },
+    {
+      "id": "719727bcfa1b35ba",
+      "filename": "8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f.png",
+      "web_path": "/assets/zogs/v2/8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2463632,
+      "size_kb": 2405.89,
+      "image_type": "zog"
+    },
+    {
+      "id": "56e5687b597d5d08",
+      "filename": "a49f8d18-49f0-4682-be93-c53515e75621-2.png",
+      "web_path": "/assets/zogs/v2/a49f8d18-49f0-4682-be93-c53515e75621-2.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2405931,
+      "size_kb": 2349.54,
+      "image_type": "zog"
+    },
+    {
+      "id": "ec5f8b492a49e347",
+      "filename": "a49f8d18-49f0-4682-be93-c53515e75621.png",
+      "web_path": "/assets/zogs/v2/a49f8d18-49f0-4682-be93-c53515e75621.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2405931,
+      "size_kb": 2349.54,
+      "image_type": "zog"
+    },
+    {
+      "id": "217128266288eef6",
+      "filename": "aa1fba69-49b4-41d4-a931-92ae9955fbc2-2.png",
+      "web_path": "/assets/zogs/v2/aa1fba69-49b4-41d4-a931-92ae9955fbc2-2.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 3013414,
+      "size_kb": 2942.79,
+      "image_type": "zog"
+    },
+    {
+      "id": "901977e911898fc0",
+      "filename": "aa1fba69-49b4-41d4-a931-92ae9955fbc2.png",
+      "web_path": "/assets/zogs/v2/aa1fba69-49b4-41d4-a931-92ae9955fbc2.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 3013414,
+      "size_kb": 2942.79,
+      "image_type": "zog"
+    },
+    {
+      "id": "736aefbfd6b71d86",
+      "filename": "aa9082e8-4ee2-43e9-9af8-38ca8071a04c-2.png",
+      "web_path": "/assets/zogs/v2/aa9082e8-4ee2-43e9-9af8-38ca8071a04c-2.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2563246,
+      "size_kb": 2503.17,
+      "image_type": "zog"
+    },
+    {
+      "id": "5d8faa1cda4b3db5",
+      "filename": "aa9082e8-4ee2-43e9-9af8-38ca8071a04c.png",
+      "web_path": "/assets/zogs/v2/aa9082e8-4ee2-43e9-9af8-38ca8071a04c.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2563246,
+      "size_kb": 2503.17,
+      "image_type": "zog"
+    },
+    {
+      "id": "2a1e792f7836737d",
+      "filename": "b35989dc-d0df-4d58-9261-75ac7dec3c55.png",
+      "web_path": "/assets/zogs/v2/b35989dc-d0df-4d58-9261-75ac7dec3c55.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2130511,
+      "size_kb": 2080.58,
+      "image_type": "zog"
+    },
+    {
+      "id": "b5c906cef726e3fd",
+      "filename": "b698bcb7-6877-4445-bf88-8e945f885a59-2.png",
+      "web_path": "/assets/zogs/v2/b698bcb7-6877-4445-bf88-8e945f885a59-2.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2444381,
+      "size_kb": 2387.09,
+      "image_type": "zog"
+    },
+    {
+      "id": "23d04007b5d23c11",
+      "filename": "b698bcb7-6877-4445-bf88-8e945f885a59.png",
+      "web_path": "/assets/zogs/v2/b698bcb7-6877-4445-bf88-8e945f885a59.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2444381,
+      "size_kb": 2387.09,
+      "image_type": "zog"
+    },
+    {
+      "id": "755c09027caa9c9d",
+      "filename": "c612df9e-1ffa-4884-9116-353ed4816099-2.png",
+      "web_path": "/assets/zogs/v2/c612df9e-1ffa-4884-9116-353ed4816099-2.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2441997,
+      "size_kb": 2384.76,
+      "image_type": "zog"
+    },
+    {
+      "id": "fed5a2fefe1dd6c4",
+      "filename": "c612df9e-1ffa-4884-9116-353ed4816099.png",
+      "web_path": "/assets/zogs/v2/c612df9e-1ffa-4884-9116-353ed4816099.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2441997,
+      "size_kb": 2384.76,
+      "image_type": "zog"
+    },
+    {
+      "id": "b3b43a440600e821",
+      "filename": "f252687f-32ab-4b3b-b5de-81cfd4ebc117.png",
+      "web_path": "/assets/zogs/v2/f252687f-32ab-4b3b-b5de-81cfd4ebc117.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2606271,
+      "size_kb": 2545.19,
+      "image_type": "zog"
+    },
+    {
+      "id": "31ebd9d7d1a44cc3",
+      "filename": "f32fc538-1663-4f76-adee-7a8adc6dc89d.png",
+      "web_path": "/assets/zogs/v2/f32fc538-1663-4f76-adee-7a8adc6dc89d.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2090853,
+      "size_kb": 2041.85,
+      "image_type": "zog"
+    },
+    {
+      "id": "f2e102651c0d8fa0",
+      "filename": "f3c9da1a-1a37-43c4-a404-2b5be71c79ad.png",
+      "web_path": "/assets/zogs/v2/f3c9da1a-1a37-43c4-a404-2b5be71c79ad.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2129451,
+      "size_kb": 2079.54,
+      "image_type": "zog"
+    },
+    {
+      "id": "f3660470b47bda07",
+      "filename": "f6fde5a9-bed7-45ad-8edf-f71f44262c76.png",
+      "web_path": "/assets/zogs/v2/f6fde5a9-bed7-45ad-8edf-f71f44262c76.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2248807,
+      "size_kb": 2196.1,
+      "image_type": "zog"
+    },
+    {
+      "id": "d8da139f51c82534",
+      "filename": "fa58c31e-34ba-4a65-8963-0e265cdfb549.png",
+      "web_path": "/assets/zogs/v2/fa58c31e-34ba-4a65-8963-0e265cdfb549.png",
+      "source_dir": "zogs/v2",
+      "extension": ".png",
+      "size_bytes": 2270057,
+      "size_kb": 2216.85,
+      "image_type": "zog"
+    }
+  ]
+}

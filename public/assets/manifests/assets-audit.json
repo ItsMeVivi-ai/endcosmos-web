@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-03-12T11:29:35.240035+00:00",
+  "totals": {
+    "images": 395,
+    "folders": 5,
+    "broken_references": 2
+  },
+  "extensions": {
+    ".avif": 7,
+    ".jpeg": 3,
+    ".jpg": 78,
+    ".png": 287,
+    ".webp": 20
+  },
+  "folders": {
+    "images": 29,
+    "zogs/catalog": 15,
+    "zogs/imported-assets": 262,
+    "zogs/v1": 47,
+    "zogs/v2": 42
+  },
+  "categories": {
+    "capital-aurelia-prime": 3,
+    "cosmic-backgrounds": 11,
+    "hero": 9,
+    "maps-cities": 10,
+    "mounts-pets-creatures": 3,
+    "npcs-bosses": 6,
+    "portals-libraries": 4,
+    "world-of-endcosmos": 349
+  },
+  "broken_references": [
+    {
+      "file": "public/index.html",
+      "asset": "/assets/apple-touch-icon.png"
+    },
+    {
+      "file": "public/js/admin/app.js",
+      "asset": "/assets/.../imagen.png"
+    }
+  ]
+}

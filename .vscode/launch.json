@@ -1,0 +1,51 @@
+{
+  "version": "0.2.0",
+  "compounds": [
+    {
+      "name": "Full Stack: API + Web",
+      "configurations": [
+        "API: FastAPI (uvicorn)",
+        "Web: Static server (5500)"
+      ]
+    }
+  ],
+  "configurations": [
+    {
+      "name": "API: FastAPI (uvicorn)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "cwd": "${workspaceFolder}/backend",
+      "args": [
+        "app.main:app",
+        "--reload",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "8000"
+      ],
+      "envFile": "${workspaceFolder}/backend/.env",
+      "justMyCode": true
+    },
+    {
+      "name": "Web: Static server (5500)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "http.server",
+      "cwd": "${workspaceFolder}",
+      "args": [
+        "5500",
+        "--directory",
+        "public"
+      ],
+      "justMyCode": true
+    },
+    {
+      "name": "Script: Generate gallery manifests",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/backend/scripts/generate_gallery_manifests.py",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

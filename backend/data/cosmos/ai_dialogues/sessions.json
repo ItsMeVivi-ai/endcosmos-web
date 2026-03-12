@@ -1,0 +1,9 @@
+{
+  "sessions": [
+    {
+      "id": "core-lore-001",
+      "channel": "lore",
+      "status": "active"
+    }
+  ]
+}

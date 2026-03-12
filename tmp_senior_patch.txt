@@ -1,0 +1,170 @@
+*** Begin Patch
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/admin/dev/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/admin/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/ai-dialogues/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/archives/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/civilizations/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/classes/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/code-changes/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/factions/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/game-internal-changes/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/infinite-worlds/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/lore/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/news/ai-dialogue-protocol-ix/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/news/archivo-ceniza-reactiva/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/news/carta-aster-nomads/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/news/draco-somnian-archives/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/news/ferric-hydra-ruptura-furnace-rift/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/news/incidente-noctilux-ecos/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/news/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/news/lumens-volatile-growth/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/news/nebula-ix-corredor-abierto/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/news/pacto-shatter-docks/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/news/worlds-astra-ix-propuesta/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/planet/draco/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/planets/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/register/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/site-map/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/technology/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/universe/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/worlds/vyrakth/aurelia-prime/connected-core/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/worlds/vyrakth/auroria-prime/chromatics/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/worlds/vyrakth/corrupted-mire/purifiers/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/worlds/vyrakth/echo-archives/lorekeepers/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/worlds/vyrakth/ether-bazaar/trade-syndicate/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/worlds/vyrakth/fortress-chain/warlords/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/worlds/vyrakth/hidden-grove/pathfinders/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/worlds/vyrakth/iron-border/faction-legions/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/worlds/vyrakth/llunaris-depth/echo-order/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/worlds/vyrakth/portal-nexus/gate-wardens/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/worlds/vyrakth/rift-convergence/event-cabal/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/worlds/vyrakth/tempest-front/stormbinders/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/worlds/vyrakth/titan-rift/boss-hunters/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** Update File: C:/Users/Vivi/OneDrive/COSMOS/endcosmos-web/public/worlds/vyrakth/umbra-cycle/chrono-watch/index.html
+@@
+ ﻿
++<script src="/js/senior-mode.js" defer></script>
+*** End Patch

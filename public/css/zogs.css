@@ -1,0 +1,219 @@
+.zogs-main {
+  position: relative;
+  z-index: 1;
+}
+
+.zogs-hero {
+  padding: 5.5rem 0 2rem;
+}
+
+.zogs-hero h1 {
+  margin: 0.2rem 0 0.45rem;
+  font-family: "Orbitron", "Rajdhani", sans-serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.zogs-quick-links {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.zogs-section h2 {
+  margin: 0 0 1rem;
+}
+
+.zogs-base-figure {
+  margin: 0;
+}
+
+.zogs-base-figure img {
+  width: 100%;
+  max-height: 760px;
+  object-fit: cover;
+  display: block;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: rgba(5, 9, 21, 0.45);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.28);
+}
+
+.zogs-base-figure figcaption {
+  margin-top: 0.6rem;
+}
+
+.zogs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.85rem;
+}
+
+.zogs-grid img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: rgba(5, 9, 21, 0.45);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.zogs-grid-featured {
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+.zogs-grid-featured img {
+  height: 260px;
+}
+
+.zogs-grid-catalog img {
+  height: 260px;
+}
+
+.zogs-narratives {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0.85rem;
+}
+
+.zogs-narrative-card {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0.95rem 1rem;
+  background: rgba(5, 9, 21, 0.45);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.zogs-narrative-card h3 {
+  margin: 0 0 0.45rem;
+}
+
+.zogs-narrative-card p {
+  margin: 0.35rem 0 0;
+  white-space: pre-wrap;
+}
+
+.zogs-portal-controls {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 0.75rem;
+}
+
+.zogs-portal-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.zogs-portal-view-toggle {
+  display: flex;
+  align-items: center;
+}
+
+.zogs-portal-search {
+  display: grid;
+  gap: 0.3rem;
+  max-width: 380px;
+}
+
+.zogs-portal-search input {
+  min-height: 42px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: rgba(5, 9, 21, 0.62);
+  color: var(--text-main);
+  padding: 0.55rem 0.7rem;
+}
+
+.zogs-portal-grid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0.9rem;
+}
+
+.zogs-portal-card {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+  background: rgba(5, 9, 21, 0.58);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.zogs-portal-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.zogs-portal-meta {
+  padding: 0.72rem;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.zogs-portal-meta h3 {
+  margin: 0;
+  font-size: 0.94rem;
+  overflow-wrap: anywhere;
+}
+
+.zogs-portal-path {
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  overflow-wrap: anywhere;
+}
+
+.zogs-portal-actions {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.zogs-copy-btn {
+  min-height: 36px;
+  padding: 0.42rem 0.65rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+}
+
+.zogs-portal-grid.is-mosaic-ultra {
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.42rem;
+}
+
+.zogs-portal-grid.is-mosaic-ultra .zogs-portal-card {
+  border-radius: 9px;
+}
+
+.zogs-portal-grid.is-mosaic-ultra .zogs-portal-card img {
+  height: 118px;
+}
+
+.zogs-portal-grid.is-mosaic-ultra .zogs-portal-meta {
+  padding: 0.48rem;
+  gap: 0.22rem;
+}
+
+.zogs-portal-grid.is-mosaic-ultra .zogs-portal-meta h3 {
+  font-size: 0.74rem;
+}
+
+.zogs-portal-grid.is-mosaic-ultra .zogs-portal-path,
+.zogs-portal-grid.is-mosaic-ultra .zogs-portal-meta .muted {
+  font-size: 0.64rem;
+}
+
+.zogs-portal-grid.is-mosaic-ultra .zogs-copy-btn {
+  min-height: 30px;
+  font-size: 0.62rem;
+  padding: 0.3rem 0.45rem;
+}
+
+.nav-link.is-active {
+  color: var(--gold-350);
+}

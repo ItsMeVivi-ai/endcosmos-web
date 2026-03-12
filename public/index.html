@@ -1,34 +1,28 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>
-      EndCosmos | Next-Gen Metin2 Private Server Powered by Llunaris
-    </title>
+    <title>EndCosmos | Senior Research Portal</title>
     <meta
       name="description"
-      content="EndCosmos is a next-generation Metin2 private server powered by Llunaris, featuring custom systems, cosmic lore, balanced PvP and PvM, and immersive MMORPG gameplay."
+      content="EndCosmos is a senior content-creator and life-research portal: strict philosophy, abstract psychology, and deep exploration."
     />
     <meta
       name="robots"
       content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
     />
     <link rel="canonical" href="https://endcosmos.com/" />
-    <meta name="theme-color" content="#0b1020" />
 
     <!-- Open Graph -->
     <meta property="og:site_name" content="EndCosmos" />
     <meta property="og:locale" content="en_US" />
-    <meta
-      property="og:title"
-      content="EndCosmos | Next-Gen Metin2 Private Server Powered by Llunaris"
-    />
+    <meta property="og:title" content="EndCosmos | Senior Research Portal" />
     <meta
       property="og:description"
-      content="Enter the Cosmos. A Metin2 private server with custom systems, faction lore, and polished competitive gameplay."
+      content="Enter EndCosmos: strict philosophy and abstract psychology for creators and life researchers."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://endcosmos.com/" />
@@ -38,16 +32,17 @@
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="EndCosmos | Powered by Llunaris" />
+    <meta name="twitter:title" content="EndCosmos | Research the Cosmos" />
     <meta
       name="twitter:description"
-      content="Enter the Cosmos. Next-gen Metin2 private server experience."
+      content="A senior portal for content creators and life researchers: abstract psychology, disciplined philosophy, and operational focus."
     />
     <meta name="twitter:image" content="https://endcosmos.com/assets/og.jpg" />
 
     <link rel="icon" href="/assets/favicon.ico" />
     <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/style.css?v=20260312pc" />
+    <script src="/js/cosmos-dynamic-clock.js" defer></script>
 
     <!-- Schema.org -->
     <script type="application/ld+json">
@@ -70,7 +65,7 @@
     </script>
   </head>
 
-  <body>
+  <body class="mode-senior">
     <canvas class="starfield" aria-hidden="true"></canvas>
     <a class="skip-link" href="#main">Skip to content</a>
 
@@ -82,6 +77,14 @@
         </a>
 
         <div class="nav-links">
+          <a
+            href="/world"
+            class="nav-link"
+            title="Portal principal del mundo EndCosmos"
+            aria-label="World: portal principal"
+            data-tooltip="Portal principal"
+            >World</a
+          >
           <a
             href="/news"
             class="nav-link"
@@ -97,6 +100,62 @@
             aria-label="Lore: historia y universo"
             data-tooltip="Historia del universo"
             >Lore</a
+          >
+          <a
+            href="/mapas"
+            class="nav-link"
+            title="Mapas, regiones y estructura del universo EndCosmos"
+            aria-label="Maps: regiones y estructura del universo"
+            data-tooltip="Mapas del universo"
+            >Maps</a
+          >
+          <a
+            href="/classes"
+            class="nav-link"
+            title="Clases, casas y galerías del universo EndCosmos"
+            aria-label="Classes: clases y casas"
+            data-tooltip="Clases y casas"
+            >Classes</a
+          >
+          <a
+            href="/universe"
+            class="nav-link"
+            title="Codex central del universo EndCosmos"
+            aria-label="Universe: codex central"
+            data-tooltip="Codex Universe"
+            >Universe</a
+          >
+          <a
+            href="/planets"
+            class="nav-link"
+            title="Indice de planetas y nodos de ruta"
+            aria-label="Planets: indice planetario"
+            data-tooltip="Planets"
+            >Planets</a
+          >
+          <a
+            href="/factions"
+            class="nav-link"
+            title="Facciones y bloques de poder"
+            aria-label="Factions: bloques de poder"
+            data-tooltip="Factions"
+            >Factions</a
+          >
+          <a
+            href="/infinite-worlds"
+            class="nav-link"
+            title="Generador de rutas infinitas del universo"
+            aria-label="Infinite worlds: rutas infinitas"
+            data-tooltip="Infinite Worlds"
+            >Infinite Worlds</a
+          >
+          <a
+            href="/alquimia"
+            class="nav-link"
+            title="Sistema de alquimia, recetas y fusion cosmica"
+            aria-label="Alquimia: sistema de fusion cosmica"
+            data-tooltip="Sistema de alquimia"
+            >Alchemy</a
           >
           <a
             href="/ranking"
@@ -115,7 +174,15 @@
             >Download</a
           >
           <a
-            href="https://discord.gg/REPLACE_ME"
+            href="/zogs"
+            class="nav-link"
+            title="Galeria visual de arte y conceptos EndCosmos"
+            aria-label="Gallery: galeria visual"
+            data-tooltip="Galeria de imagenes"
+            >Gallery</a
+          >
+          <a
+            href="https://discord.gg/de6rZQtUUH"
             class="nav-link nav-cta"
             rel="noopener"
             target="_blank"
@@ -130,88 +197,362 @@
 
     <main id="main">
       <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-bg" role="img" aria-label="Cosmic background"></div>
+        <div class="hero-nebula" aria-hidden="true"></div>
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div
+          class="hero-orbit hero-orbit-a"
+          data-parallax-layer="0.24"
+          aria-hidden="true"
+        ></div>
+        <div
+          class="hero-orbit hero-orbit-b"
+          data-parallax-layer="-0.18"
+          aria-hidden="true"
+        ></div>
+        <div
+          class="hero-bg"
+          data-parallax-layer="0.1"
+          role="img"
+          aria-label="Cosmic portal and futuristic skyline"
+        ></div>
+        <div
+          class="hero-scanner"
+          data-parallax-layer="0.05"
+          aria-hidden="true"
+        ></div>
 
-        <div class="hero-content">
-          <p class="kicker">Powered by Llunaris</p>
-          <h1 id="hero-title">Enter EndCosmos</h1>
-          <p class="lead">
-            A next-generation <strong>Metin2 private server</strong> built for
-            immersion: custom systems, cosmic lore, fair progression, and a
-            polished PvP/PvM loop.
+        <div class="hero-inner">
+          <div
+            class="hero-content reveal"
+            data-float="10"
+            data-float-speed="0.9"
+          >
+            <h1 id="hero-title" class="hero-title">
+              <span class="reveal" data-reveal-delay="80">ENDCOSMOS</span>
+            </h1>
+            <p class="lead reveal" data-reveal-delay="240">
+              Senior control room for creators and life researchers: strict
+              philosophy, abstract psychology, and practical cosmic work.
+            </p>
+
+            <p class="hero-micro-manifesto reveal" data-reveal-delay="280">
+              Think with precision. Feel with depth. Build with discipline.
+            </p>
+
+            <div class="hero-actions reveal" data-reveal-delay="320">
+              <a
+                class="btn btn-primary hero-btn-primary"
+                href="/world"
+                title="Open the main world portal"
+                aria-label="Open the main world portal"
+                data-tooltip="Open world portal"
+                >OPEN WORLD PORTAL</a
+              >
+              <a
+                class="btn btn-secondary hero-btn-secondary"
+                href="/download"
+                title="Download the EndCosmos client"
+                aria-label="Download the EndCosmos client"
+                data-tooltip="Download client"
+                >DOWNLOAD CLIENT</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section ec-manifesto" aria-labelledby="manifest-title">
+        <div class="wrap">
+          <p class="kicker reveal">Home is the heart of EndCosmos</p>
+          <h2 id="manifest-title" class="reveal">Manifiesto del Portal</h2>
+          <p class="lead-manifesto reveal">
+            EndCosmos.com existe para que las personas vengan a pasarlo bien,
+            disfrutar, sentir, motivarse, aprender y existir en comunidad.
           </p>
 
-          <div class="hero-actions">
-            <a
-              class="btn btn-primary"
-              href="/download"
-              title="Descarga el cliente oficial para entrar al universo EndCosmos"
-              aria-label="Download client: descarga el cliente oficial"
-              data-tooltip="Descarga el cliente oficial"
-              >Download Client</a
+          <div class="grid">
+            <article
+              class="card kinetic-card reveal"
+              data-float="8"
+              data-float-speed="0.95"
             >
-            <a
-              class="btn btn-secondary"
-              href="/ranking"
-              title="Abre el panel de ranking y estad&iacute;sticas globales"
-              aria-label="Ranking console: ver ranking y estad&iacute;sticas"
-              data-tooltip="Ver ranking y estad&iacute;sticas"
-              >Ranking Console</a
+              <h3>Disfrutar</h3>
+              <p>
+                Cada visita debe sentirse ligera, divertida y memorable desde el
+                primer segundo.
+              </p>
+            </article>
+
+            <article
+              class="card kinetic-card reveal"
+              data-float="10"
+              data-float-speed="1.08"
             >
-            <a
-              class="btn btn-secondary"
-              href="/news"
-              title="Consulta noticias del servidor y actualizaciones del sistema AI"
-              aria-label="AI updates: noticias y actualizaciones"
-              data-tooltip="Noticias y actualizaciones AI"
-              >AI Updates</a
+              <h3>Aprender</h3>
+              <p>
+                Lore, mapas y sistemas claros para descubrir el universo sin
+                fricción ni confusión.
+              </p>
+            </article>
+
+            <article
+              class="card kinetic-card reveal"
+              data-float="9"
+              data-float-speed="0.9"
             >
-            <a
-              class="btn btn-discord"
-              href="https://discord.gg/REPLACE_ME"
-              rel="noopener"
-              target="_blank"
-              title="&Uacute;nete al Discord oficial de la comunidad"
-              aria-label="Discord community: unirse al servidor oficial"
-              data-tooltip="Unirse a la comunidad"
-              >Discord</a
+              <h3>Motivarse</h3>
+              <p>
+                Progreso sano, metas significativas y una energía positiva que
+                impulse a volver.
+              </p>
+            </article>
+
+            <article
+              class="card kinetic-card reveal"
+              data-float="11"
+              data-float-speed="1.02"
             >
+              <h3>Existir</h3>
+              <p>
+                Un lugar vivo para compartir, crear historias y sentir
+                pertenencia dentro del cosmos.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section ec-axiom-lab" aria-labelledby="axiom-title">
+        <div class="wrap">
+          <p class="kicker reveal">Operative Philosophy Engine</p>
+          <h2 id="axiom-title" class="reveal">5 Variables de Dominio</h2>
+          <p class="muted reveal">
+            Modelo de enfoque para decidir mejor, crear con consistencia y
+            estudiar la vida con mente estratégica.
+          </p>
+
+          <div class="ec-axiom-grid">
+            <article class="card kinetic-card ec-axiom-card reveal">
+              <header>
+                <strong>UNKTIME</strong>
+                <span class="ec-axiom-tag">Variable 01</span>
+              </header>
+              <p>
+                Gestiona el tiempo desconocido: la franja incierta entre lo que
+                planeas y lo que emerge en realidad.
+              </p>
+            </article>
+
+            <article class="card kinetic-card ec-axiom-card reveal">
+              <header>
+                <strong>PSI-ABSTRACT</strong>
+                <span class="ec-axiom-tag">Variable 02</span>
+              </header>
+              <p>
+                Traduce estados mentales complejos en decisiones concretas sin
+                perder profundidad emocional.
+              </p>
+            </article>
+
+            <article class="card kinetic-card ec-axiom-card reveal">
+              <header>
+                <strong>ETHOS-RIGOR</strong>
+                <span class="ec-axiom-tag">Variable 03</span>
+              </header>
+              <p>
+                Define límites éticos y estándares de calidad: claridad,
+                coherencia y responsabilidad narrativa.
+              </p>
+            </article>
+
+            <article class="card kinetic-card ec-axiom-card reveal">
+              <header>
+                <strong>NARRATIVE-GRAVITY</strong>
+                <span class="ec-axiom-tag">Variable 04</span>
+              </header>
+              <p>
+                Prioriza contenido con peso real: ideas que transforman
+                percepción, no ruido de corto plazo.
+              </p>
+            </article>
+
+            <article class="card kinetic-card ec-axiom-card reveal">
+              <header>
+                <strong>LIFE-SIGNAL</strong>
+                <span class="ec-axiom-tag">Variable 05</span>
+              </header>
+              <p>
+                Mide impacto vivo: energía, sentido y crecimiento sostenido en
+                comunidad y proyecto personal.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cosmic-marquee" aria-label="Live EndCosmos feed">
+        <div class="cosmic-marquee-shell">
+          <div class="cosmic-marquee-track" data-marquee-track>
+            <span>UNKTIME FIRST</span>
+            <span>STRICT PHILOSOPHY</span>
+            <span>ABSTRACT PSYCHOLOGY</span>
+            <span>NARRATIVE RIGOR</span>
+            <span>LIFE RESEARCH</span>
+            <span>CREATOR DISCIPLINE</span>
+          </div>
+          <div
+            class="cosmic-marquee-track cosmic-marquee-track-clone"
+            aria-hidden="true"
+          >
+            <span>UNKTIME FIRST</span>
+            <span>STRICT PHILOSOPHY</span>
+            <span>ABSTRACT PSYCHOLOGY</span>
+            <span>NARRATIVE RIGOR</span>
+            <span>LIFE RESEARCH</span>
+            <span>CREATOR DISCIPLINE</span>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section ec-command-center"
+        aria-labelledby="command-title"
+      >
+        <div class="wrap">
+          <p class="kicker reveal">Central Interface</p>
+          <h2 id="command-title" class="reveal">Portal Command Center</h2>
+          <p class="muted reveal">
+            Desde aquí controlas la experiencia principal de EndCosmos: entrar,
+            aprender, descubrir y conectar en comunidad.
+          </p>
+
+          <div
+            class="ec-cats ec-command-pills reveal"
+            aria-label="Portal status"
+          >
+            <span class="ec-cat-pill is-active">Main Portal Active</span>
+            <span class="ec-cat-pill">Community Online</span>
+            <span class="ec-cat-pill">Lore + World Linked</span>
+            <span class="ec-cat-pill">Explore Mode Ready</span>
           </div>
 
-          <ul class="hero-tags" aria-label="Universe highlights">
-            <li>Neural Systems</li>
-            <li>World Simulations</li>
-            <li>Faction Lore</li>
-            <li>Cinematic Events</li>
-            <li>Llunaris</li>
-            <li>Leviathan</li>
-          </ul>
+          <div class="ec-command-grid">
+            <a href="/world" class="card kinetic-card ec-command-card reveal">
+              <h3>Open World Core</h3>
+              <p>Accede al mapa principal y al núcleo de descubrimiento.</p>
+            </a>
+            <a href="/mapas" class="card kinetic-card ec-command-card reveal">
+              <h3>Open Maps</h3>
+              <p>Navega regiones, rutas y puntos de interés del universo.</p>
+            </a>
+            <a href="/lore" class="card kinetic-card ec-command-card reveal">
+              <h3>Open Lore</h3>
+              <p>Aprende historia, facciones y contexto vivo del cosmos.</p>
+            </a>
+            <a
+              href="https://discord.gg/de6rZQtUUH"
+              class="card kinetic-card ec-command-card reveal"
+              target="_blank"
+              rel="noopener"
+            >
+              <h3>Join Community</h3>
+              <p>Comparte experiencias y crece junto a otros jugadores.</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section ec-section-cats" aria-labelledby="cats-title">
+        <div class="wrap">
+          <p class="kicker reveal">The main EndCosmos portal</p>
+          <h2 id="cats-title" class="reveal">Choose your way to enjoy</h2>
+          <div class="ec-category-grid">
+            <a href="/lore" class="ec-category-card ec-cat-combat reveal">
+              <span class="ec-cat-icon" aria-hidden="true">&#9876;</span>
+              <strong>Combat</strong>
+              <span class="muted">PvP, raids &amp; bosses</span>
+            </a>
+            <a href="/lore" class="ec-category-card ec-cat-lore reveal">
+              <span class="ec-cat-icon" aria-hidden="true">&#128218;</span>
+              <strong>Lore</strong>
+              <span class="muted">Factions, gods &amp; eras</span>
+            </a>
+            <a href="/mapas" class="ec-category-card ec-cat-maps reveal">
+              <span class="ec-cat-icon" aria-hidden="true">&#127760;</span>
+              <strong>Maps</strong>
+              <span class="muted">Worlds &amp; regions</span>
+            </a>
+            <a href="/alquimia" class="ec-category-card ec-cat-alchemy reveal">
+              <span class="ec-cat-icon" aria-hidden="true">&#9879;</span>
+              <strong>Alchemy</strong>
+              <span class="muted">Craft &amp; cosmic fusion</span>
+            </a>
+            <a href="/classes" class="ec-category-card ec-cat-classes reveal">
+              <span class="ec-cat-icon" aria-hidden="true">&#10022;</span>
+              <strong>Classes</strong>
+              <span class="muted">Houses &amp; archetypes</span>
+            </a>
+            <a href="/worlds/" class="ec-category-card ec-cat-maps reveal">
+              <span class="ec-cat-icon" aria-hidden="true">&#127756;</span>
+              <strong>Worlds Hub</strong>
+              <span class="muted">Priority routes &amp; world access</span>
+            </a>
+            <a href="/ranking" class="ec-category-card ec-cat-pvp reveal">
+              <span class="ec-cat-icon" aria-hidden="true">&#127942;</span>
+              <strong>PvP Arena</strong>
+              <span class="muted">Rankings &amp; seasons</span>
+            </a>
+            <a href="/news" class="ec-category-card ec-cat-events reveal">
+              <span class="ec-cat-icon" aria-hidden="true">&#10024;</span>
+              <strong>Events</strong>
+              <span class="muted">Seasonal &amp; live content</span>
+            </a>
+            <a href="/lore" class="ec-category-card ec-cat-void reveal">
+              <span class="ec-cat-icon" aria-hidden="true">&#8734;</span>
+              <strong>Void Dungeons</strong>
+              <span class="muted">End-game challenges</span>
+            </a>
+          </div>
         </div>
       </section>
 
       <section class="section" aria-labelledby="features-title">
         <div class="wrap">
-          <h2 id="features-title">Why EndCosmos?</h2>
+          <h2 id="features-title" class="reveal">
+            Why this portal feels alive
+          </h2>
           <div class="grid">
-            <article class="card">
-              <h3>Progression that respects your time</h3>
+            <article
+              class="card kinetic-card reveal"
+              data-float="9"
+              data-float-speed="1.05"
+            >
+              <h3>Enjoyment that respects your time</h3>
               <p>
-                Clear goals, meaningful upgrades, and rewards that scale with
-                your mastery.
+                Clear goals, meaningful upgrades, and joyful progress that
+                scales with your mastery.
               </p>
             </article>
-            <article class="card">
-              <h3>Systems first, not pay-to-win</h3>
+            <article
+              class="card kinetic-card reveal"
+              data-float="12"
+              data-float-speed="0.86"
+            >
+              <h3>Systems first, people first</h3>
               <p>
-                Gameplay depth and server integrity come before cosmetics and
-                monetization.
+                Gameplay depth, healthy community, and server integrity come
+                before monetization pressure.
               </p>
             </article>
-            <article class="card">
-              <h3>Worldbuilding and events</h3>
+            <article
+              class="card kinetic-card reveal"
+              data-float="10"
+              data-float-speed="1.14"
+            >
+              <h3>Worldbuilding, events, and motivation</h3>
               <p>
-                Seasonal arcs, dungeons, and cosmic-themed content tied to the
-                EndCosmos universe.
+                Seasonal arcs, dungeons, and positive cosmic content tied to
+                stories people remember.
               </p>
             </article>
 
@@ -252,9 +593,54 @@
               </label>
 
               <button class="btn btn-primary register-submit" type="submit">
-                Iniciar Registro
+                Unirme al Portal
               </button>
             </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="world-visual-title">
+        <div class="wrap">
+          <p class="kicker reveal">Priority Visual Integration</p>
+          <h2 id="world-visual-title" class="reveal">World of EndCosmos</h2>
+          <p class="muted reveal">
+            Hero principal, Capital Aurelia Prime y escenas clave conectadas al
+            portal principal.
+          </p>
+          <div
+            class="visual-pack-grid reveal"
+            data-visual-gallery
+            data-visual-category="hero,capital-aurelia-prime,world-of-endcosmos"
+            data-visual-limit="15"
+            aria-label="World of EndCosmos visual gallery"
+          ></div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="companions-title">
+        <div class="wrap">
+          <h2 id="companions-title" class="reveal">Mounts &amp; Pets</h2>
+          <div class="grid">
+            <article class="card kinetic-card reveal">
+              <h3>Legendary Mounts</h3>
+              <img
+                src="/assets/images/mounts/endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras.png"
+                alt="Legendary cosmic mounts in EndCosmos"
+                loading="lazy"
+                decoding="async"
+              />
+            </article>
+            <article class="card kinetic-card reveal">
+              <h3>Companion Pets</h3>
+              <!-- TODO(assets): replace fallback when dedicated /assets/images/pets/* is available -->
+              <img
+                src="/assets/images/npcs/npc-universe.jpg"
+                alt="Cosmic companion pet placeholder"
+                loading="lazy"
+                decoding="async"
+              />
+            </article>
           </div>
         </div>
       </section>
@@ -268,39 +654,115 @@
           <h2 id="gallery-title" class="section-title reveal">
             Cosmic Gallery
           </h2>
-          <div class="gallery-grid">
-            <figure class="gallery-card reveal">
-              <img
-                src="/assets/realm-ice.jpg"
-                alt="Frozen cosmic map sector in EndCosmos"
-                loading="lazy"
-              />
-              <figcaption>Maps</figcaption>
-            </figure>
-            <figure class="gallery-card reveal">
-              <img
-                src="/assets/battle.webp"
-                alt="Boss encounter in EndCosmos universe"
-                loading="lazy"
-              />
-              <figcaption>Bosses</figcaption>
-            </figure>
-            <figure class="gallery-card reveal">
-              <img
-                src="/assets/hero-secondary.jpg"
-                alt="Futuristic city district under nebula sky"
-                loading="lazy"
-              />
-              <figcaption>Cities</figcaption>
-            </figure>
-            <figure class="gallery-card reveal">
-              <img
-                src="/assets/realm-void.jpg"
-                alt="Cosmic environment with deep space effects"
-                loading="lazy"
-              />
-              <figcaption>Cosmic Environments</figcaption>
-            </figure>
+          <div
+            class="motion-gallery reveal"
+            data-motion-gallery
+            aria-label="Cosmic scenes in motion"
+          >
+            <button
+              class="motion-gallery-btn motion-gallery-btn-prev"
+              type="button"
+              data-gallery-prev
+              aria-label="Previous image"
+            >
+              &#10094;
+            </button>
+
+            <div class="motion-gallery-viewport" tabindex="0">
+              <div class="motion-gallery-track" data-gallery-track>
+                <figure class="motion-slide" data-gallery-slide>
+                  <img
+                    src="/assets/images/endcosmos-maps-main.png"
+                    alt="Main structured map of EndCosmos"
+                    loading="lazy"
+                    decoding="async"
+                    sizes="(max-width: 900px) 100vw, 50vw"
+                  />
+                  <figcaption>Main Map</figcaption>
+                </figure>
+                <figure class="motion-slide" data-gallery-slide>
+                  <img
+                    src="/assets/battle.webp"
+                    alt="Boss encounter in EndCosmos universe"
+                    loading="lazy"
+                    decoding="async"
+                    sizes="(max-width: 900px) 100vw, 50vw"
+                  />
+                  <figcaption>Bosses</figcaption>
+                </figure>
+                <figure class="motion-slide" data-gallery-slide>
+                  <img
+                    src="/assets/hero-secondary.jpg"
+                    alt="Futuristic city district under nebula sky"
+                    loading="lazy"
+                    decoding="async"
+                    sizes="(max-width: 900px) 100vw, 50vw"
+                  />
+                  <figcaption>Cities</figcaption>
+                </figure>
+                <figure class="motion-slide" data-gallery-slide>
+                  <img
+                    src="/assets/realm-void.jpg"
+                    alt="Cosmic environment with deep space effects"
+                    loading="lazy"
+                    decoding="async"
+                    sizes="(max-width: 900px) 100vw, 50vw"
+                  />
+                  <figcaption>Cosmic Environments</figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <button
+              class="motion-gallery-btn motion-gallery-btn-next"
+              type="button"
+              data-gallery-next
+              aria-label="Next image"
+            >
+              &#10095;
+            </button>
+
+            <div
+              class="motion-gallery-dots"
+              data-gallery-dots
+              role="tablist"
+              aria-label="Gallery slides"
+            ></div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="mega-gallery"
+        class="section section-mega-gallery"
+        aria-labelledby="mega-gallery-title"
+      >
+        <div class="wrap">
+          <p class="kicker reveal">Massive Visual Library</p>
+          <h2 id="mega-gallery-title" class="section-title reveal">
+            MEGA GALLERY
+          </h2>
+          <p class="muted reveal" data-mega-gallery-meta>
+            Loading images from cosmos data packages...
+          </p>
+
+          <div
+            class="ec-cats mega-gallery-filters reveal"
+            data-mega-gallery-filters
+            aria-label="Mega gallery filters"
+          ></div>
+
+          <div class="mega-gallery-grid reveal" data-mega-gallery-grid></div>
+
+          <div class="mega-gallery-actions reveal">
+            <button
+              class="btn btn-secondary"
+              type="button"
+              data-mega-gallery-more
+              hidden
+            >
+              Load More Images
+            </button>
           </div>
         </div>
       </section>
@@ -310,7 +772,7 @@
       <div class="wrap footer-grid">
         <div>
           <strong>EndCosmos</strong><br />
-          <span class="muted">Powered by Llunaris</span>
+          <span class="muted">endcosmos.com</span>
         </div>
 
         <div class="footer-links">
@@ -326,5 +788,10 @@
     </footer>
 
     <script src="/js/app.js"></script>
+    <script src="/js/motion-gallery.js"></script>
+    <script src="/js/mega-gallery.js"></script>
+    <script src="/js/world-visual-pack.js" defer></script>
+    <script src="/js/index-kinetic.js"></script>
+    <script src="/js/senior-mode.js" defer></script>
   </body>
 </html>

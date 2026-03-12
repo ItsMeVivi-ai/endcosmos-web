@@ -1,0 +1,183 @@
+{
+  "world_id": "endcosmos-main-world",
+  "name": "Celestial Expanse",
+  "version": "2026-03-12",
+  "type": "dimensional-core",
+  "description": "Centro dimensional de EndCosmos donde confluyen mundos, portales, rutas cosmicas y capas del universo.",
+  "player_entrypoint": true,
+  "regions": [
+    {
+      "id": "nebula-city",
+      "name": "Nebula City",
+      "role": "starter-city",
+      "functions": [
+        "comercio",
+        "gremios",
+        "banco cosmico",
+        "mercado de artefactos",
+        "academia de clases"
+      ],
+      "npcs": [
+        "El Cronista",
+        "Kara",
+        "Atlas"
+      ]
+    },
+    {
+      "id": "echo-ruins",
+      "name": "Echo Ruins",
+      "role": "ancient-ruins",
+      "features": [
+        "artefactos antiguos",
+        "runas vivas",
+        "puzzles del tiempo"
+      ],
+      "npcs": [
+        "arqueologos",
+        "espiritus antiguos",
+        "guardianes de piedra"
+      ]
+    },
+    {
+      "id": "astral-wastelands",
+      "name": "Astral Wastelands",
+      "role": "hostile-zone",
+      "features": [
+        "bosses salvajes",
+        "tormentas de energia",
+        "minerales raros"
+      ],
+      "creatures": [
+        "devoradores astrales",
+        "bestias del vacio",
+        "titanes caidos"
+      ]
+    },
+    {
+      "id": "void-abyss",
+      "name": "Void Abyss",
+      "role": "endgame-zone",
+      "features": [
+        "gravedad distorsionada",
+        "tiempo irregular",
+        "entidades del vacio"
+      ],
+      "lore_anchor": "Leviathan / Llunaris",
+      "requires_advanced_progression": true
+    }
+  ],
+  "thought_system": {
+    "name": "Filosofias vivas",
+    "currents": [
+      "Orden del Cosmos",
+      "Ciencia Antigua",
+      "Culto del Vacio",
+      "Hijos de las Estrellas",
+      "Guardianes del Tiempo"
+    ],
+    "affects": [
+      "npc_dialogues",
+      "quests",
+      "factions"
+    ]
+  },
+  "cosmic_laws": [
+    {
+      "name": "Ley de Equilibrio",
+      "effect": "cada poder tiene un coste"
+    },
+    {
+      "name": "Ley de Resonancia",
+      "effect": "artefactos reaccionan con jugadores"
+    },
+    {
+      "name": "Ley de Memoria",
+      "effect": "el mundo recuerda acciones"
+    },
+    {
+      "name": "Ley del Descubrimiento",
+      "effect": "zonas ocultas se desbloquean explorando"
+    },
+    {
+      "name": "Ley del Vacio",
+      "effect": "a mayor profundidad, mayor distorsion de la realidad"
+    }
+  ],
+  "map_system": {
+    "physical_maps": [
+      "ciudades",
+      "mazmorras",
+      "regiones"
+    ],
+    "stellar_maps": [
+      "rutas entre mundos",
+      "portales"
+    ],
+    "hidden_maps": [
+      "descubiertos por jugadores"
+    ],
+    "fractal_maps": [
+      "mundos generados proceduralmente"
+    ]
+  },
+  "legendary_places": [
+    "Ciudad Nebula",
+    "Torre del Vortice",
+    "Santuario Perdido",
+    "Puerto Estelar"
+  ],
+  "discovery_system": {
+    "revealed": false,
+    "discoverables": [
+      "artefactos",
+      "mapas ocultos",
+      "civilizaciones",
+      "bosses secretos",
+      "portales"
+    ],
+    "registry": "Archivo del Cronista"
+  },
+  "principal_npcs": [
+    {
+      "name": "El Cronista",
+      "role": "registro vivo del universo"
+    },
+    {
+      "name": "Kara",
+      "role": "guia exploradora"
+    },
+    {
+      "name": "Atlas",
+      "role": "guardian de portales"
+    },
+    {
+      "name": "Hera",
+      "role": "reina de civilizaciones antiguas"
+    }
+  ],
+  "universe_layers": [
+    "superficie",
+    "subsuelo",
+    "cielos",
+    "orbita",
+    "vacio cosmico",
+    "dimension espejo",
+    "mundo corrupto"
+  ],
+  "integration": {
+    "web": "/world",
+    "ai_world_lore": "/ai/world-lore",
+    "ai_npc_dialogue": "/ai/npc/dialogue",
+    "ai_discovery": "/ai/discovery",
+    "ai_decision": "/ai/decision",
+    "api_world_regions": "/ai/world/regions",
+    "api_world_npcs": "/ai/world/npcs"
+  },
+  "hero_image": "/assets/images/endcosmos-maps-main.png",
+  "catalogs": {
+    "regions_file": "/backend/data/cosmos/worlds/endcosmos_regions_50.json",
+    "npcs_file": "/backend/data/cosmos/worlds/endcosmos_npcs_100.json",
+    "regions_total": 50,
+    "npcs_total": 100
+  }
+}

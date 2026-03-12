@@ -1,0 +1,1407 @@
+{
+  "catalog_id": "endcosmos-npcs-100",
+  "total_npcs": 100,
+  "generated_at": "2026-03-12T00:00:00Z",
+  "npcs": [
+    {
+      "npc_id": "NPC-001",
+      "name": "Historiador 001",
+      "title": "Historiador of Nebula City Ring",
+      "role": "historiador",
+      "faction": "Orden del Cosmos",
+      "home_region_id": "R-001",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-002",
+      "name": "Exploradora 002",
+      "title": "Exploradora of Nebula City Ring",
+      "role": "exploradora",
+      "faction": "Ciencia Antigua",
+      "home_region_id": "R-002",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-003",
+      "name": "Guardian 003",
+      "title": "Guardian of Nebula City Ring",
+      "role": "guardian",
+      "faction": "Culto del Vacio",
+      "home_region_id": "R-003",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-004",
+      "name": "Artificiero 004",
+      "title": "Artificiero of Nebula City Ring",
+      "role": "artificiero",
+      "faction": "Hijos de las Estrellas",
+      "home_region_id": "R-004",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-005",
+      "name": "Cartografa 005",
+      "title": "Cartografa of Nebula City Ring",
+      "role": "cartografa",
+      "faction": "Guardianes del Tiempo",
+      "home_region_id": "R-005",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-006",
+      "name": "Arqueologo 006",
+      "title": "Arqueologo of Nebula City Ring",
+      "role": "arqueologo",
+      "faction": "Orden del Cosmos",
+      "home_region_id": "R-006",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-007",
+      "name": "Alquimista 007",
+      "title": "Alquimista of Nebula City Ring",
+      "role": "alquimista",
+      "faction": "Ciencia Antigua",
+      "home_region_id": "R-007",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-008",
+      "name": "Comandante 008",
+      "title": "Comandante of Nebula City Ring",
+      "role": "comandante",
+      "faction": "Culto del Vacio",
+      "home_region_id": "R-008",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-009",
+      "name": "Oraculo 009",
+      "title": "Oraculo of Nebula City Ring",
+      "role": "oraculo",
+      "faction": "Hijos de las Estrellas",
+      "home_region_id": "R-009",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-010",
+      "name": "Vigilante 010",
+      "title": "Vigilante of Nebula City Ring",
+      "role": "vigilante",
+      "faction": "Guardianes del Tiempo",
+      "home_region_id": "R-010",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-011",
+      "name": "Historiador 011",
+      "title": "Historiador of Echo Ruins Belt",
+      "role": "historiador",
+      "faction": "Orden del Cosmos",
+      "home_region_id": "R-011",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-012",
+      "name": "Exploradora 012",
+      "title": "Exploradora of Echo Ruins Belt",
+      "role": "exploradora",
+      "faction": "Ciencia Antigua",
+      "home_region_id": "R-012",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-013",
+      "name": "Guardian 013",
+      "title": "Guardian of Echo Ruins Belt",
+      "role": "guardian",
+      "faction": "Culto del Vacio",
+      "home_region_id": "R-013",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-014",
+      "name": "Artificiero 014",
+      "title": "Artificiero of Echo Ruins Belt",
+      "role": "artificiero",
+      "faction": "Hijos de las Estrellas",
+      "home_region_id": "R-014",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-015",
+      "name": "Cartografa 015",
+      "title": "Cartografa of Echo Ruins Belt",
+      "role": "cartografa",
+      "faction": "Guardianes del Tiempo",
+      "home_region_id": "R-015",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-016",
+      "name": "Arqueologo 016",
+      "title": "Arqueologo of Echo Ruins Belt",
+      "role": "arqueologo",
+      "faction": "Orden del Cosmos",
+      "home_region_id": "R-016",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-017",
+      "name": "Alquimista 017",
+      "title": "Alquimista of Echo Ruins Belt",
+      "role": "alquimista",
+      "faction": "Ciencia Antigua",
+      "home_region_id": "R-017",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-018",
+      "name": "Comandante 018",
+      "title": "Comandante of Echo Ruins Belt",
+      "role": "comandante",
+      "faction": "Culto del Vacio",
+      "home_region_id": "R-018",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-019",
+      "name": "Oraculo 019",
+      "title": "Oraculo of Echo Ruins Belt",
+      "role": "oraculo",
+      "faction": "Hijos de las Estrellas",
+      "home_region_id": "R-019",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-020",
+      "name": "Vigilante 020",
+      "title": "Vigilante of Echo Ruins Belt",
+      "role": "vigilante",
+      "faction": "Guardianes del Tiempo",
+      "home_region_id": "R-020",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-021",
+      "name": "Historiador 021",
+      "title": "Historiador of Astral Wastelands Front",
+      "role": "historiador",
+      "faction": "Orden del Cosmos",
+      "home_region_id": "R-021",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-022",
+      "name": "Exploradora 022",
+      "title": "Exploradora of Astral Wastelands Front",
+      "role": "exploradora",
+      "faction": "Ciencia Antigua",
+      "home_region_id": "R-022",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-023",
+      "name": "Guardian 023",
+      "title": "Guardian of Astral Wastelands Front",
+      "role": "guardian",
+      "faction": "Culto del Vacio",
+      "home_region_id": "R-023",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-024",
+      "name": "Artificiero 024",
+      "title": "Artificiero of Astral Wastelands Front",
+      "role": "artificiero",
+      "faction": "Hijos de las Estrellas",
+      "home_region_id": "R-024",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-025",
+      "name": "Cartografa 025",
+      "title": "Cartografa of Astral Wastelands Front",
+      "role": "cartografa",
+      "faction": "Guardianes del Tiempo",
+      "home_region_id": "R-025",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-026",
+      "name": "Arqueologo 026",
+      "title": "Arqueologo of Astral Wastelands Front",
+      "role": "arqueologo",
+      "faction": "Orden del Cosmos",
+      "home_region_id": "R-026",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-027",
+      "name": "Alquimista 027",
+      "title": "Alquimista of Astral Wastelands Front",
+      "role": "alquimista",
+      "faction": "Ciencia Antigua",
+      "home_region_id": "R-027",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-028",
+      "name": "Comandante 028",
+      "title": "Comandante of Astral Wastelands Front",
+      "role": "comandante",
+      "faction": "Culto del Vacio",
+      "home_region_id": "R-028",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-029",
+      "name": "Oraculo 029",
+      "title": "Oraculo of Astral Wastelands Front",
+      "role": "oraculo",
+      "faction": "Hijos de las Estrellas",
+      "home_region_id": "R-029",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-030",
+      "name": "Vigilante 030",
+      "title": "Vigilante of Astral Wastelands Front",
+      "role": "vigilante",
+      "faction": "Guardianes del Tiempo",
+      "home_region_id": "R-030",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-031",
+      "name": "Historiador 031",
+      "title": "Historiador of Void Abyss Threshold",
+      "role": "historiador",
+      "faction": "Orden del Cosmos",
+      "home_region_id": "R-031",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-032",
+      "name": "Exploradora 032",
+      "title": "Exploradora of Void Abyss Threshold",
+      "role": "exploradora",
+      "faction": "Ciencia Antigua",
+      "home_region_id": "R-032",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-033",
+      "name": "Guardian 033",
+      "title": "Guardian of Void Abyss Threshold",
+      "role": "guardian",
+      "faction": "Culto del Vacio",
+      "home_region_id": "R-033",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-034",
+      "name": "Artificiero 034",
+      "title": "Artificiero of Void Abyss Threshold",
+      "role": "artificiero",
+      "faction": "Hijos de las Estrellas",
+      "home_region_id": "R-034",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-035",
+      "name": "Cartografa 035",
+      "title": "Cartografa of Void Abyss Threshold",
+      "role": "cartografa",
+      "faction": "Guardianes del Tiempo",
+      "home_region_id": "R-035",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-036",
+      "name": "Arqueologo 036",
+      "title": "Arqueologo of Void Abyss Threshold",
+      "role": "arqueologo",
+      "faction": "Orden del Cosmos",
+      "home_region_id": "R-036",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-037",
+      "name": "Alquimista 037",
+      "title": "Alquimista of Void Abyss Threshold",
+      "role": "alquimista",
+      "faction": "Ciencia Antigua",
+      "home_region_id": "R-037",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-038",
+      "name": "Comandante 038",
+      "title": "Comandante of Void Abyss Threshold",
+      "role": "comandante",
+      "faction": "Culto del Vacio",
+      "home_region_id": "R-038",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-039",
+      "name": "Oraculo 039",
+      "title": "Oraculo of Void Abyss Threshold",
+      "role": "oraculo",
+      "faction": "Hijos de las Estrellas",
+      "home_region_id": "R-039",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-040",
+      "name": "Vigilante 040",
+      "title": "Vigilante of Void Abyss Threshold",
+      "role": "vigilante",
+      "faction": "Guardianes del Tiempo",
+      "home_region_id": "R-040",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-041",
+      "name": "Historiador 041",
+      "title": "Historiador of Celestial Expanse Nexus",
+      "role": "historiador",
+      "faction": "Orden del Cosmos",
+      "home_region_id": "R-041",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-042",
+      "name": "Exploradora 042",
+      "title": "Exploradora of Celestial Expanse Nexus",
+      "role": "exploradora",
+      "faction": "Ciencia Antigua",
+      "home_region_id": "R-042",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-043",
+      "name": "Guardian 043",
+      "title": "Guardian of Celestial Expanse Nexus",
+      "role": "guardian",
+      "faction": "Culto del Vacio",
+      "home_region_id": "R-043",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-044",
+      "name": "Artificiero 044",
+      "title": "Artificiero of Celestial Expanse Nexus",
+      "role": "artificiero",
+      "faction": "Hijos de las Estrellas",
+      "home_region_id": "R-044",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-045",
+      "name": "Cartografa 045",
+      "title": "Cartografa of Celestial Expanse Nexus",
+      "role": "cartografa",
+      "faction": "Guardianes del Tiempo",
+      "home_region_id": "R-045",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-046",
+      "name": "Arqueologo 046",
+      "title": "Arqueologo of Celestial Expanse Nexus",
+      "role": "arqueologo",
+      "faction": "Orden del Cosmos",
+      "home_region_id": "R-046",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-047",
+      "name": "Alquimista 047",
+      "title": "Alquimista of Celestial Expanse Nexus",
+      "role": "alquimista",
+      "faction": "Ciencia Antigua",
+      "home_region_id": "R-047",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-048",
+      "name": "Comandante 048",
+      "title": "Comandante of Celestial Expanse Nexus",
+      "role": "comandante",
+      "faction": "Culto del Vacio",
+      "home_region_id": "R-048",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-049",
+      "name": "Oraculo 049",
+      "title": "Oraculo of Celestial Expanse Nexus",
+      "role": "oraculo",
+      "faction": "Hijos de las Estrellas",
+      "home_region_id": "R-049",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-050",
+      "name": "Vigilante 050",
+      "title": "Vigilante of Celestial Expanse Nexus",
+      "role": "vigilante",
+      "faction": "Guardianes del Tiempo",
+      "home_region_id": "R-050",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-051",
+      "name": "Historiador 051",
+      "title": "Historiador of Nebula City Ring",
+      "role": "historiador",
+      "faction": "Orden del Cosmos",
+      "home_region_id": "R-001",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-052",
+      "name": "Exploradora 052",
+      "title": "Exploradora of Nebula City Ring",
+      "role": "exploradora",
+      "faction": "Ciencia Antigua",
+      "home_region_id": "R-002",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-053",
+      "name": "Guardian 053",
+      "title": "Guardian of Nebula City Ring",
+      "role": "guardian",
+      "faction": "Culto del Vacio",
+      "home_region_id": "R-003",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-054",
+      "name": "Artificiero 054",
+      "title": "Artificiero of Nebula City Ring",
+      "role": "artificiero",
+      "faction": "Hijos de las Estrellas",
+      "home_region_id": "R-004",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-055",
+      "name": "Cartografa 055",
+      "title": "Cartografa of Nebula City Ring",
+      "role": "cartografa",
+      "faction": "Guardianes del Tiempo",
+      "home_region_id": "R-005",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-056",
+      "name": "Arqueologo 056",
+      "title": "Arqueologo of Nebula City Ring",
+      "role": "arqueologo",
+      "faction": "Orden del Cosmos",
+      "home_region_id": "R-006",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-057",
+      "name": "Alquimista 057",
+      "title": "Alquimista of Nebula City Ring",
+      "role": "alquimista",
+      "faction": "Ciencia Antigua",
+      "home_region_id": "R-007",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-058",
+      "name": "Comandante 058",
+      "title": "Comandante of Nebula City Ring",
+      "role": "comandante",
+      "faction": "Culto del Vacio",
+      "home_region_id": "R-008",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-059",
+      "name": "Oraculo 059",
+      "title": "Oraculo of Nebula City Ring",
+      "role": "oraculo",
+      "faction": "Hijos de las Estrellas",
+      "home_region_id": "R-009",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-060",
+      "name": "Vigilante 060",
+      "title": "Vigilante of Nebula City Ring",
+      "role": "vigilante",
+      "faction": "Guardianes del Tiempo",
+      "home_region_id": "R-010",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-061",
+      "name": "Historiador 061",
+      "title": "Historiador of Echo Ruins Belt",
+      "role": "historiador",
+      "faction": "Orden del Cosmos",
+      "home_region_id": "R-011",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-062",
+      "name": "Exploradora 062",
+      "title": "Exploradora of Echo Ruins Belt",
+      "role": "exploradora",
+      "faction": "Ciencia Antigua",
+      "home_region_id": "R-012",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-063",
+      "name": "Guardian 063",
+      "title": "Guardian of Echo Ruins Belt",
+      "role": "guardian",
+      "faction": "Culto del Vacio",
+      "home_region_id": "R-013",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-064",
+      "name": "Artificiero 064",
+      "title": "Artificiero of Echo Ruins Belt",
+      "role": "artificiero",
+      "faction": "Hijos de las Estrellas",
+      "home_region_id": "R-014",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-065",
+      "name": "Cartografa 065",
+      "title": "Cartografa of Echo Ruins Belt",
+      "role": "cartografa",
+      "faction": "Guardianes del Tiempo",
+      "home_region_id": "R-015",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-066",
+      "name": "Arqueologo 066",
+      "title": "Arqueologo of Echo Ruins Belt",
+      "role": "arqueologo",
+      "faction": "Orden del Cosmos",
+      "home_region_id": "R-016",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-067",
+      "name": "Alquimista 067",
+      "title": "Alquimista of Echo Ruins Belt",
+      "role": "alquimista",
+      "faction": "Ciencia Antigua",
+      "home_region_id": "R-017",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-068",
+      "name": "Comandante 068",
+      "title": "Comandante of Echo Ruins Belt",
+      "role": "comandante",
+      "faction": "Culto del Vacio",
+      "home_region_id": "R-018",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-069",
+      "name": "Oraculo 069",
+      "title": "Oraculo of Echo Ruins Belt",
+      "role": "oraculo",
+      "faction": "Hijos de las Estrellas",
+      "home_region_id": "R-019",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-070",
+      "name": "Vigilante 070",
+      "title": "Vigilante of Echo Ruins Belt",
+      "role": "vigilante",
+      "faction": "Guardianes del Tiempo",
+      "home_region_id": "R-020",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-071",
+      "name": "Historiador 071",
+      "title": "Historiador of Astral Wastelands Front",
+      "role": "historiador",
+      "faction": "Orden del Cosmos",
+      "home_region_id": "R-021",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-072",
+      "name": "Exploradora 072",
+      "title": "Exploradora of Astral Wastelands Front",
+      "role": "exploradora",
+      "faction": "Ciencia Antigua",
+      "home_region_id": "R-022",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-073",
+      "name": "Guardian 073",
+      "title": "Guardian of Astral Wastelands Front",
+      "role": "guardian",
+      "faction": "Culto del Vacio",
+      "home_region_id": "R-023",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-074",
+      "name": "Artificiero 074",
+      "title": "Artificiero of Astral Wastelands Front",
+      "role": "artificiero",
+      "faction": "Hijos de las Estrellas",
+      "home_region_id": "R-024",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-075",
+      "name": "Cartografa 075",
+      "title": "Cartografa of Astral Wastelands Front",
+      "role": "cartografa",
+      "faction": "Guardianes del Tiempo",
+      "home_region_id": "R-025",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-076",
+      "name": "Arqueologo 076",
+      "title": "Arqueologo of Astral Wastelands Front",
+      "role": "arqueologo",
+      "faction": "Orden del Cosmos",
+      "home_region_id": "R-026",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-077",
+      "name": "Alquimista 077",
+      "title": "Alquimista of Astral Wastelands Front",
+      "role": "alquimista",
+      "faction": "Ciencia Antigua",
+      "home_region_id": "R-027",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-078",
+      "name": "Comandante 078",
+      "title": "Comandante of Astral Wastelands Front",
+      "role": "comandante",
+      "faction": "Culto del Vacio",
+      "home_region_id": "R-028",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-079",
+      "name": "Oraculo 079",
+      "title": "Oraculo of Astral Wastelands Front",
+      "role": "oraculo",
+      "faction": "Hijos de las Estrellas",
+      "home_region_id": "R-029",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-080",
+      "name": "Vigilante 080",
+      "title": "Vigilante of Astral Wastelands Front",
+      "role": "vigilante",
+      "faction": "Guardianes del Tiempo",
+      "home_region_id": "R-030",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-081",
+      "name": "Historiador 081",
+      "title": "Historiador of Void Abyss Threshold",
+      "role": "historiador",
+      "faction": "Orden del Cosmos",
+      "home_region_id": "R-031",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-082",
+      "name": "Exploradora 082",
+      "title": "Exploradora of Void Abyss Threshold",
+      "role": "exploradora",
+      "faction": "Ciencia Antigua",
+      "home_region_id": "R-032",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-083",
+      "name": "Guardian 083",
+      "title": "Guardian of Void Abyss Threshold",
+      "role": "guardian",
+      "faction": "Culto del Vacio",
+      "home_region_id": "R-033",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-084",
+      "name": "Artificiero 084",
+      "title": "Artificiero of Void Abyss Threshold",
+      "role": "artificiero",
+      "faction": "Hijos de las Estrellas",
+      "home_region_id": "R-034",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-085",
+      "name": "Cartografa 085",
+      "title": "Cartografa of Void Abyss Threshold",
+      "role": "cartografa",
+      "faction": "Guardianes del Tiempo",
+      "home_region_id": "R-035",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-086",
+      "name": "Arqueologo 086",
+      "title": "Arqueologo of Void Abyss Threshold",
+      "role": "arqueologo",
+      "faction": "Orden del Cosmos",
+      "home_region_id": "R-036",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-087",
+      "name": "Alquimista 087",
+      "title": "Alquimista of Void Abyss Threshold",
+      "role": "alquimista",
+      "faction": "Ciencia Antigua",
+      "home_region_id": "R-037",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-088",
+      "name": "Comandante 088",
+      "title": "Comandante of Void Abyss Threshold",
+      "role": "comandante",
+      "faction": "Culto del Vacio",
+      "home_region_id": "R-038",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-089",
+      "name": "Oraculo 089",
+      "title": "Oraculo of Void Abyss Threshold",
+      "role": "oraculo",
+      "faction": "Hijos de las Estrellas",
+      "home_region_id": "R-039",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-090",
+      "name": "Vigilante 090",
+      "title": "Vigilante of Void Abyss Threshold",
+      "role": "vigilante",
+      "faction": "Guardianes del Tiempo",
+      "home_region_id": "R-040",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-091",
+      "name": "Historiador 091",
+      "title": "Historiador of Celestial Expanse Nexus",
+      "role": "historiador",
+      "faction": "Orden del Cosmos",
+      "home_region_id": "R-041",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-092",
+      "name": "Exploradora 092",
+      "title": "Exploradora of Celestial Expanse Nexus",
+      "role": "exploradora",
+      "faction": "Ciencia Antigua",
+      "home_region_id": "R-042",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-093",
+      "name": "Guardian 093",
+      "title": "Guardian of Celestial Expanse Nexus",
+      "role": "guardian",
+      "faction": "Culto del Vacio",
+      "home_region_id": "R-043",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-094",
+      "name": "Artificiero 094",
+      "title": "Artificiero of Celestial Expanse Nexus",
+      "role": "artificiero",
+      "faction": "Hijos de las Estrellas",
+      "home_region_id": "R-044",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-095",
+      "name": "Cartografa 095",
+      "title": "Cartografa of Celestial Expanse Nexus",
+      "role": "cartografa",
+      "faction": "Guardianes del Tiempo",
+      "home_region_id": "R-045",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-096",
+      "name": "Arqueologo 096",
+      "title": "Arqueologo of Celestial Expanse Nexus",
+      "role": "arqueologo",
+      "faction": "Orden del Cosmos",
+      "home_region_id": "R-046",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-097",
+      "name": "Alquimista 097",
+      "title": "Alquimista of Celestial Expanse Nexus",
+      "role": "alquimista",
+      "faction": "Ciencia Antigua",
+      "home_region_id": "R-047",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-098",
+      "name": "Comandante 098",
+      "title": "Comandante of Celestial Expanse Nexus",
+      "role": "comandante",
+      "faction": "Culto del Vacio",
+      "home_region_id": "R-048",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    },
+    {
+      "npc_id": "NPC-099",
+      "name": "Oraculo 099",
+      "title": "Oraculo of Celestial Expanse Nexus",
+      "role": "oraculo",
+      "faction": "Hijos de las Estrellas",
+      "home_region_id": "R-049",
+      "dialogue_style": "direct-mentor",
+      "quest_tags": [
+        "combat",
+        "boss",
+        "faction"
+      ]
+    },
+    {
+      "npc_id": "NPC-100",
+      "name": "Vigilante 100",
+      "title": "Vigilante of Celestial Expanse Nexus",
+      "role": "vigilante",
+      "faction": "Guardianes del Tiempo",
+      "home_region_id": "R-050",
+      "dialogue_style": "mystic-strategic",
+      "quest_tags": [
+        "exploration",
+        "lore",
+        "discovery"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "events": [
+    {
+      "id": "epoch-01",
+      "title": "Emergence of Chromatics",
+      "era": "Foundational"
+    },
+    {
+      "id": "epoch-02",
+      "title": "Rift Wars",
+      "era": "Conflict"
+    }
+  ]
+}

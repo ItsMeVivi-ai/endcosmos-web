@@ -1,0 +1,73 @@
+{
+  "name": "Draco",
+  "type": "planet",
+  "population": "4.8M",
+  "civilizations": [
+    "Llunaris Vanguard",
+    "Forgebound Houses",
+    "Aster Nomads"
+  ],
+  "status": "active",
+  "map_zones": [
+    "Citadel Ring",
+    "Ashfall Basin",
+    "Furnace Rift",
+    "Shatter Docks",
+    "Noctilux Plateau"
+  ],
+  "npcs": [
+    {
+      "name": "Veyra Quill",
+      "role": "Llunaris Liaison",
+      "location": "Citadel Ring",
+      "status": "on_duty"
+    },
+    {
+      "name": "Rhokan Ember",
+      "role": "Forge Overseer",
+      "location": "Furnace Rift",
+      "status": "active"
+    },
+    {
+      "name": "Seliar Keth",
+      "role": "Convoy Navigator",
+      "location": "Shatter Docks",
+      "status": "in_transit"
+    }
+  ],
+  "creatures": [
+    {
+      "name": "Magma Wyrmling",
+      "threat_level": "high",
+      "habitat": "Ashfall Basin"
+    },
+    {
+      "name": "Voidback Stalker",
+      "threat_level": "critical",
+      "habitat": "Noctilux Plateau"
+    },
+    {
+      "name": "Ferric Hydra",
+      "threat_level": "extreme",
+      "habitat": "Furnace Rift"
+    }
+  ],
+  "economy": {
+    "primary_resource": "Aether Iron",
+    "trade_flux": 78,
+    "currency": "Lumens",
+    "trade_partners": [
+      "Aurelia Capital",
+      "Arcane Tower",
+      "Ocean of Chaos"
+    ],
+    "market_state": "volatile-growth"
+  },
+  "timeline": [
+    "Cycle 211: Landing of the first Lunaris scout cohorts.",
+    "Cycle 228: Foundation of the Citadel Ring and defensive orbital rails.",
+    "Cycle 241: Forgebound Houses activate deep-core extraction.",
+    "Cycle 253: Rift storms open and creature pressure escalates.",
+    "Cycle 260: Convoy Pact signed to stabilize Draco exports."
+  ]
+}

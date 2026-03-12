@@ -122,6 +122,23 @@ h1 {
     0 0 18px rgba(111, 214, 255, 0.24);
 }
 
+.consent-field {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  color: var(--muted);
+  line-height: 1.35;
+}
+
+.consent-field input {
+  margin-top: 0.2rem;
+}
+
+.consent-field a {
+  color: #d5e6ff;
+  text-underline-offset: 3px;
+}
+
 .btn-submit {
   min-height: 46px;
   border-radius: 10px;

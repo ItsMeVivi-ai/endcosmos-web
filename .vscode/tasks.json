@@ -1,0 +1,382 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Backend: Install deps",
+      "type": "shell",
+      "command": "python -m pip install -r requirements.txt",
+      "options": {
+        "cwd": "${workspaceFolder}/backend"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Backend: Run API",
+      "type": "shell",
+      "command": "python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000",
+      "options": {
+        "cwd": "${workspaceFolder}/backend"
+      },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Web: Serve static",
+      "type": "shell",
+      "command": "python -m http.server 5500 --directory public",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Web: Generate gallery manifests",
+      "type": "shell",
+      "command": "python backend/scripts/generate_gallery_manifests.py",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Web: Ingest new assets",
+      "type": "shell",
+      "command": "python backend/scripts/asset_ingest_pipeline.py --source public/assets/zogs/inbox",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Web: Validate backend syntax",
+      "type": "shell",
+      "command": "python -m py_compile backend/app/main.py backend/app/auth.py backend/scripts/generate_gallery_manifests.py backend/scripts/asset_ingest_pipeline.py",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Web: Validate frontend scripts",
+      "type": "shell",
+      "command": "node --check public/js/app.js; node --check public/js/motion-gallery.js; node --check public/js/zogs-gallery.js",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Web: Validate live production",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/scripts/validate-live-production.ps1"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Web: Normalize JSON",
+      "type": "shell",
+      "command": "python scripts/normalize-json.py",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Admin: Run Control Plane MVP",
+      "type": "shell",
+      "command": "python tools/endcosmos_admin_mvp/endcosmos_admin.py",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Admin: Health check Control Plane MVP",
+      "type": "shell",
+      "command": "python -c \"import json,time,urllib.request;u='http://127.0.0.1:8088/health';last=None\nfor _ in range(20):\n  try:\n    with urllib.request.urlopen(u, timeout=2) as r:\n      d=json.loads(r.read().decode('utf-8') or '{}')\n      print('health:', d.get('status','unknown'))\n      raise SystemExit(0 if d.get('status')=='ok' else 1)\n  except Exception as e:\n    last=e; time.sleep(0.5)\nprint('health check failed:', last); raise SystemExit(1)\"",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Admin: Start + Health",
+      "dependsOrder": "sequence",
+      "dependsOn": [
+        "Admin: Run Control Plane MVP",
+        "Admin: Health check Control Plane MVP"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Admin: Deploy MVP to server",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/scripts/deploy-admin-mvp.ps1",
+        "-Server",
+        "${input:sshServer}",
+        "-RemoteRoot",
+        "${input:sshRemoteRoot}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Web: Validate all",
+      "dependsOrder": "sequence",
+      "dependsOn": [
+        "Web: Ingest new assets",
+        "Web: Generate gallery manifests",
+        "Web: Validate backend syntax",
+        "Web: Validate frontend scripts",
+        "Web: Validate live production"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Dev: Start full stack",
+      "dependsOrder": "parallel",
+      "dependsOn": ["Backend: Run API", "Web: Serve static"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Git: Validate only (auto script)",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/scripts/auto-commit.ps1",
+        "-ValidateOnly"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Git: Auto commit (validate + add + commit)",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/scripts/auto-commit.ps1",
+        "-Message",
+        "${input:commitMessage}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "SSH: Sync all (dry-run)",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/scripts/sync-all-ssh.ps1",
+        "-Server",
+        "${input:sshServer}",
+        "-RemoteRoot",
+        "${input:sshRemoteRoot}",
+        "-DryRun"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "SSH: Sync all (deploy)",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/scripts/sync-all-ssh.ps1",
+        "-Server",
+        "${input:sshServer}",
+        "-RemoteRoot",
+        "${input:sshRemoteRoot}",
+        "-InstallNginxConfig",
+        "-ReloadNginx",
+        "-RestartApi",
+        "-BackendServiceName",
+        "${input:backendServiceName}",
+        "-Verify"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Deploy: ec-deploy",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/scripts/ec-deploy.ps1",
+        "-Server",
+        "${input:sshServer}",
+        "-RemoteRoot",
+        "${input:sshRemoteRoot}",
+        "-BackendServiceName",
+        "${input:backendServiceName}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
+    },
+    {
+      "label": "Web Services: Status",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/scripts/web-services.ps1",
+        "-Action",
+        "status"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
+    },
+    {
+      "label": "Web Services: Start all",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/scripts/web-services.ps1",
+        "-Action",
+        "start"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
+    },
+    {
+      "label": "Web Services: Stop all",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/scripts/web-services.ps1",
+        "-Action",
+        "stop"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
+    },
+    {
+      "label": "Web Services: Validate",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/scripts/web-services.ps1",
+        "-Action",
+        "validate"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
+    },
+    {
+      "label": "Web Services: Deploy",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/scripts/web-services.ps1",
+        "-Action",
+        "deploy",
+        "-Server",
+        "${input:sshServer}",
+        "-RemoteRoot",
+        "${input:sshRemoteRoot}",
+        "-BackendServiceName",
+        "${input:backendServiceName}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "commitMessage",
+      "type": "promptString",
+      "description": "Commit message",
+      "default": "chore: web update"
+    },
+    {
+      "id": "sshServer",
+      "type": "promptString",
+      "description": "SSH target user@host",
+      "default": "vivi@212.227.107.3"
+    },
+    {
+      "id": "sshRemoteRoot",
+      "type": "promptString",
+      "description": "Remote project root",
+      "default": "/var/www/endcosmos.com"
+    },
+    {
+      "id": "backendServiceName",
+      "type": "promptString",
+      "description": "Backend systemd service name",
+      "default": "endcosmos-api"
+    }
+  ]
+}

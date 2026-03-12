@@ -1,0 +1,389 @@
+{
+  "generated_at": "2026-03-12T11:29:35.116244+00:00",
+  "slides": [
+    {
+      "src": "/assets/images/hero/cover-endcosmos-portal.png",
+      "alt": "Cover endcosmos portal",
+      "caption": "World of EndCosmos",
+      "subcaption": "cover-endcosmos-portal.png"
+    },
+    {
+      "src": "/assets/images/hero/hero.jpg",
+      "alt": "Hero",
+      "caption": "World of EndCosmos",
+      "subcaption": "hero.jpg"
+    },
+    {
+      "src": "/assets/images/hero/hero-secondary.jpg",
+      "alt": "Hero secondary",
+      "caption": "World of EndCosmos",
+      "subcaption": "hero-secondary.jpg"
+    },
+    {
+      "src": "/assets/images/hero/hero-main.jpg",
+      "alt": "Hero main",
+      "caption": "World of EndCosmos",
+      "subcaption": "hero-main.jpg"
+    },
+    {
+      "src": "/assets/images/hero/endcosmos-hero-cinematic-02.webp",
+      "alt": "Endcosmos hero cinematic 02",
+      "caption": "World of EndCosmos",
+      "subcaption": "endcosmos-hero-cinematic-02.webp"
+    },
+    {
+      "src": "/assets/images/hero/portada1.png",
+      "alt": "Portada1",
+      "caption": "World of EndCosmos",
+      "subcaption": "portada1.png"
+    },
+    {
+      "src": "/assets/images/hero/portada1-02.png",
+      "alt": "Portada1 02",
+      "caption": "World of EndCosmos",
+      "subcaption": "portada1-02.png"
+    },
+    {
+      "src": "/assets/images/hero/portada1-2.png",
+      "alt": "Portada1 2",
+      "caption": "World of EndCosmos",
+      "subcaption": "portada1-2.png"
+    },
+    {
+      "src": "/assets/images/hero/motion-hero-secondary.avif",
+      "alt": "Motion hero secondary",
+      "caption": "World of EndCosmos",
+      "subcaption": "motion-hero-secondary.avif"
+    },
+    {
+      "src": "/assets/images/hero/hero2.png",
+      "alt": "Hero2",
+      "caption": "World of EndCosmos",
+      "subcaption": "hero2.png"
+    },
+    {
+      "src": "/assets/images/hero/endcosmos-hero-cinematic.avif",
+      "alt": "Endcosmos hero cinematic",
+      "caption": "World of EndCosmos",
+      "subcaption": "endcosmos-hero-cinematic.avif"
+    },
+    {
+      "src": "/assets/images/cities/purple-and-blue-sci-fi-city-background-qrtlhfz3pjiw11ry.jpg",
+      "alt": "Purple and blue sci fi city background qrtlhfz3pjiw11ry",
+      "caption": "World of EndCosmos",
+      "subcaption": "purple-and-blue-sci-fi-city-background-qrtlhfz3pjiw11ry.jpg"
+    },
+    {
+      "src": "/assets/images/cities/osmadth-bancur-city-by-flaviobolla-d4zpa5a-fullview.jpg",
+      "alt": "Osmadth bancur city by flaviobolla d4zpa5a fullview",
+      "caption": "World of EndCosmos",
+      "subcaption": "osmadth-bancur-city-by-flaviobolla-d4zpa5a-fullview.jpg"
+    },
+    {
+      "src": "/assets/images/cities/city-fantasy-landscape-process-video-by-jstiller30-dfqpmat-fullview.jpg",
+      "alt": "City fantasy landscape process video by jstiller30 dfqpmat fullview",
+      "caption": "World of EndCosmos",
+      "subcaption": "city-fantasy-landscape-process-video-by-jstiller30-dfqpmat-fullview.jpg"
+    },
+    {
+      "src": "/assets/images/maps/realm-void.jpg",
+      "alt": "Realm void",
+      "caption": "World of EndCosmos",
+      "subcaption": "realm-void.jpg"
+    },
+    {
+      "src": "/assets/images/maps/motion-realm-void.avif",
+      "alt": "Motion realm void",
+      "caption": "World of EndCosmos",
+      "subcaption": "motion-realm-void.avif"
+    },
+    {
+      "src": "/assets/images/maps/realm-ice.jpg",
+      "alt": "Realm ice",
+      "caption": "World of EndCosmos",
+      "subcaption": "realm-ice.jpg"
+    },
+    {
+      "src": "/assets/images/maps/mass-effect-galaxy-map-by-exoartmakes-dihk77g-fullview.jpg",
+      "alt": "Mass effect galaxy map by exoartmakes dihk77g fullview",
+      "caption": "World of EndCosmos",
+      "subcaption": "mass-effect-galaxy-map-by-exoartmakes-dihk77g-fullview.jpg"
+    },
+    {
+      "src": "/assets/images/maps/motion-realm-ice.avif",
+      "alt": "Motion realm ice",
+      "caption": "World of EndCosmos",
+      "subcaption": "motion-realm-ice.avif"
+    },
+    {
+      "src": "/assets/images/maps/motion-main-map.avif",
+      "alt": "Motion main map",
+      "caption": "World of EndCosmos",
+      "subcaption": "motion-main-map.avif"
+    },
+    {
+      "src": "/assets/images/maps/endcosmos-maps-main.png",
+      "alt": "Endcosmos maps main",
+      "caption": "World of EndCosmos",
+      "subcaption": "endcosmos-maps-main.png"
+    },
+    {
+      "src": "/assets/images/maps/999personajes-principales-y-mapas-donde-viven-endcosmos.png",
+      "alt": "999personajes principales y mapas donde viven endcosmos",
+      "caption": "World of EndCosmos",
+      "subcaption": "999personajes-principales-y-mapas-donde-viven-endcosmos.png"
+    },
+    {
+      "src": "/assets/images/maps/999personajes-principales-y-mapas-donde-viven-endcosmos-4.png",
+      "alt": "999personajes principales y mapas donde viven endcosmos 4",
+      "caption": "World of EndCosmos",
+      "subcaption": "999personajes-principales-y-mapas-donde-viven-endcosmos-4.png"
+    },
+    {
+      "src": "/assets/images/maps/999personajes-principales-y-mapas-donde-viven-endcosmos-3.png",
+      "alt": "999personajes principales y mapas donde viven endcosmos 3",
+      "caption": "World of EndCosmos",
+      "subcaption": "999personajes-principales-y-mapas-donde-viven-endcosmos-3.png"
+    },
+    {
+      "src": "/assets/hero-main.jpg",
+      "alt": "Hero main",
+      "caption": "Cosmic Assets",
+      "subcaption": "hero-main.jpg"
+    },
+    {
+      "src": "/assets/battle.webp",
+      "alt": "Battle",
+      "caption": "Cosmic Battles",
+      "subcaption": "battle.webp"
+    },
+    {
+      "src": "/assets/realm-void.jpg",
+      "alt": "Realm void",
+      "caption": "Void Frontiers",
+      "subcaption": "realm-void.jpg"
+    },
+    {
+      "src": "/assets/realm-ice.jpg",
+      "alt": "Realm ice",
+      "caption": "Realm Expeditions",
+      "subcaption": "realm-ice.jpg"
+    },
+    {
+      "src": "/assets/hero-secondary.jpg",
+      "alt": "Hero secondary",
+      "caption": "Cosmic Assets",
+      "subcaption": "hero-secondary.jpg"
+    },
+    {
+      "src": "/assets/zogs/imported-assets/inside-science-pudgy-dragon-orion-nebula-01-ht-jc-190214-hpmain-16x9-992.jpg",
+      "alt": "Inside science pudgy dragon orion nebula 01 ht jc 190214 hpmain 16x9 992",
+      "caption": "Nebula Sectors",
+      "subcaption": "inside-science-pudgy-dragon-orion-nebula-01-ht-jc-190214-hpmain-16x9-992.jpg"
+    },
+    {
+      "src": "/assets/zogs/imported-assets/the-eternal-cosmic-warrior-by-brucalord-dilxa37-fullview.jpg",
+      "alt": "The eternal cosmic warrior by brucalord dilxa37 fullview",
+      "caption": "Cosmic Universe",
+      "subcaption": "the-eternal-cosmic-warrior-by-brucalord-dilxa37-fullview.jpg"
+    },
+    {
+      "src": "/assets/zogs/imported-assets/pngtree-sculpted-head-silhouette-against-vibrant-cosmic-background-of-swirling-galaxies-and-picture-image-16624136.jpg",
+      "alt": "Pngtree sculpted head silhouette against vibrant cosmic background of swirling galaxies and picture image 16624136",
+      "caption": "Cosmic Universe",
+      "subcaption": "pngtree-sculpted-head-silhouette-against-vibrant-cosmic-background-of-swirling-galaxies-and-picture-image-16624136.jpg"
+    },
+    {
+      "src": "/assets/zogs/imported-assets/motion-realm-void.avif",
+      "alt": "Motion realm void",
+      "caption": "Void Frontiers",
+      "subcaption": "motion-realm-void.avif"
+    },
+    {
+      "src": "/assets/zogs/imported-assets/cosmic-serpent-galaxy-art.webp",
+      "alt": "Cosmic serpent galaxy art",
+      "caption": "Cosmic Universe",
+      "subcaption": "cosmic-serpent-galaxy-art.webp"
+    },
+    {
+      "src": "/assets/zogs/imported-assets/pngtree-celestial-being-emerges-from-energy-portal-in-post-apocalyptic-wasteland-image-19868561.webp",
+      "alt": "Pngtree celestial being emerges from energy portal in post apocalyptic wasteland image 19868561",
+      "caption": "Portal Realms",
+      "subcaption": "pngtree-celestial-being-emerges-from-energy-portal-in-post-apocalyptic-wasteland-image-19868561.webp"
+    },
+    {
+      "src": "/assets/zogs/imported-assets/nebula-guardian-wall-art-943965.jpg",
+      "alt": "Nebula guardian wall art 943965",
+      "caption": "Nebula Sectors",
+      "subcaption": "nebula-guardian-wall-art-943965.jpg"
+    },
+    {
+      "src": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+      "alt": "03 space eagle nebula",
+      "caption": "Nebula Sectors",
+      "subcaption": "03-space-eagle-nebula.jpg"
+    },
+    {
+      "src": "/assets/zogs/imported-assets/portal-1.png",
+      "alt": "Portal 1",
+      "caption": "Portal Realms",
+      "subcaption": "portal-1.png"
+    },
+    {
+      "src": "/assets/zogs/imported-assets/portal-1-2.png",
+      "alt": "Portal 1 2",
+      "caption": "Portal Realms",
+      "subcaption": "portal-1-2.png"
+    },
+    {
+      "src": "/assets/zogs/imported-assets/425139-riendas-del-dragon-nimbo-astral.jpg",
+      "alt": "425139 riendas del dragon nimbo astral",
+      "caption": "Mythic Threats",
+      "subcaption": "425139-riendas-del-dragon-nimbo-astral.jpg"
+    },
+    {
+      "src": "/assets/zogs/imported-assets/osmadth-bancur-city-by-flaviobolla-d4zpa5a-fullview.jpg",
+      "alt": "Osmadth bancur city by flaviobolla d4zpa5a fullview",
+      "caption": "Neo Cities",
+      "subcaption": "osmadth-bancur-city-by-flaviobolla-d4zpa5a-fullview.jpg"
+    },
+    {
+      "src": "/assets/zogs/imported-assets/city-fantasy-landscape-process-video-by-jstiller30-dfqpmat-fullview.jpg",
+      "alt": "City fantasy landscape process video by jstiller30 dfqpmat fullview",
+      "caption": "Neo Cities",
+      "subcaption": "city-fantasy-landscape-process-video-by-jstiller30-dfqpmat-fullview.jpg"
+    },
+    {
+      "src": "/assets/zogs/imported-assets/motion-battle.avif",
+      "alt": "Motion battle",
+      "caption": "Cosmic Battles",
+      "subcaption": "motion-battle.avif"
+    },
+    {
+      "src": "/assets/zogs/imported-assets/mass-effect-galaxy-map-by-exoartmakes-dihk77g-fullview.jpg",
+      "alt": "Mass effect galaxy map by exoartmakes dihk77g fullview",
+      "caption": "Universe Maps",
+      "subcaption": "mass-effect-galaxy-map-by-exoartmakes-dihk77g-fullview.jpg"
+    },
+    {
+      "src": "/assets/zogs/v1/md_ytal77_3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0.jpg",
+      "alt": "Md ytal77 3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0",
+      "caption": "ZOGS V1",
+      "subcaption": "md_ytal77_3d70df0cdeca9eda6fb0c082c1a13b4c6eb5abd0.jpg"
+    },
+    {
+      "src": "/assets/zogs/v1/il_fullxfull.6544827928_k3sj.jpg",
+      "alt": "Il fullxfull.6544827928 k3sj",
+      "caption": "ZOGS V1",
+      "subcaption": "il_fullxfull.6544827928_k3sj.jpg"
+    },
+    {
+      "src": "/assets/zogs/v1/il_570xN.5708613664_91d7.jpg",
+      "alt": "Il 570xN.5708613664 91d7",
+      "caption": "ZOGS V1",
+      "subcaption": "il_570xN.5708613664_91d7.jpg"
+    },
+    {
+      "src": "/assets/zogs/v1/il_570xN.5648906785_k93p.jpg",
+      "alt": "Il 570xN.5648906785 k93p",
+      "caption": "ZOGS V1",
+      "subcaption": "il_570xN.5648906785_k93p.jpg"
+    },
+    {
+      "src": "/assets/zogs/v1/21.png",
+      "alt": "21",
+      "caption": "ZOGS V1",
+      "subcaption": "21.png"
+    },
+    {
+      "src": "/assets/zogs/v1/21-2.png",
+      "alt": "21 2",
+      "caption": "ZOGS V1",
+      "subcaption": "21-2.png"
+    },
+    {
+      "src": "/assets/zogs/v1/20.png",
+      "alt": "20",
+      "caption": "ZOGS V1",
+      "subcaption": "20.png"
+    },
+    {
+      "src": "/assets/zogs/v1/20-2.png",
+      "alt": "20 2",
+      "caption": "ZOGS V1",
+      "subcaption": "20-2.png"
+    },
+    {
+      "src": "/assets/zogs/v1/19.png",
+      "alt": "19",
+      "caption": "ZOGS V1",
+      "subcaption": "19.png"
+    },
+    {
+      "src": "/assets/zogs/v1/19-2.png",
+      "alt": "19 2",
+      "caption": "ZOGS V1",
+      "subcaption": "19-2.png"
+    },
+    {
+      "src": "/assets/zogs/v2/fa58c31e-34ba-4a65-8963-0e265cdfb549.png",
+      "alt": "Fa58c31e 34ba 4a65 8963 0e265cdfb549",
+      "caption": "ZOGS V2",
+      "subcaption": "fa58c31e-34ba-4a65-8963-0e265cdfb549.png"
+    },
+    {
+      "src": "/assets/zogs/v2/f252687f-32ab-4b3b-b5de-81cfd4ebc117.png",
+      "alt": "F252687f 32ab 4b3b b5de 81cfd4ebc117",
+      "caption": "ZOGS V2",
+      "subcaption": "f252687f-32ab-4b3b-b5de-81cfd4ebc117.png"
+    },
+    {
+      "src": "/assets/zogs/v2/f32fc538-1663-4f76-adee-7a8adc6dc89d.png",
+      "alt": "F32fc538 1663 4f76 adee 7a8adc6dc89d",
+      "caption": "ZOGS V2",
+      "subcaption": "f32fc538-1663-4f76-adee-7a8adc6dc89d.png"
+    },
+    {
+      "src": "/assets/zogs/v2/f6fde5a9-bed7-45ad-8edf-f71f44262c76.png",
+      "alt": "F6fde5a9 bed7 45ad 8edf f71f44262c76",
+      "caption": "ZOGS V2",
+      "subcaption": "f6fde5a9-bed7-45ad-8edf-f71f44262c76.png"
+    },
+    {
+      "src": "/assets/zogs/v2/f3c9da1a-1a37-43c4-a404-2b5be71c79ad.png",
+      "alt": "F3c9da1a 1a37 43c4 a404 2b5be71c79ad",
+      "caption": "ZOGS V2",
+      "subcaption": "f3c9da1a-1a37-43c4-a404-2b5be71c79ad.png"
+    },
+    {
+      "src": "/assets/zogs/v2/c612df9e-1ffa-4884-9116-353ed4816099.png",
+      "alt": "C612df9e 1ffa 4884 9116 353ed4816099",
+      "caption": "ZOGS V2",
+      "subcaption": "c612df9e-1ffa-4884-9116-353ed4816099.png"
+    },
+    {
+      "src": "/assets/zogs/v2/c612df9e-1ffa-4884-9116-353ed4816099-2.png",
+      "alt": "C612df9e 1ffa 4884 9116 353ed4816099 2",
+      "caption": "ZOGS V2",
+      "subcaption": "c612df9e-1ffa-4884-9116-353ed4816099-2.png"
+    },
+    {
+      "src": "/assets/zogs/v2/b35989dc-d0df-4d58-9261-75ac7dec3c55.png",
+      "alt": "B35989dc d0df 4d58 9261 75ac7dec3c55",
+      "caption": "ZOGS V2",
+      "subcaption": "b35989dc-d0df-4d58-9261-75ac7dec3c55.png"
+    },
+    {
+      "src": "/assets/zogs/v2/b698bcb7-6877-4445-bf88-8e945f885a59.png",
+      "alt": "B698bcb7 6877 4445 bf88 8e945f885a59",
+      "caption": "ZOGS V2",
+      "subcaption": "b698bcb7-6877-4445-bf88-8e945f885a59.png"
+    },
+    {
+      "src": "/assets/zogs/v2/b698bcb7-6877-4445-bf88-8e945f885a59-2.png",
+      "alt": "B698bcb7 6877 4445 bf88 8e945f885a59 2",
+      "caption": "ZOGS V2",
+      "subcaption": "b698bcb7-6877-4445-bf88-8e945f885a59-2.png"
+    }
+  ]
+}

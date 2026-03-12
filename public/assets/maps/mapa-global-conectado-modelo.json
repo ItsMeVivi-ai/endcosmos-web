@@ -1,0 +1,1547 @@
+{
+  "generated_at": "2026-03-12T10:17:32.315749+00:00",
+  "system": {
+    "id": 1,
+    "code": "S1",
+    "name": "Sistema de mapa global conectado",
+    "scope": "Celestial Expanse",
+    "primary_map_asset": "/assets/images/endcosmos-maps-main.png",
+    "primary_map_detected": true,
+    "integration": {
+      "web": "/world",
+      "api": [
+        "/cosmos/state",
+        "/cosmos/evolve",
+        "/cosmos/systems/mapa-global-conectado"
+      ]
+    }
+  },
+  "variables": [
+    {
+      "id": "V1",
+      "name": "Cobertura cartografica global",
+      "definition": "Porcentaje del territorio y capas dimensionales representadas en el mapa.",
+      "subvariables": [
+        "Cobertura de regiones principales",
+        "Cobertura de capas dimensionales",
+        "Cobertura de rutas entre nodos"
+      ],
+      "indicators": [
+        "region_coverage_pct",
+        "layer_coverage_pct",
+        "route_coverage_pct"
+      ],
+      "states": {
+        "critico": "< 40%",
+        "inestable": "40% - 69%",
+        "estable": "70% - 89%",
+        "optimo": ">= 90%"
+      }
+    },
+    {
+      "id": "V2",
+      "name": "Conectividad de portales y rutas",
+      "definition": "Densidad y disponibilidad de enlaces entre regiones, mundos y capas.",
+      "subvariables": [
+        "Nodos activos",
+        "Enlaces bidireccionales",
+        "Tiempo medio de transicion"
+      ],
+      "indicators": [
+        "active_nodes",
+        "bidirectional_links_pct",
+        "avg_transition_seconds"
+      ],
+      "states": {
+        "critico": "< 45% de enlaces funcionales",
+        "inestable": "45% - 69%",
+        "estable": "70% - 89%",
+        "optimo": ">= 90%"
+      }
+    },
+    {
+      "id": "V3",
+      "name": "Legibilidad y senaletica del mapa",
+      "definition": "Calidad visual y semantica para interpretar nodos, capas y riesgos.",
+      "subvariables": [
+        "Contraste de capas",
+        "Consistencia de iconografia",
+        "Claridad de etiquetas"
+      ],
+      "indicators": [
+        "label_readability_score",
+        "icon_consistency_score",
+        "semantic_noise_ratio"
+      ],
+      "states": {
+        "critico": "score < 0.45",
+        "inestable": "0.45 - 0.64",
+        "estable": "0.65 - 0.84",
+        "optimo": ">= 0.85"
+      }
+    },
+    {
+      "id": "V4",
+      "name": "Presion de eventos dinamicos",
+      "definition": "Intensidad de eventos globales que modifican rutas, zonas y dificultad.",
+      "subvariables": [
+        "Frecuencia de eventos",
+        "Impacto territorial",
+        "Duracion de alteraciones"
+      ],
+      "indicators": [
+        "events_per_cycle",
+        "territory_affected_pct",
+        "avg_event_duration_min"
+      ],
+      "states": {
+        "bajo": "< p25 historico",
+        "normal": "p25 - p75",
+        "alto": "> p75",
+        "critico": "> p90"
+      }
+    },
+    {
+      "id": "V5",
+      "name": "Accesibilidad de exploracion",
+      "definition": "Facilidad para descubrir y recorrer contenido sin bloqueos excesivos.",
+      "subvariables": [
+        "Rutas abiertas",
+        "Zonas secretas detectables",
+        "Requisitos de progresion"
+      ],
+      "indicators": [
+        "open_routes_pct",
+        "discoverable_secrets_pct",
+        "progression_barrier_index"
+      ],
+      "states": {
+        "bloqueado": "indice > 0.75",
+        "friccion": "0.50 - 0.75",
+        "fluido": "0.25 - 0.49",
+        "abierto": "< 0.25"
+      }
+    },
+    {
+      "id": "V6",
+      "name": "Observabilidad del sistema",
+      "definition": "Capacidad de medir y reaccionar al estado del mapa en tiempo de operacion.",
+      "subvariables": [
+        "Cobertura de indicadores",
+        "Latencia de actualizacion",
+        "Trazabilidad causal"
+      ],
+      "indicators": [
+        "instrumented_indicators_pct",
+        "state_refresh_seconds",
+        "causal_trace_completeness"
+      ],
+      "states": {
+        "ciego": "< 40%",
+        "parcial": "40% - 69%",
+        "suficiente": "70% - 89%",
+        "total": ">= 90%"
+      }
+    }
+  ],
+  "causal_relationships": [
+    {
+      "from": "V2",
+      "to": "V1",
+      "polarity": "+",
+      "strength": "alta",
+      "mechanism": "Mayor conectividad incrementa la cobertura efectiva del mapa."
+    },
+    {
+      "from": "V3",
+      "to": "V5",
+      "polarity": "+",
+      "strength": "alta",
+      "mechanism": "Mejor legibilidad reduce friccion en exploracion y descubrimiento."
+    },
+    {
+      "from": "V4",
+      "to": "V2",
+      "polarity": "-",
+      "strength": "media",
+      "mechanism": "Eventos extremos degradan temporalmente rutas y portales."
+    },
+    {
+      "from": "V4",
+      "to": "V5",
+      "polarity": "-",
+      "strength": "alta",
+      "mechanism": "Mayor presion de eventos eleva bloqueos de exploracion."
+    },
+    {
+      "from": "V6",
+      "to": "V2",
+      "polarity": "+",
+      "strength": "media",
+      "mechanism": "Mejor observabilidad permite correccion temprana de enlaces."
+    },
+    {
+      "from": "V6",
+      "to": "V4",
+      "polarity": "-",
+      "strength": "media",
+      "mechanism": "Deteccion temprana amortigua el impacto de eventos dinamicos."
+    }
+  ],
+  "feedback_loops": [
+    {
+      "id": "R1",
+      "type": "reforzador",
+      "path": [
+        "V2",
+        "V1",
+        "V5",
+        "V2"
+      ],
+      "description": "Mas conectividad mejora cobertura y exploracion, lo que habilita nuevas rutas."
+    },
+    {
+      "id": "B1",
+      "type": "balanceador",
+      "path": [
+        "V4",
+        "V5",
+        "V6",
+        "V4"
+      ],
+      "description": "Mayor presion de eventos reduce exploracion; observabilidad corrige y estabiliza."
+    }
+  ],
+  "image_access": {
+    "index_file": "/data/cosmos/systems/mapa_global_conectado_imagenes_index.json",
+    "total_images": 416,
+    "images_by_type": {
+      "evento": 3,
+      "recurso": 280,
+      "portal": 9,
+      "nucleo_visual": 7,
+      "mapa": 7,
+      "entidad": 2,
+      "mundo": 7,
+      "region": 12,
+      "zog": 89
+    },
+    "folders_indexed": [
+      ".",
+      "images",
+      "zogs",
+      "zogs/catalog",
+      "zogs/imported-assets",
+      "zogs/v1",
+      "zogs/v2"
+    ]
+  },
+  "world_context": {
+    "world_id": "endcosmos-main-world",
+    "world_name": "Celestial Expanse",
+    "regions_total": 4,
+    "regions": [
+      "Nebula City",
+      "Echo Ruins",
+      "Astral Wastelands",
+      "Void Abyss"
+    ]
+  },
+  "map_node_root_graph": {
+    "generated_at": "2026-03-12T10:17:32.315686+00:00",
+    "roots": [
+      {
+        "root_id": "root-cartografia-global",
+        "name": "Raíz Cartográfica Global",
+        "description": "Núcleo de mapas principales y lectura territorial.",
+        "variable_focus": [
+          "V1",
+          "V3"
+        ]
+      },
+      {
+        "root_id": "root-portales-rutas",
+        "name": "Raíz de Portales y Rutas",
+        "description": "Conectividad entre nodos de viaje y transiciones.",
+        "variable_focus": [
+          "V2"
+        ]
+      },
+      {
+        "root_id": "root-eventos-observabilidad",
+        "name": "Raíz de Eventos y Observabilidad",
+        "description": "Señales operativas para eventos dinámicos y monitoreo.",
+        "variable_focus": [
+          "V4",
+          "V6"
+        ]
+      }
+    ],
+    "nodes": [
+      {
+        "node_id": "node-30d54af8ca21287e",
+        "map_id": "30d54af8ca21287e",
+        "map_name": "cover-endcosmos-portal.png",
+        "map_type": "portal",
+        "root_id": "root-portales-rutas",
+        "variable_id": "V2",
+        "primary_image": "/assets/cover-endcosmos-portal.png"
+      },
+      {
+        "node_id": "node-80883bb482bdfa06",
+        "map_id": "80883bb482bdfa06",
+        "map_name": "endcosmos-maps-main.png",
+        "map_type": "mapa",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/images/endcosmos-maps-main.png"
+      },
+      {
+        "node_id": "node-454ae1491c4d0090",
+        "map_id": "454ae1491c4d0090",
+        "map_name": "pngtree-cosmic-portal-to-another-dimension-opens-freely-always-image_20919279.webp",
+        "map_type": "portal",
+        "root_id": "root-portales-rutas",
+        "variable_id": "V2",
+        "primary_image": "/assets/images/pngtree-cosmic-portal-to-another-dimension-opens-freely-always-image_20919279.webp"
+      },
+      {
+        "node_id": "node-af949056dd5d58bb",
+        "map_id": "af949056dd5d58bb",
+        "map_name": "pngtree-futuristic-cosmic-portal-to-another-dimension-image_20878348.webp",
+        "map_type": "portal",
+        "root_id": "root-portales-rutas",
+        "variable_id": "V2",
+        "primary_image": "/assets/images/pngtree-futuristic-cosmic-portal-to-another-dimension-image_20878348.webp"
+      },
+      {
+        "node_id": "node-4457007a8af31c18",
+        "map_id": "4457007a8af31c18",
+        "map_name": "pngtree-futuristic-sci-fi-dream-worlds-enriched-with-vivid-neon-accents-merging-picture-image_16250523.jpg",
+        "map_type": "mundo",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/images/pngtree-futuristic-sci-fi-dream-worlds-enriched-with-vivid-neon-accents-merging-picture-image_16250523.jpg"
+      },
+      {
+        "node_id": "node-79ea39c6590b3b01",
+        "map_id": "79ea39c6590b3b01",
+        "map_name": "Purple Energy Portal Overlay for Sci-Fi Logo Animation-HD.webp",
+        "map_type": "portal",
+        "root_id": "root-portales-rutas",
+        "variable_id": "V2",
+        "primary_image": "/assets/images/Purple Energy Portal Overlay for Sci-Fi Logo Animation-HD.webp"
+      },
+      {
+        "node_id": "node-efe8d9ffa27691a9",
+        "map_id": "efe8d9ffa27691a9",
+        "map_name": "purple-and-blue-sci-fi-city-background-qrtlhfz3pjiw11ry.jpg",
+        "map_type": "region",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/images/purple-and-blue-sci-fi-city-background-qrtlhfz3pjiw11ry.jpg"
+      },
+      {
+        "node_id": "node-b897ad27bc509532",
+        "map_id": "b897ad27bc509532",
+        "map_name": "ueu-dark-universe-logo-portal-rendering-cf-a.jpg",
+        "map_type": "portal",
+        "root_id": "root-portales-rutas",
+        "variable_id": "V2",
+        "primary_image": "/assets/images/ueu-dark-universe-logo-portal-rendering-cf-a.jpg"
+      },
+      {
+        "node_id": "node-89ab9913f52ec7f2",
+        "map_id": "89ab9913f52ec7f2",
+        "map_name": "portal.webp",
+        "map_type": "portal",
+        "root_id": "root-portales-rutas",
+        "variable_id": "V2",
+        "primary_image": "/assets/portal.webp"
+      },
+      {
+        "node_id": "node-026bb19883c44dc3",
+        "map_id": "026bb19883c44dc3",
+        "map_name": "realm-ice.jpg",
+        "map_type": "region",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/realm-ice.jpg"
+      },
+      {
+        "node_id": "node-42182ba9f45e5020",
+        "map_id": "42182ba9f45e5020",
+        "map_name": "realm-void.jpg",
+        "map_type": "region",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/realm-void.jpg"
+      },
+      {
+        "node_id": "node-ac9235216db28815",
+        "map_id": "ac9235216db28815",
+        "map_name": "03-space-eagle-nebula.jpg",
+        "map_type": "region",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/zogs/03-space-eagle-nebula.jpg"
+      },
+      {
+        "node_id": "node-e888a6d1434d4517",
+        "map_id": "e888a6d1434d4517",
+        "map_name": "03-space-eagle-nebula.jpg",
+        "map_type": "region",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg"
+      },
+      {
+        "node_id": "node-8a58c57be12fe616",
+        "map_id": "8a58c57be12fe616",
+        "map_name": "9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+        "map_type": "mundo",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png"
+      },
+      {
+        "node_id": "node-2961d3ae9dfe24d1",
+        "map_id": "2961d3ae9dfe24d1",
+        "map_name": "9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+        "map_type": "mundo",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png"
+      },
+      {
+        "node_id": "node-a26b0b1d09413932",
+        "map_id": "a26b0b1d09413932",
+        "map_name": "9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos.png",
+        "map_type": "mundo",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos.png"
+      },
+      {
+        "node_id": "node-8cdcb2043dde458e",
+        "map_id": "8cdcb2043dde458e",
+        "map_name": "999personajes-principales-y-mapas-donde-viven-endcosmos-2.png",
+        "map_type": "mapa",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos-2.png"
+      },
+      {
+        "node_id": "node-b87680e8e7debee0",
+        "map_id": "b87680e8e7debee0",
+        "map_name": "999personajes-principales-y-mapas-donde-viven-endcosmos-3.png",
+        "map_type": "mapa",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos-3.png"
+      },
+      {
+        "node_id": "node-0b0f00595174586a",
+        "map_id": "0b0f00595174586a",
+        "map_name": "999personajes-principales-y-mapas-donde-viven-endcosmos-4.png",
+        "map_type": "mapa",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos-4.png"
+      },
+      {
+        "node_id": "node-933158ced3965ecd",
+        "map_id": "933158ced3965ecd",
+        "map_name": "999personajes-principales-y-mapas-donde-viven-endcosmos.png",
+        "map_type": "mapa",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos.png"
+      },
+      {
+        "node_id": "node-963abc2a9565fc74",
+        "map_id": "963abc2a9565fc74",
+        "map_name": "city-fantasy-landscape-process-video-by-jstiller30-dfqpmat-fullview.jpg",
+        "map_type": "region",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/zogs/imported-assets/city-fantasy-landscape-process-video-by-jstiller30-dfqpmat-fullview.jpg"
+      },
+      {
+        "node_id": "node-c90fd136ba2d6c4a",
+        "map_id": "c90fd136ba2d6c4a",
+        "map_name": "exoplanet-mission-timeline-article.jpg",
+        "map_type": "mundo",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/zogs/imported-assets/exoplanet-mission-timeline-article.jpg"
+      },
+      {
+        "node_id": "node-f2521a1e545291fa",
+        "map_id": "f2521a1e545291fa",
+        "map_name": "hd-wallpaper-yeti-in-the-space-nebula-creature-fantasy-thumbnail.jpg",
+        "map_type": "region",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/zogs/imported-assets/hd-wallpaper-yeti-in-the-space-nebula-creature-fantasy-thumbnail.jpg"
+      },
+      {
+        "node_id": "node-79f7ee90f7ea6a1e",
+        "map_id": "79f7ee90f7ea6a1e",
+        "map_name": "inside-science-pudgy-dragon-orion-nebula-01-ht-jc-190214-hpmain-16x9-992.jpg",
+        "map_type": "region",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/zogs/imported-assets/inside-science-pudgy-dragon-orion-nebula-01-ht-jc-190214-hpmain-16x9-992.jpg"
+      },
+      {
+        "node_id": "node-bc96bc720e6613f8",
+        "map_id": "bc96bc720e6613f8",
+        "map_name": "mass-effect-galaxy-map-by-exoartmakes-dihk77g-fullview.jpg",
+        "map_type": "mapa",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/zogs/imported-assets/mass-effect-galaxy-map-by-exoartmakes-dihk77g-fullview.jpg"
+      },
+      {
+        "node_id": "node-a4bf71a8bd69af82",
+        "map_id": "a4bf71a8bd69af82",
+        "map_name": "motion-main-map.avif",
+        "map_type": "mapa",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/zogs/imported-assets/motion-main-map.avif"
+      },
+      {
+        "node_id": "node-0f6d003f07a751e9",
+        "map_id": "0f6d003f07a751e9",
+        "map_name": "motion-realm-ice.avif",
+        "map_type": "region",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/zogs/imported-assets/motion-realm-ice.avif"
+      },
+      {
+        "node_id": "node-8ad2c1b31b52f6c8",
+        "map_id": "8ad2c1b31b52f6c8",
+        "map_name": "motion-realm-void.avif",
+        "map_type": "region",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/zogs/imported-assets/motion-realm-void.avif"
+      },
+      {
+        "node_id": "node-c2a1216f4a1fc135",
+        "map_id": "c2a1216f4a1fc135",
+        "map_name": "nebula-guardian-wall-art-943965.jpg",
+        "map_type": "region",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/zogs/imported-assets/nebula-guardian-wall-art-943965.jpg"
+      },
+      {
+        "node_id": "node-bb87f5ce5f59c1ff",
+        "map_id": "bb87f5ce5f59c1ff",
+        "map_name": "orbiting-planet-space-themed-motion-background-clip-hd.webp",
+        "map_type": "mundo",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/zogs/imported-assets/orbiting-planet-space-themed-motion-background-clip-hd.webp"
+      },
+      {
+        "node_id": "node-f022050300ab740d",
+        "map_id": "f022050300ab740d",
+        "map_name": "osmadth-bancur-city-by-flaviobolla-d4zpa5a-fullview.jpg",
+        "map_type": "region",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/zogs/imported-assets/osmadth-bancur-city-by-flaviobolla-d4zpa5a-fullview.jpg"
+      },
+      {
+        "node_id": "node-3d20eb539e7adfb6",
+        "map_id": "3d20eb539e7adfb6",
+        "map_name": "pngtree-celestial-being-emerges-from-energy-portal-in-post-apocalyptic-wasteland-image-19868561.webp",
+        "map_type": "portal",
+        "root_id": "root-portales-rutas",
+        "variable_id": "V2",
+        "primary_image": "/assets/zogs/imported-assets/pngtree-celestial-being-emerges-from-energy-portal-in-post-apocalyptic-wasteland-image-19868561.webp"
+      },
+      {
+        "node_id": "node-f7554616a1420c2d",
+        "map_id": "f7554616a1420c2d",
+        "map_name": "portal-1-2.png",
+        "map_type": "portal",
+        "root_id": "root-portales-rutas",
+        "variable_id": "V2",
+        "primary_image": "/assets/zogs/imported-assets/portal-1-2.png"
+      },
+      {
+        "node_id": "node-d6ad5022756eb0ae",
+        "map_id": "d6ad5022756eb0ae",
+        "map_name": "portal-1.png",
+        "map_type": "portal",
+        "root_id": "root-portales-rutas",
+        "variable_id": "V2",
+        "primary_image": "/assets/zogs/imported-assets/portal-1.png"
+      },
+      {
+        "node_id": "node-2869acc8113b466a",
+        "map_id": "2869acc8113b466a",
+        "map_name": "world.png",
+        "map_type": "mundo",
+        "root_id": "root-cartografia-global",
+        "variable_id": "V1",
+        "primary_image": "/assets/zogs/imported-assets/world.png"
+      }
+    ],
+    "edges": [
+      {
+        "from": "node-30d54af8ca21287e",
+        "to": "root-portales-rutas",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-80883bb482bdfa06",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-454ae1491c4d0090",
+        "to": "root-portales-rutas",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-af949056dd5d58bb",
+        "to": "root-portales-rutas",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-4457007a8af31c18",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-79ea39c6590b3b01",
+        "to": "root-portales-rutas",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-efe8d9ffa27691a9",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-b897ad27bc509532",
+        "to": "root-portales-rutas",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-89ab9913f52ec7f2",
+        "to": "root-portales-rutas",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-026bb19883c44dc3",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-42182ba9f45e5020",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-ac9235216db28815",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-e888a6d1434d4517",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-8a58c57be12fe616",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-2961d3ae9dfe24d1",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-a26b0b1d09413932",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-8cdcb2043dde458e",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-b87680e8e7debee0",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-0b0f00595174586a",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-933158ced3965ecd",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-963abc2a9565fc74",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-c90fd136ba2d6c4a",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-f2521a1e545291fa",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-79f7ee90f7ea6a1e",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-bc96bc720e6613f8",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-a4bf71a8bd69af82",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-0f6d003f07a751e9",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-8ad2c1b31b52f6c8",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-c2a1216f4a1fc135",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-bb87f5ce5f59c1ff",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-f022050300ab740d",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-3d20eb539e7adfb6",
+        "to": "root-portales-rutas",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-f7554616a1420c2d",
+        "to": "root-portales-rutas",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-d6ad5022756eb0ae",
+        "to": "root-portales-rutas",
+        "relation": "anchored_to_root"
+      },
+      {
+        "from": "node-2869acc8113b466a",
+        "to": "root-cartografia-global",
+        "relation": "anchored_to_root"
+      }
+    ],
+    "conscious_image_links": [
+      {
+        "map_node": "node-30d54af8ca21287e",
+        "root_id": "root-portales-rutas",
+        "primary_image": "/assets/cover-endcosmos-portal.png",
+        "linked_images": [
+          {
+            "image_id": "89ab9913f52ec7f2",
+            "web_path": "/assets/portal.webp",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "3d20eb539e7adfb6",
+            "web_path": "/assets/zogs/imported-assets/pngtree-celestial-being-emerges-from-energy-portal-in-post-apocalyptic-wasteland-image-19868561.webp",
+            "reason": "misma_variable_complementaria"
+          },
+          {
+            "image_id": "454ae1491c4d0090",
+            "web_path": "/assets/images/pngtree-cosmic-portal-to-another-dimension-opens-freely-always-image_20919279.webp",
+            "reason": "misma_variable_complementaria"
+          }
+        ]
+      },
+      {
+        "map_node": "node-80883bb482bdfa06",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/images/endcosmos-maps-main.png",
+        "linked_images": [
+          {
+            "image_id": "4457007a8af31c18",
+            "web_path": "/assets/images/pngtree-futuristic-sci-fi-dream-worlds-enriched-with-vivid-neon-accents-merging-picture-image_16250523.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "efe8d9ffa27691a9",
+            "web_path": "/assets/images/purple-and-blue-sci-fi-city-background-qrtlhfz3pjiw11ry.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "ac9235216db28815",
+            "web_path": "/assets/zogs/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_complementaria"
+          }
+        ]
+      },
+      {
+        "map_node": "node-454ae1491c4d0090",
+        "root_id": "root-portales-rutas",
+        "primary_image": "/assets/images/pngtree-cosmic-portal-to-another-dimension-opens-freely-always-image_20919279.webp",
+        "linked_images": [
+          {
+            "image_id": "af949056dd5d58bb",
+            "web_path": "/assets/images/pngtree-futuristic-cosmic-portal-to-another-dimension-image_20878348.webp",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "79ea39c6590b3b01",
+            "web_path": "/assets/images/Purple Energy Portal Overlay for Sci-Fi Logo Animation-HD.webp",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "b897ad27bc509532",
+            "web_path": "/assets/images/ueu-dark-universe-logo-portal-rendering-cf-a.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          }
+        ]
+      },
+      {
+        "map_node": "node-af949056dd5d58bb",
+        "root_id": "root-portales-rutas",
+        "primary_image": "/assets/images/pngtree-futuristic-cosmic-portal-to-another-dimension-image_20878348.webp",
+        "linked_images": [
+          {
+            "image_id": "454ae1491c4d0090",
+            "web_path": "/assets/images/pngtree-cosmic-portal-to-another-dimension-opens-freely-always-image_20919279.webp",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "79ea39c6590b3b01",
+            "web_path": "/assets/images/Purple Energy Portal Overlay for Sci-Fi Logo Animation-HD.webp",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "b897ad27bc509532",
+            "web_path": "/assets/images/ueu-dark-universe-logo-portal-rendering-cf-a.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          }
+        ]
+      },
+      {
+        "map_node": "node-4457007a8af31c18",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/images/pngtree-futuristic-sci-fi-dream-worlds-enriched-with-vivid-neon-accents-merging-picture-image_16250523.jpg",
+        "linked_images": [
+          {
+            "image_id": "80883bb482bdfa06",
+            "web_path": "/assets/images/endcosmos-maps-main.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "efe8d9ffa27691a9",
+            "web_path": "/assets/images/purple-and-blue-sci-fi-city-background-qrtlhfz3pjiw11ry.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "ac9235216db28815",
+            "web_path": "/assets/zogs/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_complementaria"
+          }
+        ]
+      },
+      {
+        "map_node": "node-79ea39c6590b3b01",
+        "root_id": "root-portales-rutas",
+        "primary_image": "/assets/images/Purple Energy Portal Overlay for Sci-Fi Logo Animation-HD.webp",
+        "linked_images": [
+          {
+            "image_id": "454ae1491c4d0090",
+            "web_path": "/assets/images/pngtree-cosmic-portal-to-another-dimension-opens-freely-always-image_20919279.webp",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "af949056dd5d58bb",
+            "web_path": "/assets/images/pngtree-futuristic-cosmic-portal-to-another-dimension-image_20878348.webp",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "b897ad27bc509532",
+            "web_path": "/assets/images/ueu-dark-universe-logo-portal-rendering-cf-a.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          }
+        ]
+      },
+      {
+        "map_node": "node-efe8d9ffa27691a9",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/images/purple-and-blue-sci-fi-city-background-qrtlhfz3pjiw11ry.jpg",
+        "linked_images": [
+          {
+            "image_id": "80883bb482bdfa06",
+            "web_path": "/assets/images/endcosmos-maps-main.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "4457007a8af31c18",
+            "web_path": "/assets/images/pngtree-futuristic-sci-fi-dream-worlds-enriched-with-vivid-neon-accents-merging-picture-image_16250523.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "ac9235216db28815",
+            "web_path": "/assets/zogs/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_complementaria"
+          }
+        ]
+      },
+      {
+        "map_node": "node-b897ad27bc509532",
+        "root_id": "root-portales-rutas",
+        "primary_image": "/assets/images/ueu-dark-universe-logo-portal-rendering-cf-a.jpg",
+        "linked_images": [
+          {
+            "image_id": "454ae1491c4d0090",
+            "web_path": "/assets/images/pngtree-cosmic-portal-to-another-dimension-opens-freely-always-image_20919279.webp",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "af949056dd5d58bb",
+            "web_path": "/assets/images/pngtree-futuristic-cosmic-portal-to-another-dimension-image_20878348.webp",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "79ea39c6590b3b01",
+            "web_path": "/assets/images/Purple Energy Portal Overlay for Sci-Fi Logo Animation-HD.webp",
+            "reason": "misma_variable_y_mismo_origen"
+          }
+        ]
+      },
+      {
+        "map_node": "node-89ab9913f52ec7f2",
+        "root_id": "root-portales-rutas",
+        "primary_image": "/assets/portal.webp",
+        "linked_images": [
+          {
+            "image_id": "30d54af8ca21287e",
+            "web_path": "/assets/cover-endcosmos-portal.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "3d20eb539e7adfb6",
+            "web_path": "/assets/zogs/imported-assets/pngtree-celestial-being-emerges-from-energy-portal-in-post-apocalyptic-wasteland-image-19868561.webp",
+            "reason": "misma_variable_complementaria"
+          },
+          {
+            "image_id": "454ae1491c4d0090",
+            "web_path": "/assets/images/pngtree-cosmic-portal-to-another-dimension-opens-freely-always-image_20919279.webp",
+            "reason": "misma_variable_complementaria"
+          }
+        ]
+      },
+      {
+        "map_node": "node-026bb19883c44dc3",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/realm-ice.jpg",
+        "linked_images": [
+          {
+            "image_id": "42182ba9f45e5020",
+            "web_path": "/assets/realm-void.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "ac9235216db28815",
+            "web_path": "/assets/zogs/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_complementaria"
+          },
+          {
+            "image_id": "e888a6d1434d4517",
+            "web_path": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_complementaria"
+          }
+        ]
+      },
+      {
+        "map_node": "node-42182ba9f45e5020",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/realm-void.jpg",
+        "linked_images": [
+          {
+            "image_id": "026bb19883c44dc3",
+            "web_path": "/assets/realm-ice.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "ac9235216db28815",
+            "web_path": "/assets/zogs/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_complementaria"
+          },
+          {
+            "image_id": "e888a6d1434d4517",
+            "web_path": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_complementaria"
+          }
+        ]
+      },
+      {
+        "map_node": "node-ac9235216db28815",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/zogs/03-space-eagle-nebula.jpg",
+        "linked_images": [
+          {
+            "image_id": "e888a6d1434d4517",
+            "web_path": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_complementaria"
+          },
+          {
+            "image_id": "8a58c57be12fe616",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+            "reason": "misma_variable_complementaria"
+          },
+          {
+            "image_id": "2961d3ae9dfe24d1",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+            "reason": "misma_variable_complementaria"
+          }
+        ]
+      },
+      {
+        "map_node": "node-e888a6d1434d4517",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+        "linked_images": [
+          {
+            "image_id": "8a58c57be12fe616",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "2961d3ae9dfe24d1",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "a26b0b1d09413932",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos.png",
+            "reason": "misma_variable_y_mismo_origen"
+          }
+        ]
+      },
+      {
+        "map_node": "node-8a58c57be12fe616",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+        "linked_images": [
+          {
+            "image_id": "e888a6d1434d4517",
+            "web_path": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "2961d3ae9dfe24d1",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "a26b0b1d09413932",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos.png",
+            "reason": "misma_variable_y_mismo_origen"
+          }
+        ]
+      },
+      {
+        "map_node": "node-2961d3ae9dfe24d1",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+        "linked_images": [
+          {
+            "image_id": "e888a6d1434d4517",
+            "web_path": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "8a58c57be12fe616",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "a26b0b1d09413932",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos.png",
+            "reason": "misma_variable_y_mismo_origen"
+          }
+        ]
+      },
+      {
+        "map_node": "node-a26b0b1d09413932",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos.png",
+        "linked_images": [
+          {
+            "image_id": "e888a6d1434d4517",
+            "web_path": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "8a58c57be12fe616",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "2961d3ae9dfe24d1",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+            "reason": "misma_variable_y_mismo_origen"
+          }
+        ]
+      },
+      {
+        "map_node": "node-8cdcb2043dde458e",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos-2.png",
+        "linked_images": [
+          {
+            "image_id": "e888a6d1434d4517",
+            "web_path": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "8a58c57be12fe616",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "2961d3ae9dfe24d1",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+            "reason": "misma_variable_y_mismo_origen"
+          }
+        ]
+      },
+      {
+        "map_node": "node-b87680e8e7debee0",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos-3.png",
+        "linked_images": [
+          {
+            "image_id": "e888a6d1434d4517",
+            "web_path": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "8a58c57be12fe616",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "2961d3ae9dfe24d1",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+            "reason": "misma_variable_y_mismo_origen"
+          }
+        ]
+      },
+      {
+        "map_node": "node-0b0f00595174586a",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos-4.png",
+        "linked_images": [
+          {
+            "image_id": "e888a6d1434d4517",
+            "web_path": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "8a58c57be12fe616",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "2961d3ae9dfe24d1",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+            "reason": "misma_variable_y_mismo_origen"
+          }
+        ]
+      },
+      {
+        "map_node": "node-933158ced3965ecd",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos.png",
+        "linked_images": [
+          {
+            "image_id": "e888a6d1434d4517",
+            "web_path": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "8a58c57be12fe616",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "2961d3ae9dfe24d1",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+            "reason": "misma_variable_y_mismo_origen"
+          }
+        ]
+      },
+      {
+        "map_node": "node-963abc2a9565fc74",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/zogs/imported-assets/city-fantasy-landscape-process-video-by-jstiller30-dfqpmat-fullview.jpg",
+        "linked_images": [
+          {
+            "image_id": "e888a6d1434d4517",
+            "web_path": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "8a58c57be12fe616",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "2961d3ae9dfe24d1",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+            "reason": "misma_variable_y_mismo_origen"
+          }
+        ]
+      },
+      {
+        "map_node": "node-c90fd136ba2d6c4a",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/zogs/imported-assets/exoplanet-mission-timeline-article.jpg",
+        "linked_images": [
+          {
+            "image_id": "e888a6d1434d4517",
+            "web_path": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "8a58c57be12fe616",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "2961d3ae9dfe24d1",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+            "reason": "misma_variable_y_mismo_origen"
+          }
+        ]
+      },
+      {
+        "map_node": "node-f2521a1e545291fa",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/zogs/imported-assets/hd-wallpaper-yeti-in-the-space-nebula-creature-fantasy-thumbnail.jpg",
+        "linked_images": [
+          {
+            "image_id": "e888a6d1434d4517",
+            "web_path": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "8a58c57be12fe616",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "2961d3ae9dfe24d1",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+            "reason": "misma_variable_y_mismo_origen"
+          }
+        ]
+      },
+      {
+        "map_node": "node-79f7ee90f7ea6a1e",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/zogs/imported-assets/inside-science-pudgy-dragon-orion-nebula-01-ht-jc-190214-hpmain-16x9-992.jpg",
+        "linked_images": [
+          {
+            "image_id": "e888a6d1434d4517",
+            "web_path": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "8a58c57be12fe616",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "2961d3ae9dfe24d1",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+            "reason": "misma_variable_y_mismo_origen"
+          }
+        ]
+      },
+      {
+        "map_node": "node-bc96bc720e6613f8",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/zogs/imported-assets/mass-effect-galaxy-map-by-exoartmakes-dihk77g-fullview.jpg",
+        "linked_images": [
+          {
+            "image_id": "e888a6d1434d4517",
+            "web_path": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "8a58c57be12fe616",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "2961d3ae9dfe24d1",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+            "reason": "misma_variable_y_mismo_origen"
+          }
+        ]
+      },
+      {
+        "map_node": "node-a4bf71a8bd69af82",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/zogs/imported-assets/motion-main-map.avif",
+        "linked_images": [
+          {
+            "image_id": "e888a6d1434d4517",
+            "web_path": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "8a58c57be12fe616",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "2961d3ae9dfe24d1",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+            "reason": "misma_variable_y_mismo_origen"
+          }
+        ]
+      },
+      {
+        "map_node": "node-0f6d003f07a751e9",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/zogs/imported-assets/motion-realm-ice.avif",
+        "linked_images": [
+          {
+            "image_id": "e888a6d1434d4517",
+            "web_path": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "8a58c57be12fe616",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "2961d3ae9dfe24d1",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+            "reason": "misma_variable_y_mismo_origen"
+          }
+        ]
+      },
+      {
+        "map_node": "node-8ad2c1b31b52f6c8",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/zogs/imported-assets/motion-realm-void.avif",
+        "linked_images": [
+          {
+            "image_id": "e888a6d1434d4517",
+            "web_path": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "8a58c57be12fe616",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "2961d3ae9dfe24d1",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+            "reason": "misma_variable_y_mismo_origen"
+          }
+        ]
+      },
+      {
+        "map_node": "node-c2a1216f4a1fc135",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/zogs/imported-assets/nebula-guardian-wall-art-943965.jpg",
+        "linked_images": [
+          {
+            "image_id": "e888a6d1434d4517",
+            "web_path": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "8a58c57be12fe616",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "2961d3ae9dfe24d1",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+            "reason": "misma_variable_y_mismo_origen"
+          }
+        ]
+      },
+      {
+        "map_node": "node-bb87f5ce5f59c1ff",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/zogs/imported-assets/orbiting-planet-space-themed-motion-background-clip-hd.webp",
+        "linked_images": [
+          {
+            "image_id": "e888a6d1434d4517",
+            "web_path": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "8a58c57be12fe616",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "2961d3ae9dfe24d1",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+            "reason": "misma_variable_y_mismo_origen"
+          }
+        ]
+      },
+      {
+        "map_node": "node-f022050300ab740d",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/zogs/imported-assets/osmadth-bancur-city-by-flaviobolla-d4zpa5a-fullview.jpg",
+        "linked_images": [
+          {
+            "image_id": "e888a6d1434d4517",
+            "web_path": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "8a58c57be12fe616",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "2961d3ae9dfe24d1",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+            "reason": "misma_variable_y_mismo_origen"
+          }
+        ]
+      },
+      {
+        "map_node": "node-3d20eb539e7adfb6",
+        "root_id": "root-portales-rutas",
+        "primary_image": "/assets/zogs/imported-assets/pngtree-celestial-being-emerges-from-energy-portal-in-post-apocalyptic-wasteland-image-19868561.webp",
+        "linked_images": [
+          {
+            "image_id": "f7554616a1420c2d",
+            "web_path": "/assets/zogs/imported-assets/portal-1-2.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "d6ad5022756eb0ae",
+            "web_path": "/assets/zogs/imported-assets/portal-1.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "30d54af8ca21287e",
+            "web_path": "/assets/cover-endcosmos-portal.png",
+            "reason": "misma_variable_complementaria"
+          }
+        ]
+      },
+      {
+        "map_node": "node-f7554616a1420c2d",
+        "root_id": "root-portales-rutas",
+        "primary_image": "/assets/zogs/imported-assets/portal-1-2.png",
+        "linked_images": [
+          {
+            "image_id": "3d20eb539e7adfb6",
+            "web_path": "/assets/zogs/imported-assets/pngtree-celestial-being-emerges-from-energy-portal-in-post-apocalyptic-wasteland-image-19868561.webp",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "d6ad5022756eb0ae",
+            "web_path": "/assets/zogs/imported-assets/portal-1.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "30d54af8ca21287e",
+            "web_path": "/assets/cover-endcosmos-portal.png",
+            "reason": "misma_variable_complementaria"
+          }
+        ]
+      },
+      {
+        "map_node": "node-d6ad5022756eb0ae",
+        "root_id": "root-portales-rutas",
+        "primary_image": "/assets/zogs/imported-assets/portal-1.png",
+        "linked_images": [
+          {
+            "image_id": "3d20eb539e7adfb6",
+            "web_path": "/assets/zogs/imported-assets/pngtree-celestial-being-emerges-from-energy-portal-in-post-apocalyptic-wasteland-image-19868561.webp",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "f7554616a1420c2d",
+            "web_path": "/assets/zogs/imported-assets/portal-1-2.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "30d54af8ca21287e",
+            "web_path": "/assets/cover-endcosmos-portal.png",
+            "reason": "misma_variable_complementaria"
+          }
+        ]
+      },
+      {
+        "map_node": "node-2869acc8113b466a",
+        "root_id": "root-cartografia-global",
+        "primary_image": "/assets/zogs/imported-assets/world.png",
+        "linked_images": [
+          {
+            "image_id": "e888a6d1434d4517",
+            "web_path": "/assets/zogs/imported-assets/03-space-eagle-nebula.jpg",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "8a58c57be12fe616",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png",
+            "reason": "misma_variable_y_mismo_origen"
+          },
+          {
+            "image_id": "2961d3ae9dfe24d1",
+            "web_path": "/assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png",
+            "reason": "misma_variable_y_mismo_origen"
+          }
+        ]
+      }
+    ]
+  }
+}

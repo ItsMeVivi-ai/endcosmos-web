@@ -1,0 +1,56 @@
+{
+  "world_id": "vyrakth_infinity",
+  "name": "VYRAKTH ∞",
+  "title": "El Reino del Color Vicioso",
+  "classification": "chaotic_hypnotic_beautiful_dangerous",
+  "origin": "Plano primigenio anterior a ciudades, portales y al despertar de Leviathan.",
+  "time_model": {
+    "flow": "persistent_present_loop",
+    "sequence": ["presente", "↺", "presente", "↺", "presente"],
+    "description": "El tiempo no avanza ni retrocede, sólo persiste."
+  },
+  "biome": {
+    "continents": "inestables",
+    "mountains": "se mueven lentamente como criaturas dormidas",
+    "oceans": "corrientes de color líquido",
+    "chromatic_currents": [
+      "violeta profundo",
+      "rojo incandescente",
+      "azul eléctrico",
+      "verde venenoso"
+    ],
+    "effect": "Los colores no iluminan: infectan."
+  },
+  "inhabitants": {
+    "collective_name": "Los Cromáticos",
+    "nature": "Seres de energía pigmentada",
+    "forms": ["humanoides", "fracturas de luz viva"],
+    "signature": "Dejan rastros de color en el aire, derritiendo la realidad."
+  },
+  "core_phenomena": [
+    {
+      "name": "La Atracción Viciosa",
+      "stages": ["hermoso", "hipnótico", "adictivo"],
+      "risk": "Exploradores pueden decidir permanecer observando el color para siempre."
+    },
+    {
+      "name": "El Observador Ausente",
+      "paradox": "Vyraakth parece diseñado para ser observado, pero no tiene testigos."
+    }
+  ],
+  "critical_portal": {
+    "name": "El Umbral de los Colores Eternos",
+    "potential": [
+      "nuevos sistemas estelares",
+      "criaturas primordiales",
+      "verdadera forma del infinito"
+    ],
+    "status": "No descubierto"
+  },
+  "topology": {
+    "has_center": false,
+    "statement": "Vyraakth no tiene centro."
+  },
+  "status": "active",
+  "tags": ["chaos", "chromatic", "dimensional", "forbidden-observation"]
+}

@@ -1,0 +1,807 @@
+{
+  "catalog_id": "endcosmos-regions-50",
+  "total_regions": 50,
+  "generated_at": "2026-03-12T00:00:00Z",
+  "regions": [
+    {
+      "region_id": "R-001",
+      "slug": "nebula-city-ring-district-01",
+      "name": "Nebula City Ring District 01",
+      "macro_region": "Nebula City Ring",
+      "macro_type": "urban-core",
+      "tier": 1,
+      "danger": "low",
+      "focus": "Comercio, gremios y rutas de servicio",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-002",
+      "slug": "nebula-city-ring-sanctum-02",
+      "name": "Nebula City Ring Sanctum 02",
+      "macro_region": "Nebula City Ring",
+      "macro_type": "urban-core",
+      "tier": 2,
+      "danger": "low",
+      "focus": "Rituales, leyes y memoria cosmica",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-003",
+      "slug": "nebula-city-ring-forge-03",
+      "name": "Nebula City Ring Forge 03",
+      "macro_region": "Nebula City Ring",
+      "macro_type": "urban-core",
+      "tier": 3,
+      "danger": "low",
+      "focus": "Crafting, alquimia y mejora de artefactos",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-004",
+      "slug": "nebula-city-ring-gate-04",
+      "name": "Nebula City Ring Gate 04",
+      "macro_region": "Nebula City Ring",
+      "macro_type": "urban-core",
+      "tier": 4,
+      "danger": "medium",
+      "focus": "Control de portales y trafico estelar",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-005",
+      "slug": "nebula-city-ring-vault-05",
+      "name": "Nebula City Ring Vault 05",
+      "macro_region": "Nebula City Ring",
+      "macro_type": "urban-core",
+      "tier": 5,
+      "danger": "medium",
+      "focus": "Archivo, reliquias y secretos del multiverso",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-006",
+      "slug": "nebula-city-ring-outpost-06",
+      "name": "Nebula City Ring Outpost 06",
+      "macro_region": "Nebula City Ring",
+      "macro_type": "urban-core",
+      "tier": 6,
+      "danger": "medium",
+      "focus": "Defensa, exploracion y avanzada tactica",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-007",
+      "slug": "nebula-city-ring-spire-07",
+      "name": "Nebula City Ring Spire 07",
+      "macro_region": "Nebula City Ring",
+      "macro_type": "urban-core",
+      "tier": 7,
+      "danger": "high",
+      "focus": "Observacion orbital y señales dimensionales",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-008",
+      "slug": "nebula-city-ring-labyrinth-08",
+      "name": "Nebula City Ring Labyrinth 08",
+      "macro_region": "Nebula City Ring",
+      "macro_type": "urban-core",
+      "tier": 1,
+      "danger": "high",
+      "focus": "Puzles de tiempo y rutas ocultas",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-009",
+      "slug": "nebula-city-ring-citadel-09",
+      "name": "Nebula City Ring Citadel 09",
+      "macro_region": "Nebula City Ring",
+      "macro_type": "urban-core",
+      "tier": 2,
+      "danger": "high",
+      "focus": "Mando de faccion y guerra estrategica",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-010",
+      "slug": "nebula-city-ring-depth-10",
+      "name": "Nebula City Ring Depth 10",
+      "macro_region": "Nebula City Ring",
+      "macro_type": "urban-core",
+      "tier": 3,
+      "danger": "extreme",
+      "focus": "Anomalias del vacio y desafios extremos",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-011",
+      "slug": "echo-ruins-belt-district-01",
+      "name": "Echo Ruins Belt District 01",
+      "macro_region": "Echo Ruins Belt",
+      "macro_type": "ancient-ruins",
+      "tier": 4,
+      "danger": "low",
+      "focus": "Comercio, gremios y rutas de servicio",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-012",
+      "slug": "echo-ruins-belt-sanctum-02",
+      "name": "Echo Ruins Belt Sanctum 02",
+      "macro_region": "Echo Ruins Belt",
+      "macro_type": "ancient-ruins",
+      "tier": 5,
+      "danger": "low",
+      "focus": "Rituales, leyes y memoria cosmica",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-013",
+      "slug": "echo-ruins-belt-forge-03",
+      "name": "Echo Ruins Belt Forge 03",
+      "macro_region": "Echo Ruins Belt",
+      "macro_type": "ancient-ruins",
+      "tier": 6,
+      "danger": "low",
+      "focus": "Crafting, alquimia y mejora de artefactos",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-014",
+      "slug": "echo-ruins-belt-gate-04",
+      "name": "Echo Ruins Belt Gate 04",
+      "macro_region": "Echo Ruins Belt",
+      "macro_type": "ancient-ruins",
+      "tier": 7,
+      "danger": "medium",
+      "focus": "Control de portales y trafico estelar",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-015",
+      "slug": "echo-ruins-belt-vault-05",
+      "name": "Echo Ruins Belt Vault 05",
+      "macro_region": "Echo Ruins Belt",
+      "macro_type": "ancient-ruins",
+      "tier": 1,
+      "danger": "medium",
+      "focus": "Archivo, reliquias y secretos del multiverso",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-016",
+      "slug": "echo-ruins-belt-outpost-06",
+      "name": "Echo Ruins Belt Outpost 06",
+      "macro_region": "Echo Ruins Belt",
+      "macro_type": "ancient-ruins",
+      "tier": 2,
+      "danger": "medium",
+      "focus": "Defensa, exploracion y avanzada tactica",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-017",
+      "slug": "echo-ruins-belt-spire-07",
+      "name": "Echo Ruins Belt Spire 07",
+      "macro_region": "Echo Ruins Belt",
+      "macro_type": "ancient-ruins",
+      "tier": 3,
+      "danger": "high",
+      "focus": "Observacion orbital y señales dimensionales",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-018",
+      "slug": "echo-ruins-belt-labyrinth-08",
+      "name": "Echo Ruins Belt Labyrinth 08",
+      "macro_region": "Echo Ruins Belt",
+      "macro_type": "ancient-ruins",
+      "tier": 4,
+      "danger": "high",
+      "focus": "Puzles de tiempo y rutas ocultas",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-019",
+      "slug": "echo-ruins-belt-citadel-09",
+      "name": "Echo Ruins Belt Citadel 09",
+      "macro_region": "Echo Ruins Belt",
+      "macro_type": "ancient-ruins",
+      "tier": 5,
+      "danger": "high",
+      "focus": "Mando de faccion y guerra estrategica",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-020",
+      "slug": "echo-ruins-belt-depth-10",
+      "name": "Echo Ruins Belt Depth 10",
+      "macro_region": "Echo Ruins Belt",
+      "macro_type": "ancient-ruins",
+      "tier": 6,
+      "danger": "extreme",
+      "focus": "Anomalias del vacio y desafios extremos",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-021",
+      "slug": "astral-wastelands-front-district-01",
+      "name": "Astral Wastelands Front District 01",
+      "macro_region": "Astral Wastelands Front",
+      "macro_type": "hostile-frontier",
+      "tier": 7,
+      "danger": "low",
+      "focus": "Comercio, gremios y rutas de servicio",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-022",
+      "slug": "astral-wastelands-front-sanctum-02",
+      "name": "Astral Wastelands Front Sanctum 02",
+      "macro_region": "Astral Wastelands Front",
+      "macro_type": "hostile-frontier",
+      "tier": 1,
+      "danger": "low",
+      "focus": "Rituales, leyes y memoria cosmica",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-023",
+      "slug": "astral-wastelands-front-forge-03",
+      "name": "Astral Wastelands Front Forge 03",
+      "macro_region": "Astral Wastelands Front",
+      "macro_type": "hostile-frontier",
+      "tier": 2,
+      "danger": "low",
+      "focus": "Crafting, alquimia y mejora de artefactos",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-024",
+      "slug": "astral-wastelands-front-gate-04",
+      "name": "Astral Wastelands Front Gate 04",
+      "macro_region": "Astral Wastelands Front",
+      "macro_type": "hostile-frontier",
+      "tier": 3,
+      "danger": "medium",
+      "focus": "Control de portales y trafico estelar",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-025",
+      "slug": "astral-wastelands-front-vault-05",
+      "name": "Astral Wastelands Front Vault 05",
+      "macro_region": "Astral Wastelands Front",
+      "macro_type": "hostile-frontier",
+      "tier": 4,
+      "danger": "medium",
+      "focus": "Archivo, reliquias y secretos del multiverso",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-026",
+      "slug": "astral-wastelands-front-outpost-06",
+      "name": "Astral Wastelands Front Outpost 06",
+      "macro_region": "Astral Wastelands Front",
+      "macro_type": "hostile-frontier",
+      "tier": 5,
+      "danger": "medium",
+      "focus": "Defensa, exploracion y avanzada tactica",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-027",
+      "slug": "astral-wastelands-front-spire-07",
+      "name": "Astral Wastelands Front Spire 07",
+      "macro_region": "Astral Wastelands Front",
+      "macro_type": "hostile-frontier",
+      "tier": 6,
+      "danger": "high",
+      "focus": "Observacion orbital y señales dimensionales",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-028",
+      "slug": "astral-wastelands-front-labyrinth-08",
+      "name": "Astral Wastelands Front Labyrinth 08",
+      "macro_region": "Astral Wastelands Front",
+      "macro_type": "hostile-frontier",
+      "tier": 7,
+      "danger": "high",
+      "focus": "Puzles de tiempo y rutas ocultas",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-029",
+      "slug": "astral-wastelands-front-citadel-09",
+      "name": "Astral Wastelands Front Citadel 09",
+      "macro_region": "Astral Wastelands Front",
+      "macro_type": "hostile-frontier",
+      "tier": 1,
+      "danger": "high",
+      "focus": "Mando de faccion y guerra estrategica",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-030",
+      "slug": "astral-wastelands-front-depth-10",
+      "name": "Astral Wastelands Front Depth 10",
+      "macro_region": "Astral Wastelands Front",
+      "macro_type": "hostile-frontier",
+      "tier": 2,
+      "danger": "extreme",
+      "focus": "Anomalias del vacio y desafios extremos",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-031",
+      "slug": "void-abyss-threshold-district-01",
+      "name": "Void Abyss Threshold District 01",
+      "macro_region": "Void Abyss Threshold",
+      "macro_type": "void-endgame",
+      "tier": 3,
+      "danger": "low",
+      "focus": "Comercio, gremios y rutas de servicio",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-032",
+      "slug": "void-abyss-threshold-sanctum-02",
+      "name": "Void Abyss Threshold Sanctum 02",
+      "macro_region": "Void Abyss Threshold",
+      "macro_type": "void-endgame",
+      "tier": 4,
+      "danger": "low",
+      "focus": "Rituales, leyes y memoria cosmica",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-033",
+      "slug": "void-abyss-threshold-forge-03",
+      "name": "Void Abyss Threshold Forge 03",
+      "macro_region": "Void Abyss Threshold",
+      "macro_type": "void-endgame",
+      "tier": 5,
+      "danger": "low",
+      "focus": "Crafting, alquimia y mejora de artefactos",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-034",
+      "slug": "void-abyss-threshold-gate-04",
+      "name": "Void Abyss Threshold Gate 04",
+      "macro_region": "Void Abyss Threshold",
+      "macro_type": "void-endgame",
+      "tier": 6,
+      "danger": "medium",
+      "focus": "Control de portales y trafico estelar",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-035",
+      "slug": "void-abyss-threshold-vault-05",
+      "name": "Void Abyss Threshold Vault 05",
+      "macro_region": "Void Abyss Threshold",
+      "macro_type": "void-endgame",
+      "tier": 7,
+      "danger": "medium",
+      "focus": "Archivo, reliquias y secretos del multiverso",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-036",
+      "slug": "void-abyss-threshold-outpost-06",
+      "name": "Void Abyss Threshold Outpost 06",
+      "macro_region": "Void Abyss Threshold",
+      "macro_type": "void-endgame",
+      "tier": 1,
+      "danger": "medium",
+      "focus": "Defensa, exploracion y avanzada tactica",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-037",
+      "slug": "void-abyss-threshold-spire-07",
+      "name": "Void Abyss Threshold Spire 07",
+      "macro_region": "Void Abyss Threshold",
+      "macro_type": "void-endgame",
+      "tier": 2,
+      "danger": "high",
+      "focus": "Observacion orbital y señales dimensionales",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-038",
+      "slug": "void-abyss-threshold-labyrinth-08",
+      "name": "Void Abyss Threshold Labyrinth 08",
+      "macro_region": "Void Abyss Threshold",
+      "macro_type": "void-endgame",
+      "tier": 3,
+      "danger": "high",
+      "focus": "Puzles de tiempo y rutas ocultas",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-039",
+      "slug": "void-abyss-threshold-citadel-09",
+      "name": "Void Abyss Threshold Citadel 09",
+      "macro_region": "Void Abyss Threshold",
+      "macro_type": "void-endgame",
+      "tier": 4,
+      "danger": "high",
+      "focus": "Mando de faccion y guerra estrategica",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-040",
+      "slug": "void-abyss-threshold-depth-10",
+      "name": "Void Abyss Threshold Depth 10",
+      "macro_region": "Void Abyss Threshold",
+      "macro_type": "void-endgame",
+      "tier": 5,
+      "danger": "extreme",
+      "focus": "Anomalias del vacio y desafios extremos",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-041",
+      "slug": "celestial-expanse-nexus-district-01",
+      "name": "Celestial Expanse Nexus District 01",
+      "macro_region": "Celestial Expanse Nexus",
+      "macro_type": "dimensional-hub",
+      "tier": 6,
+      "danger": "low",
+      "focus": "Comercio, gremios y rutas de servicio",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-042",
+      "slug": "celestial-expanse-nexus-sanctum-02",
+      "name": "Celestial Expanse Nexus Sanctum 02",
+      "macro_region": "Celestial Expanse Nexus",
+      "macro_type": "dimensional-hub",
+      "tier": 7,
+      "danger": "low",
+      "focus": "Rituales, leyes y memoria cosmica",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-043",
+      "slug": "celestial-expanse-nexus-forge-03",
+      "name": "Celestial Expanse Nexus Forge 03",
+      "macro_region": "Celestial Expanse Nexus",
+      "macro_type": "dimensional-hub",
+      "tier": 1,
+      "danger": "low",
+      "focus": "Crafting, alquimia y mejora de artefactos",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-044",
+      "slug": "celestial-expanse-nexus-gate-04",
+      "name": "Celestial Expanse Nexus Gate 04",
+      "macro_region": "Celestial Expanse Nexus",
+      "macro_type": "dimensional-hub",
+      "tier": 2,
+      "danger": "medium",
+      "focus": "Control de portales y trafico estelar",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-045",
+      "slug": "celestial-expanse-nexus-vault-05",
+      "name": "Celestial Expanse Nexus Vault 05",
+      "macro_region": "Celestial Expanse Nexus",
+      "macro_type": "dimensional-hub",
+      "tier": 3,
+      "danger": "medium",
+      "focus": "Archivo, reliquias y secretos del multiverso",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-046",
+      "slug": "celestial-expanse-nexus-outpost-06",
+      "name": "Celestial Expanse Nexus Outpost 06",
+      "macro_region": "Celestial Expanse Nexus",
+      "macro_type": "dimensional-hub",
+      "tier": 4,
+      "danger": "medium",
+      "focus": "Defensa, exploracion y avanzada tactica",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-047",
+      "slug": "celestial-expanse-nexus-spire-07",
+      "name": "Celestial Expanse Nexus Spire 07",
+      "macro_region": "Celestial Expanse Nexus",
+      "macro_type": "dimensional-hub",
+      "tier": 5,
+      "danger": "high",
+      "focus": "Observacion orbital y señales dimensionales",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-048",
+      "slug": "celestial-expanse-nexus-labyrinth-08",
+      "name": "Celestial Expanse Nexus Labyrinth 08",
+      "macro_region": "Celestial Expanse Nexus",
+      "macro_type": "dimensional-hub",
+      "tier": 6,
+      "danger": "high",
+      "focus": "Puzles de tiempo y rutas ocultas",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-049",
+      "slug": "celestial-expanse-nexus-citadel-09",
+      "name": "Celestial Expanse Nexus Citadel 09",
+      "macro_region": "Celestial Expanse Nexus",
+      "macro_type": "dimensional-hub",
+      "tier": 7,
+      "danger": "high",
+      "focus": "Mando de faccion y guerra estrategica",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    },
+    {
+      "region_id": "R-050",
+      "slug": "celestial-expanse-nexus-depth-10",
+      "name": "Celestial Expanse Nexus Depth 10",
+      "macro_region": "Celestial Expanse Nexus",
+      "macro_type": "dimensional-hub",
+      "tier": 1,
+      "danger": "extreme",
+      "focus": "Anomalias del vacio y desafios extremos",
+      "discoverables": [
+        "artefactos",
+        "mapas ocultos",
+        "nodos de portal",
+        "eventos de faccion"
+      ]
+    }
+  ]
+}

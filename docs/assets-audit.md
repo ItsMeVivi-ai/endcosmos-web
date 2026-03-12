@@ -1,0 +1,644 @@
+# EndCosmos Assets Audit
+
+## Flujo reutilizable (ingesta automática)
+
+- Coloca nuevas imágenes en `public/assets/zogs/inbox` (admite subcarpetas como `v1`, `v2`, `catalog` para ayudar a clasificar).
+- Ejecuta `python backend/scripts/asset_ingest_pipeline.py --source public/assets/zogs/inbox`.
+- Convención aplicada automáticamente: `<categoria>-<slug>-<hash8>.<ext>`.
+- Si detecta nombre roto/genérico (UUID, numérico, `image`, `untitled`, etc.), lo normaliza.
+- Si detecta categoría por ruta o keywords, mueve la imagen a `v1`, `v2`, `catalog` o `imported-assets`.
+- Si detecta duplicado por hash o nombre muy similar, no incorpora la imagen y la registra en esta bitácora.
+- Si hay cambios, regenera galerías con `backend/scripts/generate_gallery_manifests.py`.
+
+## Task recomendada
+
+- VS Code task: `Web: Ingest new assets`
+- Flujo completo: `Web: Validate all` (incluye ingesta + manifolds/validaciones)
+
+Generated: 2026-03-12T11:25:23.725810+00:00
+Total normalized images: 417
+Approx total size: 786.23 MB
+
+## Category distribution
+
+- hero: 11
+- cities: 3
+- maps: 16
+- npcs: 4
+- bosses: 8
+- mounts: 3
+- pets: 0
+- backgrounds: 13
+- portals: 6
+- ui: 3
+- lore: 350
+
+## Duplicate candidates (by SHA-256)
+
+- 8 files share hash ef54a364a7c6...
+  - /assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_51_05-2.png
+  - /assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_51_05.png
+  - /assets/zogs/catalog/f724590e-0a33-41c4-bcdd-d4d1f9327724.png
+  - /assets/zogs/catalog/portada1-2.png
+  - /assets/zogs/catalog/portada1.png
+  - /assets/zogs/imported-assets/chatgpt-image-11-mar-2026-16-51-05.png
+  - /assets/zogs/imported-assets/f724590e-0a33-41c4-bcdd-d4d1f9327724.png
+  - /assets/zogs/imported-assets/portada1.png
+- 8 files share hash c9ef5c8c1c74...
+  - /assets/zogs/imported-assets/10-2.png
+  - /assets/zogs/imported-assets/10.png
+  - /assets/zogs/imported-assets/a49f8d18-49f0-4682-be93-c53515e75621-2.png
+  - /assets/zogs/imported-assets/a49f8d18-49f0-4682-be93-c53515e75621.png
+  - /assets/zogs/v1/10-2.png
+  - /assets/zogs/v1/10.png
+  - /assets/zogs/v2/a49f8d18-49f0-4682-be93-c53515e75621-2.png
+  - /assets/zogs/v2/a49f8d18-49f0-4682-be93-c53515e75621.png
+- 8 files share hash 6d37822377d0...
+  - /assets/zogs/imported-assets/11-2.png
+  - /assets/zogs/imported-assets/11.png
+  - /assets/zogs/imported-assets/5d8457df-af04-49c4-b28f-d25b4c09cfb9-2.png
+  - /assets/zogs/imported-assets/5d8457df-af04-49c4-b28f-d25b4c09cfb9.png
+  - /assets/zogs/v1/11-2.png
+  - /assets/zogs/v1/11.png
+  - /assets/zogs/v2/5d8457df-af04-49c4-b28f-d25b4c09cfb9-2.png
+  - /assets/zogs/v2/5d8457df-af04-49c4-b28f-d25b4c09cfb9.png
+- 8 files share hash 58e06181137e...
+  - /assets/zogs/imported-assets/12-2.png
+  - /assets/zogs/imported-assets/12.png
+  - /assets/zogs/imported-assets/b698bcb7-6877-4445-bf88-8e945f885a59-2.png
+  - /assets/zogs/imported-assets/b698bcb7-6877-4445-bf88-8e945f885a59.png
+  - /assets/zogs/v1/12-2.png
+  - /assets/zogs/v1/12.png
+  - /assets/zogs/v2/b698bcb7-6877-4445-bf88-8e945f885a59-2.png
+  - /assets/zogs/v2/b698bcb7-6877-4445-bf88-8e945f885a59.png
+- 8 files share hash f2d6b4dabf45...
+  - /assets/zogs/imported-assets/13-2.png
+  - /assets/zogs/imported-assets/13.png
+  - /assets/zogs/imported-assets/549cc996-b0e6-48c3-bb4e-02ac064d8c88-2.png
+  - /assets/zogs/imported-assets/549cc996-b0e6-48c3-bb4e-02ac064d8c88.png
+  - /assets/zogs/v1/13-2.png
+  - /assets/zogs/v1/13.png
+  - /assets/zogs/v2/549cc996-b0e6-48c3-bb4e-02ac064d8c88-2.png
+  - /assets/zogs/v2/549cc996-b0e6-48c3-bb4e-02ac064d8c88.png
+- 8 files share hash b5bf7cefab14...
+  - /assets/zogs/imported-assets/14-2.png
+  - /assets/zogs/imported-assets/14-3.png
+  - /assets/zogs/imported-assets/8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f-2.png
+  - /assets/zogs/imported-assets/8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f.png
+  - /assets/zogs/v1/14-2.png
+  - /assets/zogs/v1/14.png
+  - /assets/zogs/v2/8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f-2.png
+  - /assets/zogs/v2/8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f.png
+- 8 files share hash ebbbf52085d7...
+  - /assets/zogs/imported-assets/15-2.png
+  - /assets/zogs/imported-assets/15.png
+  - /assets/zogs/imported-assets/78565d2d-57ec-41fb-ac8b-0013a2c9236c-2.png
+  - /assets/zogs/imported-assets/78565d2d-57ec-41fb-ac8b-0013a2c9236c.png
+  - /assets/zogs/v1/15-2.png
+  - /assets/zogs/v1/15.png
+  - /assets/zogs/v2/78565d2d-57ec-41fb-ac8b-0013a2c9236c-2.png
+  - /assets/zogs/v2/78565d2d-57ec-41fb-ac8b-0013a2c9236c.png
+- 8 files share hash ed5aee37c1a9...
+  - /assets/zogs/imported-assets/16-2.png
+  - /assets/zogs/imported-assets/16.png
+  - /assets/zogs/imported-assets/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0-2.png
+  - /assets/zogs/imported-assets/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0.png
+  - /assets/zogs/v1/16-2.png
+  - /assets/zogs/v1/16.png
+  - /assets/zogs/v2/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0-2.png
+  - /assets/zogs/v2/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0.png
+- 8 files share hash c698322ea33e...
+  - /assets/zogs/imported-assets/16ce668b-cc24-44c5-b785-003eacfc1a66-2.png
+  - /assets/zogs/imported-assets/16ce668b-cc24-44c5-b785-003eacfc1a66.png
+  - /assets/zogs/imported-assets/19-2.png
+  - /assets/zogs/imported-assets/19.png
+  - /assets/zogs/v1/19-2.png
+  - /assets/zogs/v1/19.png
+  - /assets/zogs/v2/16ce668b-cc24-44c5-b785-003eacfc1a66-2.png
+  - /assets/zogs/v2/16ce668b-cc24-44c5-b785-003eacfc1a66.png
+- 8 files share hash f646547d6449...
+  - /assets/zogs/imported-assets/17-2.png
+  - /assets/zogs/imported-assets/17.png
+  - /assets/zogs/imported-assets/aa1fba69-49b4-41d4-a931-92ae9955fbc2-2.png
+  - /assets/zogs/imported-assets/aa1fba69-49b4-41d4-a931-92ae9955fbc2.png
+  - /assets/zogs/v1/17-2.png
+  - /assets/zogs/v1/17.png
+  - /assets/zogs/v2/aa1fba69-49b4-41d4-a931-92ae9955fbc2-2.png
+  - /assets/zogs/v2/aa1fba69-49b4-41d4-a931-92ae9955fbc2.png
+- 8 files share hash 6f71a32e44dd...
+  - /assets/zogs/imported-assets/18-2.png
+  - /assets/zogs/imported-assets/18.png
+  - /assets/zogs/imported-assets/3618c7ef-caee-46a1-9cc6-bc1d0e518ce5-2.png
+  - /assets/zogs/imported-assets/3618c7ef-caee-46a1-9cc6-bc1d0e518ce5.png
+  - /assets/zogs/v1/18-2.png
+  - /assets/zogs/v1/18.png
+  - /assets/zogs/v2/3618c7ef-caee-46a1-9cc6-bc1d0e518ce5-2.png
+  - /assets/zogs/v2/3618c7ef-caee-46a1-9cc6-bc1d0e518ce5.png
+- 8 files share hash 571239a1db0a...
+  - /assets/zogs/imported-assets/20-2.png
+  - /assets/zogs/imported-assets/20.png
+  - /assets/zogs/imported-assets/c612df9e-1ffa-4884-9116-353ed4816099-2.png
+  - /assets/zogs/imported-assets/c612df9e-1ffa-4884-9116-353ed4816099.png
+  - /assets/zogs/v1/20-2.png
+  - /assets/zogs/v1/20.png
+  - /assets/zogs/v2/c612df9e-1ffa-4884-9116-353ed4816099-2.png
+  - /assets/zogs/v2/c612df9e-1ffa-4884-9116-353ed4816099.png
+- 8 files share hash c2f9c8fc9d57...
+  - /assets/zogs/imported-assets/21-2.png
+  - /assets/zogs/imported-assets/21.png
+  - /assets/zogs/imported-assets/aa9082e8-4ee2-43e9-9af8-38ca8071a04c-2.png
+  - /assets/zogs/imported-assets/aa9082e8-4ee2-43e9-9af8-38ca8071a04c.png
+  - /assets/zogs/v1/21-2.png
+  - /assets/zogs/v1/21.png
+  - /assets/zogs/v2/aa9082e8-4ee2-43e9-9af8-38ca8071a04c-2.png
+  - /assets/zogs/v2/aa9082e8-4ee2-43e9-9af8-38ca8071a04c.png
+- 8 files share hash 8e44a8bd0648...
+  - /assets/zogs/imported-assets/45588853-d137-429c-9ef4-2cad2caeacea-2.png
+  - /assets/zogs/imported-assets/45588853-d137-429c-9ef4-2cad2caeacea.png
+  - /assets/zogs/imported-assets/8-2.png
+  - /assets/zogs/imported-assets/8.png
+  - /assets/zogs/v1/8-2.png
+  - /assets/zogs/v1/8.png
+  - /assets/zogs/v2/45588853-d137-429c-9ef4-2cad2caeacea-2.png
+  - /assets/zogs/v2/45588853-d137-429c-9ef4-2cad2caeacea.png
+- 8 files share hash 3607264e4f65...
+  - /assets/zogs/imported-assets/6cbcac41-3cee-48d5-953c-ea7ad1a04098-2.png
+  - /assets/zogs/imported-assets/6cbcac41-3cee-48d5-953c-ea7ad1a04098.png
+  - /assets/zogs/imported-assets/9-2.png
+  - /assets/zogs/imported-assets/9.png
+  - /assets/zogs/v1/9-2.png
+  - /assets/zogs/v1/9.png
+  - /assets/zogs/v2/6cbcac41-3cee-48d5-953c-ea7ad1a04098-2.png
+  - /assets/zogs/v2/6cbcac41-3cee-48d5-953c-ea7ad1a04098.png
+- 5 files share hash 230d74eee17e...
+  - /assets/images/endcosmos-maps-main.png
+  - /assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos-2.png
+  - /assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos-3.png
+  - /assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos-4.png
+  - /assets/zogs/imported-assets/999personajes-principales-y-mapas-donde-viven-endcosmos.png
+- 5 files share hash c0057e7e9ba3...
+  - /assets/zogs/catalog/8c569664-1712-49aa-8512-36407ee88106.png
+  - /assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_51_09-2.png
+  - /assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_51_09.png
+  - /assets/zogs/imported-assets/8c569664-1712-49aa-8512-36407ee88106.png
+  - /assets/zogs/imported-assets/chatgpt-image-11-mar-2026-16-51-09.png
+- 4 files share hash d4a28bc3541e...
+  - /assets/favicon.png
+  - /assets/images/78b35709-93da-4a94-97aa-592b9123a1ee.png
+  - /assets/zogs/catalog/78b35709-93da-4a94-97aa-592b9123a1ee.png
+  - /assets/zogs/imported-assets/78b35709-93da-4a94-97aa-592b9123a1ee.png
+- 4 files share hash 9958dbff3051...
+  - /assets/zogs/imported-assets/1-2.png
+  - /assets/zogs/imported-assets/1.png
+  - /assets/zogs/v1/1-2.png
+  - /assets/zogs/v1/1.png
+- 4 files share hash 144771da6d36...
+  - /assets/zogs/imported-assets/2-2.png
+  - /assets/zogs/imported-assets/2.png
+  - /assets/zogs/v1/2-2.png
+  - /assets/zogs/v1/2.png
+- 4 files share hash 8640c97edae7...
+  - /assets/zogs/imported-assets/3-2.png
+  - /assets/zogs/imported-assets/3.png
+  - /assets/zogs/v1/3-2.png
+  - /assets/zogs/v1/3.png
+- 4 files share hash 30f6118658d3...
+  - /assets/zogs/imported-assets/4-2.png
+  - /assets/zogs/imported-assets/4.png
+  - /assets/zogs/v1/4-2.png
+  - /assets/zogs/v1/4.png
+- 4 files share hash 534df961e658...
+  - /assets/zogs/imported-assets/5-2.png
+  - /assets/zogs/imported-assets/5.png
+  - /assets/zogs/v1/5-2.png
+  - /assets/zogs/v1/5.png
+- 4 files share hash 4c3fce0de340...
+  - /assets/zogs/imported-assets/6-2.png
+  - /assets/zogs/imported-assets/6.png
+  - /assets/zogs/v1/6-2.png
+  - /assets/zogs/v1/6.png
+- 4 files share hash c23f887d9fa1...
+  - /assets/zogs/imported-assets/6assets1-2.png
+  - /assets/zogs/imported-assets/6assets1-3.png
+  - /assets/zogs/imported-assets/6assets1-4.png
+  - /assets/zogs/imported-assets/6assets1.png
+- 4 files share hash ecd124733135...
+  - /assets/zogs/imported-assets/7-2.png
+  - /assets/zogs/imported-assets/7.png
+  - /assets/zogs/v1/7-2.png
+  - /assets/zogs/v1/7.png
+- 4 files share hash 7a12b3bd7d95...
+  - /assets/zogs/imported-assets/999-asets-in-one-2.png
+  - /assets/zogs/imported-assets/999-asets-in-one-3.png
+  - /assets/zogs/imported-assets/999-asets-in-one-4.png
+  - /assets/zogs/imported-assets/999-asets-in-one.png
+- 4 files share hash e77ee2e6edac...
+  - /assets/zogs/imported-assets/edcosmos-y-sus-9999999-idea-de-lore-y-movimiento-2.png
+  - /assets/zogs/imported-assets/edcosmos-y-sus-9999999-idea-de-lore-y-movimiento-3.png
+  - /assets/zogs/imported-assets/edcosmos-y-sus-9999999-idea-de-lore-y-movimiento-4.png
+  - /assets/zogs/imported-assets/edcosmos-y-sus-9999999-idea-de-lore-y-movimiento.png
+- 4 files share hash f86f8071648e...
+  - /assets/zogs/imported-assets/la-verdad-en-endcosmo-2.png
+  - /assets/zogs/imported-assets/la-verdad-en-endcosmo-3.png
+  - /assets/zogs/imported-assets/la-verdad-en-endcosmo-4.png
+  - /assets/zogs/imported-assets/la-verdad-en-endcosmo.png
+- 3 files share hash 6d2fc5b347ce...
+  - /assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_50_58-2.png
+  - /assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_50_58.png
+  - /assets/zogs/imported-assets/chatgpt-image-11-mar-2026-16-50-58.png
+- 3 files share hash 0dfa2236a5b7...
+  - /assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_51_14-2.png
+  - /assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_51_14.png
+  - /assets/zogs/imported-assets/chatgpt-image-11-mar-2026-16-51-14.png
+- 3 files share hash 9fa4dd24c82b...
+  - /assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_51_21-2.png
+  - /assets/zogs/catalog/ChatGPT Image 11 mar 2026, 16_51_21.png
+  - /assets/zogs/imported-assets/chatgpt-image-11-mar-2026-16-51-21.png
+- 3 files share hash c3efac5cd86e...
+  - /assets/zogs/imported-assets/0d6aeb92-86e0-4f77-a56f-aad63aa5fd0d-2.png
+  - /assets/zogs/imported-assets/0d6aeb92-86e0-4f77-a56f-aad63aa5fd0d.png
+  - /assets/zogs/v2/0d6aeb92-86e0-4f77-a56f-aad63aa5fd0d.png
+- 3 files share hash 0291e3566fcb...
+  - /assets/zogs/imported-assets/1-10724-2.png
+  - /assets/zogs/imported-assets/1-10724.png
+  - /assets/zogs/v1/1_10724.png
+- 3 files share hash 5aed9a8591e9...
+  - /assets/zogs/imported-assets/15c7f06a-d254-4014-8312-6c9d39d507b3.png
+  - /assets/zogs/imported-assets/chatgpt-image-6-mar-2026-20-33-12.png
+  - /assets/zogs/imported-assets/her.png
+- 3 files share hash 95201649e8d0...
+  - /assets/zogs/imported-assets/16b6820b-a3a6-4f12-bd91-bdcf5c97acc4-2.png
+  - /assets/zogs/imported-assets/16b6820b-a3a6-4f12-bd91-bdcf5c97acc4.png
+  - /assets/zogs/v2/16b6820b-a3a6-4f12-bd91-bdcf5c97acc4.png
+- 3 files share hash 4b96685cad09...
+  - /assets/zogs/imported-assets/2fe9563b-d22f-4f45-b54e-a54b258da6dd-2.png
+  - /assets/zogs/imported-assets/2fe9563b-d22f-4f45-b54e-a54b258da6dd.png
+  - /assets/zogs/v2/2fe9563b-d22f-4f45-b54e-a54b258da6dd.png
+- 3 files share hash bb5f765a5a98...
+  - /assets/zogs/imported-assets/3dfd977c-55ee-41de-9e5b-bc1890cf5441-2.png
+  - /assets/zogs/imported-assets/3dfd977c-55ee-41de-9e5b-bc1890cf5441.png
+  - /assets/zogs/v2/3dfd977c-55ee-41de-9e5b-bc1890cf5441.png
+- 3 files share hash af30cf2dfdce...
+  - /assets/zogs/imported-assets/52a55a68-a27e-42d0-86f1-cb8466346eeb-2.png
+  - /assets/zogs/imported-assets/52a55a68-a27e-42d0-86f1-cb8466346eeb-3.png
+  - /assets/zogs/imported-assets/52a55a68-a27e-42d0-86f1-cb8466346eeb.png
+- 3 files share hash 6477e122863a...
+  - /assets/zogs/imported-assets/684ec1eb-6801-4f15-a244-fa8f13d33ab8-2.png
+  - /assets/zogs/imported-assets/684ec1eb-6801-4f15-a244-fa8f13d33ab8.png
+  - /assets/zogs/v2/684ec1eb-6801-4f15-a244-fa8f13d33ab8.png
+- 3 files share hash 4c0be4ebba22...
+  - /assets/zogs/imported-assets/8b16e5a2-ae02-4eb2-a405-67d740e71669-2.png
+  - /assets/zogs/imported-assets/8b16e5a2-ae02-4eb2-a405-67d740e71669.png
+  - /assets/zogs/v2/8b16e5a2-ae02-4eb2-a405-67d740e71669.png
+- 3 files share hash 19f84d1ab14d...
+  - /assets/zogs/imported-assets/8bb89adf-d6f5-41f4-b314-90d09fa25c60-2.png
+  - /assets/zogs/imported-assets/8bb89adf-d6f5-41f4-b314-90d09fa25c60.png
+  - /assets/zogs/v2/8bb89adf-d6f5-41f4-b314-90d09fa25c60.png
+- 3 files share hash df0932bfd132...
+  - /assets/zogs/imported-assets/8f245e3f-8a88-47cb-bdf9-e00067f38896-2.png
+  - /assets/zogs/imported-assets/8f245e3f-8a88-47cb-bdf9-e00067f38896.png
+  - /assets/zogs/v2/8f245e3f-8a88-47cb-bdf9-e00067f38896.png
+- 3 files share hash 265746687bc4...
+  - /assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-2.png
+  - /assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos-3.png
+  - /assets/zogs/imported-assets/9999999-languajes-jobs-exploration-worlds-landscapes-planetas-endcosmos.png
+- 3 files share hash 7f68410622bc...
+  - /assets/zogs/imported-assets/aguejero-nogro-2.png
+  - /assets/zogs/imported-assets/aguejero-nogro-3.png
+  - /assets/zogs/imported-assets/aguejero-nogro.png
+- 3 files share hash 89b13e7c0ebc...
+  - /assets/zogs/imported-assets/b35989dc-d0df-4d58-9261-75ac7dec3c55-2.png
+  - /assets/zogs/imported-assets/b35989dc-d0df-4d58-9261-75ac7dec3c55.png
+  - /assets/zogs/v2/b35989dc-d0df-4d58-9261-75ac7dec3c55.png
+- 3 files share hash c9c17d907ddc...
+  - /assets/zogs/imported-assets/cosmis-pack-99999-2.png
+  - /assets/zogs/imported-assets/cosmis-pack-99999-3.png
+  - /assets/zogs/imported-assets/cosmis-pack-99999.png
+- 3 files share hash 17fe2566cee8...
+  - /assets/zogs/imported-assets/cosmos-2.png
+  - /assets/zogs/imported-assets/cosmos-3.png
+  - /assets/zogs/imported-assets/cosmos.png
+- 3 files share hash eb3189c7d56e...
+  - /assets/zogs/imported-assets/endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras-2.png
+  - /assets/zogs/imported-assets/endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras-3.png
+  - /assets/zogs/imported-assets/endcosmos-assets-outfits-skins-monturas-pets-pets-de-monturas-voladoras.png
+- 3 files share hash 5a691c8c1733...
+  - /assets/zogs/imported-assets/estructura-y-muebles-endcosmos-2.png
+  - /assets/zogs/imported-assets/estructura-y-muebles-endcosmos-3.png
+  - /assets/zogs/imported-assets/estructura-y-muebles-endcosmos.png
+
+## Unreferenced normalized assets
+
+- /assets/images/backgrounds/03-space-eagle-nebula-02.jpg
+- /assets/images/backgrounds/03-space-eagle-nebula.jpg
+- /assets/images/backgrounds/1-bgih56ofcuegowtqoxobq-copia.jpg
+- /assets/images/backgrounds/1-bgih56ofcuegowtqoxobq.jpg
+- /assets/images/backgrounds/bosque-4.jpg
+- /assets/images/backgrounds/bosque1.jpg
+- /assets/images/backgrounds/bosque2.webp
+- /assets/images/backgrounds/bosque3.jpg
+- /assets/images/backgrounds/hd-wallpaper-yeti-in-the-space-nebula-creature-fantasy-thumbnail.jpg
+- /assets/images/backgrounds/orbiting-planet-space-themed-motion-background-clip-hd.webp
+- /assets/images/backgrounds/pngtree-cosmic-portal-to-another-dimension-opens-freely-always-image-20919279.webp
+- /assets/images/backgrounds/pngtree-futuristic-cosmic-portal-to-another-dimension-image-20878348.webp
+- /assets/images/backgrounds/pngtree-sculpted-head-silhouette-against-vibrant-cosmic-background-of-swirling-galaxies-and-picture-image-16624136.jpg
+- /assets/images/bosses/425139-riendas-del-dragon-nimbo-astral-02.jpg
+- /assets/images/bosses/425139-riendas-del-dragon-nimbo-astral.jpg
+- /assets/images/bosses/battle.webp
+- /assets/images/bosses/cosmic-serpent-galaxy-art.webp
+- /assets/images/bosses/inside-science-pudgy-dragon-orion-nebula-01-ht-jc-190214-hpmain-16x9-992.jpg
+- /assets/images/bosses/motion-battle.avif
+- /assets/images/bosses/pngtree-epic-clash-of-ancient-warriors-in-traditional-armor-fighting-fiercely-within-image-20719811.webp
+- /assets/images/bosses/the-eternal-cosmic-warrior-by-brucalord-dilxa37-fullview.jpg
+- /assets/images/cities/city-fantasy-landscape-process-video-by-jstiller30-dfqpmat-fullview.jpg
+- /assets/images/cities/osmadth-bancur-city-by-flaviobolla-d4zpa5a-fullview.jpg
+- /assets/images/cities/purple-and-blue-sci-fi-city-background-qrtlhfz3pjiw11ry.jpg
+- /assets/images/hero/cover-endcosmos-portal.png
+- /assets/images/hero/endcosmos-hero-cinematic-02.webp
+- /assets/images/hero/endcosmos-hero-cinematic.avif
+- /assets/images/hero/hero-main.jpg
+- /assets/images/hero/hero-secondary.jpg
+- /assets/images/hero/hero.jpg
+- /assets/images/hero/hero2.png
+- /assets/images/hero/motion-hero-secondary.avif
+- /assets/images/hero/portada1-02.png
+- /assets/images/hero/portada1-2.png
+- /assets/images/hero/portada1.png
+- /assets/images/lore/0-k-q8xid3qorj8v-t.jpg
+- /assets/images/lore/03773bf7-2ecb-470f-a390-2b02c8de1477.png
+- /assets/images/lore/063b3970-b498-47a2-b28a-c536c93acefc-medium.webp
+- /assets/images/lore/0d6aeb92-86e0-4f77-a56f-aad63aa5fd0d-02.png
+- /assets/images/lore/0d6aeb92-86e0-4f77-a56f-aad63aa5fd0d-2.png
+- /assets/images/lore/0d6aeb92-86e0-4f77-a56f-aad63aa5fd0d.png
+- /assets/images/lore/1-02.png
+- /assets/images/lore/1-10724-02.png
+- /assets/images/lore/1-10724-2.png
+- /assets/images/lore/1-10724.png
+- /assets/images/lore/1-2-02.png
+- /assets/images/lore/1-2.png
+- /assets/images/lore/1-8ma4ocfq3xw1uaz7q-mayg.jpg
+- /assets/images/lore/1-b1byswn3cpepfjwavyjvtq.jpg
+- /assets/images/lore/1-bxhlxnp6ljnnbdvectcmkg.png
+- /assets/images/lore/1-vvvdyu4yy7mdsykr2od-fq.jpg
+- /assets/images/lore/1.png
+- /assets/images/lore/10-02.png
+- /assets/images/lore/10-2-02.png
+- /assets/images/lore/10-2.png
+- /assets/images/lore/10.png
+- /assets/images/lore/1003670-1.png
+- /assets/images/lore/11-02.png
+- /assets/images/lore/11-2-02.png
+- /assets/images/lore/11-2.png
+- /assets/images/lore/11.png
+- /assets/images/lore/11212408550228480745-2048.jpg
+- /assets/images/lore/1170873.jpg
+- /assets/images/lore/1175534-02.jpg
+- /assets/images/lore/1175534.jpg
+- /assets/images/lore/12-02.png
+- /assets/images/lore/12-2-02.png
+- /assets/images/lore/12-2.png
+- /assets/images/lore/12.png
+- /assets/images/lore/1200x866.jpg
+- /assets/images/lore/13-02.png
+- /assets/images/lore/13-2-02.png
+- /assets/images/lore/13-2.png
+- /assets/images/lore/13.png
+- /assets/images/lore/14-02.png
+- /assets/images/lore/14-2-02.png
+- /assets/images/lore/14-2.png
+- /assets/images/lore/14-3.png
+- /assets/images/lore/14.png
+- /assets/images/lore/14df6d39-249a-4bf6-93de-7bcf4457690e-medium.webp
+- /assets/images/lore/15-02.png
+- /assets/images/lore/15-2-02.png
+- /assets/images/lore/15-2.png
+- /assets/images/lore/15.png
+- /assets/images/lore/15c7f06a-d254-4014-8312-6c9d39d507b3.png
+- /assets/images/lore/16-02.png
+- /assets/images/lore/16-2-02.png
+- /assets/images/lore/16-2.png
+- /assets/images/lore/16.png
+- /assets/images/lore/16b6820b-a3a6-4f12-bd91-bdcf5c97acc4-02.png
+- /assets/images/lore/16b6820b-a3a6-4f12-bd91-bdcf5c97acc4-2.png
+- /assets/images/lore/16b6820b-a3a6-4f12-bd91-bdcf5c97acc4.png
+- /assets/images/lore/16ce668b-cc24-44c5-b785-003eacfc1a66-02.png
+- /assets/images/lore/16ce668b-cc24-44c5-b785-003eacfc1a66-2-02.png
+- /assets/images/lore/16ce668b-cc24-44c5-b785-003eacfc1a66-2.png
+- /assets/images/lore/16ce668b-cc24-44c5-b785-003eacfc1a66.png
+- /assets/images/lore/17-02.png
+- /assets/images/lore/17-2-02.png
+- /assets/images/lore/17-2.png
+- /assets/images/lore/17.png
+- /assets/images/lore/18-02.png
+- /assets/images/lore/18-2-02.png
+- /assets/images/lore/18-2.png
+- /assets/images/lore/18.png
+- /assets/images/lore/1856dcec-c3f1-4031-8b9c-811155a8bcfc.png
+- /assets/images/lore/19-02.png
+- /assets/images/lore/19-2-02.png
+- /assets/images/lore/19-2.png
+- /assets/images/lore/19.png
+- /assets/images/lore/1a7c4613c8f558ac8e41cf06af40498d.jpg
+- /assets/images/lore/2-02.png
+- /assets/images/lore/2-2-02.png
+- /assets/images/lore/2-2.png
+- /assets/images/lore/2.png
+- /assets/images/lore/20-02.png
+- /assets/images/lore/20-2-02.png
+- /assets/images/lore/20-2.png
+- /assets/images/lore/20.png
+- /assets/images/lore/2024-09-22t18-29-07-375z-medium.webp
+- /assets/images/lore/21-02.png
+- /assets/images/lore/21-2-02.png
+- /assets/images/lore/21-2.png
+- /assets/images/lore/21.png
+- /assets/images/lore/2862206.jpg
+- /assets/images/lore/2fe9563b-d22f-4f45-b54e-a54b258da6dd-02.png
+- /assets/images/lore/2fe9563b-d22f-4f45-b54e-a54b258da6dd-2.png
+- /assets/images/lore/2fe9563b-d22f-4f45-b54e-a54b258da6dd.png
+- /assets/images/lore/3-02.png
+- /assets/images/lore/3-2-02.png
+- /assets/images/lore/3-2.png
+- /assets/images/lore/3.png
+- /assets/images/lore/3618c7ef-caee-46a1-9cc6-bc1d0e518ce5-02.png
+- /assets/images/lore/3618c7ef-caee-46a1-9cc6-bc1d0e518ce5-2-02.png
+- /assets/images/lore/3618c7ef-caee-46a1-9cc6-bc1d0e518ce5-2.png
+- /assets/images/lore/3618c7ef-caee-46a1-9cc6-bc1d0e518ce5.png
+- /assets/images/lore/3dfd977c-55ee-41de-9e5b-bc1890cf5441-02.png
+- /assets/images/lore/3dfd977c-55ee-41de-9e5b-bc1890cf5441-2.png
+- /assets/images/lore/3dfd977c-55ee-41de-9e5b-bc1890cf5441.png
+- /assets/images/lore/4-02.png
+- /assets/images/lore/4-2-02.png
+- /assets/images/lore/4-2.png
+- /assets/images/lore/4.png
+- /assets/images/lore/416030b5298d3fe495ed409820bfec69a1a62781-02.jpeg
+- /assets/images/lore/416030b5298d3fe495ed409820bfec69a1a62781.jpeg
+- /assets/images/lore/44fef06ec8bdbb784ba2ae2b4ab1983ade52b7dc.jpeg
+- /assets/images/lore/45588853-d137-429c-9ef4-2cad2caeacea-02.png
+- /assets/images/lore/45588853-d137-429c-9ef4-2cad2caeacea-2-02.png
+- /assets/images/lore/45588853-d137-429c-9ef4-2cad2caeacea-2.png
+- /assets/images/lore/45588853-d137-429c-9ef4-2cad2caeacea.png
+- /assets/images/lore/48b9aeb7c93c1707315444bdc150b43e.jpg
+- /assets/images/lore/4ab2e091-da1b-48c5-a6c1-1fb3d0cc6289.png
+- /assets/images/lore/5-02.png
+- /assets/images/lore/5-2-02.png
+- /assets/images/lore/5-2.png
+- /assets/images/lore/5.png
+- /assets/images/lore/52a55a68-a27e-42d0-86f1-cb8466346eeb-2.png
+- /assets/images/lore/52a55a68-a27e-42d0-86f1-cb8466346eeb-3.png
+- /assets/images/lore/52a55a68-a27e-42d0-86f1-cb8466346eeb.png
+- /assets/images/lore/549cc996-b0e6-48c3-bb4e-02ac064d8c88-02.png
+- /assets/images/lore/549cc996-b0e6-48c3-bb4e-02ac064d8c88-2-02.png
+- /assets/images/lore/549cc996-b0e6-48c3-bb4e-02ac064d8c88-2.png
+- /assets/images/lore/549cc996-b0e6-48c3-bb4e-02ac064d8c88.png
+- /assets/images/lore/5d8457df-af04-49c4-b28f-d25b4c09cfb9-02.png
+- /assets/images/lore/5d8457df-af04-49c4-b28f-d25b4c09cfb9-2-02.png
+- /assets/images/lore/5d8457df-af04-49c4-b28f-d25b4c09cfb9-2.png
+- /assets/images/lore/5d8457df-af04-49c4-b28f-d25b4c09cfb9.png
+- /assets/images/lore/5e7hhx9srml3rszjwgoxyz1hxzfsuahls-ta4julzhrm15r8r5ct-nbfnrppz4g-hqcpomwqopu8p7mk72hqk2m1vkljnop4ccnsx4cgxb0.jpg
+- /assets/images/lore/6-02.png
+- /assets/images/lore/6-2-02.png
+- /assets/images/lore/6-2.png
+- /assets/images/lore/6.png
+- /assets/images/lore/61-fd-qumkl-ac-uf1000-1000-ql80.jpg
+- /assets/images/lore/65c1250a-3442-4e2c-a974-a9b6599873fc.webp
+- /assets/images/lore/684ec1eb-6801-4f15-a244-fa8f13d33ab8-02.png
+- /assets/images/lore/684ec1eb-6801-4f15-a244-fa8f13d33ab8-2.png
+- /assets/images/lore/684ec1eb-6801-4f15-a244-fa8f13d33ab8.png
+- /assets/images/lore/6assets1-2.png
+- /assets/images/lore/6assets1-3.png
+- /assets/images/lore/6assets1-4.png
+- /assets/images/lore/6assets1.png
+- /assets/images/lore/6cbcac41-3cee-48d5-953c-ea7ad1a04098-02.png
+- /assets/images/lore/6cbcac41-3cee-48d5-953c-ea7ad1a04098-2-02.png
+- /assets/images/lore/6cbcac41-3cee-48d5-953c-ea7ad1a04098-2.png
+- /assets/images/lore/6cbcac41-3cee-48d5-953c-ea7ad1a04098.png
+- /assets/images/lore/6jfy7ecahuosjccauylb3o.jpg
+- /assets/images/lore/7-02.png
+- /assets/images/lore/7-2-02.png
+- /assets/images/lore/7-2.png
+- /assets/images/lore/7.png
+- /assets/images/lore/71qsfmevfdl-ac-uf1000-1000-ql80.jpg
+- /assets/images/lore/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0-02.png
+- /assets/images/lore/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0-2-02.png
+- /assets/images/lore/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0-2.png
+- /assets/images/lore/75e5ba18-1ba1-4305-97ea-9c4a5ae31cb0.png
+- /assets/images/lore/78565d2d-57ec-41fb-ac8b-0013a2c9236c-02.png
+- /assets/images/lore/78565d2d-57ec-41fb-ac8b-0013a2c9236c-2-02.png
+- /assets/images/lore/78565d2d-57ec-41fb-ac8b-0013a2c9236c-2.png
+- /assets/images/lore/78565d2d-57ec-41fb-ac8b-0013a2c9236c.png
+- /assets/images/lore/78b35709-93da-4a94-97aa-592b9123a1ee-02.png
+- /assets/images/lore/78b35709-93da-4a94-97aa-592b9123a1ee-03.png
+- /assets/images/lore/78b35709-93da-4a94-97aa-592b9123a1ee.png
+- /assets/images/lore/8-02.png
+- /assets/images/lore/8-2-02.png
+- /assets/images/lore/8-2.png
+- /assets/images/lore/8.png
+- /assets/images/lore/8b16e5a2-ae02-4eb2-a405-67d740e71669-02.png
+- /assets/images/lore/8b16e5a2-ae02-4eb2-a405-67d740e71669-2.png
+- /assets/images/lore/8b16e5a2-ae02-4eb2-a405-67d740e71669.png
+- /assets/images/lore/8b33a2cfdba72ecfe415cba79d9f8ea9.jpg
+- /assets/images/lore/8bb89adf-d6f5-41f4-b314-90d09fa25c60-02.png
+- /assets/images/lore/8bb89adf-d6f5-41f4-b314-90d09fa25c60-2.png
+- /assets/images/lore/8bb89adf-d6f5-41f4-b314-90d09fa25c60.png
+- /assets/images/lore/8c569664-1712-49aa-8512-36407ee88106-02.png
+- /assets/images/lore/8c569664-1712-49aa-8512-36407ee88106.png
+- /assets/images/lore/8f245e3f-8a88-47cb-bdf9-e00067f38896-02.png
+- /assets/images/lore/8f245e3f-8a88-47cb-bdf9-e00067f38896-2.png
+- /assets/images/lore/8f245e3f-8a88-47cb-bdf9-e00067f38896.png
+- /assets/images/lore/8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f-02.png
+- /assets/images/lore/8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f-2-02.png
+- /assets/images/lore/8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f-2.png
+- /assets/images/lore/8f7e15eb-537f-4a57-b1d9-be0f3c62ba6f.png
+- /assets/images/lore/9-02.png
+- /assets/images/lore/9-2-02.png
+- /assets/images/lore/9-2.png
+- /assets/images/lore/9.png
+- /assets/images/lore/975686f3-6e46-4ba6-a244-01c331fc70cd.png
+- /assets/images/lore/999-asets-in-one-2.png
+- /assets/images/lore/999-asets-in-one-3.png
+- /assets/images/lore/999-asets-in-one-4.png
+- /assets/images/lore/999-asets-in-one.png
+- /assets/images/lore/9d9d5754ae8016c18a7fd4029ab11df8.jpg
+- /assets/images/lore/a3c855c4002ab5455ab6abc70e0304a6.jpeg
+- /assets/images/lore/a49f8d18-49f0-4682-be93-c53515e75621-02.png
+- /assets/images/lore/a49f8d18-49f0-4682-be93-c53515e75621-2-02.png
+- /assets/images/lore/a49f8d18-49f0-4682-be93-c53515e75621-2.png
+- /assets/images/lore/a49f8d18-49f0-4682-be93-c53515e75621.png
+- /assets/images/lore/a710e3f4b8f559ac406d4797390b5cc2.webp
+- /assets/images/lore/aa1fba69-49b4-41d4-a931-92ae9955fbc2-02.png
+- /assets/images/lore/aa1fba69-49b4-41d4-a931-92ae9955fbc2-2-02.png
+- /assets/images/lore/aa1fba69-49b4-41d4-a931-92ae9955fbc2-2.png
+- /assets/images/lore/aa1fba69-49b4-41d4-a931-92ae9955fbc2.png
+- /assets/images/lore/aa9082e8-4ee2-43e9-9af8-38ca8071a04c-02.png
+- /assets/images/lore/aa9082e8-4ee2-43e9-9af8-38ca8071a04c-2-02.png
+- /assets/images/lore/aa9082e8-4ee2-43e9-9af8-38ca8071a04c-2.png
+- /assets/images/lore/aa9082e8-4ee2-43e9-9af8-38ca8071a04c.png
+- /assets/images/lore/ae14fc54-1152-49eb-bc33-ba8a56fe83f0-medium.webp
+- /assets/images/lore/aguejero-nogro-2.png
+- /assets/images/lore/aguejero-nogro-3.png
+- /assets/images/lore/aguejero-nogro.png
+- /assets/images/lore/album-alb2268411.jpg
+- /assets/images/lore/alien1.png
+- /assets/images/lore/b35989dc-d0df-4d58-9261-75ac7dec3c55-02.png
+- /assets/images/lore/b35989dc-d0df-4d58-9261-75ac7dec3c55-2.png
+- /assets/images/lore/b35989dc-d0df-4d58-9261-75ac7dec3c55.png
+- /assets/images/lore/b661a293-e619-49a4-ba52-801e93a43dac.png
+- /assets/images/lore/b698bcb7-6877-4445-bf88-8e945f885a59-02.png
+- /assets/images/lore/b698bcb7-6877-4445-bf88-8e945f885a59-2-02.png
+- /assets/images/lore/b698bcb7-6877-4445-bf88-8e945f885a59-2.png
+- /assets/images/lore/b698bcb7-6877-4445-bf88-8e945f885a59.png
+- /assets/images/lore/b94f1411a6ddcd2b912060223f767036.webp
+- /assets/images/lore/brand-art.jpg
+- /assets/images/lore/c612df9e-1ffa-4884-9116-353ed4816099-02.png
+- /assets/images/lore/c612df9e-1ffa-4884-9116-353ed4816099-2-02.png
+- /assets/images/lore/c612df9e-1ffa-4884-9116-353ed4816099-2.png
+- /assets/images/lore/c612df9e-1ffa-4884-9116-353ed4816099.png
+- /assets/images/lore/c887adcf-7f4a-497f-8faf-d3c6aa427674.png
+- /assets/images/lore/cae88e3c-21db-491a-b025-d290863e236f.png
+- /assets/images/lore/chatgpt-image-11-mar-2026-16-50-58-02.png
+- /assets/images/lore/chatgpt-image-11-mar-2026-16-50-58-2.png
+- /assets/images/lore/chatgpt-image-11-mar-2026-16-50-58.png
+- /assets/images/lore/chatgpt-image-11-mar-2026-16-51-05-02.png
+- /assets/images/lore/chatgpt-image-11-mar-2026-16-51-05-2.png
+- /assets/images/lore/chatgpt-image-11-mar-2026-16-51-05.png
+- /assets/images/lore/chatgpt-image-11-mar-2026-16-51-09-02.png
+- /assets/images/lore/chatgpt-image-11-mar-2026-16-51-09-2.png
+- /assets/images/lore/chatgpt-image-11-mar-2026-16-51-09.png
+- /assets/images/lore/chatgpt-image-11-mar-2026-16-51-14-02.png
+- /assets/images/lore/chatgpt-image-11-mar-2026-16-51-14-2.png
+- /assets/images/lore/chatgpt-image-11-mar-2026-16-51-14.png
+- /assets/images/lore/chatgpt-image-11-mar-2026-16-51-21-02.png
+- /assets/images/lore/chatgpt-image-11-mar-2026-16-51-21-2.png
+- /assets/images/lore/chatgpt-image-11-mar-2026-16-51-21.png
+- /assets/images/lore/chatgpt-image-12-mar-2026-04-19-22-2.png
+- /assets/images/lore/chatgpt-image-12-mar-2026-04-19-22.png
+- /assets/images/lore/chatgpt-image-6-mar-2026-20-33-12.png
+- /assets/images/lore/chatgpt-image-6-mar-2026-20-45-34.png
+- /assets/images/lore/chatgpt-image-7-mar-2026-13-52-43.png
+- /assets/images/lore/chatgpt-image-7-mar-2026-13-53-32.png
+- /assets/images/lore/cosmis-pack-99999-2.png
+- /assets/images/lore/cosmis-pack-99999-3.png
+- /assets/images/lore/cosmis-pack-99999.png
+- /assets/images/lore/cosmos-2.png
+- /assets/images/lore/cosmos-3.png
+- /assets/images/lore/cosmos.png
+- /assets/images/lore/df36had-01f8f342-f79a-46e6-a381-f346676837a9-02.jpg
+- /assets/images/lore/df36had-01f8f342-f79a-46e6-a381-f346676837a9.jpg
+- /assets/images/lore/e0dccb8f-f345-4cf2-970f-fd746dd05f0d.png
+- /assets/images/lore/e1l9n8ouuaqcha4.jpg
+- /assets/images/lore/e6b6411c-b719-43ff-96c0-92cf47c8044f-medium.webp
+- /assets/images/lore/edcosmos-y-sus-9999999-idea-de-lore-y-movimiento-2.png
+- ... and 117 more
+## Run 2026-03-12T11:27:55.620280+00:00
+- Sources: public\assets\zogs\inbox
+- Dry run: yes
+- Changes: sin archivos nuevos detectados
+## Run 2026-03-12T11:28:03.570313+00:00
+- Sources: public\assets\zogs\inbox
+- Dry run: no
+- Changes: sin archivos nuevos detectados
+## Run 2026-03-12T11:29:25.403223+00:00
+- Sources: public\assets\zogs\inbox
+- Dry run: no
+- Changes: sin archivos nuevos detectados
