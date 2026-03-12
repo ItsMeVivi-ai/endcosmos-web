@@ -1,180 +1,395 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-  <title>EndCosmos Portal | Powered by Llunaris</title>
-  <meta name="description" content="EndCosmos is a next-generation Metin2 private server powered by Llunaris. Custom systems, cosmic lore, balanced PvP/PvM, and an immersive MMORPG experience." />
-  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
-  <link rel="canonical" href="https://endcosmos.com/" />
+    <title>EndCosmos Portal | Powered by Llunaris</title>
+    <meta
+      name="description"
+      content="EndCosmos is a next-generation Metin2 private server powered by Llunaris. Custom systems, cosmic lore, balanced PvP/PvM, and an immersive MMORPG experience."
+    />
+    <meta
+      name="robots"
+      content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+    />
+    <link rel="canonical" href="https://endcosmos.com/" />
 
-  <meta property="og:site_name" content="EndCosmos" />
-  <meta property="og:title" content="EndCosmos - Powered by Llunaris" />
-  <meta property="og:description" content="Enter the Cosmos. The evolution of Metin2 private servers - custom systems, lore, and next-gen gameplay." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://endcosmos.com/" />
-  <meta property="og:image" content="https://endcosmos.com/assets/og.jpg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="EndCosmos" />
+    <meta property="og:title" content="EndCosmos - Powered by Llunaris" />
+    <meta
+      property="og:description"
+      content="Enter the Cosmos. The evolution of Metin2 private servers - custom systems, lore, and next-gen gameplay."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://endcosmos.com/" />
+    <meta property="og:image" content="https://endcosmos.com/assets/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
 
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="EndCosmos - Powered by Llunaris" />
-  <meta name="twitter:description" content="Enter the Cosmos. Next-gen Metin2 private server experience." />
-  <meta name="twitter:image" content="https://endcosmos.com/assets/og.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="EndCosmos - Powered by Llunaris" />
+    <meta
+      name="twitter:description"
+      content="Enter the Cosmos. Next-gen Metin2 private server experience."
+    />
+    <meta name="twitter:image" content="https://endcosmos.com/assets/og.jpg" />
 
-  <link rel="icon" href="/assets/favicon.ico" />
-  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
-  <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" href="/assets/favicon.ico" />
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+    <link rel="stylesheet" href="/css/style.css" />
 
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@graph":[
+    <script type="application/ld+json">
       {
-        "@type":"Organization",
-        "name":"EndCosmos",
-        "url":"https://endcosmos.com/",
-        "logo":"https://endcosmos.com/assets/logo.png"
-      },
-      {
-        "@type":"WebSite",
-        "name":"EndCosmos",
-        "url":"https://endcosmos.com/"
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "name": "EndCosmos",
+            "url": "https://endcosmos.com/",
+            "logo": "https://endcosmos.com/assets/logo.png"
+          },
+          {
+            "@type": "WebSite",
+            "name": "EndCosmos",
+            "url": "https://endcosmos.com/"
+          }
+        ]
       }
-    ]
-  }
-  </script>
-</head>
+    </script>
+  </head>
 
-<body>
-  <canvas class="starfield" aria-hidden="true"></canvas>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <body>
+    <canvas class="starfield" aria-hidden="true"></canvas>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
-    <nav class="nav" aria-label="Primary">
-      <a class="brand" href="/" aria-label="EndCosmos home">
-        <span class="brand-mark">*</span>
-        <span class="brand-name">EndCosmos</span>
-      </a>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="/" aria-label="EndCosmos home">
+          <span class="brand-mark">*</span>
+          <span class="brand-name">EndCosmos</span>
+        </a>
 
-      <div class="nav-links">
-        <a href="/news" class="nav-link">News</a>
-        <a href="/lore" class="nav-link">Lore</a>
-        <a href="/ranking" class="nav-link">Ranking</a>
-        <a href="/download" class="nav-link">Download</a>
-        <a href="https://discord.gg/REPLACE_ME" class="nav-link nav-cta" rel="noopener" target="_blank">Discord</a>
-      </div>
-    </nav>
-  </header>
-
-  <main id="main">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-nebula parallax-layer" data-depth="0.28" aria-hidden="true"></div>
-      <div class="hero-grid parallax-layer" data-depth="0.12" aria-hidden="true"></div>
-
-      <div class="hero-content reveal">
-        <p class="kicker">Cosmic Frontier Protocol</p>
-        <h1 id="hero-title" class="hero-title">
-          <span>ENDCOSMOS</span>
-          <em>From project to universe</em>
-        </h1>
-        <p class="lead">A living ecosystem powered by AI, worlds and infinite systems.</p>
-
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="/download">Enter Universe</a>
-          <a class="btn btn-secondary" href="/ranking">Admin Core</a>
-          <a class="btn btn-secondary" href="/news">AI Gateway</a>
-          <a class="btn btn-discord" href="https://discord.gg/REPLACE_ME" rel="noopener" target="_blank">Discord</a>
+        <div class="nav-links">
+          <a
+            href="/news"
+            class="nav-link"
+            title="Noticias oficiales, parches y anuncios"
+            aria-label="News: noticias y anuncios oficiales"
+            data-tooltip="Noticias y anuncios"
+            >News</a
+          >
+          <a
+            href="/lore"
+            class="nav-link"
+            title="Explora historia, facciones y universo EndCosmos"
+            aria-label="Lore: historia y universo"
+            data-tooltip="Historia del universo"
+            >Lore</a
+          >
+          <a
+            href="/ranking"
+            class="nav-link"
+            title="Clasificación global de jugadores y progreso"
+            aria-label="Ranking: clasificación global"
+            data-tooltip="Clasificación global"
+            >Ranking</a
+          >
+          <a
+            href="/download"
+            class="nav-link"
+            title="Descarga el cliente oficial del juego"
+            aria-label="Download: descarga del cliente"
+            data-tooltip="Descargar cliente"
+            >Download</a
+          >
+          <a
+            href="https://discord.gg/REPLACE_ME"
+            class="nav-link nav-cta"
+            rel="noopener"
+            target="_blank"
+            title="Comunidad oficial en Discord"
+            aria-label="Discord: unirse a la comunidad"
+            data-tooltip="Unirse a Discord"
+            >Discord</a
+          >
         </div>
+      </nav>
+    </header>
 
-        <ul class="hero-tags" aria-label="Universe highlights">
-          <li>Neural Systems</li>
-          <li>World Simulations</li>
-          <li>Faction Lore</li>
-          <li>Cinematic Events</li>
-        </ul>
-      </div>
-    </section>
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div
+          class="hero-nebula parallax-layer"
+          data-depth="0.28"
+          aria-hidden="true"
+        ></div>
+        <div
+          class="hero-grid parallax-layer"
+          data-depth="0.12"
+          aria-hidden="true"
+        ></div>
 
-    <section id="cosmos-status" class="section section-status" aria-labelledby="status-title">
-      <div class="wrap">
-        <h2 id="status-title" class="section-title reveal">Cosmos Status Panel</h2>
-        <div class="status-grid">
-          <article class="status-card reveal">
-            <header>
-              <h3>Harmony Index</h3>
-              <span class="signal signal-stable">STABLE</span>
-            </header>
-            <p>Balance integrity and world synchronization across every active realm.</p>
-            <div class="meter" data-level="92"><span></span></div>
+        <div class="hero-content reveal">
+          <p class="kicker">Cosmic Frontier Protocol</p>
+          <h1 id="hero-title" class="hero-title">
+            <span>ENDCOSMOS</span>
+            <em>From project to universe</em>
+          </h1>
+          <p class="lead">
+            A living ecosystem powered by AI, worlds and infinite systems.
+          </p>
+          <p class="lead-manifesto">
+            <a
+              class="link-emphasis"
+              href="/lore"
+              title="Abrir el Manifesto del Flow y la Paz"
+              aria-label="Manifesto del Flow y la Paz infinito"
+              >Manifesto del Flow y la Paz ∞</a
+            >
+          </p>
+
+          <div class="hero-actions">
+            <a
+              class="btn btn-primary"
+              href="/download"
+              title="Descarga el cliente oficial para entrar al universo EndCosmos"
+              aria-label="Download client: descarga el cliente oficial"
+              data-tooltip="Descarga el cliente oficial"
+              >Download Client</a
+            >
+            <a
+              class="btn btn-secondary"
+              href="/ranking"
+              title="Abre el panel de ranking y estadísticas globales"
+              aria-label="Ranking console: ver ranking y estadísticas"
+              data-tooltip="Ver ranking y estadísticas"
+              >Ranking Console</a
+            >
+            <a
+              class="btn btn-secondary"
+              href="/news"
+              title="Consulta noticias del servidor y actualizaciones del sistema AI"
+              aria-label="AI updates: noticias y actualizaciones"
+              data-tooltip="Noticias y actualizaciones AI"
+              >AI Updates</a
+            >
+            <a
+              class="btn btn-discord"
+              href="https://discord.gg/REPLACE_ME"
+              rel="noopener"
+              target="_blank"
+              title="Únete al Discord oficial de la comunidad"
+              aria-label="Discord community: unirse al servidor oficial"
+              data-tooltip="Unirse a la comunidad"
+              >Discord</a
+            >
+          </div>
+
+          <ul class="hero-tags" aria-label="Universe highlights">
+            <li>Neural Systems</li>
+            <li>World Simulations</li>
+            <li>Faction Lore</li>
+            <li>Cinematic Events</li>
+            <li>Llunaris</li>
+            <li>Leviathan</li>
+          </ul>
+        </div>
+      </section>
+
+      <section
+        id="cosmos-status"
+        class="section section-status"
+        aria-labelledby="status-title"
+      >
+        <div class="wrap">
+          <h2
+            id="status-title"
+            class="section-title section-title-strong reveal"
+          >
+            Control Center Panels
+          </h2>
+          <div class="status-grid">
+            <article class="status-card reveal">
+              <header>
+                <h3>Runtime</h3>
+                <span class="signal signal-stable">STABLE</span>
+              </header>
+              <p>
+                Core services, world loops and battle instances are running in
+                nominal range.
+              </p>
+              <div class="meter" data-level="94"><span></span></div>
+            </article>
+
+            <article class="status-card reveal">
+              <header>
+                <h3>Economía</h3>
+                <span class="signal signal-live">ONLINE</span>
+              </header>
+              <p>
+                Dynamic market balance and progression sinks are synchronized
+                across all active channels.
+              </p>
+              <div class="meter" data-level="89"><span></span></div>
+            </article>
+
+            <article class="status-card reveal">
+              <header>
+                <h3>AI Watchdog</h3>
+                <span class="signal signal-sync">SYNCED</span>
+              </header>
+              <p>
+                Autonomous behavior checks are monitoring anomalies, exploits
+                and event integrity in real time.
+              </p>
+              <div class="meter" data-level="91"><span></span></div>
+            </article>
+
+            <article class="status-card reveal">
+              <header>
+                <h3>Social Peace</h3>
+                <span class="signal signal-stable">BALANCED</span>
+              </header>
+              <p>
+                Faction pressure, guild conflict and cooperative activity remain
+                within healthy thresholds.
+              </p>
+              <div class="meter" data-level="93"><span></span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="register"
+        class="section section-register"
+        aria-labelledby="register-title"
+      >
+        <div class="wrap register-grid">
+          <article class="register-intro reveal">
+            <p class="kicker">Portal Access</p>
+            <h2 id="register-title" class="section-title section-title-strong">
+              Registro de Pilotos
+            </h2>
+            <p>
+              Crea tu cuenta para acceder al universo EndCosmos, sincronizar tu
+              progreso y entrar en eventos de temporada.
+            </p>
+            <ul class="register-points" aria-label="Beneficios del registro">
+              <li>Acceso a comunidad y eventos especiales</li>
+              <li>Seguimiento de progreso y ranking</li>
+              <li>Alertas de parches y recompensas</li>
+            </ul>
           </article>
 
-          <article class="status-card reveal">
-            <header>
-              <h3>AI Status</h3>
-              <span class="signal signal-live">ONLINE</span>
-            </header>
-            <p>Adaptive logic modules are active for encounters, events, and economy pacing.</p>
-            <div class="meter" data-level="87"><span></span></div>
-          </article>
+          <form class="register-form reveal" action="/contact" method="get">
+            <label class="register-field" for="register-user">
+              <span>Nombre de usuario</span>
+              <input
+                id="register-user"
+                name="username"
+                type="text"
+                autocomplete="username"
+                placeholder="Ej: NovaPilot"
+                required
+              />
+            </label>
 
-          <article class="status-card reveal">
-            <header>
-              <h3>System Rhythm</h3>
-              <span class="signal signal-sync">SYNCED</span>
-            </header>
-            <p>Core loops, world events, and progression cycles are operating within target cadence.</p>
-            <div class="meter" data-level="95"><span></span></div>
-          </article>
+            <label class="register-field" for="register-email">
+              <span>Email</span>
+              <input
+                id="register-email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                placeholder="tu@email.com"
+                required
+              />
+            </label>
+
+            <label class="register-field" for="register-faction">
+              <span>Facción inicial</span>
+              <select id="register-faction" name="faction" required>
+                <option value="" selected disabled>Selecciona facción</option>
+                <option value="llunaris">Llunaris</option>
+                <option value="leviathan">Leviathan</option>
+              </select>
+            </label>
+
+            <button class="btn btn-primary register-submit" type="submit">
+              Iniciar Registro
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <section
+        id="cosmic-gallery"
+        class="section section-gallery"
+        aria-labelledby="gallery-title"
+      >
+        <div class="wrap">
+          <h2 id="gallery-title" class="section-title reveal">
+            Cosmic Gallery
+          </h2>
+          <div class="gallery-grid">
+            <figure class="gallery-card reveal">
+              <img
+                src="/assets/realm-ice.jpg"
+                alt="Frozen cosmic map sector in EndCosmos"
+                loading="lazy"
+              />
+              <figcaption>Maps</figcaption>
+            </figure>
+            <figure class="gallery-card reveal">
+              <img
+                src="/assets/battle.webp"
+                alt="Boss encounter in EndCosmos universe"
+                loading="lazy"
+              />
+              <figcaption>Bosses</figcaption>
+            </figure>
+            <figure class="gallery-card reveal">
+              <img
+                src="/assets/hero-secondary.jpg"
+                alt="Futuristic city district under nebula sky"
+                loading="lazy"
+              />
+              <figcaption>Cities</figcaption>
+            </figure>
+            <figure class="gallery-card reveal">
+              <img
+                src="/assets/realm-void.jpg"
+                alt="Cosmic environment with deep space effects"
+                loading="lazy"
+              />
+              <figcaption>Cosmic Environments</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-grid">
+        <div>
+          <strong>EndCosmos</strong><br />
+          <span class="muted">Powered by Llunaris</span>
+        </div>
+
+        <div class="footer-links">
+          <a class="link-emphasis" href="/privacy">Privacy</a>
+          <a class="link-emphasis" href="/terms">Terms</a>
+          <a class="link-emphasis" href="/contact">Contact</a>
+        </div>
+
+        <div class="muted">
+          <span id="y"></span> EndCosmos. All rights reserved.
         </div>
       </div>
-    </section>
+    </footer>
 
-    <section id="cosmic-gallery" class="section section-gallery" aria-labelledby="gallery-title">
-      <div class="wrap">
-        <h2 id="gallery-title" class="section-title reveal">Cosmic Gallery</h2>
-        <div class="gallery-grid">
-          <figure class="gallery-card reveal">
-            <img src="/assets/realm-ice.jpg" alt="Frozen cosmic map sector in EndCosmos" loading="lazy" />
-            <figcaption>Maps</figcaption>
-          </figure>
-          <figure class="gallery-card reveal">
-            <img src="/assets/battle.webp" alt="Boss encounter in EndCosmos universe" loading="lazy" />
-            <figcaption>Bosses</figcaption>
-          </figure>
-          <figure class="gallery-card reveal">
-            <img src="/assets/hero-secondary.jpg" alt="Futuristic city district under nebula sky" loading="lazy" />
-            <figcaption>Cities</figcaption>
-          </figure>
-          <figure class="gallery-card reveal">
-            <img src="/assets/realm-void.jpg" alt="Cosmic environment with deep space effects" loading="lazy" />
-            <figcaption>Cosmic Environments</figcaption>
-          </figure>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="wrap footer-grid">
-      <div>
-        <strong>EndCosmos</strong><br />
-        <span class="muted">Powered by Llunaris</span>
-      </div>
-
-      <div class="footer-links">
-        <a href="/privacy">Privacy</a>
-        <a href="/terms">Terms</a>
-        <a href="/contact">Contact</a>
-      </div>
-
-      <div class="muted">
-        <span id="y"></span> EndCosmos. All rights reserved.
-      </div>
-    </div>
-  </footer>
-
-  <script src="/js/app.js"></script>
-</body>
+    <script src="/js/app.js"></script>
+  </body>
 </html>

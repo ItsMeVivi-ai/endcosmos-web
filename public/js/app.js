@@ -1,15 +1,19 @@
 ﻿(() => {
-  const y = document.getElementById('y');
+  const y = document.getElementById("y");
   if (y) y.textContent = new Date().getFullYear();
 
   const body = document.body;
-  const canvas = document.getElementById('cosmos-canvas') || document.querySelector('.starfield');
+  const canvas =
+    document.getElementById("cosmos-canvas") ||
+    document.querySelector(".starfield");
   if (!canvas || !body) return;
 
-  const ctx = canvas.getContext('2d', { alpha: true });
+  const ctx = canvas.getContext("2d", { alpha: true });
   if (!ctx) return;
 
-  const reducedMotionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const reducedMotionQuery = window.matchMedia(
+    "(prefers-reduced-motion: reduce)",
+  );
 
   const state = {
     width: 0,
@@ -27,7 +31,7 @@
     config: null,
     reducedMotion: reducedMotionQuery.matches,
     firstFrameDone: false,
-    rafId: 0
+    rafId: 0,
   };
 
   function randomBetween(min, max) {
@@ -46,11 +50,18 @@
       nebulae: Math.max(2, Math.floor(4 * (mobile ? 0.75 : 1))),
       speedScale: state.reducedMotion ? 0.16 : 1,
       parallaxScale: state.reducedMotion ? 0.08 : 1,
-      pointerSmoothing: state.reducedMotion ? 0.02 : 0.045
+      pointerSmoothing: state.reducedMotion ? 0.02 : 0.045,
     };
   }
 
-  function createStar(depthMin, depthMax, speedMin, speedMax, sizeMin, sizeMax) {
+  function createStar(
+    depthMin,
+    depthMax,
+    speedMin,
+    speedMax,
+    sizeMin,
+    sizeMax,
+  ) {
     const config = getAnimationConfig();
     return {
       x: randomBetween(0, state.width),
@@ -59,7 +70,7 @@
       speed: randomBetween(speedMin, speedMax) * config.speedScale,
       alpha: randomBetween(0.35, 0.95),
       twinkle: randomBetween(0, Math.PI * 2),
-      depth: randomBetween(depthMin, depthMax)
+      depth: randomBetween(depthMin, depthMax),
     };
   }
 
@@ -74,7 +85,7 @@
       pulseSpeed: randomBetween(0.00045, 0.001),
       vx: randomBetween(-0.04, 0.04) * config.speedScale,
       vy: randomBetween(-0.08, -0.02) * config.speedScale,
-      drift: randomBetween(0, Math.PI * 2)
+      drift: randomBetween(0, Math.PI * 2),
     };
   }
 
@@ -88,7 +99,7 @@
       hue: hues[Math.floor(Math.random() * hues.length)],
       alpha: randomBetween(0.07, 0.14),
       driftX: randomBetween(-0.08, 0.08) * config.speedScale,
-      driftY: randomBetween(-0.06, 0.06) * config.speedScale
+      driftY: randomBetween(-0.06, 0.06) * config.speedScale,
     };
   }
 
@@ -112,13 +123,13 @@
     state.config = config;
 
     state.starsNear = Array.from({ length: config.nearStars }, () =>
-      createStar(0.55, 1, 0.08, 0.22, 0.9, 1.8)
+      createStar(0.55, 1, 0.08, 0.22, 0.9, 1.8),
     );
     state.starsMid = Array.from({ length: config.midStars }, () =>
-      createStar(0.3, 0.75, 0.05, 0.16, 0.6, 1.35)
+      createStar(0.3, 0.75, 0.05, 0.16, 0.6, 1.35),
     );
     state.starsFar = Array.from({ length: config.farStars }, () =>
-      createStar(0.12, 0.45, 0.02, 0.1, 0.35, 1)
+      createStar(0.12, 0.45, 0.02, 0.1, 0.35, 1),
     );
     state.particles = Array.from({ length: config.particles }, createParticle);
     state.nebulae = Array.from({ length: config.nebulae }, createNebula);
@@ -126,18 +137,31 @@
 
   function drawNebula(nebula, time, cameraX, cameraY) {
     const config = state.config;
-    const mouseParallaxX = ((state.pointerX / Math.max(state.width, 1)) - 0.5) * 24 * config.parallaxScale;
-    const mouseParallaxY = ((state.pointerY / Math.max(state.height, 1)) - 0.5) * 18 * config.parallaxScale;
-    const driftX = Math.sin(time * 0.00008 + nebula.hue) * 28 * config.speedScale + nebula.driftX * time * 0.01;
-    const driftY = Math.cos(time * 0.00006 + nebula.hue) * 22 * config.speedScale + nebula.driftY * time * 0.01;
+    const mouseParallaxX =
+      (state.pointerX / Math.max(state.width, 1) - 0.5) *
+      24 *
+      config.parallaxScale;
+    const mouseParallaxY =
+      (state.pointerY / Math.max(state.height, 1) - 0.5) *
+      18 *
+      config.parallaxScale;
+    const driftX =
+      Math.sin(time * 0.00008 + nebula.hue) * 28 * config.speedScale +
+      nebula.driftX * time * 0.01;
+    const driftY =
+      Math.cos(time * 0.00006 + nebula.hue) * 22 * config.speedScale +
+      nebula.driftY * time * 0.01;
 
     const x = nebula.x + driftX + mouseParallaxX * 0.32 + cameraX;
     const y = nebula.y + driftY + mouseParallaxY * 0.32 + cameraY;
 
     const gradient = ctx.createRadialGradient(x, y, 0, x, y, nebula.radius);
     gradient.addColorStop(0, `hsla(${nebula.hue}, 92%, 64%, ${nebula.alpha})`);
-    gradient.addColorStop(0.6, `hsla(${nebula.hue}, 85%, 50%, ${nebula.alpha * 0.3})`);
-    gradient.addColorStop(1, 'hsla(220, 80%, 10%, 0)');
+    gradient.addColorStop(
+      0.6,
+      `hsla(${nebula.hue}, 85%, 50%, ${nebula.alpha * 0.3})`,
+    );
+    gradient.addColorStop(1, "hsla(220, 80%, 10%, 0)");
 
     ctx.fillStyle = gradient;
     ctx.beginPath();
@@ -147,34 +171,58 @@
 
   function drawParticles(time, cameraX, cameraY) {
     const config = state.config;
-    const offsetX = ((state.pointerX / Math.max(state.width, 1)) - 0.5) * 6 * config.parallaxScale;
-    const offsetY = ((state.pointerY / Math.max(state.height, 1)) - 0.5) * 6 * config.parallaxScale;
+    const offsetX =
+      (state.pointerX / Math.max(state.width, 1) - 0.5) *
+      6 *
+      config.parallaxScale;
+    const offsetY =
+      (state.pointerY / Math.max(state.height, 1) - 0.5) *
+      6 *
+      config.parallaxScale;
 
     for (let i = 0; i < state.particles.length; i += 1) {
       const particle = state.particles[i];
       particle.x += particle.vx;
       particle.y += particle.vy;
-      particle.x += Math.sin(time * 0.0008 + particle.drift) * 0.05 * config.speedScale;
+      particle.x +=
+        Math.sin(time * 0.0008 + particle.drift) * 0.05 * config.speedScale;
 
-      if (particle.y < -10 || particle.x < -10 || particle.x > state.width + 10) {
+      if (
+        particle.y < -10 ||
+        particle.x < -10 ||
+        particle.x > state.width + 10
+      ) {
         particle.x = randomBetween(0, state.width);
         particle.y = state.height + randomBetween(4, 20);
         particle.drift = randomBetween(0, Math.PI * 2);
       }
 
-      const pulse = 0.55 + Math.sin(time * particle.pulseSpeed + particle.drift) * 0.45;
+      const pulse =
+        0.55 + Math.sin(time * particle.pulseSpeed + particle.drift) * 0.45;
       ctx.globalAlpha = particle.alphaBase + particle.alpha * pulse;
-      ctx.fillStyle = '#7ddfff';
+      ctx.fillStyle = "#7ddfff";
       ctx.beginPath();
-      ctx.arc(particle.x + offsetX + cameraX * 0.45, particle.y + offsetY + cameraY * 0.45, particle.radius, 0, Math.PI * 2);
+      ctx.arc(
+        particle.x + offsetX + cameraX * 0.45,
+        particle.y + offsetY + cameraY * 0.45,
+        particle.radius,
+        0,
+        Math.PI * 2,
+      );
       ctx.fill();
     }
   }
 
   function updateAndDrawStars(stars, time, depthFactor, cameraX, cameraY) {
     const config = state.config;
-    const offsetX = ((state.pointerX / Math.max(state.width, 1)) - 0.5) * depthFactor * config.parallaxScale;
-    const offsetY = ((state.pointerY / Math.max(state.height, 1)) - 0.5) * depthFactor * config.parallaxScale;
+    const offsetX =
+      (state.pointerX / Math.max(state.width, 1) - 0.5) *
+      depthFactor *
+      config.parallaxScale;
+    const offsetY =
+      (state.pointerY / Math.max(state.height, 1) - 0.5) *
+      depthFactor *
+      config.parallaxScale;
 
     for (let i = 0; i < stars.length; i += 1) {
       const star = stars[i];
@@ -186,14 +234,14 @@
 
       const twinkle = 0.72 + Math.sin(time * 0.0014 + star.twinkle) * 0.28;
       ctx.globalAlpha = star.alpha * twinkle;
-      ctx.fillStyle = '#e8f2ff';
+      ctx.fillStyle = "#e8f2ff";
       ctx.beginPath();
       ctx.arc(
         star.x + offsetX * star.depth + cameraX * star.depth,
         star.y + offsetY * star.depth + cameraY * star.depth,
         star.size,
         0,
-        Math.PI * 2
+        Math.PI * 2,
       );
       ctx.fill();
     }
@@ -201,8 +249,10 @@
 
   function renderFrame(time) {
     const config = state.config;
-    state.pointerX += (state.targetPointerX - state.pointerX) * config.pointerSmoothing;
-    state.pointerY += (state.targetPointerY - state.pointerY) * config.pointerSmoothing;
+    state.pointerX +=
+      (state.targetPointerX - state.pointerX) * config.pointerSmoothing;
+    state.pointerY +=
+      (state.targetPointerY - state.pointerY) * config.pointerSmoothing;
 
     const cameraX = Math.sin(time * 0.00012) * 8 * config.parallaxScale;
     const cameraY = Math.cos(time * 0.0001) * 7 * config.parallaxScale;
@@ -223,7 +273,7 @@
   function markReady() {
     if (state.firstFrameDone) return;
     state.firstFrameDone = true;
-    body.classList.add('galaxy-ready');
+    body.classList.add("galaxy-ready");
   }
 
   function animate(time) {
@@ -261,16 +311,16 @@
     startAnimation();
   }
 
-  window.addEventListener('resize', onResize, { passive: true });
-  reducedMotionQuery.addEventListener('change', onReducedMotionChange);
+  window.addEventListener("resize", onResize, { passive: true });
+  reducedMotionQuery.addEventListener("change", onReducedMotionChange);
   window.addEventListener(
-    'pointermove',
+    "pointermove",
     (event) => {
       if (state.reducedMotion) return;
       state.targetPointerX = event.clientX;
       state.targetPointerY = event.clientY;
     },
-    { passive: true }
+    { passive: true },
   );
 
   resizeCanvas();
